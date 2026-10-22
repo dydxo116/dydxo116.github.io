@@ -1,0 +1,2094 @@
+{
+  "app": "ShallWePuzzle",
+  "package": "kr.shall.we.puzzle",
+  "contact": "dydxo116@gmail.com",
+  "effective": "2026-10-21",
+  "ko": {
+    "title": "개인정보처리방침",
+    "operator": "ShallWePuzzle 개발자",
+    "dateLabel": "시행일 · 최종 수정일",
+    "intro": "ShallWePuzzle 개발자(이하 ‘개발자’)는 ShallWePuzzle Android 앱의 개인정보 처리 방식을 다음과 같이 안내합니다. 이 방침은 앱과 이 안내 페이지에 적용됩니다.",
+    "summary": "회원가입 없이 플레이할 수 있습니다. 게임 진행 기록과 설정은 기기에 저장되며, 앱에는 광고 제공·이용 분석·오류 진단을 위한 Google 서비스가 포함되어 있습니다. 따라서 ‘개인정보를 전혀 수집하지 않는 앱’은 아닙니다.",
+    "contactLabel": "개인정보 문의 및 권리 행사",
+    "contents": "목차",
+    "sections": [
+      {
+        "id": "controller",
+        "title": "1. 개인정보처리자 및 문의처",
+        "paragraphs": [
+          "서비스명은 ShallWePuzzle이며 Android 패키지명은 kr.shall.we.puzzle입니다. 개인정보 처리에 관한 책임 및 문의 담당자는 ShallWePuzzle 개발자입니다.",
+          "문의, 열람·정정·삭제·처리 제한 요청, 동의 철회 또는 개인정보 관련 불만은 아래 이메일로 보내실 수 있습니다. 요청 처리에 필요한 범위에서 본인과 요청 대상 정보를 확인하며, 관련 법령이 정한 절차와 기한에 따라 답변합니다."
+        ],
+        "contact": true
+      },
+      {
+        "id": "local",
+        "title": "2. 게임 기록과 기기에 저장되는 정보",
+        "paragraphs": [
+          "0.31.28 이상에서는 최초 실행 시 생년월일을 기기 메모리에서 확인해 보호 대상 또는 성인 여부를 판정합니다. 생년월일 원문·나이 숫자는 저장하거나 서버로 보내지 않습니다. 연령 구분과 선택적 분석·오류 진단 동의만 Android 백업에서 제외되는 기기 내 저장소에 저장합니다. 입력을 건너뛰거나 설정이 없거나 손상되면 보호 대상으로 처리합니다.",
+          "스테이지 진행도, 별, 최고 점수, 진행 중인 게임, 최근 플레이 항목, 사운드·진동·언어 설정, 가이드 확인 여부 및 광고 표시 간격·동의 상태 등은 앱 또는 SDK의 기기 내 저장소에 저장됩니다. 게임 기록을 개발자 계정과 연동하거나 별도의 게임 저장 서버에 업로드하는 기능은 제공하지 않습니다.",
+          "앱은 회원가입이나 로그인을 요구하지 않으며, 이름·전화번호·주소·연락처 목록·사진·마이크 음성·GPS 기반의 정밀 위치를 이용자에게 입력하도록 요구하거나 해당 정보를 수집하는 기능을 제공하지 않습니다. 다만 이메일로 직접 문의하면 발신 이메일 주소와 문의 내용이 개발자에게 전달됩니다.",
+          "Android의 백업·복원 기능이 켜져 있으면 앱 데이터 일부가 이용자의 기기·Google 계정 설정에 따라 운영체제 제공자의 백업에 포함되거나 재설치 시 복원될 수 있습니다. 이는 개발자가 제공하는 게임 계정 동기화와는 별개이며 Android 백업 설정에서 관리할 수 있습니다."
+        ]
+      },
+      {
+        "id": "sdk",
+        "title": "3. 자동으로 처리되는 정보와 이용 목적",
+        "paragraphs": [
+          "정식 배포 앱에는 아래 Google SDK가 포함됩니다. SDK는 앱 사용 또는 네트워크 연결 과정에서 정보를 자동 처리할 수 있습니다. 실제 처리 범위는 SDK 버전, 기기·지역 설정, 동의 상태 및 Google 서비스 설정에 따라 달라질 수 있습니다."
+        ],
+        "headers": [
+          "서비스",
+          "처리될 수 있는 정보",
+          "목적"
+        ],
+        "rows": [
+          [
+            "Google AdMob / Google Mobile Ads",
+            "IP 주소와 이를 바탕으로 추정한 대략적인 위치, Android 광고 ID·앱 세트 ID 등 기기/계정 관련 식별자, 앱 실행·광고 노출·클릭·동영상 조회 등 상호작용, 앱·광고 SDK의 성능 및 진단 정보 (보호 대상 광고에는 아동 보호 처리를 적용하며 Android 광고 ID 전송을 차단합니다.)",
+            "비개인화 광고 제공, 광고 성과 측정, 보안 및 부정 광고·부정 사용 방지"
+          ],
+          [
+            "Google UMP(광고 개인정보 선택)",
+            "지역·기기 정보, 동의 여부와 광고 개인정보 선택, 해당 선택을 반영하기 위한 식별·설정 정보",
+            "필요한 광고 동의 화면 제공, 선택 저장 및 광고 요청에 선택 반영"
+          ],
+          [
+            "Google Analytics for Firebase",
+            "성인이 선택적으로 동의한 경우의 앱 인스턴스·설치 관련 식별자, 기기 모델·운영체제·앱 버전·언어, 세션·화면 이용 이벤트 및 SDK가 처리하는 IP·대략적인 지역 정보. Analytics의 광고 ID 수집 및 광고 데이터·맞춤설정 신호는 사용하지 않습니다.",
+            "이용 현황·기능 사용·안정성 추이 분석과 서비스 개선"
+          ],
+          [
+            "Firebase Crashlytics 및 Firebase 설치 서비스",
+            "성인이 선택적으로 동의한 경우의 설치·세션 식별자, 오류·충돌 시각과 스택 추적, 오류 메시지, 앱 버전, 운영체제·기기 모델·메모리 등 진단 정보 및 연동되는 오류 전 이용 이벤트",
+            "충돌·오류 탐지와 원인 분석, 문제를 겪은 설치 수 파악 및 안정성 개선"
+          ]
+        ],
+        "after": [
+          "개발자는 Analytics에 이용자의 이름·이메일·전화번호를 사용자 ID로 설정하지 않으며, 게임 진행 저장 파일을 분석 이벤트로 전송하지 않습니다. 기기·앱 식별자는 실명과 다르더라도 관련 법령상 개인정보에 해당할 수 있습니다.",
+          "0.31.28 이상은 연령 확인 전이나 18세 미만·연령 미확인 보호 대상에 대해 Firebase Core·Analytics·Crashlytics를 시작하지 않습니다. 성인은 이용 통계 및 오류 진단에 별도로 동의한 경우에만 이 두 수집 기능을 사용하며 설정에서 함께 끌 수 있습니다. 이전 버전에서는 비디버그 빌드에서 자동 수집이 활성화되었으므로 최신 버전으로 업데이트해 주세요."
+        ]
+      },
+      {
+        "id": "providers",
+        "title": "4. Google 및 외부 서비스 제공자",
+        "paragraphs": [
+          "광고·분석·오류 진단을 위해 위 정보가 Google LLC 및 해당 서비스 계약에 따른 Google 계열사에 전송·처리될 수 있습니다. Google은 서비스별 계약과 정책에 따라 개발자의 처리 수탁자 또는 독립적인 개인정보처리자 역할을 수행할 수 있습니다.",
+          "광고 제공 과정에서는 이용자의 지역·선택과 광고 구성에 따라 Google의 광고 기술 제공업체가 광고 요청·측정 정보를 처리할 수 있습니다. 필요한 동의 화면이 제공되는 경우 그 화면과 Google의 관련 안내에서 공급업체 및 선택 사항을 확인할 수 있습니다.",
+          "이메일 문의는 Gmail(Google)을 통해 수신·보관합니다. 이 과정에서 발신 이메일 주소, 문의 내용과 이용자가 보낸 첨부파일 등이 메일 서비스 제공자에 의해 처리될 수 있습니다. 문의 해결에 필요한 내용만 보내 주세요.",
+          "개발자는 별도의 데이터 판매 사업을 운영하지 않습니다. 광고 제공에 따른 정보 전달은 관련 법령상 ‘공유’ 또는 맞춤형 광고 목적의 처리로 분류될 수 있으며, 적용되는 선택권은 다음 항목을 참고해 주세요. 법률상 의무나 적법한 요청에 대응하거나 이용자의 별도 요청을 처리하기 위해 필요한 경우에도 최소한의 정보가 제공될 수 있습니다."
+        ]
+      },
+      {
+        "id": "choices",
+        "title": "5. 광고 선택, 동의 및 처리의 근거",
+        "paragraphs": [
+          "0.31.28 이상은 기기 내 연령 판정 또는 입력 건너뛰기 선택을 완료하기 전까지 광고 개인정보 요청과 광고 요청을 시작하지 않습니다. 성인의 이용 통계·오류 진단 동의는 기본 미선택이며, 거절해도 모든 게임을 이용할 수 있습니다. 설정의 ‘이용 통계 및 오류 진단’에서 철회하면 향후 수집을 중지하고 기기의 미전송 오류 보고서를 삭제합니다. 이미 전송된 정보가 자동으로 삭제되는 것은 아닙니다.",
+          "광고 SDK는 Google UMP가 광고 요청을 허용하는 상태를 확인한 후 광고를 요청합니다. 지역과 Google의 요구 사항에 따라 광고 관련 안내·동의 화면이 표시될 수 있습니다. 광고 개인정보 선택이 필요한 경우 앱 설정의 ‘광고 개인정보 설정’에서 선택을 다시 확인하거나 변경할 수 있습니다. 해당 항목은 UMP가 필요하다고 판단하는 경우 표시됩니다.",
+          "앱은 G등급 비개인화 광고를 요청합니다. 18세 미만이거나 연령이 확인되지 않은 보호 대상에게는 Google의 아동 보호 광고 처리와 UMP 미동의 연령 설정을 적용합니다. 비개인화·제한된 광고도 IP 주소·대략적인 위치, 허용되는 식별자·상호작용·진단 정보를 처리할 수 있습니다. 광고 동의를 거부하거나 광고가 불러와지지 않아도 플레이할 수 있습니다.",
+          "Android 설정의 개인정보 보호·광고 항목에서 광고 ID 삭제 등 제공되는 선택을 관리할 수 있습니다. 기기별 메뉴 이름과 제공 기능은 다를 수 있습니다. Google 계정의 광고 설정은 Google이 제공하는 범위에서 별도로 적용됩니다.",
+          "개발자는 적용 법령에 따라 서비스 제공, 서비스 안정성·보안·개선에 대한 정당한 이익, 법적 의무 또는 필요한 동의를 근거로 정보를 처리합니다. 동의가 처리의 근거인 경우 이를 철회할 수 있으며 철회 이전 처리의 적법성에는 영향을 미치지 않습니다. 동의가 요구되는 지역에서는 해당 요건을 충족해야 합니다. 광고 동의의 범위와 분석·진단 처리의 범위는 구분됩니다."
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "6. 보관 기간 및 삭제",
+        "headers": [
+          "정보",
+          "보관 및 삭제 기준"
+        ],
+        "rows": [
+          [
+            "기기의 게임 기록·설정",
+            "기기에 유지되는 동안 보관됩니다. 앱의 진행 상황 초기화는 기능이 대상으로 삼는 스테이지 완료·별 등 진행 기록을 초기화하며, 설정·일부 최고 기록·SDK 정보는 남을 수 있습니다. 전체 앱 데이터는 Android의 앱 저장공간에서 삭제할 수 있습니다. 앱 삭제와 운영체제 백업의 보관·복원은 기기 및 백업 설정의 영향을 받습니다."
+          ],
+          [
+            "Analytics 정보",
+            "Google Analytics 속성에 적용된 보관 설정과 삭제 절차에 따릅니다. 표준 GA4의 사용자·이벤트 수준 보관 설정은 일반적으로 2개월 또는 14개월이며 이용 활동에 따른 기간 갱신 등 설정이 영향을 줄 수 있습니다. 이 설정은 일반적인 집계 보고서 전체에 동일하게 적용되지 않으며, 집계 통계는 더 오래 유지될 수 있습니다."
+          ],
+          [
+            "Crashlytics 오류 정보",
+            "Google의 공개 정책상 충돌 스택 및 관련 식별자 등은 90일 동안 보관된 뒤 운영·백업 시스템에서 삭제하는 절차가 시작됩니다. 삭제 완료가 정확히 90일째라는 의미는 아닙니다."
+          ],
+          [
+            "광고·동의 정보",
+            "광고 제공, 성과 측정, 부정 사용 방지 및 선택 준수에 필요한 기간 동안 Google 및 관련 제공자의 보관·삭제 정책에 따라 처리됩니다. 기기에 저장된 선택과 Google 측 기록의 보관 기간은 다를 수 있습니다."
+          ],
+          [
+            "이메일 문의 정보",
+            "문의 해결과 필요한 후속 확인이 끝날 때까지 보관한 후 삭제합니다. 법령에 따라 보존할 필요가 있으면 해당 범위와 법정 기간에 한하여 보관합니다."
+          ]
+        ],
+        "after": [
+          "앱 데이터 삭제나 앱 제거는 이미 SDK를 통해 전송된 Google 측 정보를 즉시 삭제하는 기능이 아닙니다. 전송된 정보에 관한 권리를 행사하려면 아래 문의처 또는 해당 Google 서비스의 개인정보 관리 경로를 이용해 주세요."
+        ]
+      },
+      {
+        "id": "international",
+        "title": "7. 국외 처리 및 이전",
+        "paragraphs": [
+          "Google 서비스를 사용하면 정보가 대한민국 외의 미국 및 Google·해당 서비스 제공자가 처리 시설을 운영하는 국가에서 저장·처리될 수 있습니다. 수신자는 Google LLC 및 해당 서비스의 계약·정책에 명시된 계열사·처리업체입니다. 서비스별 처리 장소는 Google의 데이터 처리 약관과 시설 안내에 따릅니다.",
+          "이전 항목과 목적은 위 자동 수집·외부 제공 항목에 기재한 정보와 광고·분석·오류 진단 및 이메일 문의 처리 목적이며, SDK 이용 중 네트워크를 통해 전송됩니다. 보유 및 이용 기간은 위 보관 항목 및 각 제공자의 정책에 따릅니다. Google의 개인정보 관련 문의는 Google 개인정보처리방침의 연락 경로를 이용할 수 있습니다.",
+          "관련 법령이 요구하는 경우 적절한 동의나 계약상 보호 조치 등 적법한 이전 근거가 적용되어야 합니다. 처리·국외 이전에 관한 문의 또는 거부 의사는 개인정보 문의 이메일로 보낼 수 있습니다. 광고 관련 선택은 해당 동의 화면과 앱 설정에서 관리합니다. 0.31.28 이상에서는 성인의 선택적 이용 통계·오류 진단도 앱 설정에서 중지할 수 있으며, 보호 대상은 이 분석·진단 수집을 사용하지 않습니다."
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "8. 이용자와 법정대리인의 권리",
+        "paragraphs": [
+          "적용되는 법령에 따라 개인정보 열람·사본 제공, 정정, 삭제, 처리 제한, 처리 반대, 동의 철회, 데이터 이동 또는 맞춤형 광고 관련 선택을 요청할 수 있습니다. 법정대리인도 관련 법령에 따라 권리를 행사할 수 있습니다.",
+          "앱에는 이용자 계정이 없고 개발자가 앱 인스턴스 식별자와 실명·이메일의 대응표를 보유하지 않으므로, 이메일만으로 특정 설치의 SDK 정보를 식별하지 못할 수 있습니다. 가능한 범위에서 요청 대상 확인을 돕고 Google 등 해당 제공자의 관리·삭제 경로를 안내합니다. 요청 확인에 꼭 필요한 정보만 요구하며, 불필요한 주민등록번호나 민감정보를 보내지 마세요.",
+          "대한민국 개인정보 침해 상담은 개인정보침해 신고센터(privacy.kisa.or.kr, 국번 없이 118) 또는 개인정보분쟁조정위원회(kopico.go.kr, 1833-6972)를 통해 받을 수 있습니다. 그 밖의 지역에서는 관할 개인정보 감독기관에 불만을 제기할 수 있습니다."
+        ],
+        "contact": true
+      },
+      {
+        "id": "children",
+        "title": "9. 아동 및 미성년자",
+        "paragraphs": [
+          "앱은 전 연령을 대상으로 합니다. 0.31.28 이상은 18세 미만 및 생년월일을 입력하지 않은 이용자에게 보수적인 보호 설정을 적용합니다. 생년월일은 연령 판정에만 쓰이며 저장·전송하지 않습니다. 모든 연령에서 게임을 이용할 수 있고, 성인 연령을 미리 선택하거나 이를 게임 혜택의 조건으로 제시하지 않습니다.",
+          "보호 대상은 Firebase 분석·오류 진단 SDK를 시작하지 않으며, 광고는 Families self-certified 범위의 Google Mobile Ads SDK에 G등급·비개인화·아동 보호 처리를 적용합니다. 보호 대상의 Android 광고 ID를 전송하지 않습니다. 아동 보호 설정도 문맥 광고 제공·보안에 필요한 모든 네트워크 처리를 없애는 것은 아니며 처리 유형은 위 SDK 설명을 확인해 주세요.",
+          "아동 정보 처리에 보호자의 동의나 추가 보호가 요구되는 경우 관련 법령이 적용됩니다. 보호자가 정보 처리에 관해 우려하거나 적절한 동의 없이 정보가 처리되었다고 판단하면 개인정보 문의 이메일로 알려주세요. 확인 가능한 범위에서 조사하고 필요한 삭제·제한 등의 조치를 취합니다."
+        ]
+      },
+      {
+        "id": "security",
+        "title": "10. 보호 조치",
+        "paragraphs": [
+          "개발자는 서비스 관리 계정과 개인정보에 대한 접근을 필요한 범위로 제한하며, 서비스 제공자의 보안 기능과 전송 구간 암호화 등 적절한 보호 조치를 이용합니다. 기기 내 정보는 운영체제가 제공하는 앱 저장공간 보호의 영향을 받습니다. 보관 목적을 달성한 정보는 관련 보관·삭제 정책에 따라 삭제하거나 식별할 수 없도록 처리합니다.",
+          "이메일 문의에 비밀번호, 주민등록번호, 결제정보 등 문의 해결에 불필요한 민감정보를 포함하지 마세요."
+        ]
+      },
+      {
+        "id": "website",
+        "title": "11. 이 안내 웹페이지",
+        "paragraphs": [
+          "이 페이지에는 개발자가 설치한 광고, 방문 분석 SDK, 추적 스크립트 또는 추적 쿠키가 없습니다. GitHub Pages를 통해 제공되며 GitHub는 보안 등을 위해 방문자의 IP 주소 등 접속 정보를 자체 정책에 따라 처리할 수 있습니다. 외부 정책 링크를 누르면 해당 제공자의 사이트와 정책이 적용됩니다."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "12. 방침 변경 및 관련 정책",
+        "paragraphs": [
+          "앱 기능, 이용하는 서비스 또는 법령이 바뀌면 이 방침을 수정하고 시행일을 갱신합니다. 중요한 변경에 대해 법령상 추가 안내나 동의가 필요하면 그 절차를 따릅니다. Google·GitHub의 처리 방침과 제공 기능은 아래 공식 안내에서 확인할 수 있습니다."
+        ],
+        "sources": true
+      }
+    ],
+    "skip": "본문 바로가기"
+  },
+  "en": {
+    "title": "Privacy Policy",
+    "operator": "ShallWePuzzle developer",
+    "dateLabel": "Effective and last updated",
+    "intro": "The ShallWePuzzle developer (‘we’, ‘us’) explains below how information is handled in the ShallWePuzzle Android app and on this policy website.",
+    "summary": "You can play without creating an account. Game saves and preferences are stored on your device. The app includes Google services for advertising, usage analytics and crash diagnostics, so it is not an app that collects no personal data.",
+    "contactLabel": "Privacy questions and rights requests",
+    "contents": "Contents",
+    "sections": [
+      {
+        "id": "controller",
+        "title": "1. Who is responsible and how to contact us",
+        "paragraphs": [
+          "The service is ShallWePuzzle, Android package kr.shall.we.puzzle. The ShallWePuzzle developer is responsible for the app’s personal data handling and privacy inquiries.",
+          "Send privacy questions, complaints, access, correction, deletion, restriction or consent-withdrawal requests to the email below. We may ask for information reasonably necessary to verify and locate the request, and respond under the procedures and time limits of applicable law."
+        ],
+        "contact": true
+      },
+      {
+        "id": "local",
+        "title": "2. Game saves and information on your device",
+        "paragraphs": [
+          "Version 0.31.28 and later checks a date of birth in device memory at first use to determine protected or adult treatment. The date of birth and numeric age are not saved or sent to a server. Only the broad audience category and optional analytics/crash-reporting choice are kept in device storage excluded from Android backup. Skipping the date or missing/corrupt settings results in protected treatment.",
+          "Stage progress, stars, high scores, unfinished games, recently played games, sound, vibration and language preferences, tutorial status, advertising intervals and consent choices are saved in the app’s or SDK’s local device storage. We do not offer a game account or a separate server that uploads and synchronizes your game-save files.",
+          "The app does not require registration or sign-in. It does not ask you to submit your name, telephone number, address, contacts, photos, microphone recordings or precise GPS location, or include features to collect that information. If you email us, we receive your sender email address and message.",
+          "If Android backup and restore is enabled, some app data may be backed up by the operating-system provider and restored after reinstallation, depending on your device and Google account settings. This is separate from a developer-operated game account. You can manage it in Android backup settings."
+        ]
+      },
+      {
+        "id": "sdk",
+        "title": "3. Information automatically processed and why",
+        "paragraphs": [
+          "The distributed app includes the Google SDKs below. They can process information automatically when you use the app or connect to the network. The precise scope depends on SDK versions, device and regional settings, consent status and Google service configuration."
+        ],
+        "headers": [
+          "Service",
+          "Information that may be processed",
+          "Purpose"
+        ],
+        "rows": [
+          [
+            "Google AdMob / Google Mobile Ads",
+            "IP address and approximate location inferred from it; Android advertising ID, app set ID and other device/account-related identifiers; interactions such as app launches, ad impressions, clicks and video views; app and advertising SDK performance and diagnostics (Protected ad requests apply child treatment and prevent transmission of the Android advertising ID.)",
+            "Deliver and measure non-personalized advertising; security and fraud prevention"
+          ],
+          [
+            "Google User Messaging Platform (UMP)",
+            "Regional and device information, consent status and advertising privacy choices, and identifier/settings information needed to apply those choices",
+            "Present required advertising consent messages, save choices and apply them to ad requests"
+          ],
+          [
+            "Google Analytics for Firebase",
+            "For adults who opt in: app-instance/installation identifiers, device model, operating system, app version and language, session/screen events and SDK-processed IP/general region information. Analytics advertising-ID collection, ad storage, ad-user-data and ad-personalization signals are disabled.",
+            "Understand usage, feature adoption and stability trends, and improve the service"
+          ],
+          [
+            "Firebase Crashlytics and Firebase installation services",
+            "For adults who opt in: installation/session identifiers, crash/error times and stack traces, error messages, app version, operating system, device model, memory and related diagnostics, and linked pre-crash app events",
+            "Detect and investigate errors, measure affected installations and improve reliability"
+          ]
+        ],
+        "after": [
+          "We do not set your name, email address or telephone number as an Analytics user ID, or transmit game-save files as analytics events. Device and app identifiers can still be personal data under applicable law even when they are not your real name.",
+          "Version 0.31.28 and later does not start Firebase Core, Analytics or Crashlytics before the age decision or for protected users under 18 or of unknown age. Adults can explicitly opt in to usage analytics and crash reporting and turn both off together in Settings. Earlier non-debug versions enabled automatic collection; please update to use the new controls."
+        ]
+      },
+      {
+        "id": "providers",
+        "title": "4. Google and other service providers",
+        "paragraphs": [
+          "The information described above may be transmitted to and processed by Google LLC and Google affiliates identified in the relevant service terms for advertising, analytics and crash reporting. Google may act as our processor or as an independent controller, depending on the service and its terms.",
+          "Depending on your region, choices and advertising configuration, Google advertising technology providers may process ad-request and measurement information. Where a consent message is provided, consult it and Google’s related information for the applicable providers and choices.",
+          "We receive and store support emails through Gmail (Google). The email provider may process your sender address, message and any attachments you choose to send. Please send only information needed to resolve your inquiry.",
+          "We do not operate a separate business selling personal data. Advertising disclosures may qualify as ‘sharing’ or targeted-advertising processing under some laws; see the choices below. We may also disclose limited information when needed to comply with a legal obligation or lawful request, or to carry out a request you make."
+        ]
+      },
+      {
+        "id": "choices",
+        "title": "5. Advertising choices, consent and grounds for processing",
+        "paragraphs": [
+          "Version 0.31.28 and later waits for a local age decision or a choice to skip before making advertising-privacy or ad requests. Optional adult analytics/crash-reporting consent is unchecked by default, and declining does not restrict any game. Turning off Usage analytics and crash reporting in Settings stops future collection and deletes unsent crash reports on the device. It does not automatically erase records already transmitted.",
+          "The advertising SDK requests ads after Google UMP indicates that ad requests are permitted. Advertising notices or consent messages may appear depending on your region and Google’s requirements. When privacy options are required, you can revisit or change choices through the advertising privacy options entry in app settings. This entry is displayed when UMP determines that it is required.",
+          "The app requests G-rated, non-personalized ads. For protected users under 18 or of unknown age, it applies Google child-age treatment and the UMP under-age-of-consent setting. Non-personalized or limited ads may still process IP/general location, permitted identifiers, interactions and diagnostics. Declining advertising consent or an ad load failure does not prevent play.",
+          "You can manage available advertising-ID choices, such as deleting the ID, in Android privacy/advertising settings. Names and options vary by device. Google account advertising controls apply separately within the scope of Google’s services.",
+          "Depending on applicable law, processing relies on providing the service, legitimate interests in service reliability, security and improvement, legal obligations, or consent where required. Where processing relies on consent, you can withdraw it without affecting the lawfulness of earlier processing. Applicable consent requirements must be met in regions that require them. Advertising consent and analytics/diagnostics processing have separate scopes."
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "6. Retention and deletion",
+        "headers": [
+          "Information",
+          "Retention and deletion"
+        ],
+        "rows": [
+          [
+            "Local game saves and preferences",
+            "Kept while they remain on your device. The app’s progress reset clears the stage completion, star and other progress records covered by that feature; preferences, some high-score records and SDK data may remain. Clear the app’s storage in Android settings to remove its local data. Uninstallation, backup retention and restoration depend on device and backup settings."
+          ],
+          [
+            "Analytics data",
+            "Handled under the Analytics property’s retention settings and deletion procedures. Standard GA4 generally offers 2- or 14-month user/event-level settings; activity-based renewal and other settings can affect retention. These limits do not apply in the same way to all standard aggregate reports, and aggregate statistics can remain longer."
+          ],
+          [
+            "Crashlytics data",
+            "Google states that crash stack traces and associated identifiers are kept for 90 days before the process of removal from live and backup systems begins. This does not mean deletion finishes on the 90th day."
+          ],
+          [
+            "Advertising and consent data",
+            "Processed under Google’s and relevant providers’ retention/deletion policies for the periods needed for ad delivery, measurement, fraud prevention and honoring choices. Local consent preferences and providers’ records may have different retention periods."
+          ],
+          [
+            "Support emails",
+            "Kept until the inquiry and necessary follow-up are complete, then deleted. If retention is legally required, only the necessary information is retained for the applicable statutory period."
+          ]
+        ],
+        "after": [
+          "Clearing app data or uninstalling does not immediately delete information already sent to Google. Contact us or use the relevant Google privacy controls to exercise rights concerning information already transmitted."
+        ]
+      },
+      {
+        "id": "international",
+        "title": "7. International processing and transfers",
+        "paragraphs": [
+          "Using Google services can involve storage and processing outside your country, including in the United States and other countries where Google and its relevant providers operate facilities. Recipients include Google LLC and affiliates/processors identified in the relevant service terms and policies. Processing locations depend on Google’s data-processing terms and facility information.",
+          "The information and purposes are those described in the automatic-collection and provider sections: advertising, analytics, crash diagnostics and email support. Transfers take place over the network while SDKs are used. Retention follows the retention section and the relevant providers’ policies. Google’s privacy policy provides its privacy contact routes.",
+          "Where required by law, an appropriate transfer basis, such as consent or contractual safeguards, must apply. Contact our privacy email about transfers or objections. Manage advertising choices through the relevant message and app settings. In version 0.31.28 and later, adults can also stop optional analytics and crash reporting in Settings; protected users do not use this analytics/crash collection."
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "8. Your rights and representatives",
+        "paragraphs": [
+          "Depending on applicable law, you may request access or a copy, correction, deletion, restriction, objection, consent withdrawal, portability, or choices relating to targeted advertising. A parent, guardian or other authorized representative may act where the law permits.",
+          "There are no user accounts, and we do not keep a mapping between installation identifiers and real names or email addresses. We may be unable to locate a particular installation’s SDK records using an email address alone. We will help identify relevant records where reasonably possible and explain available Google/provider controls. We request only information necessary to handle the request; do not send unnecessary government identifiers or sensitive information.",
+          "You may complain to the data-protection authority in your jurisdiction. In South Korea, assistance is available from the Personal Information Infringement Report Center (privacy.kisa.or.kr, 118 within Korea) or the Personal Information Dispute Mediation Committee (kopico.go.kr, 1833-6972 within Korea)."
+        ],
+        "contact": true
+      },
+      {
+        "id": "children",
+        "title": "9. Children and minors",
+        "paragraphs": [
+          "The app is for all ages. Version 0.31.28 and later applies conservative protections to users under 18 and those who do not enter a date of birth. Birth dates are used only for the local age decision, not saved or transmitted. All games remain available to every age. An adult age is not preselected or presented as a condition for game benefits.",
+          "Protected users do not start Firebase analytics or crash-reporting SDKs. Ads use Google Mobile Ads within the Families self-certified version range with G-rated, non-personalized, child-treatment settings. Protected users’ Android advertising IDs are not transmitted. Child treatment does not eliminate all network processing needed for contextual ad delivery and security; see the SDK information above.",
+          "Applicable rules on children’s information, parental permission and additional protections still apply. Parents or guardians concerned about a child’s information or processing without required permission can contact our privacy email. We will investigate where reasonably possible and take necessary deletion, restriction or other measures."
+        ]
+      },
+      {
+        "id": "security",
+        "title": "10. Security",
+        "paragraphs": [
+          "We limit access to service administration accounts and personal data to what is necessary, and use appropriate safeguards such as provider security features and encryption in transit. Local information is subject to the operating system’s app-storage protections. Information no longer needed is deleted or de-identified under the relevant retention and deletion procedures.",
+          "Do not include passwords, government identifiers, payment details or other sensitive information that is unnecessary to resolve a support request."
+        ]
+      },
+      {
+        "id": "website",
+        "title": "11. This policy website",
+        "paragraphs": [
+          "This page contains no developer-installed advertising, visitor analytics SDKs, tracking scripts or tracking cookies. It is hosted on GitHub Pages. GitHub may process visitor IP addresses and other connection information for security and related purposes under its own privacy statement. Following an external policy link takes you to that provider’s website and policies."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "12. Changes and related policies",
+        "paragraphs": [
+          "We may revise this policy as app features, service providers or laws change, and update the effective date. Where material changes require additional notice or consent, we will follow those requirements. Consult the official resources below for Google’s and GitHub’s practices and available controls."
+        ],
+        "sources": true
+      }
+    ],
+    "skip": "Skip to policy"
+  },
+  "sources": [
+    {
+      "ko": "Google 개인정보처리방침",
+      "en": "Google Privacy Policy",
+      "url": "https://policies.google.com/privacy",
+      "ja": "Google プライバシーポリシー",
+      "de": "Google-Datenschutzerklärung",
+      "fr": "Politique de confidentialité Google",
+      "es": "Política de privacidad de Google",
+      "pt-BR": "Política de Privacidade do Google",
+      "zh-Hant": "Google 隱私權政策",
+      "id": "Kebijakan Privasi Google",
+      "th": "นโยบายความเป็นส่วนตัวของ Google",
+      "vi": "Chính sách quyền riêng tư Google"
+    },
+    {
+      "ko": "Google Mobile Ads SDK 데이터 공개 안내",
+      "en": "Google Mobile Ads SDK data disclosure",
+      "url": "https://developers.google.com/admob/android/privacy/play-data-disclosure",
+      "ja": "Google Mobile Ads SDK のデータ開示",
+      "de": "Google Mobile Ads SDK: Datenoffenlegung",
+      "fr": "Divulgation des données du SDK Google Mobile Ads",
+      "es": "Divulgación de datos del SDK Google Mobile Ads",
+      "pt-BR": "Divulgação de dados do SDK Google Mobile Ads",
+      "zh-Hant": "Google Mobile Ads SDK 資料揭露",
+      "id": "Pengungkapan data SDK Google Mobile Ads",
+      "th": "การเปิดเผยข้อมูล SDK Google Mobile Ads",
+      "vi": "Công bố dữ liệu SDK Google Mobile Ads"
+    },
+    {
+      "ko": "Google 광고 개인정보 보호 안내",
+      "en": "Google advertising privacy information",
+      "url": "https://policies.google.com/technologies/ads",
+      "ja": "Google 広告のプライバシー情報",
+      "de": "Google: Datenschutz bei Werbung",
+      "fr": "Confidentialité de la publicité Google",
+      "es": "Privacidad de la publicidad Google",
+      "pt-BR": "Privacidade na publicidade Google",
+      "zh-Hant": "Google 廣告隱私資訊",
+      "id": "Privasi iklan Google",
+      "th": "ความเป็นส่วนตัวของโฆษณา Google",
+      "vi": "Quyền riêng tư quảng cáo Google"
+    },
+    {
+      "ko": "Google 광고 선택 관리",
+      "en": "Google advertising controls",
+      "url": "https://myadcenter.google.com/",
+      "ja": "Google の広告管理",
+      "de": "Google-Werbeeinstellungen",
+      "fr": "Contrôles publicitaires Google",
+      "es": "Controles publicitarios de Google",
+      "pt-BR": "Controles publicitários Google",
+      "zh-Hant": "Google 廣告控制",
+      "id": "Kontrol iklan Google",
+      "th": "การควบคุมโฆษณา Google",
+      "vi": "Kiểm soát quảng cáo Google"
+    },
+    {
+      "ko": "Google Analytics 데이터 보관",
+      "en": "Google Analytics data retention",
+      "url": "https://support.google.com/analytics/answer/7667196",
+      "ja": "Google Analytics のデータ保持",
+      "de": "Google Analytics: Datenaufbewahrung",
+      "fr": "Conservation des données Google Analytics",
+      "es": "Conservación de datos Google Analytics",
+      "pt-BR": "Retenção de dados Google Analytics",
+      "zh-Hant": "Google Analytics 資料保存",
+      "id": "Retensi data Google Analytics",
+      "th": "การเก็บรักษาข้อมูล Google Analytics",
+      "vi": "Lưu giữ dữ liệu Google Analytics"
+    },
+    {
+      "ko": "Firebase 개인정보 보호 및 Crashlytics 보관 안내",
+      "en": "Firebase privacy and Crashlytics retention",
+      "url": "https://firebase.google.com/support/privacy",
+      "ja": "Firebase のプライバシーと Crashlytics の保持期間",
+      "de": "Firebase-Datenschutz und Crashlytics-Aufbewahrung",
+      "fr": "Confidentialité Firebase et conservation Crashlytics",
+      "es": "Privacidad Firebase y conservación Crashlytics",
+      "pt-BR": "Privacidade Firebase e retenção Crashlytics",
+      "zh-Hant": "Firebase 隱私與 Crashlytics 保存期間",
+      "id": "Privasi Firebase dan retensi Crashlytics",
+      "th": "ความเป็นส่วนตัว Firebase และการเก็บข้อมูล Crashlytics",
+      "vi": "Quyền riêng tư Firebase và lưu giữ Crashlytics"
+    },
+    {
+      "ko": "Firebase 데이터 처리 약관",
+      "en": "Firebase data-processing terms",
+      "url": "https://firebase.google.com/terms/data-processing-terms",
+      "ja": "Firebase データ処理規約",
+      "de": "Firebase-Datenverarbeitungsbedingungen",
+      "fr": "Conditions de traitement des données Firebase",
+      "es": "Condiciones de tratamiento de datos Firebase",
+      "pt-BR": "Termos de tratamento de dados Firebase",
+      "zh-Hant": "Firebase 資料處理條款",
+      "id": "Ketentuan pemrosesan data Firebase",
+      "th": "ข้อกำหนดการประมวลผลข้อมูล Firebase",
+      "vi": "Điều khoản xử lý dữ liệu Firebase"
+    },
+    {
+      "ko": "Google 데이터 센터 위치",
+      "en": "Google data center locations",
+      "url": "https://www.google.com/about/datacenters/locations/",
+      "ja": "Google データセンターの所在地",
+      "de": "Standorte der Google-Rechenzentren",
+      "fr": "Emplacements des centres de données Google",
+      "es": "Ubicaciones de centros de datos Google",
+      "pt-BR": "Locais dos centros de dados Google",
+      "zh-Hant": "Google 資料中心位置",
+      "id": "Lokasi pusat data Google",
+      "th": "ที่ตั้งศูนย์ข้อมูล Google",
+      "vi": "Vị trí trung tâm dữ liệu Google"
+    },
+    {
+      "ko": "GitHub 개인정보처리방침",
+      "en": "GitHub General Privacy Statement",
+      "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+      "ja": "GitHub プライバシーステートメント",
+      "de": "GitHub-Datenschutzerklärung",
+      "fr": "Déclaration de confidentialité GitHub",
+      "es": "Declaración de privacidad de GitHub",
+      "pt-BR": "Declaração de Privacidade do GitHub",
+      "zh-Hant": "GitHub 隱私聲明",
+      "id": "Pernyataan Privasi GitHub",
+      "th": "คำชี้แจงความเป็นส่วนตัว GitHub",
+      "vi": "Tuyên bố quyền riêng tư GitHub"
+    }
+  ],
+  "ja": {
+    "title": "プライバシーポリシー",
+    "operator": "ShallWePuzzle 開発者",
+    "dateLabel": "施行日・最終更新日",
+    "intro": "ShallWePuzzle の開発者（以下「当方」）は、Android アプリ ShallWePuzzle と本ポリシーのウェブサイトにおける情報の取り扱いについて、以下のとおり説明します。",
+    "summary": "アカウントを作成せずに遊べます。ゲームのセーブデータと設定は端末に保存されます。アプリには広告、利用状況の分析、不具合の診断のための Google サービスが含まれるため、個人情報を一切収集しないアプリではありません。",
+    "contactLabel": "個人情報に関するお問い合わせ・権利行使の窓口",
+    "contents": "目次",
+    "sections": [
+      {
+        "id": "controller",
+        "title": "1. 運営者とお問い合わせ先",
+        "paragraphs": [
+          "サービス名は ShallWePuzzle、Android パッケージ名は kr.shall.we.puzzle です。アプリの個人情報の取り扱いとお問い合わせは、ShallWePuzzle の開発者が担当します。",
+          "ご質問、苦情、開示・訂正・削除・処理制限・同意撤回のご請求は、以下のメールアドレスへお送りください。本人確認や対象データの特定に合理的に必要な情報をお願いすることがあります。適用法令の手続きと期限に従って対応します。"
+        ],
+        "contact": true
+      },
+      {
+        "id": "local",
+        "title": "2. 端末に保存されるゲームデータなど",
+        "paragraphs": [
+          "バージョン 0.31.28 以降では、初回利用時に端末のメモリ上で生年月日を確認し、保護対象または成人としての取り扱いを判断します。生年月日と具体的な年齢は保存せず、サーバーにも送信しません。大まかな利用者区分と、任意の分析・不具合報告への同意だけを、Android バックアップの対象外となる端末領域に保存します。入力をスキップした場合や設定の欠落・破損がある場合は保護対象として扱います。",
+          "ステージの進行、星、ハイスコア、中断したゲーム、最近遊んだゲーム、音・振動・言語の設定、チュートリアルの状態、広告間隔、同意の選択は、アプリまたは SDK の端末内ストレージに保存されます。ゲームアカウントや、セーブファイルをアップロード・同期する独自のサーバーは提供していません。",
+          "登録やログインは不要です。氏名、電話番号、住所、連絡先、写真、マイクの録音、正確な GPS 位置情報の提出を求めたり、それらを収集する機能を設けたりしていません。メールでお問い合わせいただくと、送信元のメールアドレスと本文を受け取ります。",
+          "Android のバックアップと復元が有効な場合、端末や Google アカウントの設定に応じ、一部のアプリデータが OS 提供者によってバックアップされ、再インストール時に復元されることがあります。これは開発者が運営するゲームアカウントとは別の仕組みです。Android のバックアップ設定で管理できます。"
+        ]
+      },
+      {
+        "id": "sdk",
+        "title": "3. 自動的に処理される情報と目的",
+        "paragraphs": [
+          "配信されるアプリには、以下の Google SDK が含まれます。アプリの利用時やネットワーク接続時に情報を自動的に処理することがあります。具体的な範囲は SDK のバージョン、端末・地域の設定、同意の状態、Google サービスの設定により異なります。"
+        ],
+        "headers": [
+          "サービス",
+          "処理される可能性のある情報",
+          "目的"
+        ],
+        "rows": [
+          [
+            "Google AdMob / Google Mobile Ads",
+            "IP アドレスとそこから推定されるおおよその位置、Android 広告 ID・アプリセット ID などの端末やアカウントに関連する識別子、アプリ起動・広告表示・クリック・動画視聴などの操作、アプリや広告 SDK の性能・診断情報。保護対象の広告リクエストには子ども向けの取り扱いを適用し、Android 広告 ID の送信を防ぎます。",
+            "パーソナライズされていない広告の配信と測定、セキュリティ、不正防止"
+          ],
+          [
+            "Google User Messaging Platform（UMP）",
+            "地域・端末の情報、同意の状態、広告のプライバシーに関する選択、およびその適用に必要な識別子・設定情報",
+            "必要な広告同意メッセージの表示、選択の保存、広告リクエストへの反映"
+          ],
+          [
+            "Google Analytics for Firebase",
+            "同意した成人のみ：アプリインスタンス・インストールの識別子、端末の機種、OS、アプリのバージョンと言語、セッション・画面イベント、SDK が処理する IP・大まかな地域の情報。Analytics の広告 ID 収集、広告ストレージ、広告ユーザーデータ、広告パーソナライズのシグナルは無効です。",
+            "利用状況、機能の利用、安定性の傾向の把握とサービス改善"
+          ],
+          [
+            "Firebase Crashlytics および Firebase のインストール関連サービス",
+            "同意した成人のみ：インストール・セッションの識別子、クラッシュ・エラーの発生時刻とスタックトレース、エラーメッセージ、アプリのバージョン、OS、端末の機種、メモリなどの診断情報、および関連付けられたクラッシュ前のアプリイベント",
+            "不具合の検出と調査、影響を受けたインストールの把握、信頼性の向上"
+          ]
+        ],
+        "after": [
+          "氏名、メールアドレス、電話番号を Analytics のユーザー ID に設定したり、セーブファイルを分析イベントとして送信したりすることはありません。ただし、端末・アプリの識別子も、実名でなくても適用法令上の個人情報に該当する場合があります。",
+          "バージョン 0.31.28 以降では、年齢の判断前、または 18 歳未満・年齢不明の保護対象利用者に対して、Firebase Core、Analytics、Crashlytics を起動しません。成人は利用状況の分析と不具合報告を明示的に選択でき、設定から両方をまとめて無効にできます。以前の非デバッグ版では自動収集が有効でした。新しい管理機能を利用するには更新してください。"
+        ]
+      },
+      {
+        "id": "providers",
+        "title": "4. Google などのサービス提供者",
+        "paragraphs": [
+          "上記の情報は、広告、分析、不具合報告のために、Google LLC および各サービスの規約で示される Google 関連会社へ送信され、処理されることがあります。サービスと規約により、Google は当方の処理委託先または独立した管理者として情報を扱います。",
+          "地域、利用者の選択、広告設定によっては、Google の広告技術提供者が広告リクエストや測定の情報を処理することがあります。同意メッセージが表示される場合は、対象の提供者と選択肢について、メッセージおよび Google の関連情報をご確認ください。",
+          "サポートメールは Gmail（Google）で受信・保管します。メール提供者は、送信元アドレス、本文、および任意に送付された添付ファイルを処理することがあります。お問い合わせの解決に必要な情報だけをお送りください。",
+          "当方は個人情報を販売する別事業を行っていません。ただし、広告に伴う情報の提供は、一部の法律では「共有」やターゲティング広告の処理に該当することがあります。以下の選択肢をご確認ください。法的義務や適法な要請に従う場合、またはご本人のご依頼に対応する場合にも、必要最小限の情報を提供することがあります。"
+        ]
+      },
+      {
+        "id": "choices",
+        "title": "5. 広告の選択、同意、処理の根拠",
+        "paragraphs": [
+          "バージョン 0.31.28 以降では、端末内で年齢を判断するか、入力をスキップするまで、広告プライバシー関連や広告のリクエストを行いません。成人向けの任意の分析・不具合報告への同意は初期状態では未選択です。同意しなくてもすべてのゲームを利用できます。設定で利用状況の分析と不具合報告を無効にすると、以後の収集を止め、端末の未送信クラッシュレポートを削除します。送信済みの記録が自動的に消えるわけではありません。",
+          "広告 SDK は Google UMP が広告リクエストを許可した後に広告を要求します。地域や Google の要件に応じ、広告に関する通知や同意メッセージが表示されることがあります。プライバシーオプションが必要な場合は、アプリの設定に表示される広告のプライバシーオプションから選択を確認・変更できます。この項目は UMP が必要と判断したときに表示されます。",
+          "アプリは G レーティングの、パーソナライズされていない広告を要求します。18 歳未満または年齢不明の保護対象には、Google の子ども向けの取り扱いと UMP の同意年齢未満の設定を適用します。非パーソナライズ広告や制限付き広告でも、IP・おおよその位置、許可された識別子、操作、診断情報を処理することがあります。広告への同意を拒否したり広告の読み込みに失敗したりしても、ゲームは遊べます。",
+          "広告 ID の削除など、利用可能な選択肢は Android のプライバシー・広告設定で管理できます。名称や項目は端末によって異なります。Google アカウントの広告管理は Google サービスの範囲で別途適用されます。",
+          "適用法令に応じ、サービスの提供、信頼性・安全性・改善に関する正当な利益、法的義務、または必要な場合の同意を根拠に処理します。同意に基づく処理では、撤回前の処理の適法性に影響を与えずに同意を撤回できます。同意が必要な地域では、その要件を満たす必要があります。広告の同意と分析・診断の処理は、適用範囲が別です。"
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "6. 保存期間と削除",
+        "headers": [
+          "情報",
+          "保存期間と削除"
+        ],
+        "rows": [
+          [
+            "端末内のセーブデータと設定",
+            "端末に残っている間は保存されます。アプリの進行状況リセットでは、その機能の対象となるステージのクリア、星、その他の進行記録を削除します。設定、一部のハイスコア、SDK データは残る場合があります。端末内のデータを削除するには、Android 設定でアプリのストレージを消去してください。アンインストール、バックアップの保持、復元は端末とバックアップの設定によって異なります。"
+          ],
+          [
+            "Analytics データ",
+            "Analytics プロパティの保存設定と削除手続きに従います。標準の GA4 では通常、ユーザー・イベント単位で 2 か月または 14 か月の設定があり、利用に応じた期間の更新などの設定も影響します。すべての標準集計レポートに同じ制限が適用されるわけではなく、集計統計はより長く残ることがあります。"
+          ],
+          [
+            "Crashlytics データ",
+            "Google の説明では、クラッシュのスタックトレースと関連識別子は 90 日間保存され、その後に稼働中のシステムとバックアップからの削除手続きが始まります。90 日目に削除が完了するという意味ではありません。"
+          ],
+          [
+            "広告と同意のデータ",
+            "広告の配信・測定、不正防止、選択の尊重に必要な期間、Google および関連提供者の保存・削除方針に従って処理されます。端末内の同意設定と提供者側の記録では、保存期間が異なる場合があります。"
+          ],
+          [
+            "サポートメール",
+            "お問い合わせと必要な事後対応が完了するまで保管し、その後削除します。法令による保存義務がある場合は、必要な情報だけを法定期間保存します。"
+          ]
+        ],
+        "after": [
+          "アプリデータの消去やアンインストールだけでは、Google に送信済みの情報はすぐに削除されません。送信済み情報について権利を行使するには、当方へのお問い合わせや Google の該当するプライバシー管理機能をご利用ください。"
+        ]
+      },
+      {
+        "id": "international",
+        "title": "7. 国外での処理と移転",
+        "paragraphs": [
+          "Google サービスの利用により、米国を含む、Google や関連提供者が設備を持つお住まいの国以外の国で情報が保存・処理されることがあります。移転先には、各サービスの規約・方針に示される Google LLC、関連会社、処理委託先が含まれます。処理場所は Google のデータ処理条件と施設情報によります。",
+          "対象情報と目的は、自動収集と提供者の各節に記載した、広告、分析、不具合診断、メールサポートに関するものです。SDK 利用中にネットワークを通じて移転します。保存期間は保存に関する節と各提供者の方針に従います。Google のプライバシーポリシーに同社の問い合わせ窓口が記載されています。",
+          "法令上必要な場合は、同意や契約上の保護措置など、適切な移転の根拠が必要です。移転や異議については当方の個人情報窓口へご連絡ください。広告の選択は該当するメッセージとアプリ設定で管理できます。バージョン 0.31.28 以降では、成人は設定から任意の分析・不具合報告も停止できます。保護対象にはこれらの分析・不具合収集を行いません。"
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "8. ご本人の権利と代理人",
+        "paragraphs": [
+          "適用法令に応じ、開示・写しの取得、訂正、削除、処理制限、異議申立て、同意撤回、データポータビリティ、ターゲティング広告に関する選択を請求できます。法律で認められる場合は、親権者、保護者、その他の正式な代理人も対応できます。",
+          "ユーザーアカウントはなく、インストール識別子と実名・メールアドレスの対応表も保持していません。そのため、メールアドレスだけでは特定のインストールの SDK 記録を見つけられない場合があります。合理的に可能な範囲で関連記録の特定をお手伝いし、Google や提供者の管理機能をご案内します。請求への対応に必要な情報だけをお願いします。不要な公的識別番号や機微な情報は送らないでください。",
+          "お住まいの地域の個人情報保護監督機関へ苦情を申し立てることができます。韓国では、個人情報侵害申告センター（privacy.kisa.or.kr、韓国内 118）または個人情報紛争調停委員会（kopico.go.kr、韓国内 1833-6972）に相談できます。"
+        ],
+        "contact": true
+      },
+      {
+        "id": "children",
+        "title": "9. 子どもと未成年者",
+        "paragraphs": [
+          "本アプリは全年齢向けです。バージョン 0.31.28 以降では、18 歳未満と生年月日を入力しない利用者に対し、保守的な保護措置を適用します。生年月日は端末内の年齢判断にのみ使用し、保存・送信しません。どの年齢でもすべてのゲームを利用できます。成人の年齢をあらかじめ選んだり、ゲーム内の特典を得る条件として提示したりしません。",
+          "保護対象には Firebase の分析・不具合報告 SDK を起動しません。広告は Families 自己認証の対象バージョン範囲にある Google Mobile Ads を使い、G レーティング、非パーソナライズ、子ども向けの設定を適用します。保護対象の Android 広告 ID は送信しません。ただし、子ども向けの取り扱いでも、コンテキスト広告の配信や安全確保に必要な通信上の処理がすべてなくなるわけではありません。上記の SDK 情報をご確認ください。",
+          "子どもの情報、保護者の許可、追加的な保護に関する法令は引き続き適用されます。子どもの情報や必要な許可なしでの処理について懸念がある保護者は、当方の個人情報窓口へご連絡ください。合理的に可能な範囲で調査し、削除、制限などの必要な措置を講じます。"
+        ]
+      },
+      {
+        "id": "security",
+        "title": "10. 安全管理",
+        "paragraphs": [
+          "サービス管理アカウントと個人情報へのアクセスは必要な範囲に限定し、提供者のセキュリティ機能や通信の暗号化など、適切な保護措置を用います。端末内の情報は OS のアプリ領域の保護を受けます。不要になった情報は、該当する保存・削除手続きに従って削除または非識別化します。",
+          "サポート依頼の解決に不要なパスワード、公的識別番号、決済情報、その他の機微な情報は記載しないでください。"
+        ]
+      },
+      {
+        "id": "website",
+        "title": "11. 本ポリシーのウェブサイト",
+        "paragraphs": [
+          "このページには、開発者が設置した広告、訪問者分析 SDK、追跡スクリプト、追跡 Cookie はありません。GitHub Pages でホストしています。GitHub は自社のプライバシー方針に従い、セキュリティなどの目的で訪問者の IP アドレスや接続情報を処理することがあります。外部ポリシーのリンク先では、その提供者のサイトと方針が適用されます。"
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "12. 変更と関連ポリシー",
+        "paragraphs": [
+          "アプリの機能、サービス提供者、法令の変更に伴い本ポリシーを改定し、施行日を更新することがあります。重要な変更に追加の通知や同意が必要な場合は、その要件に従います。Google と GitHub の取り扱いや管理機能については、以下の公式情報をご確認ください。"
+        ],
+        "sources": true
+      }
+    ],
+    "skip": "本文へ移動"
+  },
+  "languages": [
+    {
+      "code": "ko",
+      "name": "한국어"
+    },
+    {
+      "code": "en",
+      "name": "English"
+    },
+    {
+      "code": "ja",
+      "name": "日本語"
+    },
+    {
+      "code": "de",
+      "name": "Deutsch"
+    },
+    {
+      "code": "fr",
+      "name": "Français"
+    },
+    {
+      "code": "es",
+      "name": "Español"
+    },
+    {
+      "code": "pt-BR",
+      "name": "Português (Brasil)"
+    },
+    {
+      "code": "zh-Hant",
+      "name": "繁體中文"
+    },
+    {
+      "code": "id",
+      "name": "Bahasa Indonesia"
+    },
+    {
+      "code": "th",
+      "name": "ไทย"
+    },
+    {
+      "code": "vi",
+      "name": "Tiếng Việt"
+    }
+  ],
+  "de": {
+    "title": "Datenschutzerklärung",
+    "operator": "ShallWePuzzle-Entwickler",
+    "dateLabel": "Gültig ab / zuletzt aktualisiert",
+    "intro": "Der Entwickler von ShallWePuzzle („wir“, „uns“) erläutert hier, wie Informationen in der Android-App ShallWePuzzle und auf dieser Website zur Datenschutzerklärung verarbeitet werden.",
+    "summary": "Sie können ohne Konto spielen. Spielstände und Einstellungen werden auf Ihrem Gerät gespeichert. Die App nutzt Google-Dienste für Werbung, Nutzungsanalysen und Absturzdiagnosen. Es handelt sich daher nicht um eine App, die keinerlei personenbezogene Daten erhebt.",
+    "contactLabel": "Datenschutzanfragen und Ausübung Ihrer Rechte",
+    "contents": "Inhalt",
+    "sections": [
+      {
+        "id": "controller",
+        "title": "1. Verantwortlicher und Kontakt",
+        "paragraphs": [
+          "Der Dienst heißt ShallWePuzzle; der Android-Paketname lautet kr.shall.we.puzzle. Für die Verarbeitung personenbezogener Daten in der App und für Datenschutzanfragen ist der ShallWePuzzle-Entwickler verantwortlich.",
+          "Fragen, Beschwerden und Anträge auf Auskunft, Berichtigung, Löschung, Einschränkung oder Widerruf einer Einwilligung richten Sie bitte an die unten genannte E-Mail-Adresse. Zur Überprüfung und Zuordnung Ihrer Anfrage können wir Angaben verlangen, die dafür vernünftigerweise erforderlich sind. Wir antworten nach den Verfahren und innerhalb der Fristen des geltenden Rechts."
+        ],
+        "contact": true
+      },
+      {
+        "id": "local",
+        "title": "2. Spielstände und Informationen auf Ihrem Gerät",
+        "paragraphs": [
+          "Ab Version 0.31.28 wird bei der ersten Nutzung das Geburtsdatum im Arbeitsspeicher des Geräts geprüft, um zwischen geschützter und erwachsener Nutzung zu unterscheiden. Geburtsdatum und konkretes Alter werden weder gespeichert noch an Server gesendet. Nur die allgemeine Nutzerkategorie und die freiwillige Entscheidung zu Analyse- und Absturzberichten werden in einem von Android-Backups ausgeschlossenen Gerätespeicher abgelegt. Bei übersprungener Eingabe oder fehlenden bzw. beschädigten Einstellungen gilt die geschützte Behandlung.",
+          "Levelfortschritt, Sterne, Bestwerte, unterbrochene und zuletzt gespielte Spiele, Ton-, Vibrations- und Spracheinstellungen, Tutorialstatus, Werbeintervalle und Einwilligungsentscheidungen werden lokal durch die App oder das SDK gespeichert. Wir bieten kein Spielkonto und keinen eigenen Server zum Hochladen oder Synchronisieren Ihrer Spielstandsdateien an.",
+          "Registrierung und Anmeldung sind nicht erforderlich. Die App fordert weder Namen, Telefonnummer, Anschrift, Kontakte, Fotos, Mikrofonaufnahmen noch einen genauen GPS-Standort an und enthält keine Funktionen zur Erhebung dieser Angaben. Wenn Sie uns eine E-Mail senden, erhalten wir Ihre Absenderadresse und Ihre Nachricht.",
+          "Wenn Android-Sicherung und -Wiederherstellung aktiviert sind, kann der Betriebssystemanbieter je nach Geräte- und Google-Kontoeinstellungen bestimmte App-Daten sichern und nach einer Neuinstallation wiederherstellen. Dies ist unabhängig von einem durch den Entwickler betriebenen Spielkonto. Sie verwalten diese Funktion in den Android-Sicherungseinstellungen."
+        ]
+      },
+      {
+        "id": "sdk",
+        "title": "3. Automatisch verarbeitete Informationen und Zwecke",
+        "paragraphs": [
+          "Die bereitgestellte App enthält die folgenden Google-SDKs. Diese können bei der App-Nutzung oder einer Netzwerkverbindung Informationen automatisch verarbeiten. Der genaue Umfang hängt von SDK-Versionen, Geräte- und Regionseinstellungen, Einwilligungsstatus und der Konfiguration der Google-Dienste ab."
+        ],
+        "headers": [
+          "Dienst",
+          "Möglicherweise verarbeitete Informationen",
+          "Zweck"
+        ],
+        "rows": [
+          [
+            "Google AdMob / Google Mobile Ads",
+            "IP-Adresse und daraus abgeleiteter ungefährer Standort; Android-Werbe-ID, App-Set-ID und weitere geräte- oder kontobezogene Kennungen; Interaktionen wie App-Starts, Werbeeinblendungen, Klicks und Videoaufrufe; Leistungs- und Diagnosedaten der App und des Werbe-SDKs. Geschützte Werbeanfragen verwenden die Behandlung für Kinder und verhindern die Übermittlung der Android-Werbe-ID.",
+            "Auslieferung und Messung nicht personalisierter Werbung; Sicherheit und Betrugsprävention"
+          ],
+          [
+            "Google User Messaging Platform (UMP)",
+            "Regions- und Geräteinformationen, Einwilligungsstatus und Datenschutzentscheidungen zu Werbung sowie zur Umsetzung dieser Entscheidungen erforderliche Kennungen und Einstellungen",
+            "Anzeige erforderlicher Einwilligungsmeldungen für Werbung, Speicherung der Entscheidungen und Anwendung auf Werbeanfragen"
+          ],
+          [
+            "Google Analytics for Firebase",
+            "Nur bei einwilligenden Erwachsenen: App-Instanz-/Installationskennungen, Gerätemodell, Betriebssystem, App-Version und Sprache, Sitzungs-/Bildschirmereignisse sowie vom SDK verarbeitete IP-/allgemeine Regionsinformationen. Die Erhebung der Werbe-ID durch Analytics, Werbespeicherung, werbebezogene Nutzerdaten und Signale zur Anzeigenpersonalisierung sind deaktiviert.",
+            "Verständnis von Nutzung, Funktionsverwendung und Stabilitätstrends sowie Verbesserung des Dienstes"
+          ],
+          [
+            "Firebase Crashlytics und Firebase-Installationsdienste",
+            "Nur bei einwilligenden Erwachsenen: Installations-/Sitzungskennungen, Absturz-/Fehlerzeitpunkte und Stacktraces, Fehlermeldungen, App-Version, Betriebssystem, Gerätemodell, Speicher und verwandte Diagnosedaten sowie zugeordnete App-Ereignisse vor dem Absturz",
+            "Erkennung und Untersuchung von Fehlern, Ermittlung betroffener Installationen und Verbesserung der Zuverlässigkeit"
+          ]
+        ],
+        "after": [
+          "Wir setzen weder Ihren Namen noch Ihre E-Mail-Adresse oder Telefonnummer als Analytics-Nutzer-ID ein und senden keine Spielstandsdateien als Analyseereignisse. Geräte- und App-Kennungen können auch ohne Klarnamen nach geltendem Recht personenbezogene Daten sein.",
+          "Ab Version 0.31.28 werden Firebase Core, Analytics und Crashlytics vor der Altersentscheidung sowie für geschützte Personen unter 18 Jahren oder unbekannten Alters nicht gestartet. Erwachsene können Nutzungsanalysen und Absturzberichte ausdrücklich aktivieren und beide gemeinsam in den Einstellungen ausschalten. In früheren Nicht-Debug-Versionen war die automatische Erhebung aktiviert. Bitte aktualisieren Sie die App, um die neuen Auswahlmöglichkeiten zu nutzen."
+        ]
+      },
+      {
+        "id": "providers",
+        "title": "4. Google und weitere Dienstleister",
+        "paragraphs": [
+          "Die beschriebenen Informationen können für Werbung, Analysen und Absturzberichte an Google LLC und die in den jeweiligen Nutzungsbedingungen genannten verbundenen Unternehmen übermittelt und von ihnen verarbeitet werden. Je nach Dienst und Bedingungen handelt Google als unser Auftragsverarbeiter oder als eigenständiger Verantwortlicher.",
+          "Je nach Region, Ihren Entscheidungen und Werbekonfiguration können Anbieter von Google-Werbetechnologie Werbeanfrage- und Messdaten verarbeiten. Wenn eine Einwilligungsmeldung angezeigt wird, entnehmen Sie dieser und den zugehörigen Google-Informationen die betroffenen Anbieter und Auswahlmöglichkeiten.",
+          "Support-E-Mails empfangen und speichern wir über Gmail (Google). Der E-Mail-Anbieter kann Ihre Absenderadresse, Nachricht und freiwillig mitgesendete Anhänge verarbeiten. Bitte senden Sie nur Angaben, die zur Bearbeitung Ihrer Anfrage benötigt werden.",
+          "Wir betreiben kein gesondertes Geschäft zum Verkauf personenbezogener Daten. Die Weitergabe im Werbekontext kann nach manchen Gesetzen als „Sharing“ oder Verarbeitung für zielgerichtete Werbung gelten; siehe die Auswahlmöglichkeiten unten. Begrenzte Angaben können wir auch offenlegen, soweit eine rechtliche Verpflichtung, eine rechtmäßige Anfrage oder die Bearbeitung Ihres eigenen Anliegens dies erfordert."
+        ]
+      },
+      {
+        "id": "choices",
+        "title": "5. Werbeentscheidungen, Einwilligung und Rechtsgrundlagen",
+        "paragraphs": [
+          "Ab Version 0.31.28 erfolgen Anfragen zu Werbedatenschutz oder Werbung erst nach der lokalen Altersentscheidung oder dem Überspringen der Eingabe. Die freiwillige Einwilligung Erwachsener zu Analyse- und Absturzberichten ist standardmäßig nicht ausgewählt. Eine Ablehnung schränkt kein Spiel ein. Das Ausschalten von Nutzungsanalysen und Absturzberichten in den Einstellungen beendet die künftige Erhebung und löscht noch nicht gesendete Absturzberichte auf dem Gerät. Bereits übermittelte Datensätze werden dadurch nicht automatisch gelöscht.",
+          "Das Werbe-SDK fordert Anzeigen erst an, wenn Google UMP Werbeanfragen erlaubt. Je nach Region und Google-Vorgaben können Werbehinweise oder Einwilligungsmeldungen erscheinen. Wenn Datenschutzoptionen erforderlich sind, können Sie Entscheidungen über den entsprechenden Eintrag zum Werbedatenschutz in den App-Einstellungen erneut aufrufen oder ändern. Dieser Eintrag erscheint, wenn UMP ihn als erforderlich einstuft.",
+          "Die App fordert nicht personalisierte Anzeigen mit der Einstufung G an. Für geschützte Personen unter 18 Jahren oder unbekannten Alters gelten Googles Behandlung für Kinder und die UMP-Einstellung für Personen unter dem Einwilligungsalter. Auch nicht personalisierte oder eingeschränkte Anzeigen können IP-/ungefähre Standortdaten, zulässige Kennungen, Interaktionen und Diagnosedaten verarbeiten. Eine verweigerte Werbeeinwilligung oder fehlgeschlagenes Laden von Anzeigen verhindert das Spielen nicht.",
+          "Verfügbare Optionen zur Werbe-ID, etwa deren Löschung, verwalten Sie in den Android-Datenschutz-/Werbeeinstellungen. Bezeichnungen und Optionen unterscheiden sich je nach Gerät. Werbeeinstellungen Ihres Google-Kontos gelten gesondert im Rahmen der Google-Dienste.",
+          "Je nach geltendem Recht stützt sich die Verarbeitung auf die Bereitstellung des Dienstes, berechtigte Interessen an Zuverlässigkeit, Sicherheit und Verbesserung, rechtliche Verpflichtungen oder eine erforderliche Einwilligung. Eine Einwilligung können Sie widerrufen, ohne die Rechtmäßigkeit der vorherigen Verarbeitung zu berühren. In Regionen mit Einwilligungspflichten müssen deren Anforderungen eingehalten werden. Werbeeinwilligung und Analyse-/Diagnoseverarbeitung haben getrennte Geltungsbereiche."
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "6. Aufbewahrung und Löschung",
+        "headers": [
+          "Informationen",
+          "Aufbewahrung und Löschung"
+        ],
+        "rows": [
+          [
+            "Lokale Spielstände und Einstellungen",
+            "Diese bleiben gespeichert, solange sie sich auf Ihrem Gerät befinden. Das Zurücksetzen des Spielfortschritts löscht die von dieser Funktion erfassten Levelabschlüsse, Sterne und sonstigen Fortschrittsdaten; Einstellungen, bestimmte Bestwerte und SDK-Daten können erhalten bleiben. Zum Entfernen der lokalen App-Daten löschen Sie den App-Speicher in den Android-Einstellungen. Deinstallation, Aufbewahrung von Backups und Wiederherstellung hängen von Geräte- und Sicherungseinstellungen ab."
+          ],
+          [
+            "Analytics-Daten",
+            "Es gelten die Aufbewahrungseinstellungen und Löschverfahren der Analytics-Property. Standard-GA4 bietet gewöhnlich Einstellungen von 2 oder 14 Monaten auf Nutzer-/Ereignisebene; eine aktivitätsabhängige Verlängerung und weitere Einstellungen können die Dauer beeinflussen. Diese Grenzen gelten nicht gleichermaßen für alle standardmäßigen zusammengefassten Berichte; aggregierte Statistiken können länger bestehen bleiben."
+          ],
+          [
+            "Crashlytics-Daten",
+            "Laut Google werden Absturz-Stacktraces und zugehörige Kennungen 90 Tage aufbewahrt. Anschließend beginnt die Entfernung aus aktiven Systemen und Sicherungssystemen. Dies bedeutet nicht, dass die Löschung am 90. Tag abgeschlossen ist."
+          ],
+          [
+            "Werbe- und Einwilligungsdaten",
+            "Sie werden nach den Aufbewahrungs- und Löschrichtlinien von Google und den jeweiligen Anbietern für die zur Werbeauslieferung, Messung, Betrugsprävention und Umsetzung Ihrer Entscheidungen erforderlichen Zeiträume verarbeitet. Lokale Einwilligungseinstellungen und Datensätze der Anbieter können unterschiedliche Aufbewahrungsfristen haben."
+          ],
+          [
+            "Support-E-Mails",
+            "Sie werden bis zum Abschluss der Anfrage und erforderlicher Nachbearbeitung aufbewahrt und anschließend gelöscht. Bei gesetzlichen Aufbewahrungspflichten bleiben nur die notwendigen Informationen für die vorgeschriebene Dauer erhalten."
+          ]
+        ],
+        "after": [
+          "Das Löschen von App-Daten oder die Deinstallation löscht bereits an Google übermittelte Informationen nicht sofort. Wenden Sie sich an uns oder nutzen Sie die jeweiligen Google-Datenschutzfunktionen, um Rechte bezüglich bereits übermittelter Daten auszuüben."
+        ]
+      },
+      {
+        "id": "international",
+        "title": "7. Internationale Verarbeitung und Übermittlung",
+        "paragraphs": [
+          "Google-Dienste können die Speicherung und Verarbeitung außerhalb Ihres Landes umfassen, auch in den USA und anderen Ländern mit Einrichtungen von Google und seinen Dienstleistern. Empfänger sind Google LLC und die in den jeweiligen Bedingungen und Richtlinien genannten verbundenen Unternehmen bzw. Auftragsverarbeiter. Die Verarbeitungsorte richten sich nach Googles Datenverarbeitungsbedingungen und Angaben zu Einrichtungen.",
+          "Informationen und Zwecke entsprechen den Abschnitten zur automatischen Erhebung und zu Dienstleistern: Werbung, Analysen, Absturzdiagnosen und E-Mail-Support. Übermittlungen erfolgen bei der SDK-Nutzung über das Netzwerk. Die Aufbewahrung richtet sich nach dem Aufbewahrungsabschnitt und den Anbieterrichtlinien. Googles Datenschutzerklärung nennt die dortigen Datenschutz-Kontaktmöglichkeiten.",
+          "Soweit gesetzlich erforderlich, muss eine geeignete Grundlage für Übermittlungen bestehen, etwa eine Einwilligung oder vertragliche Garantien. Fragen oder Einwände zu Übermittlungen richten Sie an unsere Datenschutz-E-Mail-Adresse. Werbeentscheidungen verwalten Sie in der jeweiligen Meldung und den App-Einstellungen. Ab Version 0.31.28 können Erwachsene auch die freiwilligen Analysen und Absturzberichte in den Einstellungen beenden; bei geschützten Personen erfolgt diese Analyse-/Absturzerhebung nicht."
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "8. Ihre Rechte und Vertretung",
+        "paragraphs": [
+          "Je nach geltendem Recht können Sie Auskunft oder eine Kopie, Berichtigung, Löschung, Einschränkung, Widerspruch, Widerruf, Datenübertragbarkeit oder Auswahlmöglichkeiten zu zielgerichteter Werbung verlangen. Soweit gesetzlich zulässig, können Eltern, Sorgeberechtigte oder andere bevollmächtigte Personen Sie vertreten.",
+          "Es gibt keine Nutzerkonten. Wir führen keine Zuordnung von Installationskennungen zu Klarnamen oder E-Mail-Adressen. Daher können wir SDK-Datensätze einer bestimmten Installation möglicherweise nicht allein anhand einer E-Mail-Adresse finden. Soweit vernünftigerweise möglich helfen wir bei der Zuordnung und erklären verfügbare Funktionen von Google bzw. Anbietern. Wir erfragen nur zur Bearbeitung notwendige Angaben; senden Sie keine unnötigen amtlichen Kennnummern oder sensiblen Informationen.",
+          "Sie können sich bei der Datenschutzaufsichtsbehörde Ihres Landes beschweren. In Südkorea helfen das Personal Information Infringement Report Center (privacy.kisa.or.kr, innerhalb Koreas 118) oder das Personal Information Dispute Mediation Committee (kopico.go.kr, innerhalb Koreas 1833-6972)."
+        ],
+        "contact": true
+      },
+      {
+        "id": "children",
+        "title": "9. Kinder und Minderjährige",
+        "paragraphs": [
+          "Die App richtet sich an alle Altersgruppen. Ab Version 0.31.28 gelten vorsorgliche Schutzmaßnahmen für Personen unter 18 Jahren und Personen ohne Geburtsdatumsangabe. Das Geburtsdatum dient nur der lokalen Altersentscheidung und wird weder gespeichert noch übertragen. Alle Spiele stehen jeder Altersgruppe offen. Ein Erwachsenenalter ist weder vorausgewählt noch Bedingung für Spielvorteile.",
+          "Bei geschützten Personen werden die Firebase-SDKs für Analyse und Absturzberichte nicht gestartet. Anzeigen verwenden Google Mobile Ads innerhalb des für Families selbstzertifizierten Versionsbereichs mit G-Einstufung, ohne Personalisierung und mit Behandlung für Kinder. Die Android-Werbe-ID geschützter Personen wird nicht übermittelt. Diese Behandlung beseitigt nicht sämtliche Netzwerkverarbeitung, die für kontextbezogene Werbung und Sicherheit nötig ist; siehe die SDK-Angaben oben.",
+          "Die geltenden Vorschriften zu Kinderdaten, elterlicher Erlaubnis und zusätzlichen Schutzmaßnahmen bleiben anwendbar. Eltern oder Sorgeberechtigte mit Bedenken zu Kinderdaten oder einer Verarbeitung ohne erforderliche Erlaubnis können uns per Datenschutz-E-Mail kontaktieren. Wir prüfen den Sachverhalt im vernünftigerweise möglichen Umfang und ergreifen erforderliche Lösch-, Einschränkungs- oder sonstige Maßnahmen."
+        ]
+      },
+      {
+        "id": "security",
+        "title": "10. Sicherheit",
+        "paragraphs": [
+          "Wir begrenzen Zugriffe auf Verwaltungszugänge und personenbezogene Daten auf das Erforderliche und nutzen geeignete Schutzmaßnahmen wie Sicherheitsfunktionen der Anbieter und Transportverschlüsselung. Lokale Informationen sind durch den App-Speicher des Betriebssystems geschützt. Nicht mehr benötigte Daten werden nach den einschlägigen Aufbewahrungs- und Löschverfahren gelöscht oder de-identifiziert.",
+          "Senden Sie keine Passwörter, amtlichen Kennnummern, Zahlungsdaten oder sonstigen sensiblen Informationen, die für die Bearbeitung einer Support-Anfrage nicht nötig sind."
+        ]
+      },
+      {
+        "id": "website",
+        "title": "11. Diese Datenschutz-Website",
+        "paragraphs": [
+          "Diese Seite enthält keine vom Entwickler eingebundenen Anzeigen, Besucheranalyse-SDKs, Tracking-Skripte oder Tracking-Cookies. Sie wird über GitHub Pages bereitgestellt. GitHub kann nach seiner eigenen Datenschutzerklärung Besucher-IP-Adressen und weitere Verbindungsinformationen für Sicherheitszwecke und ähnliche Zwecke verarbeiten. Externe Richtlinienlinks führen auf die Website des jeweiligen Anbieters, auf der dessen Richtlinien gelten."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "12. Änderungen und weitere Richtlinien",
+        "paragraphs": [
+          "Bei Änderungen an App-Funktionen, Dienstleistern oder Gesetzen können wir diese Erklärung anpassen und das Gültigkeitsdatum aktualisieren. Wenn wesentliche Änderungen eine weitere Mitteilung oder Einwilligung erfordern, halten wir diese Anforderungen ein. Informationen zu Googles und GitHubs Verfahren und Auswahlmöglichkeiten finden Sie in den folgenden offiziellen Quellen."
+        ],
+        "sources": true
+      }
+    ],
+    "skip": "Zur Datenschutzerklärung springen"
+  },
+  "fr": {
+    "title": "Politique de confidentialité",
+    "operator": "Développeur de ShallWePuzzle",
+    "dateLabel": "Entrée en vigueur et dernière mise à jour",
+    "intro": "Le développeur de ShallWePuzzle (« nous ») explique ci-dessous comment les informations sont traitées dans l’application Android ShallWePuzzle et sur le présent site.",
+    "summary": "Vous pouvez jouer sans créer de compte. Vos sauvegardes et préférences sont stockées sur votre appareil. L’application utilise des services Google pour la publicité, l’analyse d’utilisation et le diagnostic des plantages : elle n’est donc pas dépourvue de collecte de données personnelles.",
+    "contactLabel": "Questions sur la confidentialité et exercice de vos droits",
+    "contents": "Sommaire",
+    "sections": [
+      {
+        "id": "controller",
+        "title": "1. Responsable du traitement et contact",
+        "paragraphs": [
+          "Le service s’appelle ShallWePuzzle ; son identifiant de package Android est kr.shall.we.puzzle. Le développeur de ShallWePuzzle est responsable du traitement des données personnelles dans l’application et des demandes relatives à la confidentialité.",
+          "Adressez vos questions, réclamations et demandes d’accès, de rectification, d’effacement, de limitation ou de retrait du consentement à l’adresse ci-dessous. Nous pouvons demander les informations raisonnablement nécessaires pour vérifier votre demande et retrouver les données concernées. Nous répondons selon les procédures et délais prévus par le droit applicable."
+        ],
+        "contact": true
+      },
+      {
+        "id": "local",
+        "title": "2. Sauvegardes et informations sur votre appareil",
+        "paragraphs": [
+          "À partir de la version 0.31.28, la date de naissance est examinée en mémoire sur l’appareil lors de la première utilisation afin d’appliquer un traitement protégé ou adulte. Ni la date de naissance ni l’âge chiffré ne sont conservés ou envoyés à un serveur. Seules la catégorie générale d’utilisateur et la décision facultative concernant l’analyse et les rapports de plantage sont enregistrées dans un espace exclu des sauvegardes Android. Si vous passez cette étape ou si les paramètres sont absents ou corrompus, le traitement protégé s’applique.",
+          "La progression, les étoiles, les meilleurs scores, les parties inachevées ou récentes, les préférences de son, de vibration et de langue, l’état des tutoriels, les intervalles publicitaires et les choix de consentement sont stockés localement par l’application ou ses SDK. Nous ne proposons ni compte de jeu ni serveur distinct permettant de téléverser ou de synchroniser vos sauvegardes.",
+          "Aucune inscription ni connexion n’est nécessaire. L’application ne demande pas votre nom, téléphone, adresse, contacts, photos, enregistrements du microphone ou position GPS précise, et ne comporte pas de fonctions pour les recueillir. Si vous nous écrivez, nous recevons votre adresse d’expéditeur et votre message.",
+          "Si la sauvegarde et la restauration Android sont activées, le fournisseur du système d’exploitation peut sauvegarder certaines données et les restaurer après réinstallation, selon les paramètres de l’appareil et du compte Google. Ce mécanisme est indépendant d’un compte de jeu géré par le développeur. Vous pouvez le gérer dans les paramètres de sauvegarde Android."
+        ]
+      },
+      {
+        "id": "sdk",
+        "title": "3. Informations traitées automatiquement et finalités",
+        "paragraphs": [
+          "L’application distribuée contient les SDK Google ci-dessous. Ils peuvent traiter automatiquement des informations lorsque vous utilisez l’application ou vous connectez au réseau. L’étendue exacte dépend des versions des SDK, des réglages de l’appareil et de la région, du consentement et de la configuration des services Google."
+        ],
+        "headers": [
+          "Service",
+          "Informations susceptibles d’être traitées",
+          "Finalité"
+        ],
+        "rows": [
+          [
+            "Google AdMob / Google Mobile Ads",
+            "Adresse IP et position approximative déduite ; identifiant publicitaire Android, identifiant d’ensemble d’applications et autres identifiants liés à l’appareil ou au compte ; interactions telles que lancements, impressions publicitaires, clics et vues de vidéos ; performances et diagnostics de l’application et du SDK publicitaire. Les requêtes protégées appliquent le traitement destiné aux enfants et empêchent l’envoi de l’identifiant publicitaire Android.",
+            "Diffusion et mesure de publicités non personnalisées ; sécurité et prévention de la fraude"
+          ],
+          [
+            "Google User Messaging Platform (UMP)",
+            "Informations sur la région et l’appareil, état du consentement, choix de confidentialité publicitaire, ainsi que les identifiants et paramètres nécessaires à leur application",
+            "Affichage des messages de consentement publicitaire requis, mémorisation des choix et application aux requêtes publicitaires"
+          ],
+          [
+            "Google Analytics for Firebase",
+            "Pour les adultes ayant accepté : identifiants d’instance d’application ou d’installation, modèle d’appareil, système d’exploitation, version et langue de l’application, événements de session ou d’écran et informations IP ou de région générale traitées par le SDK. La collecte de l’identifiant publicitaire par Analytics, le stockage publicitaire, les données utilisateur publicitaires et les signaux de personnalisation des annonces sont désactivés.",
+            "Compréhension de l’utilisation, de l’adoption des fonctions et des tendances de stabilité ; amélioration du service"
+          ],
+          [
+            "Firebase Crashlytics et services d’installation Firebase",
+            "Pour les adultes ayant accepté : identifiants d’installation ou de session, dates et traces de pile des plantages ou erreurs, messages d’erreur, version de l’application, système d’exploitation, modèle, mémoire et diagnostics associés, ainsi que les événements de l’application liés précédant le plantage",
+            "Détection et analyse des erreurs, mesure des installations concernées et amélioration de la fiabilité"
+          ]
+        ],
+        "after": [
+          "Nous ne définissons pas votre nom, adresse e-mail ou téléphone comme identifiant utilisateur Analytics et n’envoyons pas vos sauvegardes comme événements d’analyse. Les identifiants d’appareil et d’application peuvent néanmoins constituer des données personnelles au regard du droit applicable, même sans nom réel.",
+          "À partir de la version 0.31.28, Firebase Core, Analytics et Crashlytics ne démarrent ni avant la décision d’âge ni pour les utilisateurs protégés, âgés de moins de 18 ans ou d’âge inconnu. Les adultes peuvent accepter explicitement l’analyse d’utilisation et les rapports de plantage, puis les désactiver ensemble dans les paramètres. Les versions antérieures non destinées au débogage activaient la collecte automatique ; mettez l’application à jour pour disposer de ces nouveaux choix."
+        ]
+      },
+      {
+        "id": "providers",
+        "title": "4. Google et autres prestataires",
+        "paragraphs": [
+          "Les informations ci-dessus peuvent être transmises à Google LLC et aux sociétés affiliées désignées dans les conditions des services concernés, pour la publicité, l’analyse et les rapports de plantage. Selon le service et ses conditions, Google peut agir comme sous-traitant ou comme responsable de traitement indépendant.",
+          "Selon votre région, vos choix et la configuration publicitaire, des fournisseurs de technologies publicitaires Google peuvent traiter les informations de requêtes et de mesure. Lorsqu’un message de consentement est présenté, consultez-le ainsi que les informations Google correspondantes pour connaître les prestataires et choix applicables.",
+          "Nous recevons et conservons les e-mails d’assistance via Gmail (Google). Le prestataire de messagerie peut traiter l’adresse d’expéditeur, le message et les pièces jointes que vous choisissez d’envoyer. Limitez-vous aux informations nécessaires au traitement de votre demande.",
+          "Nous n’exploitons pas d’activité distincte de vente de données personnelles. Certains transferts publicitaires peuvent toutefois être qualifiés de « partage » ou de traitement à des fins de publicité ciblée selon certaines lois ; voyez les choix ci-dessous. Nous pouvons aussi communiquer des informations limitées pour respecter une obligation légale, une demande licite ou votre propre demande."
+        ]
+      },
+      {
+        "id": "choices",
+        "title": "5. Choix publicitaires, consentement et bases du traitement",
+        "paragraphs": [
+          "À partir de la version 0.31.28, les requêtes de confidentialité publicitaire ou de publicité attendent la décision locale d’âge ou le choix de passer l’étape. Le consentement facultatif des adultes à l’analyse et aux rapports de plantage n’est pas coché par défaut ; le refus ne restreint aucun jeu. Désactiver ces deux fonctions dans les paramètres arrête la collecte future et supprime les rapports de plantage non envoyés de l’appareil, sans effacer automatiquement les données déjà transmises.",
+          "Le SDK publicitaire demande des annonces après que Google UMP a indiqué que ces requêtes sont autorisées. Des avis ou messages de consentement peuvent apparaître selon la région et les exigences de Google. Lorsque des options de confidentialité sont requises, vous pouvez revoir ou modifier vos choix dans l’entrée correspondante des paramètres de l’application. Cette entrée apparaît si UMP la juge nécessaire.",
+          "L’application demande des publicités non personnalisées classées G. Pour les utilisateurs protégés de moins de 18 ans ou d’âge inconnu, elle applique le traitement Google destiné aux enfants et le paramètre UMP indiquant un âge inférieur à celui du consentement. Les publicités non personnalisées ou limitées peuvent encore traiter l’IP, la position générale, les identifiants autorisés, les interactions et les diagnostics. Refuser le consentement publicitaire ou un échec de chargement n’empêche pas de jouer.",
+          "Vous pouvez gérer les choix disponibles concernant l’identifiant publicitaire, notamment sa suppression, dans les paramètres Android de confidentialité ou de publicité. Les intitulés varient selon l’appareil. Les contrôles publicitaires du compte Google s’appliquent séparément aux services Google.",
+          "Selon le droit applicable, le traitement repose sur la fourniture du service, les intérêts légitimes de fiabilité, de sécurité et d’amélioration, des obligations légales ou le consentement lorsqu’il est requis. Vous pouvez retirer un consentement sans affecter la licéité du traitement antérieur. Les exigences locales de consentement doivent être respectées. Le consentement publicitaire et le traitement d’analyse ou de diagnostic ont des portées distinctes."
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "6. Conservation et suppression",
+        "headers": [
+          "Informations",
+          "Conservation et suppression"
+        ],
+        "rows": [
+          [
+            "Sauvegardes et préférences locales",
+            "Conservées tant qu’elles restent sur l’appareil. La réinitialisation de la progression efface les niveaux terminés, étoiles et autres données couverts par cette fonction ; les préférences, certains meilleurs scores et les données des SDK peuvent subsister. Effacez le stockage de l’application dans Android pour supprimer ses données locales. Désinstallation, conservation des sauvegardes et restauration dépendent de l’appareil et des réglages de sauvegarde."
+          ],
+          [
+            "Données Analytics",
+            "Traitées selon les paramètres de conservation et les procédures de suppression de la propriété Analytics. GA4 standard propose généralement 2 ou 14 mois pour les données au niveau utilisateur ou événement ; le renouvellement selon l’activité et d’autres réglages peuvent influer sur cette durée. Ces limites ne s’appliquent pas de la même façon à tous les rapports agrégés standards, et les statistiques agrégées peuvent subsister plus longtemps."
+          ],
+          [
+            "Données Crashlytics",
+            "Google indique conserver les traces de pile des plantages et les identifiants associés pendant 90 jours, avant de commencer leur suppression des systèmes actifs et des sauvegardes. Cela ne signifie pas que la suppression est terminée au 90e jour."
+          ],
+          [
+            "Données publicitaires et de consentement",
+            "Traitées selon les politiques de conservation et de suppression de Google et des prestataires concernés, pendant les durées nécessaires à la diffusion, à la mesure, à la prévention de la fraude et au respect des choix. Les préférences locales et les enregistrements des prestataires peuvent avoir des durées différentes."
+          ],
+          [
+            "E-mails d’assistance",
+            "Conservés jusqu’à la clôture de la demande et du suivi nécessaire, puis supprimés. En cas d’obligation légale, seules les informations nécessaires sont gardées pendant la durée prescrite."
+          ]
+        ],
+        "after": [
+          "Effacer les données de l’application ou la désinstaller ne supprime pas immédiatement les informations déjà envoyées à Google. Contactez-nous ou utilisez les contrôles de confidentialité Google pertinents pour exercer vos droits sur ces informations."
+        ]
+      },
+      {
+        "id": "international",
+        "title": "7. Traitement et transferts internationaux",
+        "paragraphs": [
+          "Les services Google peuvent entraîner un stockage ou un traitement hors de votre pays, notamment aux États-Unis et dans les pays où Google et ses prestataires disposent d’installations. Les destinataires comprennent Google LLC, ses sociétés affiliées et les sous-traitants indiqués dans les conditions et politiques concernées. Les lieux dépendent des conditions de traitement Google et de ses informations sur les installations.",
+          "Les informations et finalités sont celles des sections sur la collecte automatique et les prestataires : publicité, analyse, diagnostic des plantages et assistance par e-mail. Les transferts s’effectuent sur le réseau pendant l’utilisation des SDK. La conservation suit la section correspondante et les politiques des prestataires. La politique Google indique ses voies de contact en matière de confidentialité.",
+          "Lorsqu’elle est requise, une base appropriée de transfert, telle que le consentement ou des garanties contractuelles, doit s’appliquer. Adressez vos questions ou objections à notre contact de confidentialité. Gérez vos choix publicitaires dans les messages concernés et les paramètres. À partir de la version 0.31.28, les adultes peuvent aussi arrêter l’analyse et les rapports facultatifs dans les paramètres ; les utilisateurs protégés ne sont pas soumis à cette collecte."
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "8. Vos droits et vos représentants",
+        "paragraphs": [
+          "Selon le droit applicable, vous pouvez demander l’accès ou une copie, la rectification, l’effacement, la limitation, l’opposition, le retrait du consentement, la portabilité ou des choix relatifs à la publicité ciblée. Un parent, tuteur ou autre représentant autorisé peut agir lorsque la loi le permet.",
+          "Il n’existe pas de compte utilisateur ni de correspondance conservée entre identifiants d’installation et noms ou adresses e-mail. Une adresse e-mail seule peut donc être insuffisante pour retrouver les données SDK d’une installation. Nous vous aiderons dans la mesure du raisonnable à identifier les enregistrements et expliquerons les contrôles disponibles auprès de Google ou des prestataires. Nous ne demandons que les informations nécessaires ; n’envoyez pas de numéros officiels d’identité ou de données sensibles inutiles.",
+          "Vous pouvez déposer une réclamation auprès de l’autorité de protection des données de votre pays. En Corée du Sud, vous pouvez contacter le Personal Information Infringement Report Center (privacy.kisa.or.kr, 118 depuis la Corée) ou le Personal Information Dispute Mediation Committee (kopico.go.kr, 1833-6972 depuis la Corée)."
+        ],
+        "contact": true
+      },
+      {
+        "id": "children",
+        "title": "9. Enfants et mineurs",
+        "paragraphs": [
+          "L’application s’adresse à tous les âges. À partir de la version 0.31.28, des protections prudentes s’appliquent aux moins de 18 ans et aux personnes sans date de naissance renseignée. Celle-ci sert uniquement à la décision locale d’âge, sans être conservée ni transmise. Tous les jeux restent accessibles à chaque âge. Un âge adulte n’est ni présélectionné ni présenté comme une condition d’avantages dans le jeu.",
+          "Les SDK Firebase d’analyse et de rapports de plantage ne démarrent pas pour les utilisateurs protégés. Les annonces utilisent Google Mobile Ads dans la plage de versions autocertifiées Families, avec classement G, sans personnalisation et avec traitement destiné aux enfants. L’identifiant publicitaire Android des utilisateurs protégés n’est pas transmis. Ce traitement ne supprime pas tous les échanges réseau nécessaires aux publicités contextuelles et à la sécurité ; consultez les informations sur les SDK.",
+          "Les règles applicables aux données des enfants, à l’autorisation parentale et aux protections supplémentaires restent en vigueur. Les parents ou tuteurs préoccupés par les données d’un enfant ou un traitement sans autorisation requise peuvent contacter notre adresse de confidentialité. Nous examinerons la situation dans la mesure du raisonnable et prendrons les mesures nécessaires d’effacement, de limitation ou autres."
+        ]
+      },
+      {
+        "id": "security",
+        "title": "10. Sécurité",
+        "paragraphs": [
+          "Nous limitons l’accès aux comptes d’administration et aux données personnelles au nécessaire et appliquons des mesures adaptées, telles que les fonctions de sécurité des prestataires et le chiffrement en transit. Les informations locales bénéficient des protections du stockage applicatif du système d’exploitation. Les données devenues inutiles sont supprimées ou désidentifiées selon les procédures de conservation et de suppression concernées.",
+          "N’incluez pas de mots de passe, numéros officiels d’identité, données de paiement ou autres informations sensibles inutiles à la résolution d’une demande d’assistance."
+        ]
+      },
+      {
+        "id": "website",
+        "title": "11. Site de la présente politique",
+        "paragraphs": [
+          "Cette page ne contient aucune publicité, SDK d’analyse des visiteurs, script ou cookie de suivi installé par le développeur. Elle est hébergée sur GitHub Pages. GitHub peut traiter les adresses IP des visiteurs et d’autres informations de connexion à des fins de sécurité ou connexes selon sa propre politique. Un lien externe vous conduit sur le site et sous les règles du prestataire concerné."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "12. Modifications et politiques associées",
+        "paragraphs": [
+          "Nous pouvons modifier cette politique lorsque les fonctions, prestataires ou lois évoluent et en actualiser la date d’effet. Si une modification importante exige une information ou un consentement supplémentaire, nous respecterons cette exigence. Consultez les ressources officielles ci-dessous pour les pratiques et contrôles de Google et GitHub."
+        ],
+        "sources": true
+      }
+    ],
+    "skip": "Aller à la politique"
+  },
+  "es": {
+    "title": "Política de privacidad",
+    "operator": "Desarrollador de ShallWePuzzle",
+    "dateLabel": "Fecha de entrada en vigor y última actualización",
+    "intro": "El desarrollador de ShallWePuzzle («nosotros») explica a continuación cómo se trata la información en la aplicación Android ShallWePuzzle y en este sitio web de la política.",
+    "summary": "Puedes jugar sin crear una cuenta. Las partidas guardadas y las preferencias se almacenan en tu dispositivo. La aplicación incluye servicios de Google para publicidad, análisis de uso y diagnóstico de fallos, por lo que no es una aplicación que no recopile ningún dato personal.",
+    "contactLabel": "Consultas de privacidad y ejercicio de derechos",
+    "contents": "Índice",
+    "sections": [
+      {
+        "id": "controller",
+        "title": "1. Responsable y contacto",
+        "paragraphs": [
+          "El servicio es ShallWePuzzle y su nombre de paquete Android es kr.shall.we.puzzle. El desarrollador de ShallWePuzzle es responsable del tratamiento de datos personales de la aplicación y de las consultas de privacidad.",
+          "Envía tus preguntas, reclamaciones y solicitudes de acceso, rectificación, supresión, limitación o retirada del consentimiento al correo indicado abajo. Podemos pedir la información razonablemente necesaria para verificar la solicitud y localizar los datos. Responderemos conforme a los procedimientos y plazos de la legislación aplicable."
+        ],
+        "contact": true
+      },
+      {
+        "id": "local",
+        "title": "2. Partidas e información en tu dispositivo",
+        "paragraphs": [
+          "Desde la versión 0.31.28, en el primer uso se comprueba la fecha de nacimiento en la memoria del dispositivo para aplicar un tratamiento protegido o de adulto. No se guardan ni se envían al servidor la fecha de nacimiento ni la edad numérica. Solo se conserva la categoría general de usuario y la elección opcional sobre análisis e informes de fallos en un espacio excluido de las copias de seguridad Android. Si omites la fecha o faltan los ajustes o están dañados, se aplica el tratamiento protegido.",
+          "El progreso, las estrellas, las mejores puntuaciones, las partidas pendientes y recientes, las preferencias de sonido, vibración e idioma, el estado de los tutoriales, los intervalos publicitarios y las decisiones de consentimiento se guardan localmente mediante la aplicación o el SDK. No ofrecemos una cuenta de juego ni un servidor propio para subir o sincronizar las partidas guardadas.",
+          "No se exige registro ni inicio de sesión. La aplicación no solicita tu nombre, teléfono, dirección, contactos, fotos, grabaciones de micrófono ni ubicación GPS precisa, ni incorpora funciones para recogerlos. Si nos escribes, recibimos tu dirección de remitente y el mensaje.",
+          "Si la copia y restauración Android están activadas, el proveedor del sistema operativo puede respaldar algunos datos y restaurarlos tras una reinstalación, según los ajustes del dispositivo y la cuenta Google. Es un mecanismo independiente de una cuenta de juego del desarrollador. Puedes administrarlo en los ajustes de copia de seguridad Android."
+        ]
+      },
+      {
+        "id": "sdk",
+        "title": "3. Información tratada automáticamente y fines",
+        "paragraphs": [
+          "La aplicación distribuida contiene los siguientes SDK de Google. Pueden tratar información automáticamente al usar la aplicación o conectarse a la red. El alcance exacto depende de las versiones de los SDK, los ajustes del dispositivo y la región, el consentimiento y la configuración de los servicios Google."
+        ],
+        "headers": [
+          "Servicio",
+          "Información que puede tratarse",
+          "Finalidad"
+        ],
+        "rows": [
+          [
+            "Google AdMob / Google Mobile Ads",
+            "Dirección IP y ubicación aproximada deducida; ID de publicidad Android, ID de conjunto de aplicaciones y otros identificadores del dispositivo o la cuenta; interacciones como aperturas, impresiones publicitarias, clics y visualizaciones de vídeos; rendimiento y diagnósticos de la aplicación y el SDK publicitario. Las solicitudes protegidas aplican el tratamiento infantil e impiden transmitir el ID de publicidad Android.",
+            "Mostrar y medir publicidad no personalizada; seguridad y prevención del fraude"
+          ],
+          [
+            "Google User Messaging Platform (UMP)",
+            "Información regional y del dispositivo, estado del consentimiento, elecciones de privacidad publicitaria e identificadores o ajustes necesarios para aplicarlas",
+            "Mostrar los mensajes de consentimiento publicitario necesarios, guardar las elecciones y aplicarlas a las solicitudes de anuncios"
+          ],
+          [
+            "Google Analytics for Firebase",
+            "Solo para adultos que aceptan: identificadores de instancia o instalación, modelo, sistema operativo, versión e idioma, eventos de sesión o pantalla e información IP o de región general tratada por el SDK. Se desactivan la recopilación del ID publicitario por Analytics, el almacenamiento publicitario, los datos de usuario para publicidad y las señales de personalización de anuncios.",
+            "Entender el uso, la adopción de funciones y las tendencias de estabilidad, y mejorar el servicio"
+          ],
+          [
+            "Firebase Crashlytics y servicios de instalación Firebase",
+            "Solo para adultos que aceptan: identificadores de instalación o sesión, fechas y trazas de pila de fallos o errores, mensajes de error, versión, sistema operativo, modelo, memoria y diagnósticos relacionados, y eventos vinculados anteriores al fallo",
+            "Detectar e investigar errores, medir las instalaciones afectadas y mejorar la fiabilidad"
+          ]
+        ],
+        "after": [
+          "No usamos tu nombre, correo o teléfono como ID de usuario Analytics ni enviamos archivos de partidas como eventos de análisis. Los identificadores de dispositivo y aplicación pueden seguir siendo datos personales conforme a la legislación aplicable aunque no incluyan tu nombre real.",
+          "Desde la versión 0.31.28, Firebase Core, Analytics y Crashlytics no se inician antes de determinar la edad ni para usuarios protegidos menores de 18 años o de edad desconocida. Los adultos pueden aceptar expresamente el análisis de uso y los informes de fallos y desactivar ambos en Ajustes. Las versiones anteriores que no eran de depuración activaban la recopilación automática; actualiza para disponer de estos controles."
+        ]
+      },
+      {
+        "id": "providers",
+        "title": "4. Google y otros proveedores",
+        "paragraphs": [
+          "La información descrita puede enviarse a Google LLC y a las filiales indicadas en las condiciones del servicio correspondiente para publicidad, análisis e informes de fallos. Según el servicio y sus condiciones, Google puede actuar como nuestro encargado del tratamiento o como responsable independiente.",
+          "En función de la región, tus elecciones y la configuración publicitaria, proveedores de tecnología publicitaria de Google pueden tratar datos de solicitudes y medición. Si aparece un mensaje de consentimiento, consúltalo junto con la información Google correspondiente para conocer los proveedores y las opciones aplicables.",
+          "Recibimos y conservamos los correos de asistencia mediante Gmail (Google). El proveedor de correo puede tratar tu dirección de remitente, mensaje y los archivos adjuntos que decidas enviar. Incluye solo la información necesaria para resolver la consulta.",
+          "No explotamos un negocio separado de venta de datos personales. Algunas comunicaciones publicitarias pueden considerarse «compartición» o tratamiento para publicidad dirigida según ciertas leyes; consulta las opciones siguientes. También podemos comunicar información limitada para cumplir obligaciones legales, solicitudes lícitas o peticiones tuyas."
+        ]
+      },
+      {
+        "id": "choices",
+        "title": "5. Publicidad, consentimiento y bases del tratamiento",
+        "paragraphs": [
+          "Desde la versión 0.31.28, las solicitudes de privacidad publicitaria o anuncios esperan a la decisión local sobre la edad o a que se omita la entrada. El consentimiento opcional de los adultos para análisis e informes de fallos está desmarcado por defecto y rechazarlo no limita ningún juego. Desactivarlo en Ajustes detiene la futura recopilación y elimina los informes pendientes del dispositivo, pero no borra automáticamente los registros ya enviados.",
+          "El SDK solicita anuncios después de que Google UMP indique que las solicitudes están permitidas. Pueden aparecer avisos o mensajes de consentimiento según la región y los requisitos Google. Cuando se requieren opciones de privacidad, puedes revisar o cambiar tus elecciones desde la entrada correspondiente de Ajustes. Esta aparece cuando UMP determina que es necesaria.",
+          "La aplicación solicita anuncios no personalizados con clasificación G. Para usuarios protegidos menores de 18 años o de edad desconocida, aplica el tratamiento Google para niños y el ajuste UMP de edad inferior a la de consentimiento. Los anuncios no personalizados o limitados pueden seguir tratando IP, ubicación general, identificadores permitidos, interacciones y diagnósticos. Rechazar el consentimiento publicitario o un fallo al cargar anuncios no impide jugar.",
+          "Puedes gestionar las opciones disponibles del ID de publicidad, incluida su eliminación, en los ajustes Android de privacidad o publicidad. Los nombres y opciones varían según el dispositivo. Los controles de la cuenta Google se aplican por separado dentro de sus servicios.",
+          "Según la legislación aplicable, el tratamiento se basa en prestar el servicio, intereses legítimos de fiabilidad, seguridad y mejora, obligaciones legales o consentimiento cuando sea necesario. Puedes retirar el consentimiento sin afectar a la licitud del tratamiento anterior. Deben respetarse los requisitos de consentimiento de las regiones que los exijan. El consentimiento publicitario y el tratamiento de análisis o diagnóstico tienen alcances separados."
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "6. Conservación y eliminación",
+        "headers": [
+          "Información",
+          "Conservación y eliminación"
+        ],
+        "rows": [
+          [
+            "Partidas y preferencias locales",
+            "Se conservan mientras permanezcan en el dispositivo. Restablecer el progreso elimina niveles completados, estrellas y demás registros cubiertos por esa función; pueden mantenerse preferencias, algunas mejores puntuaciones y datos de SDK. Borra el almacenamiento de la aplicación en Android para eliminar sus datos locales. La desinstalación, conservación de copias y restauración dependen del dispositivo y de sus ajustes de copia."
+          ],
+          [
+            "Datos Analytics",
+            "Se rigen por los ajustes de conservación y los procedimientos de eliminación de la propiedad Analytics. GA4 estándar suele ofrecer plazos de 2 o 14 meses para datos de usuario o evento; la renovación según actividad y otros ajustes pueden influir. Estos límites no se aplican igual a todos los informes agregados estándar y las estadísticas agregadas pueden conservarse más tiempo."
+          ],
+          [
+            "Datos Crashlytics",
+            "Google indica que conserva las trazas de pila y los identificadores asociados durante 90 días antes de iniciar su eliminación de los sistemas activos y de respaldo. Esto no significa que la eliminación termine el día 90."
+          ],
+          [
+            "Datos publicitarios y de consentimiento",
+            "Se tratan conforme a las políticas de conservación y eliminación de Google y los proveedores correspondientes durante los plazos necesarios para difusión, medición, prevención del fraude y respeto de las elecciones. Las preferencias locales y los registros del proveedor pueden tener plazos distintos."
+          ],
+          [
+            "Correos de asistencia",
+            "Se conservan hasta resolver la consulta y el seguimiento necesario y después se eliminan. Si la ley exige conservarlos, solo se guardará la información necesaria durante el plazo legal."
+          ]
+        ],
+        "after": [
+          "Borrar los datos o desinstalar la aplicación no elimina de inmediato la información ya enviada a Google. Contacta con nosotros o utiliza los controles de privacidad Google pertinentes para ejercer derechos sobre datos ya transmitidos."
+        ]
+      },
+      {
+        "id": "international",
+        "title": "7. Tratamiento y transferencias internacionales",
+        "paragraphs": [
+          "Los servicios Google pueden almacenar o tratar datos fuera de tu país, incluidos Estados Unidos y otros países donde Google o sus proveedores tienen instalaciones. Entre los destinatarios figuran Google LLC y las filiales o encargados indicados en las condiciones y políticas pertinentes. Los lugares dependen de las condiciones de tratamiento Google y de su información sobre instalaciones.",
+          "La información y los fines son los descritos en las secciones de recopilación automática y proveedores: publicidad, análisis, diagnóstico de fallos y asistencia por correo. Las transferencias se realizan por la red al usar los SDK. La conservación sigue su sección específica y las políticas de los proveedores. La política Google ofrece sus vías de contacto de privacidad.",
+          "Cuando la ley lo exija, debe existir una base adecuada para la transferencia, como consentimiento o garantías contractuales. Envía las consultas u objeciones a nuestro correo de privacidad. Gestiona las elecciones publicitarias mediante los mensajes y Ajustes. Desde la versión 0.31.28, los adultos también pueden detener el análisis y los informes opcionales en Ajustes; los usuarios protegidos no están sujetos a esa recopilación."
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "8. Tus derechos y representantes",
+        "paragraphs": [
+          "Según la ley aplicable, puedes solicitar acceso o copia, rectificación, supresión, limitación, oposición, retirada del consentimiento, portabilidad u opciones sobre publicidad dirigida. Los padres, tutores u otros representantes autorizados pueden actuar cuando la ley lo permita.",
+          "No hay cuentas de usuario ni conservamos una correspondencia entre identificadores de instalación y nombres reales o correos. Es posible que un correo por sí solo no permita localizar los registros SDK de una instalación. Ayudaremos a identificarlos cuando sea razonablemente posible y explicaremos los controles de Google o sus proveedores. Solo pedimos la información necesaria; no envíes identificadores oficiales ni datos sensibles innecesarios.",
+          "Puedes reclamar ante la autoridad de protección de datos de tu jurisdicción. En Corea del Sur puedes acudir al Personal Information Infringement Report Center (privacy.kisa.or.kr, 118 desde Corea) o al Personal Information Dispute Mediation Committee (kopico.go.kr, 1833-6972 desde Corea)."
+        ],
+        "contact": true
+      },
+      {
+        "id": "children",
+        "title": "9. Niños y menores",
+        "paragraphs": [
+          "La aplicación está dirigida a todas las edades. Desde la versión 0.31.28 aplica protecciones prudentes a menores de 18 años y a quienes no indican su fecha de nacimiento. La fecha solo sirve para determinar la edad localmente y no se conserva ni transmite. Todos los juegos están disponibles para cualquier edad. No se preselecciona una edad adulta ni se presenta como condición para obtener ventajas.",
+          "Los usuarios protegidos no inician los SDK Firebase de análisis ni de informes de fallos. Los anuncios usan Google Mobile Ads dentro del rango de versiones autocertificadas Families, con clasificación G, sin personalización y con tratamiento infantil. No se transmite el ID de publicidad Android de usuarios protegidos. Esto no elimina todo tratamiento de red necesario para anuncios contextuales y seguridad; consulta la información sobre SDK.",
+          "Siguen siendo aplicables las normas sobre datos infantiles, permiso parental y protecciones adicionales. Los padres o tutores preocupados por datos de un menor o por tratamientos sin el permiso exigido pueden escribir a nuestro correo de privacidad. Investigaremos en la medida razonablemente posible y adoptaremos las medidas necesarias de eliminación, limitación u otras."
+        ]
+      },
+      {
+        "id": "security",
+        "title": "10. Seguridad",
+        "paragraphs": [
+          "Limitamos el acceso a las cuentas de administración y los datos personales a lo necesario y utilizamos medidas adecuadas, como las funciones de seguridad de los proveedores y el cifrado en tránsito. Los datos locales cuentan con la protección del almacenamiento de aplicaciones del sistema operativo. La información innecesaria se elimina o desidentifica conforme a los procedimientos correspondientes.",
+          "No incluyas contraseñas, identificadores oficiales, datos de pago ni otra información sensible innecesaria para resolver una consulta de asistencia."
+        ]
+      },
+      {
+        "id": "website",
+        "title": "11. Este sitio web",
+        "paragraphs": [
+          "Esta página no contiene publicidad, SDK de análisis de visitantes, scripts ni cookies de seguimiento instalados por el desarrollador. Se aloja en GitHub Pages. GitHub puede tratar las direcciones IP y otros datos de conexión por seguridad y fines relacionados conforme a su propia política. Los enlaces externos conducen al sitio y las políticas del proveedor correspondiente."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "12. Cambios y políticas relacionadas",
+        "paragraphs": [
+          "Podemos revisar esta política cuando cambien las funciones, los proveedores o las leyes, y actualizar su fecha de entrada en vigor. Si un cambio importante requiere información o consentimiento adicional, cumpliremos esos requisitos. Consulta las fuentes oficiales siguientes para conocer las prácticas y los controles Google y GitHub."
+        ],
+        "sources": true
+      }
+    ],
+    "skip": "Ir a la política"
+  },
+  "pt-BR": {
+    "title": "Política de Privacidade",
+    "operator": "Desenvolvedor do ShallWePuzzle",
+    "dateLabel": "Vigência e última atualização",
+    "intro": "O desenvolvedor do ShallWePuzzle (“nós”) explica abaixo como as informações são tratadas no aplicativo Android ShallWePuzzle e neste site da política.",
+    "summary": "Você pode jogar sem criar uma conta. As partidas salvas e preferências ficam no seu dispositivo. O aplicativo inclui serviços do Google para publicidade, análise de uso e diagnóstico de falhas; portanto, não é um aplicativo que não coleta nenhum dado pessoal.",
+    "contactLabel": "Dúvidas sobre privacidade e exercício de direitos",
+    "contents": "Sumário",
+    "sections": [
+      {
+        "id": "controller",
+        "title": "1. Responsável e contato",
+        "paragraphs": [
+          "O serviço é o ShallWePuzzle, cujo pacote Android é kr.shall.we.puzzle. O desenvolvedor do ShallWePuzzle é responsável pelo tratamento dos dados pessoais do aplicativo e pelas solicitações de privacidade.",
+          "Envie dúvidas, reclamações e pedidos de acesso, correção, exclusão, restrição ou revogação de consentimento ao e-mail abaixo. Podemos solicitar as informações razoavelmente necessárias para verificar o pedido e localizar os dados. Responderemos conforme os procedimentos e prazos da legislação aplicável."
+        ],
+        "contact": true
+      },
+      {
+        "id": "local",
+        "title": "2. Partidas e informações no seu dispositivo",
+        "paragraphs": [
+          "A partir da versão 0.31.28, a data de nascimento é verificada na memória do dispositivo no primeiro uso, para definir o tratamento protegido ou adulto. Nem a data nem a idade numérica são salvas ou enviadas a servidores. Apenas a categoria geral do usuário e a escolha opcional de análise e relatórios de falhas são guardadas em armazenamento excluído do backup Android. Se a etapa for pulada ou os ajustes estiverem ausentes ou corrompidos, aplica-se o tratamento protegido.",
+          "Progresso, estrelas, recordes, partidas inacabadas e recentes, preferências de som, vibração e idioma, tutoriais, intervalos de publicidade e escolhas de consentimento são salvos localmente pelo aplicativo ou SDK. Não oferecemos conta de jogo nem servidor próprio para enviar ou sincronizar arquivos de partidas salvas.",
+          "Não é necessário cadastro nem login. O aplicativo não solicita nome, telefone, endereço, contatos, fotos, gravações de microfone ou localização GPS precisa, nem possui funções para coletar essas informações. Se você enviar um e-mail, receberemos o endereço do remetente e a mensagem.",
+          "Se o backup e a restauração Android estiverem ativados, o fornecedor do sistema operacional poderá salvar alguns dados e restaurá-los após a reinstalação, conforme os ajustes do dispositivo e da conta Google. Isso é independente de uma conta de jogo do desenvolvedor. Você pode gerenciar essa função nos ajustes de backup Android."
+        ]
+      },
+      {
+        "id": "sdk",
+        "title": "3. Informações tratadas automaticamente e finalidades",
+        "paragraphs": [
+          "O aplicativo distribuído inclui os SDKs Google abaixo. Eles podem tratar informações automaticamente durante o uso ou a conexão à rede. O escopo exato depende das versões dos SDKs, dos ajustes do dispositivo e da região, do consentimento e da configuração dos serviços Google."
+        ],
+        "headers": [
+          "Serviço",
+          "Informações que podem ser tratadas",
+          "Finalidade"
+        ],
+        "rows": [
+          [
+            "Google AdMob / Google Mobile Ads",
+            "Endereço IP e localização aproximada inferida; ID de publicidade Android, ID de conjunto de aplicativos e outros identificadores relacionados ao dispositivo ou à conta; interações como aberturas, impressões de anúncios, cliques e visualizações de vídeos; desempenho e diagnósticos do aplicativo e do SDK publicitário. Solicitações protegidas aplicam o tratamento infantil e impedem a transmissão do ID de publicidade Android.",
+            "Exibir e medir publicidade não personalizada; segurança e prevenção a fraudes"
+          ],
+          [
+            "Google User Messaging Platform (UMP)",
+            "Informações regionais e do dispositivo, status de consentimento, escolhas de privacidade publicitária e identificadores ou ajustes necessários para aplicá-las",
+            "Exibir as mensagens de consentimento publicitário exigidas, salvar as escolhas e aplicá-las às solicitações de anúncios"
+          ],
+          [
+            "Google Analytics for Firebase",
+            "Somente para adultos que aceitam: identificadores de instância ou instalação, modelo, sistema operacional, versão e idioma, eventos de sessão ou tela e informações de IP ou região geral tratadas pelo SDK. A coleta do ID publicitário pelo Analytics, o armazenamento publicitário, os dados do usuário para publicidade e os sinais de personalização de anúncios ficam desativados.",
+            "Entender o uso, a adoção de funções e as tendências de estabilidade e melhorar o serviço"
+          ],
+          [
+            "Firebase Crashlytics e serviços de instalação Firebase",
+            "Somente para adultos que aceitam: identificadores de instalação ou sessão, horários e rastreamentos de pilha de falhas ou erros, mensagens de erro, versão, sistema operacional, modelo, memória e diagnósticos relacionados, além de eventos associados anteriores à falha",
+            "Detectar e investigar erros, medir as instalações afetadas e melhorar a confiabilidade"
+          ]
+        ],
+        "after": [
+          "Não usamos seu nome, e-mail ou telefone como ID de usuário do Analytics nem enviamos arquivos de partidas como eventos de análise. Identificadores de dispositivo e aplicativo ainda podem ser dados pessoais pela legislação aplicável, mesmo sem seu nome real.",
+          "A partir da versão 0.31.28, Firebase Core, Analytics e Crashlytics não são iniciados antes da definição de idade nem para usuários protegidos menores de 18 anos ou com idade desconhecida. Adultos podem aceitar expressamente a análise de uso e os relatórios de falhas e desativar ambos nos Ajustes. Versões anteriores que não eram de depuração ativavam a coleta automática; atualize para usar os novos controles."
+        ]
+      },
+      {
+        "id": "providers",
+        "title": "4. Google e outros prestadores",
+        "paragraphs": [
+          "As informações descritas podem ser enviadas ao Google LLC e às afiliadas indicadas nos termos de cada serviço para publicidade, análise e relatórios de falhas. Conforme o serviço e seus termos, o Google pode atuar como nosso operador ou como controlador independente.",
+          "Dependendo da região, das suas escolhas e da configuração publicitária, fornecedores de tecnologia publicitária Google podem tratar dados de solicitações e medição. Quando houver mensagem de consentimento, consulte-a e as informações Google correspondentes para identificar os fornecedores e opções aplicáveis.",
+          "Recebemos e guardamos e-mails de suporte pelo Gmail (Google). O provedor de e-mail pode tratar o endereço do remetente, a mensagem e os anexos que você decidir enviar. Inclua apenas o necessário para resolver a solicitação.",
+          "Não mantemos um negócio separado de venda de dados pessoais. Certas divulgações publicitárias podem ser consideradas “compartilhamento” ou tratamento para publicidade direcionada por algumas leis; veja as opções abaixo. Também podemos divulgar informações limitadas para cumprir obrigações legais, solicitações lícitas ou pedidos seus."
+        ]
+      },
+      {
+        "id": "choices",
+        "title": "5. Publicidade, consentimento e bases do tratamento",
+        "paragraphs": [
+          "A partir da versão 0.31.28, solicitações de privacidade publicitária ou de anúncios aguardam a definição local de idade ou a escolha de pular a etapa. O consentimento opcional de adultos para análise e relatórios de falhas vem desmarcado, e recusá-lo não restringe nenhum jogo. Desativar essas funções nos Ajustes interrompe a coleta futura e exclui relatórios ainda não enviados do dispositivo, mas não apaga automaticamente os registros já transmitidos.",
+          "O SDK pede anúncios após o Google UMP indicar que as solicitações são permitidas. Avisos ou mensagens de consentimento podem aparecer conforme a região e os requisitos Google. Quando forem exigidas opções de privacidade, você poderá rever ou alterar suas escolhas no item correspondente dos Ajustes. Ele aparece quando o UMP considera necessário.",
+          "O aplicativo solicita anúncios não personalizados com classificação G. Para usuários protegidos menores de 18 anos ou de idade desconhecida, aplica o tratamento Google para crianças e o ajuste UMP de idade inferior à de consentimento. Anúncios não personalizados ou limitados ainda podem tratar IP, localização geral, identificadores permitidos, interações e diagnósticos. Recusar o consentimento publicitário ou uma falha no carregamento não impede jogar.",
+          "Você pode gerenciar as opções disponíveis do ID de publicidade, como sua exclusão, nos ajustes Android de privacidade ou publicidade. Os nomes e opções variam por dispositivo. Os controles da conta Google se aplicam separadamente no âmbito dos serviços Google.",
+          "Conforme a legislação aplicável, o tratamento se baseia na prestação do serviço, em interesses legítimos de confiabilidade, segurança e melhoria, em obrigações legais ou no consentimento exigido. É possível revogar o consentimento sem afetar a licitude do tratamento anterior. Os requisitos de consentimento das regiões que o exigem devem ser cumpridos. O consentimento publicitário e o tratamento de análise ou diagnóstico têm escopos distintos."
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "6. Retenção e exclusão",
+        "headers": [
+          "Informações",
+          "Retenção e exclusão"
+        ],
+        "rows": [
+          [
+            "Partidas salvas e preferências locais",
+            "São mantidas enquanto permanecerem no dispositivo. Redefinir o progresso apaga fases concluídas, estrelas e demais registros abrangidos pela função; preferências, alguns recordes e dados dos SDKs podem permanecer. Limpe o armazenamento do aplicativo no Android para remover seus dados locais. Desinstalação, retenção de backups e restauração dependem do dispositivo e das configurações de backup."
+          ],
+          [
+            "Dados do Analytics",
+            "Seguem os ajustes de retenção e os procedimentos de exclusão da propriedade Analytics. O GA4 padrão geralmente oferece 2 ou 14 meses para dados de usuário ou evento; a renovação por atividade e outros ajustes podem alterar a duração. Esses limites não se aplicam da mesma forma a todos os relatórios agregados padrão, e estatísticas agregadas podem permanecer por mais tempo."
+          ],
+          [
+            "Dados do Crashlytics",
+            "Segundo o Google, rastreamentos de pilha e identificadores associados são mantidos por 90 dias antes de começar a remoção dos sistemas ativos e de backup. Isso não significa que a exclusão termine no 90º dia."
+          ],
+          [
+            "Dados de publicidade e consentimento",
+            "São tratados conforme as políticas de retenção e exclusão do Google e dos fornecedores envolvidos, pelos períodos necessários à exibição, medição, prevenção a fraudes e respeito às escolhas. Preferências locais e registros dos fornecedores podem ter prazos diferentes."
+          ],
+          [
+            "E-mails de suporte",
+            "São guardados até a conclusão da solicitação e dos acompanhamentos necessários e depois excluídos. Se houver obrigação legal, apenas as informações necessárias serão conservadas pelo prazo exigido."
+          ]
+        ],
+        "after": [
+          "Limpar os dados ou desinstalar o aplicativo não exclui imediatamente as informações já enviadas ao Google. Entre em contato conosco ou use os controles de privacidade Google pertinentes para exercer direitos sobre dados já transmitidos."
+        ]
+      },
+      {
+        "id": "international",
+        "title": "7. Tratamento e transferências internacionais",
+        "paragraphs": [
+          "Os serviços Google podem armazenar e tratar dados fora do seu país, inclusive nos Estados Unidos e em outros países onde o Google e seus prestadores tenham instalações. Os destinatários incluem Google LLC e as afiliadas ou operadores indicados nos termos e políticas pertinentes. Os locais dependem dos termos de tratamento Google e das informações sobre suas instalações.",
+          "As informações e finalidades são as descritas nas seções de coleta automática e prestadores: publicidade, análise, diagnóstico de falhas e suporte por e-mail. As transferências ocorrem pela rede durante o uso dos SDKs. A retenção segue a seção específica e as políticas dos prestadores. A política Google informa seus canais de contato de privacidade.",
+          "Quando a lei exigir, deve existir uma base adequada para a transferência, como consentimento ou garantias contratuais. Envie dúvidas ou oposições ao nosso e-mail de privacidade. Gerencie as escolhas publicitárias nas mensagens correspondentes e nos Ajustes. A partir da versão 0.31.28, adultos também podem interromper análises e relatórios opcionais nos Ajustes; usuários protegidos não estão sujeitos a essa coleta."
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "8. Seus direitos e representantes",
+        "paragraphs": [
+          "Conforme a legislação aplicável, você pode solicitar acesso ou cópia, correção, exclusão, restrição, oposição, revogação do consentimento, portabilidade ou opções sobre publicidade direcionada. Pais, responsáveis ou outros representantes autorizados podem agir quando a lei permitir.",
+          "Não há contas de usuário nem mantemos uma correspondência entre identificadores de instalação e nomes reais ou e-mails. Um e-mail sozinho pode não permitir localizar os registros SDK de uma instalação. Ajudaremos a identificá-los quando for razoavelmente possível e explicaremos os controles Google ou dos prestadores. Pedimos apenas o necessário; não envie identificadores oficiais ou informações sensíveis desnecessárias.",
+          "Você pode apresentar reclamação à autoridade de proteção de dados da sua jurisdição. Na Coreia do Sul, há o Personal Information Infringement Report Center (privacy.kisa.or.kr, 118 na Coreia) e o Personal Information Dispute Mediation Committee (kopico.go.kr, 1833-6972 na Coreia)."
+        ],
+        "contact": true
+      },
+      {
+        "id": "children",
+        "title": "9. Crianças e adolescentes",
+        "paragraphs": [
+          "O aplicativo é para todas as idades. A partir da versão 0.31.28, adota proteções conservadoras para menores de 18 anos e pessoas que não informam a data de nascimento. A data serve apenas para a definição local de idade, sem ser salva ou transmitida. Todos os jogos permanecem disponíveis para qualquer idade. Uma idade adulta não é pré-selecionada nem apresentada como condição para vantagens no jogo.",
+          "Usuários protegidos não iniciam os SDKs Firebase de análise ou relatórios de falhas. Os anúncios usam Google Mobile Ads dentro da faixa de versões autocertificadas Families, com classificação G, sem personalização e com tratamento infantil. O ID de publicidade Android de usuários protegidos não é transmitido. Isso não elimina todo processamento de rede necessário à publicidade contextual e à segurança; veja as informações dos SDKs.",
+          "Continuam aplicáveis as regras sobre dados infantis, permissão dos responsáveis e proteções adicionais. Pais ou responsáveis preocupados com dados de uma criança ou tratamento sem a permissão exigida podem escrever ao nosso contato de privacidade. Investigaremos no limite do razoavelmente possível e adotaremos as medidas necessárias de exclusão, restrição ou outras."
+        ]
+      },
+      {
+        "id": "security",
+        "title": "10. Segurança",
+        "paragraphs": [
+          "Limitamos o acesso às contas administrativas e aos dados pessoais ao necessário e adotamos proteções adequadas, como recursos de segurança dos prestadores e criptografia em trânsito. Dados locais contam com a proteção do armazenamento de aplicativos do sistema operacional. Informações que deixaram de ser necessárias são excluídas ou desidentificadas conforme os procedimentos aplicáveis.",
+          "Não inclua senhas, identificadores oficiais, dados de pagamento ou outras informações sensíveis desnecessárias para resolver uma solicitação de suporte."
+        ]
+      },
+      {
+        "id": "website",
+        "title": "11. Este site",
+        "paragraphs": [
+          "A página não contém publicidade, SDKs de análise de visitantes, scripts ou cookies de rastreamento instalados pelo desenvolvedor. Ela é hospedada no GitHub Pages. O GitHub pode tratar IPs de visitantes e outras informações de conexão para segurança e fins relacionados conforme sua própria declaração de privacidade. Links externos levam ao site e às políticas do respectivo prestador."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "12. Alterações e políticas relacionadas",
+        "paragraphs": [
+          "Podemos revisar esta política quando mudarem as funções, os prestadores ou as leis e atualizar sua data de vigência. Se mudanças importantes exigirem aviso ou consentimento adicional, cumpriremos essas exigências. Consulte as fontes oficiais abaixo para conhecer as práticas e os controles do Google e do GitHub."
+        ],
+        "sources": true
+      }
+    ],
+    "skip": "Ir para a política"
+  },
+  "zh-Hant": {
+    "title": "隱私權政策",
+    "operator": "ShallWePuzzle 開發者",
+    "dateLabel": "生效與最後更新日期",
+    "intro": "ShallWePuzzle 開發者（以下稱「我們」）在此說明 Android 應用程式 ShallWePuzzle 與本政策網站如何處理資訊。",
+    "summary": "您不必建立帳號即可遊玩。遊戲存檔與偏好設定儲存在您的裝置上。本應用程式包含用於廣告、使用情況分析及當機診斷的 Google 服務，因此並非完全不蒐集個人資料的應用程式。",
+    "contactLabel": "隱私權問題與權利行使聯絡方式",
+    "contents": "目錄",
+    "sections": [
+      {
+        "id": "controller",
+        "title": "1. 負責者與聯絡方式",
+        "paragraphs": [
+          "本服務名稱為 ShallWePuzzle，Android 套件名稱為 kr.shall.we.puzzle。ShallWePuzzle 開發者負責本應用程式的個人資料處理及隱私權相關詢問。",
+          "如有隱私權問題、申訴，或欲申請查閱、更正、刪除、限制處理或撤回同意，請寄信至下方電子郵件地址。我們可能要求提供合理必要的資訊，以核實請求並找出相關資料，並依適用法律的程序及期限回覆。"
+        ],
+        "contact": true
+      },
+      {
+        "id": "local",
+        "title": "2. 裝置上的遊戲存檔與資訊",
+        "paragraphs": [
+          "自 0.31.28 版起，首次使用時會在裝置記憶體中檢查出生日期，以判定採取保護或成人處理方式。出生日期與實際年齡數字均不儲存，也不傳送至伺服器。僅將概略使用者類別，以及是否選擇分析與當機回報，存於不納入 Android 備份的裝置空間。略過輸入、設定遺失或損毀時，均採取保護處理。",
+          "關卡進度、星星、最高分、未完成及最近遊玩的遊戲、音效、震動、語言偏好、教學狀態、廣告間隔與同意選擇，由應用程式或 SDK 儲存在裝置本機。我們不提供遊戲帳號，也沒有用於上傳或同步遊戲存檔的獨立伺服器。",
+          "本應用程式不要求註冊或登入，不要求提供姓名、電話、地址、聯絡人、相片、麥克風錄音或精確 GPS 位置，也未設置蒐集這些資訊的功能。如果您寄信給我們，我們會收到寄件者的電子郵件地址與內容。",
+          "若啟用 Android 備份與還原，作業系統供應者可能依裝置及 Google 帳號設定備份部分應用程式資料，並於重新安裝後還原。這與開發者營運的遊戲帳號無關，您可在 Android 備份設定中管理。"
+        ]
+      },
+      {
+        "id": "sdk",
+        "title": "3. 自動處理的資訊與目的",
+        "paragraphs": [
+          "所發佈的應用程式包含下列 Google SDK，可能在使用應用程式或連上網路時自動處理資訊。實際範圍取決於 SDK 版本、裝置與地區設定、同意狀態及 Google 服務組態。"
+        ],
+        "headers": [
+          "服務",
+          "可能處理的資訊",
+          "目的"
+        ],
+        "rows": [
+          [
+            "Google AdMob / Google Mobile Ads",
+            "IP 位址及由此推估的大概位置；Android 廣告 ID、應用程式組 ID 與其他裝置或帳號相關識別碼；啟動應用程式、廣告曝光、點擊及影片觀看等互動；應用程式與廣告 SDK 的效能及診斷資訊。受保護的廣告請求會套用兒童處理設定，防止傳送 Android 廣告 ID。",
+            "投放與衡量非個人化廣告；安全與防範詐欺"
+          ],
+          [
+            "Google User Messaging Platform（UMP）",
+            "地區與裝置資訊、同意狀態、廣告隱私選擇，以及套用選擇所需的識別碼與設定資訊",
+            "顯示必要的廣告同意訊息、儲存選擇並套用至廣告請求"
+          ],
+          [
+            "Google Analytics for Firebase",
+            "僅限主動同意的成人：應用程式執行個體或安裝識別碼、裝置型號、作業系統、應用程式版本與語言、工作階段或畫面事件，以及 SDK 處理的 IP 或概略地區資訊。Analytics 的廣告 ID 蒐集、廣告儲存、廣告使用者資料及廣告個人化訊號均停用。",
+            "了解使用情況、功能使用與穩定性趨勢，以改善服務"
+          ],
+          [
+            "Firebase Crashlytics 與 Firebase 安裝服務",
+            "僅限主動同意的成人：安裝或工作階段識別碼、當機或錯誤時間與堆疊追蹤、錯誤訊息、應用程式版本、作業系統、裝置型號、記憶體等診斷資料，以及關聯的當機前應用程式事件",
+            "偵測與調查錯誤、衡量受影響的安裝數並提升可靠性"
+          ]
+        ],
+        "after": [
+          "我們不將您的姓名、電子郵件或電話設為 Analytics 使用者 ID，也不將遊戲存檔作為分析事件傳送。裝置與應用程式識別碼即使不含真實姓名，仍可能依適用法律屬於個人資料。",
+          "自 0.31.28 版起，在年齡判定前，以及對未滿 18 歲或年齡不明的受保護使用者，不啟動 Firebase Core、Analytics 或 Crashlytics。成人可明確選擇加入使用情況分析及當機回報，並在設定中一起關閉。較早的非偵錯版本曾啟用自動蒐集，請更新以使用新的控制選項。"
+        ]
+      },
+      {
+        "id": "providers",
+        "title": "4. Google 與其他服務供應者",
+        "paragraphs": [
+          "上述資訊可能為了廣告、分析及當機回報而傳送至 Google LLC，以及相關服務條款所列的 Google 關係企業並由其處理。依服務與條款不同，Google 可能作為受託處理者或獨立的資料控管者。",
+          "依您的地區、選擇及廣告組態，Google 廣告技術供應者可能處理廣告請求與衡量資訊。若有顯示同意訊息，請參閱該訊息與 Google 相關說明，以了解適用的供應者及選項。",
+          "我們透過 Gmail（Google）收取並保存客服電子郵件。郵件供應者可能處理寄件地址、訊息與您選擇寄送的附件。請僅提供解決問題所需的資訊。",
+          "我們並未另行經營販售個人資料的業務。不過，廣告相關揭露在某些法律下可能構成「分享」或定向廣告處理，請參閱下方選項。為履行法律義務、回應合法要求或辦理您的請求，我們也可能揭露有限資訊。"
+        ]
+      },
+      {
+        "id": "choices",
+        "title": "5. 廣告選擇、同意與處理依據",
+        "paragraphs": [
+          "自 0.31.28 版起，會等到本機年齡判定完成或選擇略過後，才發出廣告隱私或廣告請求。成人的分析與當機回報為自願同意，預設不勾選，拒絕不影響任何遊戲。在設定中關閉後，會停止後續蒐集，並刪除裝置上尚未傳送的當機報告，但不會自動刪除已傳送的紀錄。",
+          "廣告 SDK 會在 Google UMP 表示可提出廣告請求後才要求廣告。依地區及 Google 規定，可能顯示廣告通知或同意訊息。若需要提供隱私選項，您可從應用程式設定中的廣告隱私選項重新查看或變更選擇；UMP 判定必要時才會顯示該項目。",
+          "本應用程式要求 G 級、非個人化廣告。對未滿 18 歲或年齡不明的受保護使用者，套用 Google 兒童處理與 UMP 未達同意年齡設定。非個人化或受限廣告仍可能處理 IP、大概位置、允許的識別碼、互動及診斷資訊。拒絕廣告同意或廣告載入失敗都不影響遊玩。",
+          "您可在 Android 隱私或廣告設定中管理可用的廣告 ID 選項，例如刪除 ID。名稱與選項因裝置而異。Google 帳號的廣告控制另於 Google 服務範圍內適用。",
+          "依適用法律，處理依據可能為提供服務、維持可靠性與安全及改善服務的正當利益、法律義務，或必要時的同意。若基於同意處理，您可撤回同意，不影響撤回前處理的合法性。在要求同意的地區，必須符合相關要求。廣告同意與分析、診斷處理的範圍彼此獨立。"
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "6. 保存與刪除",
+        "headers": [
+          "資訊",
+          "保存與刪除"
+        ],
+        "rows": [
+          [
+            "本機遊戲存檔與偏好設定",
+            "只要資料仍在裝置上就會保存。應用程式的進度重設會清除該功能涵蓋的關卡完成、星星及其他進度紀錄；偏好、部分最高分及 SDK 資料可能保留。若要移除本機資料，請在 Android 設定中清除應用程式儲存空間。解除安裝、備份保留及還原取決於裝置與備份設定。"
+          ],
+          [
+            "Analytics 資料",
+            "依 Analytics 資源的保存設定及刪除程序處理。標準 GA4 通常提供使用者或事件層級 2 個月或 14 個月的設定，依活動更新期限及其他設定可能影響保存期間。這些限制並非以相同方式適用於所有標準彙總報表，彙總統計可能保留更久。"
+          ],
+          [
+            "Crashlytics 資料",
+            "Google 說明，當機堆疊追蹤與相關識別碼保存 90 天後，才開始從正式及備份系統移除的程序，並不表示第 90 天便完成刪除。"
+          ],
+          [
+            "廣告與同意資料",
+            "依 Google 與相關供應者的保存及刪除政策，在廣告投放、衡量、防範詐欺與尊重選擇所需的期間內處理。本機同意設定與供應者紀錄的保存期間可能不同。"
+          ],
+          [
+            "客服電子郵件",
+            "保存至問題與必要後續處理完成後刪除。若法律要求保留，僅將必要資訊保存至法定期限。"
+          ]
+        ],
+        "after": [
+          "清除應用程式資料或解除安裝不會立即刪除已傳送給 Google 的資訊。如欲對已傳送資訊行使權利，請聯絡我們或使用相關的 Google 隱私控制。"
+        ]
+      },
+      {
+        "id": "international",
+        "title": "7. 國際處理與傳輸",
+        "paragraphs": [
+          "使用 Google 服務可能涉及在您所在國家以外儲存及處理資料，包括美國及 Google 或相關供應者設有設施的其他國家。接收者包括 Google LLC，以及相關條款及政策所列的關係企業或受託處理者。處理地點依 Google 資料處理條款及設施資訊而定。",
+          "資訊與目的如自動蒐集及供應者章節所述，包括廣告、分析、當機診斷及電子郵件支援。傳輸在使用 SDK 時透過網路進行。保存依本政策保存章節及相關供應者政策辦理。Google 隱私權政策提供其隱私聯絡管道。",
+          "法律要求時，須有適當的傳輸依據，例如同意或契約保障。若對傳輸有疑問或異議，請聯絡我們的隱私信箱。廣告選擇可透過相關訊息與應用程式設定管理。自 0.31.28 版起，成人亦可在設定中停止自願的分析與當機回報；受保護使用者不適用此類蒐集。"
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "8. 您的權利與代理人",
+        "paragraphs": [
+          "依適用法律，您可請求查閱或取得副本、更正、刪除、限制處理、提出異議、撤回同意、資料可攜，或行使定向廣告相關選擇。法律允許時，父母、監護人或其他授權代理人可代為行使。",
+          "我們沒有使用者帳號，也未保存安裝識別碼與真實姓名或電子郵件的對應關係。因此，單憑電子郵件可能無法找到特定安裝的 SDK 紀錄。我們會在合理可行的範圍協助找出資料，並說明 Google 或供應者可用的控制方式。只會索取處理請求所需的資訊，請勿寄送不必要的政府識別碼或敏感資料。",
+          "您可向所在地的個人資料保護機關申訴。在韓國可向個人資訊侵害申告中心（privacy.kisa.or.kr，韓國境內 118）或個人資訊紛爭調停委員會（kopico.go.kr，韓國境內 1833-6972）尋求協助。"
+        ],
+        "contact": true
+      },
+      {
+        "id": "children",
+        "title": "9. 兒童與未成年人",
+        "paragraphs": [
+          "本應用程式適合所有年齡。自 0.31.28 版起，對未滿 18 歲及未填寫出生日期者採取審慎的保護措施。出生日期僅用於本機年齡判定，不保存或傳送。所有年齡都可使用全部遊戲。不會預選成人年齡，也不會將成年設為獲得遊戲利益的條件。",
+          "受保護使用者不會啟動 Firebase 分析或當機回報 SDK。廣告使用位於 Families 自我認證版本範圍內的 Google Mobile Ads，並採 G 級、非個人化及兒童處理設定。不會傳送受保護使用者的 Android 廣告 ID。兒童處理並不會消除情境式廣告投放及安全所需的所有網路處理，請參閱上述 SDK 說明。",
+          "兒童資料、家長許可與額外保護的適用規定仍須遵守。家長或監護人若對兒童資料或未取得必要許可的處理有疑慮，可聯絡我們的隱私信箱。我們會在合理可行的範圍內調查，並採取必要的刪除、限制或其他措施。"
+        ]
+      },
+      {
+        "id": "security",
+        "title": "10. 安全措施",
+        "paragraphs": [
+          "我們將服務管理帳號及個人資料的存取限制在必要範圍，並採取適當保護措施，例如供應者的安全功能及傳輸加密。本機資訊受作業系統的應用程式儲存保護。不再需要的資訊會依相關保存與刪除程序刪除或去識別化。",
+          "請勿在客服請求中提供非解決問題所需的密碼、政府識別碼、付款資料或其他敏感資訊。"
+        ]
+      },
+      {
+        "id": "website",
+        "title": "11. 本政策網站",
+        "paragraphs": [
+          "本頁沒有開發者設置的廣告、訪客分析 SDK、追蹤程式或追蹤 Cookie，並由 GitHub Pages 託管。GitHub 可能依其隱私聲明，為安全等目的處理訪客 IP 位址與其他連線資訊。點選外部政策連結後，適用該供應者網站的政策。"
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "12. 政策變更與相關政策",
+        "paragraphs": [
+          "我們可能因應應用程式功能、服務供應者或法律變更而修訂本政策，並更新生效日期。若重大變更需要額外通知或同意，會依規定辦理。Google 與 GitHub 的處理方式及控制選項請參閱下方官方資訊。"
+        ],
+        "sources": true
+      }
+    ],
+    "skip": "跳至政策內容"
+  },
+  "id": {
+    "title": "Kebijakan Privasi",
+    "operator": "Pengembang ShallWePuzzle",
+    "dateLabel": "Berlaku dan terakhir diperbarui",
+    "intro": "Pengembang ShallWePuzzle (“kami”) menjelaskan di bawah ini cara informasi ditangani dalam aplikasi Android ShallWePuzzle dan di situs kebijakan ini.",
+    "summary": "Anda dapat bermain tanpa membuat akun. Data permainan dan preferensi disimpan di perangkat Anda. Aplikasi ini menyertakan layanan Google untuk iklan, analisis penggunaan, dan diagnosis error, sehingga bukan aplikasi yang sama sekali tidak mengumpulkan data pribadi.",
+    "contactLabel": "Pertanyaan privasi dan permintaan terkait hak Anda",
+    "contents": "Daftar isi",
+    "sections": [
+      {
+        "id": "controller",
+        "title": "1. Penanggung jawab dan kontak",
+        "paragraphs": [
+          "Layanan ini bernama ShallWePuzzle, dengan paket Android kr.shall.we.puzzle. Pengembang ShallWePuzzle bertanggung jawab atas penanganan data pribadi dalam aplikasi dan pertanyaan terkait privasi.",
+          "Kirim pertanyaan, keluhan, serta permintaan akses, perbaikan, penghapusan, pembatasan, atau penarikan persetujuan ke email di bawah. Kami dapat meminta informasi yang secara wajar diperlukan untuk memverifikasi permintaan dan menemukan data terkait. Kami akan merespons sesuai prosedur dan batas waktu hukum yang berlaku."
+        ],
+        "contact": true
+      },
+      {
+        "id": "local",
+        "title": "2. Data permainan dan informasi di perangkat",
+        "paragraphs": [
+          "Mulai versi 0.31.28, tanggal lahir diperiksa dalam memori perangkat saat pertama kali digunakan untuk menentukan perlakuan terlindungi atau dewasa. Tanggal lahir dan angka usia tidak disimpan atau dikirim ke server. Hanya kategori umum pengguna dan pilihan analisis/laporan error opsional yang disimpan di penyimpanan perangkat yang tidak disertakan dalam cadangan Android. Jika Anda melewati pengisian atau setelan hilang/rusak, perlakuan terlindungi diterapkan.",
+          "Progres level, bintang, skor tertinggi, permainan yang belum selesai dan yang baru dimainkan, preferensi suara, getaran dan bahasa, status tutorial, interval iklan, serta pilihan persetujuan disimpan secara lokal oleh aplikasi atau SDK. Kami tidak menyediakan akun permainan maupun server terpisah untuk mengunggah dan menyinkronkan file permainan Anda.",
+          "Pendaftaran dan login tidak diperlukan. Aplikasi tidak meminta nama, nomor telepon, alamat, kontak, foto, rekaman mikrofon, atau lokasi GPS presisi, dan tidak memiliki fitur untuk mengumpulkannya. Jika Anda mengirim email kepada kami, kami menerima alamat pengirim dan pesannya.",
+          "Jika pencadangan dan pemulihan Android diaktifkan, penyedia sistem operasi dapat mencadangkan sebagian data dan memulihkannya setelah instalasi ulang, bergantung pada setelan perangkat dan akun Google. Ini terpisah dari akun permainan yang dikelola pengembang. Anda dapat mengaturnya melalui setelan pencadangan Android."
+        ]
+      },
+      {
+        "id": "sdk",
+        "title": "3. Informasi yang diproses otomatis dan tujuannya",
+        "paragraphs": [
+          "Aplikasi yang didistribusikan menyertakan SDK Google berikut. SDK dapat memproses informasi secara otomatis ketika aplikasi digunakan atau terhubung ke jaringan. Cakupan tepatnya bergantung pada versi SDK, setelan perangkat dan wilayah, status persetujuan, serta konfigurasi layanan Google."
+        ],
+        "headers": [
+          "Layanan",
+          "Informasi yang mungkin diproses",
+          "Tujuan"
+        ],
+        "rows": [
+          [
+            "Google AdMob / Google Mobile Ads",
+            "Alamat IP dan perkiraan lokasi yang disimpulkan darinya; ID iklan Android, ID kumpulan aplikasi, serta pengenal perangkat/akun lainnya; interaksi seperti pembukaan aplikasi, tayangan iklan, klik, dan penayangan video; kinerja dan diagnosis aplikasi serta SDK iklan. Permintaan terlindungi menggunakan perlakuan anak dan mencegah pengiriman ID iklan Android.",
+            "Menayangkan dan mengukur iklan nonpersonalisasi; keamanan dan pencegahan penipuan"
+          ],
+          [
+            "Google User Messaging Platform (UMP)",
+            "Informasi wilayah dan perangkat, status persetujuan, pilihan privasi iklan, serta informasi pengenal/setelan yang diperlukan untuk menerapkan pilihan tersebut",
+            "Menampilkan pesan persetujuan iklan yang diwajibkan, menyimpan pilihan, dan menerapkannya pada permintaan iklan"
+          ],
+          [
+            "Google Analytics for Firebase",
+            "Hanya untuk orang dewasa yang menyetujui: pengenal instance aplikasi/instalasi, model perangkat, sistem operasi, versi dan bahasa aplikasi, peristiwa sesi/layar, serta informasi IP/wilayah umum yang diproses SDK. Pengumpulan ID iklan oleh Analytics, penyimpanan iklan, data pengguna untuk iklan, dan sinyal personalisasi iklan dinonaktifkan.",
+            "Memahami penggunaan, pemanfaatan fitur, dan tren kestabilan, serta meningkatkan layanan"
+          ],
+          [
+            "Firebase Crashlytics dan layanan instalasi Firebase",
+            "Hanya untuk orang dewasa yang menyetujui: pengenal instalasi/sesi, waktu error dan pelacakan tumpukan, pesan error, versi aplikasi, sistem operasi, model perangkat, memori dan diagnosis terkait, serta peristiwa aplikasi terkait sebelum error",
+            "Mendeteksi dan menyelidiki error, mengukur instalasi terdampak, dan meningkatkan keandalan"
+          ]
+        ],
+        "after": [
+          "Kami tidak menetapkan nama, email, atau nomor telepon sebagai ID pengguna Analytics dan tidak mengirim file permainan sebagai peristiwa analisis. Pengenal perangkat dan aplikasi tetap dapat dianggap sebagai data pribadi menurut hukum yang berlaku meskipun bukan nama asli Anda.",
+          "Mulai versi 0.31.28, Firebase Core, Analytics, dan Crashlytics tidak dijalankan sebelum keputusan usia maupun untuk pengguna terlindungi di bawah 18 tahun atau yang usianya tidak diketahui. Orang dewasa dapat secara tegas menyetujui analisis penggunaan dan laporan error lalu menonaktifkan keduanya bersamaan di Setelan. Versi sebelumnya yang bukan versi debug mengaktifkan pengumpulan otomatis; perbarui untuk menggunakan kontrol baru."
+        ]
+      },
+      {
+        "id": "providers",
+        "title": "4. Google dan penyedia layanan lain",
+        "paragraphs": [
+          "Informasi di atas dapat dikirim ke dan diproses oleh Google LLC serta afiliasi yang disebutkan dalam ketentuan layanan terkait untuk iklan, analisis, dan laporan error. Bergantung pada layanan dan ketentuannya, Google dapat bertindak sebagai pemroses kami atau pengendali independen.",
+          "Bergantung pada wilayah, pilihan, dan konfigurasi iklan, penyedia teknologi iklan Google dapat memproses data permintaan dan pengukuran. Jika pesan persetujuan ditampilkan, lihat pesan dan informasi Google terkait untuk mengetahui penyedia dan pilihan yang berlaku.",
+          "Kami menerima dan menyimpan email bantuan melalui Gmail (Google). Penyedia email dapat memproses alamat pengirim, pesan, dan lampiran yang Anda pilih untuk dikirim. Sertakan hanya informasi yang diperlukan untuk menangani pertanyaan Anda.",
+          "Kami tidak menjalankan bisnis terpisah untuk menjual data pribadi. Pengungkapan terkait iklan dapat termasuk “berbagi” atau pemrosesan untuk iklan tertarget menurut sebagian hukum; lihat pilihan di bawah. Kami juga dapat mengungkapkan informasi terbatas untuk memenuhi kewajiban hukum, permintaan yang sah, atau permintaan Anda sendiri."
+        ]
+      },
+      {
+        "id": "choices",
+        "title": "5. Pilihan iklan, persetujuan, dan dasar pemrosesan",
+        "paragraphs": [
+          "Mulai versi 0.31.28, permintaan privasi iklan atau iklan menunggu keputusan usia lokal atau pilihan untuk melewati pengisian. Persetujuan analisis/laporan error opsional untuk orang dewasa tidak dicentang secara default, dan menolak tidak membatasi permainan apa pun. Menonaktifkannya di Setelan menghentikan pengumpulan selanjutnya dan menghapus laporan error yang belum dikirim dari perangkat, tetapi tidak otomatis menghapus catatan yang sudah dikirim.",
+          "SDK iklan meminta iklan setelah Google UMP menyatakan bahwa permintaan diizinkan. Pemberitahuan atau pesan persetujuan dapat muncul sesuai wilayah dan ketentuan Google. Jika opsi privasi diperlukan, Anda dapat meninjau atau mengubah pilihan melalui entri privasi iklan di Setelan. Entri ini ditampilkan ketika UMP menentukannya sebagai hal yang diperlukan.",
+          "Aplikasi meminta iklan berperingkat G yang tidak dipersonalisasi. Untuk pengguna terlindungi di bawah 18 tahun atau berusia tidak diketahui, aplikasi menerapkan perlakuan anak Google dan setelan UMP di bawah usia persetujuan. Iklan nonpersonalisasi atau terbatas tetap dapat memproses IP/lokasi umum, pengenal yang diizinkan, interaksi, dan diagnosis. Penolakan persetujuan iklan atau kegagalan memuat iklan tidak menghalangi permainan.",
+          "Anda dapat mengelola opsi ID iklan yang tersedia, seperti menghapus ID, melalui setelan privasi/iklan Android. Nama dan opsi berbeda menurut perangkat. Kontrol iklan akun Google berlaku secara terpisah dalam lingkup layanan Google.",
+          "Sesuai hukum yang berlaku, pemrosesan didasarkan pada penyediaan layanan, kepentingan sah terkait keandalan, keamanan dan peningkatan layanan, kewajiban hukum, atau persetujuan jika diwajibkan. Anda dapat menarik persetujuan tanpa memengaruhi keabsahan pemrosesan sebelumnya. Persyaratan persetujuan harus dipenuhi di wilayah yang mewajibkannya. Persetujuan iklan dan pemrosesan analisis/diagnosis memiliki cakupan terpisah."
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "6. Penyimpanan dan penghapusan",
+        "headers": [
+          "Informasi",
+          "Penyimpanan dan penghapusan"
+        ],
+        "rows": [
+          [
+            "Data permainan dan preferensi lokal",
+            "Disimpan selama masih ada di perangkat. Reset progres menghapus level selesai, bintang, dan catatan progres lain yang tercakup dalam fitur itu; preferensi, sebagian skor tertinggi, dan data SDK dapat tetap ada. Hapus penyimpanan aplikasi di setelan Android untuk menghapus data lokal. Pencopotan, retensi cadangan, dan pemulihan bergantung pada perangkat dan setelan cadangan."
+          ],
+          [
+            "Data Analytics",
+            "Ditangani sesuai setelan retensi dan prosedur penghapusan properti Analytics. GA4 standar umumnya menyediakan opsi 2 atau 14 bulan untuk data tingkat pengguna/peristiwa; pembaruan berdasarkan aktivitas dan setelan lain dapat memengaruhi retensi. Batas tersebut tidak berlaku dengan cara yang sama pada semua laporan agregat standar, dan statistik agregat dapat disimpan lebih lama."
+          ],
+          [
+            "Data Crashlytics",
+            "Menurut Google, pelacakan tumpukan error dan pengenal terkait disimpan selama 90 hari sebelum proses penghapusan dari sistem aktif dan cadangan dimulai. Ini tidak berarti penghapusan selesai pada hari ke-90."
+          ],
+          [
+            "Data iklan dan persetujuan",
+            "Diproses sesuai kebijakan retensi/penghapusan Google dan penyedia terkait selama diperlukan untuk penayangan, pengukuran, pencegahan penipuan, dan penghormatan pilihan. Preferensi persetujuan lokal dan catatan penyedia dapat memiliki masa retensi berbeda."
+          ],
+          [
+            "Email bantuan",
+            "Disimpan sampai pertanyaan dan tindak lanjut yang diperlukan selesai, lalu dihapus. Jika diwajibkan hukum, hanya informasi yang diperlukan yang disimpan selama jangka waktu yang ditetapkan."
+          ]
+        ],
+        "after": [
+          "Menghapus data atau mencopot aplikasi tidak langsung menghapus informasi yang sudah dikirim ke Google. Hubungi kami atau gunakan kontrol privasi Google yang relevan untuk menggunakan hak atas data yang sudah dikirim."
+        ]
+      },
+      {
+        "id": "international",
+        "title": "7. Pemrosesan dan transfer internasional",
+        "paragraphs": [
+          "Layanan Google dapat melibatkan penyimpanan dan pemrosesan di luar negara Anda, termasuk Amerika Serikat dan negara tempat Google serta penyedianya memiliki fasilitas. Penerima mencakup Google LLC, afiliasi, dan pemroses yang disebutkan dalam ketentuan serta kebijakan terkait. Lokasi pemrosesan bergantung pada ketentuan pemrosesan dan informasi fasilitas Google.",
+          "Informasi dan tujuan sesuai bagian pengumpulan otomatis dan penyedia: iklan, analisis, diagnosis error, dan bantuan email. Transfer dilakukan melalui jaringan saat SDK digunakan. Retensi mengikuti bagian penyimpanan dan kebijakan penyedia. Kebijakan Google menjelaskan jalur kontak privasinya.",
+          "Jika diwajibkan hukum, dasar transfer yang sesuai, seperti persetujuan atau perlindungan kontraktual, harus berlaku. Kirim pertanyaan atau keberatan ke email privasi kami. Kelola pilihan iklan melalui pesan terkait dan Setelan. Mulai versi 0.31.28, orang dewasa juga dapat menghentikan analisis dan laporan opsional di Setelan; pengguna terlindungi tidak menjalani pengumpulan tersebut."
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "8. Hak Anda dan perwakilan",
+        "paragraphs": [
+          "Sesuai hukum yang berlaku, Anda dapat meminta akses atau salinan, perbaikan, penghapusan, pembatasan, keberatan, penarikan persetujuan, portabilitas, atau pilihan terkait iklan tertarget. Orang tua, wali, atau perwakilan sah lainnya dapat bertindak jika diizinkan hukum.",
+          "Tidak ada akun pengguna dan kami tidak menyimpan pemetaan pengenal instalasi ke nama asli atau email. Email saja mungkin tidak cukup untuk menemukan catatan SDK dari instalasi tertentu. Kami akan membantu sejauh wajar dan menjelaskan kontrol Google/penyedia yang tersedia. Kami hanya meminta informasi yang diperlukan; jangan kirim nomor identitas resmi atau informasi sensitif yang tidak dibutuhkan.",
+          "Anda dapat mengajukan keluhan kepada otoritas perlindungan data di wilayah Anda. Di Korea Selatan, bantuan tersedia melalui Personal Information Infringement Report Center (privacy.kisa.or.kr, 118 di Korea) atau Personal Information Dispute Mediation Committee (kopico.go.kr, 1833-6972 di Korea)."
+        ],
+        "contact": true
+      },
+      {
+        "id": "children",
+        "title": "9. Anak dan pengguna di bawah umur",
+        "paragraphs": [
+          "Aplikasi ini untuk segala usia. Mulai versi 0.31.28, perlindungan konservatif diterapkan pada pengguna di bawah 18 tahun dan yang tidak memasukkan tanggal lahir. Tanggal lahir hanya dipakai untuk keputusan usia lokal, tidak disimpan atau dikirim. Semua permainan tersedia untuk setiap usia. Usia dewasa tidak dipilih sebelumnya maupun dijadikan syarat mendapatkan manfaat permainan.",
+          "Pengguna terlindungi tidak menjalankan SDK analisis atau laporan error Firebase. Iklan memakai Google Mobile Ads dalam rentang versi tersertifikasi mandiri Families dengan peringkat G, tanpa personalisasi, dan perlakuan anak. ID iklan Android pengguna terlindungi tidak dikirim. Perlakuan anak tidak menghilangkan seluruh pemrosesan jaringan yang diperlukan untuk iklan kontekstual dan keamanan; lihat informasi SDK di atas.",
+          "Aturan yang berlaku tentang data anak, izin orang tua, dan perlindungan tambahan tetap berlaku. Orang tua atau wali yang khawatir tentang data anak atau pemrosesan tanpa izin yang diwajibkan dapat menghubungi email privasi kami. Kami akan menyelidiki sejauh wajar dan mengambil tindakan penghapusan, pembatasan, atau tindakan lain yang diperlukan."
+        ]
+      },
+      {
+        "id": "security",
+        "title": "10. Keamanan",
+        "paragraphs": [
+          "Kami membatasi akses ke akun administrasi layanan dan data pribadi sesuai kebutuhan, serta menggunakan perlindungan yang sesuai seperti fitur keamanan penyedia dan enkripsi saat transit. Informasi lokal dilindungi oleh penyimpanan aplikasi sistem operasi. Informasi yang tidak diperlukan lagi dihapus atau dihilangkan identitasnya sesuai prosedur retensi dan penghapusan terkait.",
+          "Jangan sertakan kata sandi, pengenal resmi, data pembayaran, atau informasi sensitif lain yang tidak diperlukan untuk menyelesaikan permintaan bantuan."
+        ]
+      },
+      {
+        "id": "website",
+        "title": "11. Situs kebijakan ini",
+        "paragraphs": [
+          "Halaman ini tidak memiliki iklan, SDK analisis pengunjung, skrip pelacakan, atau cookie pelacakan yang dipasang pengembang. Situs dihosting di GitHub Pages. GitHub dapat memproses IP pengunjung dan informasi koneksi lain untuk keamanan dan tujuan terkait sesuai pernyataan privasinya. Tautan kebijakan eksternal membawa Anda ke situs dan kebijakan penyedia tersebut."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "12. Perubahan dan kebijakan terkait",
+        "paragraphs": [
+          "Kami dapat memperbarui kebijakan ini jika fitur, penyedia, atau hukum berubah, serta memperbarui tanggal berlakunya. Jika perubahan penting memerlukan pemberitahuan atau persetujuan tambahan, kami akan memenuhi persyaratan tersebut. Lihat sumber resmi berikut untuk praktik dan kontrol Google serta GitHub."
+        ],
+        "sources": true
+      }
+    ],
+    "skip": "Langsung ke kebijakan"
+  },
+  "th": {
+    "title": "นโยบายความเป็นส่วนตัว",
+    "operator": "ผู้พัฒนา ShallWePuzzle",
+    "dateLabel": "วันที่มีผลและวันที่ปรับปรุงล่าสุด",
+    "intro": "ผู้พัฒนา ShallWePuzzle (“เรา”) อธิบายด้านล่างถึงวิธีจัดการข้อมูลในแอป Android ShallWePuzzle และเว็บไซต์นโยบายนี้",
+    "summary": "คุณเล่นได้โดยไม่ต้องสร้างบัญชี ข้อมูลเกมและการตั้งค่าจะอยู่ในอุปกรณ์ของคุณ แอปมีบริการ Google สำหรับโฆษณา การวิเคราะห์การใช้งาน และการวินิจฉัยข้อขัดข้อง จึงไม่ใช่แอปที่ไม่มีการเก็บข้อมูลส่วนบุคคลเลย",
+    "contactLabel": "สอบถามเรื่องความเป็นส่วนตัวและขอใช้สิทธิ",
+    "contents": "สารบัญ",
+    "sections": [
+      {
+        "id": "controller",
+        "title": "1. ผู้รับผิดชอบและช่องทางติดต่อ",
+        "paragraphs": [
+          "บริการนี้คือ ShallWePuzzle ชื่อแพ็กเกจ Android คือ kr.shall.we.puzzle ผู้พัฒนา ShallWePuzzle รับผิดชอบการจัดการข้อมูลส่วนบุคคลของแอปและคำถามด้านความเป็นส่วนตัว",
+          "โปรดส่งคำถาม ข้อร้องเรียน หรือคำขอเข้าถึง แก้ไข ลบ จำกัดการประมวลผล หรือถอนความยินยอมไปยังอีเมลด้านล่าง เราอาจขอข้อมูลที่จำเป็นตามสมควรเพื่อยืนยันคำขอและค้นหาข้อมูลที่เกี่ยวข้อง และจะตอบตามขั้นตอนและระยะเวลาที่กฎหมายกำหนด"
+        ],
+        "contact": true
+      },
+      {
+        "id": "local",
+        "title": "2. ข้อมูลเกมและข้อมูลในอุปกรณ์",
+        "paragraphs": [
+          "ตั้งแต่เวอร์ชัน 0.31.28 แอปจะตรวจวันเกิดในหน่วยความจำของอุปกรณ์เมื่อใช้ครั้งแรก เพื่อเลือกการดูแลแบบคุ้มครองหรือแบบผู้ใหญ่ โดยไม่บันทึกหรือส่งวันเกิดและตัวเลขอายุไปยังเซิร์ฟเวอร์ จะเก็บเพียงประเภทผู้ใช้โดยกว้างและตัวเลือกการวิเคราะห์/รายงานข้อขัดข้องที่สมัครใจไว้ในพื้นที่ที่ไม่รวมในการสำรองข้อมูล Android หากข้ามการกรอก หรือการตั้งค่าหายหรือเสียหาย จะใช้การดูแลแบบคุ้มครอง",
+          "ความคืบหน้าด่าน ดาว คะแนนสูงสุด เกมที่ยังไม่จบและเกมล่าสุด การตั้งค่าเสียง การสั่น ภาษา สถานะบทสอน ช่วงห่างโฆษณา และตัวเลือกความยินยอมจะถูกเก็บในอุปกรณ์โดยแอปหรือ SDK เราไม่มีบัญชีเกมหรือเซิร์ฟเวอร์แยกสำหรับอัปโหลดและซิงค์ไฟล์บันทึกเกม",
+          "ไม่ต้องลงทะเบียนหรือเข้าสู่ระบบ แอปไม่ขอชื่อ เบอร์โทร ที่อยู่ รายชื่อติดต่อ รูปภาพ เสียงจากไมโครโฟน หรือตำแหน่ง GPS ที่แม่นยำ และไม่มีฟังก์ชันเก็บข้อมูลเหล่านี้ หากคุณส่งอีเมลหาเรา เราจะได้รับอีเมลผู้ส่งและข้อความ",
+          "หากเปิดการสำรองและกู้คืนข้อมูล Android ผู้ให้บริการระบบปฏิบัติการอาจสำรองข้อมูลบางส่วนและกู้คืนหลังติดตั้งใหม่ ตามการตั้งค่าอุปกรณ์และบัญชี Google กลไกนี้แยกจากบัญชีเกมของผู้พัฒนา คุณจัดการได้ในการตั้งค่าการสำรองข้อมูล Android"
+        ]
+      },
+      {
+        "id": "sdk",
+        "title": "3. ข้อมูลที่ประมวลผลอัตโนมัติและวัตถุประสงค์",
+        "paragraphs": [
+          "แอปที่เผยแพร่มี Google SDK ต่อไปนี้ ซึ่งอาจประมวลผลข้อมูลอัตโนมัติเมื่อใช้แอปหรือเชื่อมต่อเครือข่าย ขอบเขตจริงขึ้นอยู่กับเวอร์ชัน SDK การตั้งค่าอุปกรณ์และภูมิภาค สถานะความยินยอม และการกำหนดค่าบริการ Google"
+        ],
+        "headers": [
+          "บริการ",
+          "ข้อมูลที่อาจประมวลผล",
+          "วัตถุประสงค์"
+        ],
+        "rows": [
+          [
+            "Google AdMob / Google Mobile Ads",
+            "ที่อยู่ IP และตำแหน่งโดยประมาณที่อนุมานได้ รหัสโฆษณา Android รหัสชุดแอป และรหัสอื่นที่เกี่ยวกับอุปกรณ์หรือบัญชี การโต้ตอบ เช่น การเปิดแอป การแสดงโฆษณา การคลิกและดูวิดีโอ รวมถึงประสิทธิภาพและการวินิจฉัยของแอปและ SDK โฆษณา คำขอแบบคุ้มครองจะใช้การดูแลสำหรับเด็กและป้องกันการส่งรหัสโฆษณา Android",
+            "แสดงและวัดผลโฆษณาที่ไม่ปรับตามบุคคล รักษาความปลอดภัย และป้องกันการฉ้อโกง"
+          ],
+          [
+            "Google User Messaging Platform (UMP)",
+            "ข้อมูลภูมิภาคและอุปกรณ์ สถานะความยินยอม ตัวเลือกความเป็นส่วนตัวด้านโฆษณา และข้อมูลรหัส/การตั้งค่าที่จำเป็นต่อการใช้ตัวเลือกนั้น",
+            "แสดงข้อความขอความยินยอมด้านโฆษณาที่จำเป็น บันทึกตัวเลือก และใช้กับคำขอโฆษณา"
+          ],
+          [
+            "Google Analytics for Firebase",
+            "เฉพาะผู้ใหญ่ที่ยินยอม: รหัสอินสแตนซ์แอป/การติดตั้ง รุ่นอุปกรณ์ ระบบปฏิบัติการ เวอร์ชันและภาษาแอป เหตุการณ์เซสชัน/หน้าจอ และข้อมูล IP/ภูมิภาคโดยกว้างที่ SDK ประมวลผล โดยปิดการเก็บรหัสโฆษณาของ Analytics การจัดเก็บเพื่อโฆษณา ข้อมูลผู้ใช้เพื่อโฆษณา และสัญญาณปรับโฆษณาตามบุคคล",
+            "ทำความเข้าใจการใช้งาน การใช้ฟีเจอร์ และแนวโน้มความเสถียร เพื่อปรับปรุงบริการ"
+          ],
+          [
+            "Firebase Crashlytics และบริการติดตั้ง Firebase",
+            "เฉพาะผู้ใหญ่ที่ยินยอม: รหัสการติดตั้ง/เซสชัน เวลาและสแต็กเทรซของการขัดข้องหรือข้อผิดพลาด ข้อความผิดพลาด เวอร์ชันแอป ระบบปฏิบัติการ รุ่นอุปกรณ์ หน่วยความจำและข้อมูลวินิจฉัยที่เกี่ยวข้อง รวมถึงเหตุการณ์แอปก่อนขัดข้องที่เชื่อมโยงกัน",
+            "ตรวจหาและวิเคราะห์ข้อผิดพลาด วัดจำนวนการติดตั้งที่ได้รับผลกระทบ และเพิ่มความน่าเชื่อถือ"
+          ]
+        ],
+        "after": [
+          "เราไม่ใช้ชื่อ อีเมล หรือเบอร์โทรของคุณเป็นรหัสผู้ใช้ Analytics และไม่ส่งไฟล์บันทึกเกมเป็นเหตุการณ์วิเคราะห์ อย่างไรก็ตาม รหัสอุปกรณ์และแอปอาจเป็นข้อมูลส่วนบุคคลตามกฎหมาย แม้ไม่ใช่ชื่อจริงของคุณ",
+          "ตั้งแต่เวอร์ชัน 0.31.28 จะไม่เริ่ม Firebase Core, Analytics หรือ Crashlytics ก่อนตัดสินประเภทอายุ หรือสำหรับผู้ใช้แบบคุ้มครองที่อายุต่ำกว่า 18 ปีหรือไม่ทราบอายุ ผู้ใหญ่เลือกยินยอมต่อการวิเคราะห์และรายงานข้อขัดข้องได้อย่างชัดเจน และปิดทั้งสองอย่างร่วมกันในตั้งค่าได้ รุ่นก่อนหน้าที่ไม่ใช่รุ่นแก้จุดบกพร่องเคยเปิดเก็บอัตโนมัติ โปรดอัปเดตเพื่อใช้ตัวเลือกใหม่"
+        ]
+      },
+      {
+        "id": "providers",
+        "title": "4. Google และผู้ให้บริการรายอื่น",
+        "paragraphs": [
+          "ข้อมูลข้างต้นอาจถูกส่งไปและประมวลผลโดย Google LLC และบริษัทในเครือที่ระบุในข้อกำหนดบริการที่เกี่ยวข้อง เพื่อโฆษณา การวิเคราะห์ และรายงานข้อขัดข้อง Google อาจเป็นผู้ประมวลผลแทนเราหรือผู้ควบคุมข้อมูลอิสระตามบริการและข้อกำหนดนั้น",
+          "ผู้ให้บริการเทคโนโลยีโฆษณา Google อาจประมวลผลข้อมูลคำขอและการวัดผล ตามภูมิภาค ตัวเลือก และการกำหนดค่าโฆษณา หากมีข้อความขอความยินยอม โปรดอ่านข้อความและข้อมูล Google ที่เกี่ยวข้องเพื่อดูผู้ให้บริการและตัวเลือกที่ใช้",
+          "เรารับและเก็บอีเมลช่วยเหลือผ่าน Gmail (Google) ผู้ให้บริการอีเมลอาจประมวลผลที่อยู่ผู้ส่ง ข้อความ และไฟล์แนบที่คุณเลือกส่ง โปรดให้เฉพาะข้อมูลที่จำเป็นต่อการแก้ปัญหา",
+          "เราไม่ได้ทำธุรกิจขายข้อมูลส่วนบุคคลแยกต่างหาก แต่การเปิดเผยข้อมูลเพื่อโฆษณาอาจเข้าข่าย “การแบ่งปัน” หรือการประมวลผลเพื่อโฆษณาเจาะกลุ่มตามกฎหมายบางแห่ง โปรดดูตัวเลือกด้านล่าง นอกจากนี้ เราอาจเปิดเผยข้อมูลอย่างจำกัดเพื่อปฏิบัติตามกฎหมาย คำขอที่ชอบด้วยกฎหมาย หรือคำขอของคุณ"
+        ]
+      },
+      {
+        "id": "choices",
+        "title": "5. ตัวเลือกโฆษณา ความยินยอม และฐานการประมวลผล",
+        "paragraphs": [
+          "ตั้งแต่เวอร์ชัน 0.31.28 คำขอด้านความเป็นส่วนตัวโฆษณาหรือคำขอโฆษณาจะรอให้ตัดสินประเภทอายุในอุปกรณ์หรือเลือกข้ามก่อน ความยินยอมการวิเคราะห์/รายงานข้อขัดข้องสำหรับผู้ใหญ่เป็นทางเลือกและไม่ถูกเลือกไว้ล่วงหน้า การปฏิเสธไม่จำกัดเกมใด การปิดในตั้งค่าจะหยุดเก็บข้อมูลต่อไปและลบรายงานที่ยังไม่ส่งในอุปกรณ์ แต่ไม่ลบข้อมูลที่ส่งแล้วโดยอัตโนมัติ",
+          "SDK โฆษณาจะขอโฆษณาหลัง Google UMP แจ้งว่าส่งคำขอได้ อาจแสดงประกาศหรือข้อความขอความยินยอมตามภูมิภาคและข้อกำหนด Google เมื่อจำเป็นต้องมีตัวเลือกความเป็นส่วนตัว คุณทบทวนหรือเปลี่ยนตัวเลือกผ่านรายการความเป็นส่วนตัวโฆษณาในตั้งค่าได้ รายการนี้ปรากฏเมื่อ UMP ระบุว่าจำเป็น",
+          "แอปขอโฆษณาระดับ G ที่ไม่ปรับตามบุคคล สำหรับผู้ใช้แบบคุ้มครองที่ต่ำกว่า 18 ปีหรือไม่ทราบอายุ จะใช้การดูแลสำหรับเด็กของ Google และการตั้งค่า UMP ว่าต่ำกว่าอายุให้ความยินยอม โฆษณาที่ไม่ปรับตามบุคคลหรือแบบจำกัดยังอาจประมวลผล IP/ตำแหน่งโดยกว้าง รหัสที่อนุญาต การโต้ตอบ และข้อมูลวินิจฉัย การไม่ยินยอมโฆษณาหรือโหลดโฆษณาไม่สำเร็จไม่ทำให้เล่นไม่ได้",
+          "คุณจัดการตัวเลือกรหัสโฆษณาที่มี เช่น การลบรหัส ได้ในการตั้งค่าความเป็นส่วนตัว/โฆษณา Android ชื่อและตัวเลือกต่างกันตามอุปกรณ์ การควบคุมโฆษณาในบัญชี Google ใช้แยกต่างหากภายในบริการ Google",
+          "ตามกฎหมายที่ใช้ การประมวลผลอาจอาศัยการให้บริการ ประโยชน์โดยชอบด้วยกฎหมายด้านความน่าเชื่อถือ ความปลอดภัยและการปรับปรุง หน้าที่ตามกฎหมาย หรือความยินยอมเมื่อจำเป็น คุณถอนความยินยอมได้โดยไม่กระทบความชอบด้วยกฎหมายของการประมวลผลก่อนหน้า ต้องปฏิบัติตามข้อกำหนดความยินยอมในภูมิภาคที่กำหนดไว้ ความยินยอมโฆษณากับการวิเคราะห์/วินิจฉัยมีขอบเขตแยกกัน"
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "6. การเก็บรักษาและการลบ",
+        "headers": [
+          "ข้อมูล",
+          "การเก็บรักษาและการลบ"
+        ],
+        "rows": [
+          [
+            "ข้อมูลเกมและการตั้งค่าในอุปกรณ์",
+            "เก็บตราบที่ยังอยู่ในอุปกรณ์ การรีเซ็ตความคืบหน้าจะลบข้อมูลด่านที่ผ่าน ดาว และความคืบหน้าที่ฟังก์ชันนั้นครอบคลุม การตั้งค่า คะแนนสูงสุดบางรายการ และข้อมูล SDK อาจยังอยู่ หากต้องการลบข้อมูลในอุปกรณ์ ให้ล้างพื้นที่เก็บข้อมูลแอปในการตั้งค่า Android การถอนติดตั้ง การเก็บข้อมูลสำรอง และการกู้คืนขึ้นอยู่กับอุปกรณ์และการตั้งค่าการสำรอง"
+          ],
+          [
+            "ข้อมูล Analytics",
+            "จัดการตามการตั้งค่าการเก็บรักษาและขั้นตอนลบของพร็อพเพอร์ตี้ Analytics โดยทั่วไป GA4 มาตรฐานมีตัวเลือก 2 หรือ 14 เดือนสำหรับข้อมูลระดับผู้ใช้/เหตุการณ์ การต่ออายุตามกิจกรรมและการตั้งค่าอื่นอาจส่งผลต่อระยะเวลา ขีดจำกัดนี้ไม่ได้ใช้แบบเดียวกันกับรายงานรวมมาตรฐานทั้งหมด และสถิติรวมอาจคงอยู่นานกว่า"
+          ],
+          [
+            "ข้อมูล Crashlytics",
+            "Google ระบุว่าเก็บสแต็กเทรซและรหัสที่เกี่ยวข้องเป็นเวลา 90 วันก่อนเริ่มกระบวนการนำออกจากระบบที่ใช้งานและระบบสำรอง ไม่ได้หมายความว่าการลบเสร็จในวันที่ 90"
+          ],
+          [
+            "ข้อมูลโฆษณาและความยินยอม",
+            "ประมวลผลตามนโยบายเก็บรักษา/ลบของ Google และผู้ให้บริการที่เกี่ยวข้อง ตามระยะเวลาที่จำเป็นต่อการแสดง วัดผล ป้องกันการฉ้อโกง และเคารพตัวเลือก การตั้งค่าความยินยอมในอุปกรณ์กับบันทึกของผู้ให้บริการอาจมีระยะเวลาเก็บต่างกัน"
+          ],
+          [
+            "อีเมลช่วยเหลือ",
+            "เก็บจนคำถามและการติดตามที่จำเป็นเสร็จสิ้นแล้วลบ หากกฎหมายกำหนดให้เก็บ จะเก็บเฉพาะข้อมูลที่จำเป็นตามระยะเวลาที่กฎหมายกำหนด"
+          ]
+        ],
+        "after": [
+          "การล้างข้อมูลหรือถอนติดตั้งแอปไม่ลบข้อมูลที่ส่งให้ Google แล้วทันที โปรดติดต่อเราหรือใช้การควบคุมความเป็นส่วนตัว Google ที่เกี่ยวข้องเพื่อใช้สิทธิกับข้อมูลที่ส่งแล้ว"
+        ]
+      },
+      {
+        "id": "international",
+        "title": "7. การประมวลผลและโอนข้อมูลระหว่างประเทศ",
+        "paragraphs": [
+          "บริการ Google อาจจัดเก็บและประมวลผลข้อมูลนอกประเทศของคุณ รวมถึงสหรัฐอเมริกาและประเทศที่ Google หรือผู้ให้บริการมีสถานที่ดำเนินงาน ผู้รับรวมถึง Google LLC บริษัทในเครือและผู้ประมวลผลที่ระบุในข้อกำหนดและนโยบาย สถานที่ประมวลผลเป็นไปตามข้อกำหนดการประมวลผลและข้อมูลสถานที่ของ Google",
+          "ข้อมูลและวัตถุประสงค์เป็นตามหัวข้อการเก็บอัตโนมัติและผู้ให้บริการ ได้แก่ โฆษณา การวิเคราะห์ การวินิจฉัยข้อขัดข้อง และการช่วยเหลือทางอีเมล การโอนผ่านเครือข่ายเกิดขึ้นระหว่างใช้ SDK ระยะเวลาเก็บเป็นไปตามหัวข้อการเก็บรักษาและนโยบายของผู้ให้บริการ นโยบาย Google ระบุช่องทางติดต่อความเป็นส่วนตัวของตน",
+          "เมื่อกฎหมายกำหนด ต้องมีฐานการโอนที่เหมาะสม เช่น ความยินยอมหรือมาตรการคุ้มครองตามสัญญา ส่งคำถามหรือการคัดค้านมาที่อีเมลความเป็นส่วนตัวของเรา จัดการตัวเลือกโฆษณาผ่านข้อความที่เกี่ยวข้องและตั้งค่า ตั้งแต่เวอร์ชัน 0.31.28 ผู้ใหญ่ยังหยุดการวิเคราะห์และรายงานทางเลือกในตั้งค่าได้ ผู้ใช้แบบคุ้มครองไม่มีการเก็บประเภทนี้"
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "8. สิทธิของคุณและผู้แทน",
+        "paragraphs": [
+          "ตามกฎหมายที่ใช้ คุณอาจขอเข้าถึงหรือรับสำเนา แก้ไข ลบ จำกัด คัดค้าน ถอนความยินยอม โอนย้ายข้อมูล หรือเลือกเกี่ยวกับโฆษณาเจาะกลุ่มได้ พ่อแม่ ผู้ปกครอง หรือผู้แทนที่ได้รับอนุญาตอาจดำเนินการแทนเมื่อกฎหมายอนุญาต",
+          "ไม่มีบัญชีผู้ใช้ และเราไม่เก็บตารางเชื่อมรหัสการติดตั้งกับชื่อจริงหรืออีเมล จึงอาจค้นหาบันทึก SDK ของการติดตั้งเฉพาะจากอีเมลอย่างเดียวไม่ได้ เราจะช่วยเท่าที่เป็นไปได้ตามสมควรและอธิบายการควบคุม Google/ผู้ให้บริการที่มี เราขอเพียงข้อมูลที่จำเป็น โปรดอย่าส่งรหัสประจำตัวราชการหรือข้อมูลอ่อนไหวที่ไม่จำเป็น",
+          "คุณร้องเรียนต่อหน่วยงานคุ้มครองข้อมูลในเขตอำนาจของคุณได้ ในเกาหลีใต้ ขอความช่วยเหลือได้จาก Personal Information Infringement Report Center (privacy.kisa.or.kr, 118 ภายในเกาหลี) หรือ Personal Information Dispute Mediation Committee (kopico.go.kr, 1833-6972 ภายในเกาหลี)"
+        ],
+        "contact": true
+      },
+      {
+        "id": "children",
+        "title": "9. เด็กและผู้เยาว์",
+        "paragraphs": [
+          "แอปเหมาะสำหรับทุกวัย ตั้งแต่เวอร์ชัน 0.31.28 ใช้มาตรการระมัดระวังกับผู้ใช้อายุต่ำกว่า 18 ปีและผู้ไม่ระบุวันเกิด วันเกิดใช้เฉพาะการตัดสินประเภทอายุในอุปกรณ์ ไม่บันทึกหรือส่ง ทุกวัยเล่นได้ทุกเกม ไม่มีการเลือกอายุผู้ใหญ่ไว้ล่วงหน้าหรือเสนอเป็นเงื่อนไขเพื่อรับสิทธิประโยชน์ในเกม",
+          "ผู้ใช้แบบคุ้มครองจะไม่เริ่ม SDK Firebase สำหรับการวิเคราะห์หรือรายงานข้อขัดข้อง โฆษณาใช้ Google Mobile Ads ในช่วงเวอร์ชันที่รับรองตนเองตาม Families พร้อมระดับ G ไม่ปรับตามบุคคล และการดูแลสำหรับเด็ก ไม่ส่งรหัสโฆษณา Android ของผู้ใช้แบบคุ้มครอง อย่างไรก็ตาม การดูแลสำหรับเด็กไม่ได้ตัดการประมวลผลเครือข่ายทั้งหมดที่จำเป็นต่อโฆษณาตามบริบทและความปลอดภัย โปรดดูข้อมูล SDK ด้านบน",
+          "กฎเรื่องข้อมูลเด็ก การอนุญาตของผู้ปกครอง และการคุ้มครองเพิ่มเติมยังคงใช้ ผู้ปกครองที่กังวลเรื่องข้อมูลเด็กหรือการประมวลผลโดยไม่มีการอนุญาตที่จำเป็นติดต่ออีเมลความเป็นส่วนตัวของเราได้ เราจะตรวจสอบเท่าที่ทำได้ตามสมควรและดำเนินการลบ จำกัด หรือมาตรการอื่นที่จำเป็น"
+        ]
+      },
+      {
+        "id": "security",
+        "title": "10. ความปลอดภัย",
+        "paragraphs": [
+          "เราจำกัดการเข้าถึงบัญชีจัดการบริการและข้อมูลส่วนบุคคลเท่าที่จำเป็น และใช้มาตรการเหมาะสม เช่น ฟังก์ชันความปลอดภัยของผู้ให้บริการและการเข้ารหัสระหว่างส่ง ข้อมูลในอุปกรณ์อยู่ภายใต้การป้องกันพื้นที่เก็บแอปของระบบปฏิบัติการ ข้อมูลที่ไม่จำเป็นแล้วจะถูกลบหรือทำให้ไม่สามารถระบุตัวตนตามขั้นตอนเก็บรักษาและลบที่เกี่ยวข้อง",
+          "โปรดอย่าใส่รหัสผ่าน รหัสประจำตัวราชการ ข้อมูลชำระเงิน หรือข้อมูลอ่อนไหวอื่นที่ไม่จำเป็นต่อการแก้ปัญหาขอความช่วยเหลือ"
+        ]
+      },
+      {
+        "id": "website",
+        "title": "11. เว็บไซต์นโยบายนี้",
+        "paragraphs": [
+          "หน้านี้ไม่มีโฆษณา SDK วิเคราะห์ผู้เข้าชม สคริปต์ติดตาม หรือคุกกี้ติดตามที่ผู้พัฒนาติดตั้ง เว็บไซต์โฮสต์บน GitHub Pages โดย GitHub อาจประมวลผล IP ของผู้เข้าชมและข้อมูลการเชื่อมต่อเพื่อความปลอดภัยและวัตถุประสงค์ที่เกี่ยวข้องตามนโยบายของตน ลิงก์นโยบายภายนอกจะนำไปยังเว็บไซต์และนโยบายของผู้ให้บริการนั้น"
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "12. การเปลี่ยนแปลงและนโยบายที่เกี่ยวข้อง",
+        "paragraphs": [
+          "เราอาจแก้ไขนโยบายเมื่อฟีเจอร์ ผู้ให้บริการ หรือกฎหมายเปลี่ยน และปรับวันที่มีผล หากการเปลี่ยนแปลงสำคัญต้องมีการแจ้งหรือความยินยอมเพิ่ม เราจะปฏิบัติตามข้อกำหนด โปรดดูแหล่งทางการด้านล่างสำหรับแนวทางและการควบคุมของ Google และ GitHub"
+        ],
+        "sources": true
+      }
+    ],
+    "skip": "ข้ามไปยังนโยบาย"
+  },
+  "vi": {
+    "title": "Chính sách quyền riêng tư",
+    "operator": "Nhà phát triển ShallWePuzzle",
+    "dateLabel": "Ngày có hiệu lực và cập nhật gần nhất",
+    "intro": "Nhà phát triển ShallWePuzzle (“chúng tôi”) giải thích dưới đây cách xử lý thông tin trong ứng dụng Android ShallWePuzzle và trên trang chính sách này.",
+    "summary": "Bạn có thể chơi mà không cần tạo tài khoản. Dữ liệu trò chơi và tùy chọn được lưu trên thiết bị. Ứng dụng tích hợp dịch vụ Google để quảng cáo, phân tích mức sử dụng và chẩn đoán sự cố, vì vậy đây không phải ứng dụng hoàn toàn không thu thập dữ liệu cá nhân.",
+    "contactLabel": "Câu hỏi về quyền riêng tư và yêu cầu thực hiện quyền",
+    "contents": "Mục lục",
+    "sections": [
+      {
+        "id": "controller",
+        "title": "1. Đơn vị chịu trách nhiệm và liên hệ",
+        "paragraphs": [
+          "Dịch vụ là ShallWePuzzle, có tên gói Android kr.shall.we.puzzle. Nhà phát triển ShallWePuzzle chịu trách nhiệm xử lý dữ liệu cá nhân của ứng dụng và các yêu cầu về quyền riêng tư.",
+          "Hãy gửi câu hỏi, khiếu nại hoặc yêu cầu truy cập, chỉnh sửa, xóa, hạn chế xử lý hay rút lại sự đồng ý đến email bên dưới. Chúng tôi có thể yêu cầu thông tin cần thiết một cách hợp lý để xác minh yêu cầu và tìm dữ liệu liên quan, đồng thời phản hồi theo thủ tục và thời hạn của pháp luật hiện hành."
+        ],
+        "contact": true
+      },
+      {
+        "id": "local",
+        "title": "2. Dữ liệu trò chơi và thông tin trên thiết bị",
+        "paragraphs": [
+          "Từ phiên bản 0.31.28, ngày sinh được kiểm tra trong bộ nhớ thiết bị ở lần sử dụng đầu để áp dụng chế độ bảo vệ hoặc người lớn. Ngày sinh và tuổi bằng số không được lưu hay gửi đến máy chủ. Chỉ nhóm người dùng khái quát và lựa chọn phân tích/báo cáo sự cố tự nguyện được lưu tại vùng không đưa vào bản sao lưu Android. Nếu bỏ qua ngày sinh hoặc cài đặt bị thiếu/hỏng, chế độ bảo vệ được áp dụng.",
+          "Tiến độ màn chơi, sao, điểm cao, ván chưa xong và trò chơi gần đây, tùy chọn âm thanh, rung, ngôn ngữ, trạng thái hướng dẫn, khoảng cách quảng cáo và lựa chọn đồng ý được lưu cục bộ bởi ứng dụng hoặc SDK. Chúng tôi không cung cấp tài khoản trò chơi hay máy chủ riêng để tải lên và đồng bộ tệp lưu trò chơi.",
+          "Không cần đăng ký hoặc đăng nhập. Ứng dụng không yêu cầu tên, số điện thoại, địa chỉ, danh bạ, ảnh, bản ghi micrô hay vị trí GPS chính xác, và không có chức năng thu thập những thông tin này. Nếu bạn gửi email, chúng tôi nhận địa chỉ người gửi và nội dung thư.",
+          "Nếu bật sao lưu và khôi phục Android, nhà cung cấp hệ điều hành có thể sao lưu một số dữ liệu rồi khôi phục khi cài lại, tùy cài đặt thiết bị và tài khoản Google. Cơ chế này tách biệt với tài khoản trò chơi do nhà phát triển vận hành. Bạn có thể quản lý trong phần cài đặt sao lưu Android."
+        ]
+      },
+      {
+        "id": "sdk",
+        "title": "3. Thông tin được xử lý tự động và mục đích",
+        "paragraphs": [
+          "Ứng dụng được phân phối chứa các SDK Google sau. Chúng có thể tự động xử lý thông tin khi dùng ứng dụng hoặc kết nối mạng. Phạm vi cụ thể phụ thuộc phiên bản SDK, cài đặt thiết bị và khu vực, trạng thái đồng ý và cấu hình dịch vụ Google."
+        ],
+        "headers": [
+          "Dịch vụ",
+          "Thông tin có thể được xử lý",
+          "Mục đích"
+        ],
+        "rows": [
+          [
+            "Google AdMob / Google Mobile Ads",
+            "Địa chỉ IP và vị trí gần đúng suy ra từ đó; mã quảng cáo Android, mã nhóm ứng dụng và các mã liên quan thiết bị/tài khoản khác; tương tác như mở ứng dụng, lượt hiển thị quảng cáo, nhấp và xem video; hiệu suất và dữ liệu chẩn đoán của ứng dụng cùng SDK quảng cáo. Yêu cầu được bảo vệ áp dụng chế độ dành cho trẻ em và ngăn gửi mã quảng cáo Android.",
+            "Phân phối, đo lường quảng cáo không cá nhân hóa; bảo mật và phòng chống gian lận"
+          ],
+          [
+            "Google User Messaging Platform (UMP)",
+            "Thông tin khu vực và thiết bị, trạng thái đồng ý, lựa chọn quyền riêng tư quảng cáo và thông tin mã định danh/cài đặt cần để áp dụng các lựa chọn",
+            "Hiển thị thông báo đồng ý quảng cáo bắt buộc, lưu lựa chọn và áp dụng vào yêu cầu quảng cáo"
+          ],
+          [
+            "Google Analytics for Firebase",
+            "Chỉ với người lớn chủ động đồng ý: mã phiên bản ứng dụng/cài đặt, mẫu thiết bị, hệ điều hành, phiên bản và ngôn ngữ ứng dụng, sự kiện phiên/màn hình, thông tin IP/khu vực khái quát do SDK xử lý. Việc Analytics thu thập mã quảng cáo, lưu trữ quảng cáo, dữ liệu người dùng cho quảng cáo và tín hiệu cá nhân hóa quảng cáo đều bị tắt.",
+            "Hiểu cách sử dụng, mức độ sử dụng tính năng và xu hướng ổn định để cải thiện dịch vụ"
+          ],
+          [
+            "Firebase Crashlytics và dịch vụ cài đặt Firebase",
+            "Chỉ với người lớn chủ động đồng ý: mã cài đặt/phiên, thời điểm và dấu vết ngăn xếp của sự cố/lỗi, thông báo lỗi, phiên bản ứng dụng, hệ điều hành, mẫu thiết bị, bộ nhớ và chẩn đoán liên quan, cùng sự kiện ứng dụng được liên kết trước sự cố",
+            "Phát hiện, điều tra lỗi, đo số lượt cài đặt bị ảnh hưởng và nâng cao độ tin cậy"
+          ]
+        ],
+        "after": [
+          "Chúng tôi không đặt tên, email hay số điện thoại làm mã người dùng Analytics, cũng không gửi tệp lưu trò chơi dưới dạng sự kiện phân tích. Mã thiết bị và ứng dụng vẫn có thể là dữ liệu cá nhân theo pháp luật dù không phải tên thật.",
+          "Từ phiên bản 0.31.28, Firebase Core, Analytics và Crashlytics không khởi chạy trước khi xác định độ tuổi hay đối với người dùng được bảo vệ dưới 18 tuổi hoặc chưa rõ tuổi. Người lớn có thể đồng ý rõ ràng với phân tích sử dụng và báo cáo sự cố, rồi tắt cả hai trong Cài đặt. Các bản trước không phải bản gỡ lỗi đã bật thu thập tự động; hãy cập nhật để dùng các tùy chọn mới."
+        ]
+      },
+      {
+        "id": "providers",
+        "title": "4. Google và nhà cung cấp khác",
+        "paragraphs": [
+          "Thông tin trên có thể được gửi đến và xử lý bởi Google LLC cùng các công ty liên kết nêu trong điều khoản dịch vụ tương ứng để quảng cáo, phân tích và báo cáo sự cố. Tùy dịch vụ và điều khoản, Google có thể là bên xử lý thay chúng tôi hoặc bên kiểm soát độc lập.",
+          "Tùy khu vực, lựa chọn và cấu hình quảng cáo, nhà cung cấp công nghệ quảng cáo Google có thể xử lý dữ liệu yêu cầu và đo lường. Nếu có thông báo đồng ý, hãy xem thông báo và thông tin Google liên quan để biết nhà cung cấp cùng lựa chọn áp dụng.",
+          "Chúng tôi nhận và lưu email hỗ trợ qua Gmail (Google). Nhà cung cấp email có thể xử lý địa chỉ người gửi, nội dung và tệp đính kèm mà bạn chọn gửi. Chỉ cung cấp thông tin cần để giải quyết yêu cầu.",
+          "Chúng tôi không kinh doanh riêng việc bán dữ liệu cá nhân. Tuy vậy, một số tiết lộ quảng cáo có thể được coi là “chia sẻ” hoặc xử lý cho quảng cáo nhắm mục tiêu theo một số luật; xem các lựa chọn bên dưới. Chúng tôi cũng có thể tiết lộ thông tin giới hạn để tuân thủ nghĩa vụ pháp lý, yêu cầu hợp pháp hoặc yêu cầu của chính bạn."
+        ]
+      },
+      {
+        "id": "choices",
+        "title": "5. Lựa chọn quảng cáo, sự đồng ý và cơ sở xử lý",
+        "paragraphs": [
+          "Từ phiên bản 0.31.28, yêu cầu quyền riêng tư quảng cáo hoặc quảng cáo chờ quyết định độ tuổi cục bộ hay lựa chọn bỏ qua. Sự đồng ý phân tích/báo cáo sự cố tự nguyện của người lớn không được chọn sẵn, và từ chối không hạn chế trò chơi nào. Tắt trong Cài đặt dừng thu thập tiếp và xóa báo cáo chưa gửi trên thiết bị, nhưng không tự động xóa dữ liệu đã truyền.",
+          "SDK chỉ yêu cầu quảng cáo sau khi Google UMP cho biết được phép. Thông báo hoặc yêu cầu đồng ý có thể xuất hiện theo khu vực và quy định Google. Khi cần tùy chọn quyền riêng tư, bạn có thể xem lại hoặc thay đổi trong mục quyền riêng tư quảng cáo của Cài đặt. Mục này xuất hiện khi UMP xác định là cần thiết.",
+          "Ứng dụng yêu cầu quảng cáo không cá nhân hóa có mức xếp hạng G. Với người dùng được bảo vệ dưới 18 tuổi hoặc chưa rõ tuổi, ứng dụng áp dụng chế độ Google dành cho trẻ em và cài đặt UMP dưới tuổi đồng ý. Quảng cáo không cá nhân hóa hoặc hạn chế vẫn có thể xử lý IP/vị trí khái quát, mã được phép, tương tác và chẩn đoán. Từ chối đồng ý quảng cáo hoặc tải quảng cáo thất bại không cản trở việc chơi.",
+          "Bạn có thể quản lý các tùy chọn mã quảng cáo hiện có, như xóa mã, trong cài đặt quyền riêng tư/quảng cáo Android. Tên và tùy chọn thay đổi theo thiết bị. Kiểm soát quảng cáo tài khoản Google áp dụng riêng trong phạm vi dịch vụ Google.",
+          "Theo pháp luật áp dụng, việc xử lý dựa trên cung cấp dịch vụ, lợi ích hợp pháp về độ tin cậy, bảo mật và cải thiện, nghĩa vụ pháp lý hoặc sự đồng ý khi cần. Bạn có thể rút lại đồng ý mà không ảnh hưởng tính hợp pháp của xử lý trước đó. Phải đáp ứng yêu cầu đồng ý tại khu vực bắt buộc. Đồng ý quảng cáo và xử lý phân tích/chẩn đoán có phạm vi riêng."
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "6. Lưu giữ và xóa",
+        "headers": [
+          "Thông tin",
+          "Lưu giữ và xóa"
+        ],
+        "rows": [
+          [
+            "Dữ liệu trò chơi và tùy chọn cục bộ",
+            "Được giữ khi còn trên thiết bị. Đặt lại tiến độ xóa các màn hoàn thành, sao và dữ liệu tiến độ thuộc phạm vi tính năng; tùy chọn, một số điểm cao và dữ liệu SDK có thể còn. Hãy xóa bộ nhớ ứng dụng trong Android để xóa dữ liệu cục bộ. Gỡ cài đặt, giữ bản sao lưu và khôi phục phụ thuộc thiết bị và cài đặt sao lưu."
+          ],
+          [
+            "Dữ liệu Analytics",
+            "Được xử lý theo cài đặt lưu giữ và quy trình xóa của thuộc tính Analytics. GA4 tiêu chuẩn thường có tùy chọn 2 hoặc 14 tháng cho dữ liệu cấp người dùng/sự kiện; gia hạn theo hoạt động và cài đặt khác có thể ảnh hưởng thời gian. Giới hạn này không áp dụng như nhau cho mọi báo cáo tổng hợp tiêu chuẩn; số liệu tổng hợp có thể tồn tại lâu hơn."
+          ],
+          [
+            "Dữ liệu Crashlytics",
+            "Theo Google, dấu vết ngăn xếp và mã liên quan được giữ 90 ngày trước khi bắt đầu loại bỏ khỏi hệ thống đang hoạt động và sao lưu. Điều này không có nghĩa việc xóa hoàn tất vào ngày thứ 90."
+          ],
+          [
+            "Dữ liệu quảng cáo và đồng ý",
+            "Được xử lý theo chính sách lưu giữ/xóa của Google và các nhà cung cấp liên quan trong thời gian cần cho phân phối, đo lường, chống gian lận và tôn trọng lựa chọn. Tùy chọn đồng ý cục bộ và hồ sơ nhà cung cấp có thể có thời hạn khác nhau."
+          ],
+          [
+            "Email hỗ trợ",
+            "Được giữ đến khi hoàn tất yêu cầu và việc theo dõi cần thiết, rồi xóa. Nếu luật buộc lưu giữ, chỉ giữ thông tin cần thiết trong thời hạn luật định."
+          ]
+        ],
+        "after": [
+          "Xóa dữ liệu hoặc gỡ ứng dụng không xóa ngay thông tin đã gửi đến Google. Hãy liên hệ chúng tôi hoặc dùng kiểm soát quyền riêng tư Google phù hợp để thực hiện quyền với dữ liệu đã gửi."
+        ]
+      },
+      {
+        "id": "international",
+        "title": "7. Xử lý và chuyển dữ liệu quốc tế",
+        "paragraphs": [
+          "Dịch vụ Google có thể lưu trữ và xử lý ngoài quốc gia của bạn, gồm Hoa Kỳ và các nước nơi Google hoặc nhà cung cấp có cơ sở. Bên nhận gồm Google LLC, công ty liên kết và bên xử lý được nêu trong điều khoản, chính sách liên quan. Địa điểm phụ thuộc điều khoản xử lý và thông tin cơ sở của Google.",
+          "Thông tin và mục đích như phần thu thập tự động và nhà cung cấp: quảng cáo, phân tích, chẩn đoán sự cố và hỗ trợ email. Dữ liệu được chuyển qua mạng khi sử dụng SDK. Thời gian lưu giữ theo phần tương ứng và chính sách nhà cung cấp. Chính sách Google cung cấp kênh liên hệ quyền riêng tư của họ.",
+          "Khi luật yêu cầu, việc chuyển phải có cơ sở phù hợp như đồng ý hoặc bảo đảm hợp đồng. Gửi thắc mắc hoặc phản đối đến email quyền riêng tư của chúng tôi. Quản lý lựa chọn quảng cáo qua thông báo liên quan và Cài đặt. Từ phiên bản 0.31.28, người lớn cũng có thể dừng phân tích và báo cáo tự nguyện trong Cài đặt; người dùng được bảo vệ không chịu sự thu thập này."
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "8. Quyền của bạn và người đại diện",
+        "paragraphs": [
+          "Theo pháp luật áp dụng, bạn có thể yêu cầu truy cập hoặc bản sao, chỉnh sửa, xóa, hạn chế, phản đối, rút lại đồng ý, chuyển dữ liệu hoặc lựa chọn về quảng cáo nhắm mục tiêu. Cha mẹ, người giám hộ hoặc đại diện được ủy quyền có thể thực hiện khi luật cho phép.",
+          "Không có tài khoản người dùng và chúng tôi không giữ bảng liên kết mã cài đặt với tên thật hay email. Chỉ email có thể không đủ để tìm hồ sơ SDK của một lượt cài đặt. Chúng tôi sẽ hỗ trợ trong phạm vi hợp lý và giải thích các kiểm soát Google/nhà cung cấp hiện có. Chỉ yêu cầu thông tin cần thiết; không gửi mã định danh nhà nước hay dữ liệu nhạy cảm không cần thiết.",
+          "Bạn có thể khiếu nại với cơ quan bảo vệ dữ liệu tại nơi mình sống. Tại Hàn Quốc, có thể liên hệ Personal Information Infringement Report Center (privacy.kisa.or.kr, 118 trong Hàn Quốc) hoặc Personal Information Dispute Mediation Committee (kopico.go.kr, 1833-6972 trong Hàn Quốc)."
+        ],
+        "contact": true
+      },
+      {
+        "id": "children",
+        "title": "9. Trẻ em và người chưa thành niên",
+        "paragraphs": [
+          "Ứng dụng dành cho mọi lứa tuổi. Từ phiên bản 0.31.28, áp dụng bảo vệ thận trọng cho người dưới 18 tuổi và người không nhập ngày sinh. Ngày sinh chỉ dùng xác định tuổi trên thiết bị, không lưu hoặc gửi. Tất cả trò chơi đều dành cho mọi tuổi. Không chọn sẵn tuổi trưởng thành hay đặt đó làm điều kiện nhận lợi ích trong game.",
+          "Người dùng được bảo vệ không khởi chạy SDK Firebase phân tích hay báo cáo sự cố. Quảng cáo dùng Google Mobile Ads trong phạm vi phiên bản tự chứng nhận Families, với xếp hạng G, không cá nhân hóa và chế độ trẻ em. Mã quảng cáo Android của người dùng được bảo vệ không được gửi. Chế độ này không loại bỏ mọi xử lý mạng cần cho quảng cáo theo ngữ cảnh và bảo mật; xem thông tin SDK ở trên.",
+          "Các quy định về dữ liệu trẻ em, sự cho phép của cha mẹ và bảo vệ bổ sung vẫn áp dụng. Cha mẹ hoặc người giám hộ lo ngại về dữ liệu trẻ hay xử lý thiếu sự cho phép bắt buộc có thể gửi đến email quyền riêng tư. Chúng tôi sẽ điều tra trong phạm vi hợp lý và thực hiện xóa, hạn chế hoặc biện pháp cần thiết khác."
+        ]
+      },
+      {
+        "id": "security",
+        "title": "10. Bảo mật",
+        "paragraphs": [
+          "Chúng tôi hạn chế truy cập tài khoản quản trị và dữ liệu cá nhân ở mức cần thiết, đồng thời dùng biện pháp phù hợp như tính năng bảo mật nhà cung cấp và mã hóa khi truyền. Thông tin cục bộ được bảo vệ bởi bộ nhớ ứng dụng của hệ điều hành. Dữ liệu không còn cần thiết được xóa hoặc khử định danh theo quy trình lưu giữ và xóa liên quan.",
+          "Không đưa mật khẩu, mã định danh nhà nước, dữ liệu thanh toán hoặc thông tin nhạy cảm không cần để giải quyết yêu cầu hỗ trợ vào thư."
+        ]
+      },
+      {
+        "id": "website",
+        "title": "11. Trang chính sách này",
+        "paragraphs": [
+          "Trang không có quảng cáo, SDK phân tích khách truy cập, tập lệnh hay cookie theo dõi do nhà phát triển cài đặt. Trang được lưu trữ trên GitHub Pages. GitHub có thể xử lý IP và thông tin kết nối của khách để bảo mật và mục đích liên quan theo chính sách riêng. Liên kết ngoài dẫn đến trang và chính sách của nhà cung cấp đó."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "12. Thay đổi và chính sách liên quan",
+        "paragraphs": [
+          "Chúng tôi có thể sửa chính sách khi tính năng, nhà cung cấp hoặc luật thay đổi và cập nhật ngày hiệu lực. Nếu thay đổi quan trọng cần thông báo hoặc đồng ý bổ sung, chúng tôi sẽ tuân thủ. Xem nguồn chính thức bên dưới về cách xử lý và công cụ kiểm soát của Google, GitHub."
+        ],
+        "sources": true
+      }
+    ],
+    "skip": "Chuyển đến nội dung chính sách"
+  }
+}
