@@ -2,7 +2,7 @@
   "app": "ShallWePuzzle",
   "package": "kr.shall.we.puzzle",
   "contact": "dydxo116@gmail.com",
-  "effective": "2026-10-21",
+  "effective": "2026-10-23",
   "ko": {
     "title": "개인정보처리방침",
     "operator": "ShallWePuzzle 개발자",
@@ -27,6 +27,7 @@
         "paragraphs": [
           "0.31.28 이상에서는 최초 실행 시 생년월일을 기기 메모리에서 확인해 보호 대상 또는 성인 여부를 판정합니다. 생년월일 원문·나이 숫자는 저장하거나 서버로 보내지 않습니다. 연령 구분과 선택적 분석·오류 진단 동의만 Android 백업에서 제외되는 기기 내 저장소에 저장합니다. 입력을 건너뛰거나 설정이 없거나 손상되면 보호 대상으로 처리합니다.",
           "스테이지 진행도, 별, 최고 점수, 진행 중인 게임, 최근 플레이 항목, 사운드·진동·언어 설정, 가이드 확인 여부 및 광고 표시 간격·동의 상태 등은 앱 또는 SDK의 기기 내 저장소에 저장됩니다. 게임 기록을 개발자 계정과 연동하거나 별도의 게임 저장 서버에 업로드하는 기능은 제공하지 않습니다.",
+          "1.0.2+107부터 Google Play 게임즈 백업 연결은 연령 보호 설정과 분리된 선택 기능입니다. 연결 안내를 읽고 연결을 선택한 경우에만 SDK를 시작하며, Google 로그인 및 저장 서비스가 허용될 때 스테이지 진행·별·최고 기록을 Google Saved Games에 보관하고 기기 간에 병합합니다. 생년월일·광고 동의·설정·진행 중인 게임판은 이 백업에 넣지 않습니다. Google은 Play 게임즈 프로필과 SDK 자체 이용·진단 정보도 서비스 제공·안정성 개선을 위해 처리합니다. 이 앱은 친구 목록·이메일·소셜 기능을 요청하거나 Play 게임즈 정보를 광고에 이용하지 않습니다. 아동 감독 계정은 Google의 보호자 승인과 서비스 지원 범위에 따르며, 모든 계정에서 저장 기능을 사용할 수 있다는 뜻은 아닙니다. 연결하지 않거나 연결이 거부되어도 모든 게임을 기기에 저장하며 플레이할 수 있고, 보호 대상의 광고·Firebase 보호 설정은 유지됩니다. 백업 연결 선택은 Android 백업에서 제외되는 기기 저장소에 보관됩니다. 기존 사용자를 포함해 최초 한 번 안내하며, 나중에 앱 설정에서 연결할 수 있습니다.",
           "앱은 회원가입이나 로그인을 요구하지 않으며, 이름·전화번호·주소·연락처 목록·사진·마이크 음성·GPS 기반의 정밀 위치를 이용자에게 입력하도록 요구하거나 해당 정보를 수집하는 기능을 제공하지 않습니다. 다만 이메일로 직접 문의하면 발신 이메일 주소와 문의 내용이 개발자에게 전달됩니다.",
           "Android의 백업·복원 기능이 켜져 있으면 앱 데이터 일부가 이용자의 기기·Google 계정 설정에 따라 운영체제 제공자의 백업에 포함되거나 재설치 시 복원될 수 있습니다. 이는 개발자가 제공하는 게임 계정 동기화와는 별개이며 Android 백업 설정에서 관리할 수 있습니다."
         ]
@@ -117,6 +118,10 @@
           [
             "이메일 문의 정보",
             "문의 해결과 필요한 후속 확인이 끝날 때까지 보관한 후 삭제합니다. 법령에 따라 보존할 필요가 있으면 해당 범위와 법정 기간에 한하여 보관합니다."
+          ],
+          [
+            "Google Play 게임즈 백업 및 서비스 정보",
+            "기록은 Google 계정의 Saved Games에 보관되며 Google의 보관·삭제 절차를 따릅니다. Android의 Google 설정에서 Play 게임즈 로그인 계정을 관리하고, Play 게임즈 프로필 또는 Google 계정의 게임 데이터 관리에서 이 게임의 데이터를 삭제할 수 있습니다. 앱 삭제·로컬 초기화만으로 클라우드 사본이 삭제되지는 않으며, 연결을 유지하면 기록이 다시 병합될 수 있습니다."
           ]
         ],
         "after": [
@@ -137,7 +142,7 @@
         "title": "8. 이용자와 법정대리인의 권리",
         "paragraphs": [
           "적용되는 법령에 따라 개인정보 열람·사본 제공, 정정, 삭제, 처리 제한, 처리 반대, 동의 철회, 데이터 이동 또는 맞춤형 광고 관련 선택을 요청할 수 있습니다. 법정대리인도 관련 법령에 따라 권리를 행사할 수 있습니다.",
-          "앱에는 이용자 계정이 없고 개발자가 앱 인스턴스 식별자와 실명·이메일의 대응표를 보유하지 않으므로, 이메일만으로 특정 설치의 SDK 정보를 식별하지 못할 수 있습니다. 가능한 범위에서 요청 대상 확인을 돕고 Google 등 해당 제공자의 관리·삭제 경로를 안내합니다. 요청 확인에 꼭 필요한 정보만 요구하며, 불필요한 주민등록번호나 민감정보를 보내지 마세요.",
+          "개발자 자체 회원 계정이나 설치 식별자와 실명·이메일의 대응표는 운영하지 않습니다. 선택한 Google Play 게임즈 계정과 연결·삭제는 Google의 관리 기능을 이용합니다. 이메일 주소만으로 특정 설치의 SDK 정보를 찾지 못할 수 있으므로 가능한 범위에서 요청 대상 확인을 돕고 해당 제공자의 권리 행사 경로를 안내합니다. 요청 처리에 필요한 정보만 요구하며 불필요한 주민등록번호나 민감정보를 보내지 마세요.",
           "대한민국 개인정보 침해 상담은 개인정보침해 신고센터(privacy.kisa.or.kr, 국번 없이 118) 또는 개인정보분쟁조정위원회(kopico.go.kr, 1833-6972)를 통해 받을 수 있습니다. 그 밖의 지역에서는 관할 개인정보 감독기관에 불만을 제기할 수 있습니다."
         ],
         "contact": true
@@ -201,6 +206,7 @@
         "paragraphs": [
           "Version 0.31.28 and later checks a date of birth in device memory at first use to determine protected or adult treatment. The date of birth and numeric age are not saved or sent to a server. Only the broad audience category and optional analytics/crash-reporting choice are kept in device storage excluded from Android backup. Skipping the date or missing/corrupt settings results in protected treatment.",
           "Stage progress, stars, high scores, unfinished games, recently played games, sound, vibration and language preferences, tutorial status, advertising intervals and consent choices are saved in the app’s or SDK’s local device storage. We do not offer a game account or a separate server that uploads and synchronizes your game-save files.",
+          "From 1.0.2+107, Google Play Games backup is optional and separate from advertising age protection. The SDK starts only after you read the connection notice and choose to connect. When Google sign-in and storage access are allowed, stages, stars and best records are saved in Google Saved Games and merged across devices. Birth dates, ad choices, settings and unfinished boards are not included in this backup. Google also processes the Play Games profile and the SDK’s own usage and diagnostic data to provide and improve the service. This app does not request friends, email or social features, or use Play Games data for advertising. Supervised child accounts depend on Google’s parental approval and service support; storage is not guaranteed for every account. All games remain playable with local saves if you do not connect or access is denied. Protected advertising and Firebase settings remain in effect. The backup choice is kept in device storage excluded from Android backup. Existing users also see the notice once, and connection is available later in app Settings.",
           "The app does not require registration or sign-in. It does not ask you to submit your name, telephone number, address, contacts, photos, microphone recordings or precise GPS location, or include features to collect that information. If you email us, we receive your sender email address and message.",
           "If Android backup and restore is enabled, some app data may be backed up by the operating-system provider and restored after reinstallation, depending on your device and Google account settings. This is separate from a developer-operated game account. You can manage it in Android backup settings."
         ]
@@ -291,6 +297,10 @@
           [
             "Support emails",
             "Kept until the inquiry and necessary follow-up are complete, then deleted. If retention is legally required, only the necessary information is retained for the applicable statutory period."
+          ],
+          [
+            "Google Play Games backup and service data",
+            "Records are stored in Saved Games under your Google account and follow Google’s retention and deletion procedures. Manage the sign-in account in Android’s Google settings, and delete this game’s data through your Play Games profile or Google Account game-data controls. Uninstalling or resetting local progress does not delete the cloud copy; records may merge back while connected."
           ]
         ],
         "after": [
@@ -311,7 +321,7 @@
         "title": "8. Your rights and representatives",
         "paragraphs": [
           "Depending on applicable law, you may request access or a copy, correction, deletion, restriction, objection, consent withdrawal, portability, or choices relating to targeted advertising. A parent, guardian or other authorized representative may act where the law permits.",
-          "There are no user accounts, and we do not keep a mapping between installation identifiers and real names or email addresses. We may be unable to locate a particular installation’s SDK records using an email address alone. We will help identify relevant records where reasonably possible and explain available Google/provider controls. We request only information necessary to handle the request; do not send unnecessary government identifiers or sensitive information.",
+          "We do not operate our own membership accounts or a mapping of installation identifiers to real names or email addresses. Google provides controls for the optional Play Games account connection and deletion. An email address alone may not identify a particular installation’s SDK records. We will help locate relevant records where reasonably possible and explain provider controls. We request only information necessary to handle a request; do not send unnecessary government identifiers or sensitive information.",
           "You may complain to the data-protection authority in your jurisdiction. In South Korea, assistance is available from the Personal Information Infringement Report Center (privacy.kisa.or.kr, 118 within Korea) or the Personal Information Dispute Mediation Committee (kopico.go.kr, 1833-6972 within Korea)."
         ],
         "contact": true
@@ -477,6 +487,34 @@
       "id": "Pernyataan Privasi GitHub",
       "th": "คำชี้แจงความเป็นส่วนตัว GitHub",
       "vi": "Tuyên bố quyền riêng tư GitHub"
+    },
+    {
+      "ko": "Play 게임즈 데이터 공개 안내",
+      "en": "Play Games data disclosure",
+      "ja": "Play Games のデータ開示",
+      "de": "Play-Games-Datenoffenlegung",
+      "fr": "Données traitées par Play Jeux",
+      "es": "Datos tratados por Play Juegos",
+      "pt-BR": "Dados tratados pelo Play Games",
+      "zh-Hant": "Play 遊戲資料揭露",
+      "id": "Pengungkapan data Play Games",
+      "th": "การเปิดเผยข้อมูล Play Games",
+      "vi": "Thông tin dữ liệu Play Games",
+      "url": "https://developer.android.com/games/pgs/data-collection"
+    },
+    {
+      "ko": "자녀의 Play 게임즈 프로필 관리",
+      "en": "Manage a child’s Play Games profile",
+      "ja": "お子様の Play Games プロフィール管理",
+      "de": "Play-Games-Profil eines Kindes verwalten",
+      "fr": "Gérer le profil Play Jeux d’un enfant",
+      "es": "Gestionar el perfil de Play Juegos de un menor",
+      "pt-BR": "Gerenciar o perfil infantil do Play Games",
+      "zh-Hant": "管理兒童的 Play 遊戲個人資料",
+      "id": "Kelola profil Play Games anak",
+      "th": "จัดการโปรไฟล์ Play Games ของบุตรหลาน",
+      "vi": "Quản lý hồ sơ Play Games của trẻ",
+      "url": "https://support.google.com/families/answer/7103028"
     }
   ],
   "ja": {
@@ -503,6 +541,7 @@
         "paragraphs": [
           "バージョン 0.31.28 以降では、初回利用時に端末のメモリ上で生年月日を確認し、保護対象または成人としての取り扱いを判断します。生年月日と具体的な年齢は保存せず、サーバーにも送信しません。大まかな利用者区分と、任意の分析・不具合報告への同意だけを、Android バックアップの対象外となる端末領域に保存します。入力をスキップした場合や設定の欠落・破損がある場合は保護対象として扱います。",
           "ステージの進行、星、ハイスコア、中断したゲーム、最近遊んだゲーム、音・振動・言語の設定、チュートリアルの状態、広告間隔、同意の選択は、アプリまたは SDK の端末内ストレージに保存されます。ゲームアカウントや、セーブファイルをアップロード・同期する独自のサーバーは提供していません。",
+          "1.0.2+107 以降、Google Play Games のバックアップは広告の年齢保護とは別の任意機能です。連携の説明を読み、連携を選択した場合にのみ SDK を開始します。Google のログインと保存サービスが利用を許可した場合、ステージ・星・最高記録を Google Saved Games に保存し、端末間で統合します。生年月日・広告の選択・設定・途中の盤面は含めません。Google はサービス提供と改善のため、Play Games プロフィールと SDK 自体の利用・診断情報も処理します。本アプリは友だち一覧・メール・ソーシャル機能を要求せず、Play Games 情報を広告に利用しません。お子様の管理対象アカウントは Google の保護者承認とサービスの対応状況に従い、すべてのアカウントで保存できるとは限りません。未連携や利用拒否の場合も、端末に保存して全ゲームを遊べます。広告と Firebase の保護設定は維持されます。連携の選択は Android バックアップ対象外の端末領域に保存します。既存利用者にも一度説明を表示し、あとからアプリ設定で連携できます。",
           "登録やログインは不要です。氏名、電話番号、住所、連絡先、写真、マイクの録音、正確な GPS 位置情報の提出を求めたり、それらを収集する機能を設けたりしていません。メールでお問い合わせいただくと、送信元のメールアドレスと本文を受け取ります。",
           "Android のバックアップと復元が有効な場合、端末や Google アカウントの設定に応じ、一部のアプリデータが OS 提供者によってバックアップされ、再インストール時に復元されることがあります。これは開発者が運営するゲームアカウントとは別の仕組みです。Android のバックアップ設定で管理できます。"
         ]
@@ -593,6 +632,10 @@
           [
             "サポートメール",
             "お問い合わせと必要な事後対応が完了するまで保管し、その後削除します。法令による保存義務がある場合は、必要な情報だけを法定期間保存します。"
+          ],
+          [
+            "Google Play Games のバックアップとサービス情報",
+            "記録は Google アカウントの Saved Games に保管され、Google の保管・削除手続きに従います。Android の Google 設定でログイン先を管理し、Play Games プロフィールや Google アカウントのゲームデータ管理から本ゲームのデータを削除できます。アンインストールや端末側の初期化だけではクラウドの記録は削除されず、連携中は再び統合されることがあります。"
           ]
         ],
         "after": [
@@ -613,7 +656,7 @@
         "title": "8. ご本人の権利と代理人",
         "paragraphs": [
           "適用法令に応じ、開示・写しの取得、訂正、削除、処理制限、異議申立て、同意撤回、データポータビリティ、ターゲティング広告に関する選択を請求できます。法律で認められる場合は、親権者、保護者、その他の正式な代理人も対応できます。",
-          "ユーザーアカウントはなく、インストール識別子と実名・メールアドレスの対応表も保持していません。そのため、メールアドレスだけでは特定のインストールの SDK 記録を見つけられない場合があります。合理的に可能な範囲で関連記録の特定をお手伝いし、Google や提供者の管理機能をご案内します。請求への対応に必要な情報だけをお願いします。不要な公的識別番号や機微な情報は送らないでください。",
+          "開発者独自の会員アカウントや、インストール識別子と氏名・メールの対応表は管理しません。任意の Play Games 連携と削除は Google の管理機能を利用します。メールアドレスだけでは特定の SDK 記録を見つけられない場合があります。可能な範囲で記録の確認と提供者の手続きを案内します。対応に必要な情報だけを求めますので、不要な公的識別番号や機微情報は送らないでください。",
           "お住まいの地域の個人情報保護監督機関へ苦情を申し立てることができます。韓国では、個人情報侵害申告センター（privacy.kisa.or.kr、韓国内 118）または個人情報紛争調停委員会（kopico.go.kr、韓国内 1833-6972）に相談できます。"
         ],
         "contact": true
@@ -723,6 +766,7 @@
         "paragraphs": [
           "Ab Version 0.31.28 wird bei der ersten Nutzung das Geburtsdatum im Arbeitsspeicher des Geräts geprüft, um zwischen geschützter und erwachsener Nutzung zu unterscheiden. Geburtsdatum und konkretes Alter werden weder gespeichert noch an Server gesendet. Nur die allgemeine Nutzerkategorie und die freiwillige Entscheidung zu Analyse- und Absturzberichten werden in einem von Android-Backups ausgeschlossenen Gerätespeicher abgelegt. Bei übersprungener Eingabe oder fehlenden bzw. beschädigten Einstellungen gilt die geschützte Behandlung.",
           "Levelfortschritt, Sterne, Bestwerte, unterbrochene und zuletzt gespielte Spiele, Ton-, Vibrations- und Spracheinstellungen, Tutorialstatus, Werbeintervalle und Einwilligungsentscheidungen werden lokal durch die App oder das SDK gespeichert. Wir bieten kein Spielkonto und keinen eigenen Server zum Hochladen oder Synchronisieren Ihrer Spielstandsdateien an.",
+          "Ab 1.0.2+107 ist die Sicherung mit Google Play Spiele freiwillig und vom Altersschutz für Werbung getrennt. Das SDK startet erst, wenn Sie den Verbindungshinweis gelesen und die Verbindung gewählt haben. Wenn Google Anmeldung und Speicherzugriff zulässt, werden Level, Sterne und Bestleistungen in Google Saved Games gespeichert und geräteübergreifend zusammengeführt. Geburtsdatum, Werbeentscheidungen, Einstellungen und laufende Spielbretter sind nicht enthalten. Google verarbeitet außerdem das Spielprofil sowie eigene Nutzungs- und Diagnosedaten des SDKs zur Bereitstellung und Verbesserung des Dienstes. Die App fordert keine Freundeslisten, E-Mails oder sozialen Funktionen an und nutzt Play-Games-Daten nicht für Werbung. Beaufsichtigte Kinderkonten hängen von der elterlichen Zustimmung bei Google und der Dienstunterstützung ab; Speichern ist nicht für jedes Konto garantiert. Ohne Verbindung oder bei verweigertem Zugriff bleiben alle Spiele mit lokaler Speicherung verfügbar. Die Schutzregeln für Werbung und Firebase bleiben bestehen. Die Verbindungsentscheidung wird lokal außerhalb der Android-Sicherung gespeichert. Auch bisherige Nutzer sehen den Hinweis einmal; eine spätere Verbindung ist in den App-Einstellungen möglich.",
           "Registrierung und Anmeldung sind nicht erforderlich. Die App fordert weder Namen, Telefonnummer, Anschrift, Kontakte, Fotos, Mikrofonaufnahmen noch einen genauen GPS-Standort an und enthält keine Funktionen zur Erhebung dieser Angaben. Wenn Sie uns eine E-Mail senden, erhalten wir Ihre Absenderadresse und Ihre Nachricht.",
           "Wenn Android-Sicherung und -Wiederherstellung aktiviert sind, kann der Betriebssystemanbieter je nach Geräte- und Google-Kontoeinstellungen bestimmte App-Daten sichern und nach einer Neuinstallation wiederherstellen. Dies ist unabhängig von einem durch den Entwickler betriebenen Spielkonto. Sie verwalten diese Funktion in den Android-Sicherungseinstellungen."
         ]
@@ -813,6 +857,10 @@
           [
             "Support-E-Mails",
             "Sie werden bis zum Abschluss der Anfrage und erforderlicher Nachbearbeitung aufbewahrt und anschließend gelöscht. Bei gesetzlichen Aufbewahrungspflichten bleiben nur die notwendigen Informationen für die vorgeschriebene Dauer erhalten."
+          ],
+          [
+            "Google-Play-Spiele-Sicherung und Dienstdaten",
+            "Die Aufzeichnungen liegen in Saved Games Ihres Google-Kontos und unterliegen Googles Aufbewahrungs- und Löschverfahren. Verwalten Sie das Anmeldekonto in den Google-Einstellungen von Android und löschen Sie die Daten dieses Spiels über Ihr Play-Games-Profil oder die Spieldatenverwaltung Ihres Google-Kontos. Deinstallation und lokales Zurücksetzen löschen die Cloud-Kopie nicht; bei bestehender Verbindung können Daten erneut zusammengeführt werden."
           ]
         ],
         "after": [
@@ -833,7 +881,7 @@
         "title": "8. Ihre Rechte und Vertretung",
         "paragraphs": [
           "Je nach geltendem Recht können Sie Auskunft oder eine Kopie, Berichtigung, Löschung, Einschränkung, Widerspruch, Widerruf, Datenübertragbarkeit oder Auswahlmöglichkeiten zu zielgerichteter Werbung verlangen. Soweit gesetzlich zulässig, können Eltern, Sorgeberechtigte oder andere bevollmächtigte Personen Sie vertreten.",
-          "Es gibt keine Nutzerkonten. Wir führen keine Zuordnung von Installationskennungen zu Klarnamen oder E-Mail-Adressen. Daher können wir SDK-Datensätze einer bestimmten Installation möglicherweise nicht allein anhand einer E-Mail-Adresse finden. Soweit vernünftigerweise möglich helfen wir bei der Zuordnung und erklären verfügbare Funktionen von Google bzw. Anbietern. Wir erfragen nur zur Bearbeitung notwendige Angaben; senden Sie keine unnötigen amtlichen Kennnummern oder sensiblen Informationen.",
+          "Wir betreiben keine eigenen Mitgliedskonten und führen keine Zuordnung von Installationskennungen zu Namen oder E-Mail-Adressen. Die freiwillige Play-Games-Verbindung und Löschung werden über Google verwaltet. Eine E-Mail-Adresse allein reicht möglicherweise nicht aus, um SDK-Daten einer Installation zu finden. Wir helfen soweit möglich bei der Zuordnung und erläutern die Verfahren der Anbieter. Wir verlangen nur notwendige Angaben; senden Sie keine unnötigen amtlichen Kennungen oder sensiblen Daten.",
           "Sie können sich bei der Datenschutzaufsichtsbehörde Ihres Landes beschweren. In Südkorea helfen das Personal Information Infringement Report Center (privacy.kisa.or.kr, innerhalb Koreas 118) oder das Personal Information Dispute Mediation Committee (kopico.go.kr, innerhalb Koreas 1833-6972)."
         ],
         "contact": true
@@ -897,6 +945,7 @@
         "paragraphs": [
           "À partir de la version 0.31.28, la date de naissance est examinée en mémoire sur l’appareil lors de la première utilisation afin d’appliquer un traitement protégé ou adulte. Ni la date de naissance ni l’âge chiffré ne sont conservés ou envoyés à un serveur. Seules la catégorie générale d’utilisateur et la décision facultative concernant l’analyse et les rapports de plantage sont enregistrées dans un espace exclu des sauvegardes Android. Si vous passez cette étape ou si les paramètres sont absents ou corrompus, le traitement protégé s’applique.",
           "La progression, les étoiles, les meilleurs scores, les parties inachevées ou récentes, les préférences de son, de vibration et de langue, l’état des tutoriels, les intervalles publicitaires et les choix de consentement sont stockés localement par l’application ou ses SDK. Nous ne proposons ni compte de jeu ni serveur distinct permettant de téléverser ou de synchroniser vos sauvegardes.",
+          "À partir de 1.0.2+107, la sauvegarde Google Play Jeux est facultative et distincte de la protection publicitaire liée à l’âge. Le SDK démarre uniquement après lecture de l’information de connexion et choix de se connecter. Si Google autorise la connexion et le stockage, niveaux, étoiles et records sont enregistrés dans Google Saved Games et fusionnés entre appareils. La date de naissance, les choix publicitaires, les paramètres et les parties en cours ne font pas partie de cette sauvegarde. Google traite aussi le profil de jeu ainsi que les données d’utilisation et de diagnostic propres au SDK pour fournir et améliorer le service. L’application ne demande ni liste d’amis, ni adresse e-mail, ni fonctions sociales et n’utilise pas les données Play Jeux pour la publicité. Les comptes enfants supervisés dépendent de l’accord parental auprès de Google et de la prise en charge du service ; le stockage n’est pas garanti pour chaque compte. Tous les jeux restent accessibles avec une sauvegarde locale sans connexion ou en cas de refus. Les protections publicitaires et Firebase sont maintenues. Le choix est enregistré sur l’appareil, hors sauvegarde Android. Les utilisateurs existants voient aussi cette information une fois ; la connexion reste possible dans les paramètres.",
           "Aucune inscription ni connexion n’est nécessaire. L’application ne demande pas votre nom, téléphone, adresse, contacts, photos, enregistrements du microphone ou position GPS précise, et ne comporte pas de fonctions pour les recueillir. Si vous nous écrivez, nous recevons votre adresse d’expéditeur et votre message.",
           "Si la sauvegarde et la restauration Android sont activées, le fournisseur du système d’exploitation peut sauvegarder certaines données et les restaurer après réinstallation, selon les paramètres de l’appareil et du compte Google. Ce mécanisme est indépendant d’un compte de jeu géré par le développeur. Vous pouvez le gérer dans les paramètres de sauvegarde Android."
         ]
@@ -987,6 +1036,10 @@
           [
             "E-mails d’assistance",
             "Conservés jusqu’à la clôture de la demande et du suivi nécessaire, puis supprimés. En cas d’obligation légale, seules les informations nécessaires sont gardées pendant la durée prescrite."
+          ],
+          [
+            "Sauvegarde Google Play Jeux et données du service",
+            "Les records sont conservés dans Saved Games de votre compte Google, selon les procédures de conservation et de suppression de Google. Gérez le compte de connexion dans les paramètres Google d’Android et supprimez les données de ce jeu depuis votre profil Play Jeux ou les commandes de données de jeu du compte Google. Désinstaller ou réinitialiser localement ne supprime pas la copie dans le cloud ; les données peuvent être fusionnées à nouveau tant que la connexion est active."
           ]
         ],
         "after": [
@@ -1007,7 +1060,7 @@
         "title": "8. Vos droits et vos représentants",
         "paragraphs": [
           "Selon le droit applicable, vous pouvez demander l’accès ou une copie, la rectification, l’effacement, la limitation, l’opposition, le retrait du consentement, la portabilité ou des choix relatifs à la publicité ciblée. Un parent, tuteur ou autre représentant autorisé peut agir lorsque la loi le permet.",
-          "Il n’existe pas de compte utilisateur ni de correspondance conservée entre identifiants d’installation et noms ou adresses e-mail. Une adresse e-mail seule peut donc être insuffisante pour retrouver les données SDK d’une installation. Nous vous aiderons dans la mesure du raisonnable à identifier les enregistrements et expliquerons les contrôles disponibles auprès de Google ou des prestataires. Nous ne demandons que les informations nécessaires ; n’envoyez pas de numéros officiels d’identité ou de données sensibles inutiles.",
+          "Nous ne gérons pas de comptes membres propres ni de correspondance entre identifiants d’installation, noms et adresses e-mail. La connexion facultative Play Jeux et la suppression se gèrent auprès de Google. Une adresse e-mail seule peut ne pas permettre de retrouver les données SDK d’une installation. Nous aidons dans la mesure du possible à identifier les données et à utiliser les procédures des fournisseurs. Nous ne demandons que les informations nécessaires ; n’envoyez pas d’identifiants officiels ou de données sensibles inutiles.",
           "Vous pouvez déposer une réclamation auprès de l’autorité de protection des données de votre pays. En Corée du Sud, vous pouvez contacter le Personal Information Infringement Report Center (privacy.kisa.or.kr, 118 depuis la Corée) ou le Personal Information Dispute Mediation Committee (kopico.go.kr, 1833-6972 depuis la Corée)."
         ],
         "contact": true
@@ -1071,6 +1124,7 @@
         "paragraphs": [
           "Desde la versión 0.31.28, en el primer uso se comprueba la fecha de nacimiento en la memoria del dispositivo para aplicar un tratamiento protegido o de adulto. No se guardan ni se envían al servidor la fecha de nacimiento ni la edad numérica. Solo se conserva la categoría general de usuario y la elección opcional sobre análisis e informes de fallos en un espacio excluido de las copias de seguridad Android. Si omites la fecha o faltan los ajustes o están dañados, se aplica el tratamiento protegido.",
           "El progreso, las estrellas, las mejores puntuaciones, las partidas pendientes y recientes, las preferencias de sonido, vibración e idioma, el estado de los tutoriales, los intervalos publicitarios y las decisiones de consentimiento se guardan localmente mediante la aplicación o el SDK. No ofrecemos una cuenta de juego ni un servidor propio para subir o sincronizar las partidas guardadas.",
+          "Desde 1.0.2+107, la copia de seguridad de Google Play Juegos es opcional e independiente de la protección publicitaria por edad. El SDK solo se inicia tras leer el aviso y elegir conectar. Si Google permite iniciar sesión y usar el almacenamiento, los niveles, estrellas y récords se guardan en Google Saved Games y se combinan entre dispositivos. No se incluyen la fecha de nacimiento, las opciones publicitarias, los ajustes ni los tableros sin terminar. Google también trata el perfil de juego y los datos de uso y diagnóstico del propio SDK para prestar y mejorar el servicio. La aplicación no solicita amigos, correo ni funciones sociales, ni usa datos de Play Juegos para publicidad. Las cuentas infantiles supervisadas dependen de la aprobación parental de Google y del soporte del servicio; no se garantiza el almacenamiento para todas las cuentas. Todos los juegos siguen disponibles con guardado local sin conexión o si se deniega el acceso. Se mantienen las protecciones de anuncios y Firebase. La elección se guarda en el dispositivo, fuera de la copia de Android. Los usuarios existentes también ven el aviso una vez; pueden conectar después en Ajustes.",
           "No se exige registro ni inicio de sesión. La aplicación no solicita tu nombre, teléfono, dirección, contactos, fotos, grabaciones de micrófono ni ubicación GPS precisa, ni incorpora funciones para recogerlos. Si nos escribes, recibimos tu dirección de remitente y el mensaje.",
           "Si la copia y restauración Android están activadas, el proveedor del sistema operativo puede respaldar algunos datos y restaurarlos tras una reinstalación, según los ajustes del dispositivo y la cuenta Google. Es un mecanismo independiente de una cuenta de juego del desarrollador. Puedes administrarlo en los ajustes de copia de seguridad Android."
         ]
@@ -1161,6 +1215,10 @@
           [
             "Correos de asistencia",
             "Se conservan hasta resolver la consulta y el seguimiento necesario y después se eliminan. Si la ley exige conservarlos, solo se guardará la información necesaria durante el plazo legal."
+          ],
+          [
+            "Copia de Google Play Juegos y datos del servicio",
+            "Los registros se conservan en Saved Games de su cuenta de Google y siguen los procedimientos de conservación y eliminación de Google. Gestione la cuenta de inicio de sesión en los ajustes de Google de Android y elimine los datos de este juego desde su perfil de Play Juegos o los controles de datos de juegos de la cuenta de Google. Desinstalar o reiniciar el progreso local no elimina la copia en la nube; los datos pueden volver a combinarse mientras siga conectado."
           ]
         ],
         "after": [
@@ -1181,7 +1239,7 @@
         "title": "8. Tus derechos y representantes",
         "paragraphs": [
           "Según la ley aplicable, puedes solicitar acceso o copia, rectificación, supresión, limitación, oposición, retirada del consentimiento, portabilidad u opciones sobre publicidad dirigida. Los padres, tutores u otros representantes autorizados pueden actuar cuando la ley lo permita.",
-          "No hay cuentas de usuario ni conservamos una correspondencia entre identificadores de instalación y nombres reales o correos. Es posible que un correo por sí solo no permita localizar los registros SDK de una instalación. Ayudaremos a identificarlos cuando sea razonablemente posible y explicaremos los controles de Google o sus proveedores. Solo pedimos la información necesaria; no envíes identificadores oficiales ni datos sensibles innecesarios.",
+          "No gestionamos cuentas de miembros propias ni una relación entre identificadores de instalación, nombres y correos. Google ofrece los controles de conexión opcional y eliminación de Play Juegos. Un correo por sí solo puede no identificar los registros SDK de una instalación. Ayudaremos cuando sea razonablemente posible a localizar los datos y explicar los controles del proveedor. Solo pedimos la información necesaria; no envíe documentos oficiales ni datos sensibles innecesarios.",
           "Puedes reclamar ante la autoridad de protección de datos de tu jurisdicción. En Corea del Sur puedes acudir al Personal Information Infringement Report Center (privacy.kisa.or.kr, 118 desde Corea) o al Personal Information Dispute Mediation Committee (kopico.go.kr, 1833-6972 desde Corea)."
         ],
         "contact": true
@@ -1245,6 +1303,7 @@
         "paragraphs": [
           "A partir da versão 0.31.28, a data de nascimento é verificada na memória do dispositivo no primeiro uso, para definir o tratamento protegido ou adulto. Nem a data nem a idade numérica são salvas ou enviadas a servidores. Apenas a categoria geral do usuário e a escolha opcional de análise e relatórios de falhas são guardadas em armazenamento excluído do backup Android. Se a etapa for pulada ou os ajustes estiverem ausentes ou corrompidos, aplica-se o tratamento protegido.",
           "Progresso, estrelas, recordes, partidas inacabadas e recentes, preferências de som, vibração e idioma, tutoriais, intervalos de publicidade e escolhas de consentimento são salvos localmente pelo aplicativo ou SDK. Não oferecemos conta de jogo nem servidor próprio para enviar ou sincronizar arquivos de partidas salvas.",
+          "A partir de 1.0.2+107, o backup do Google Play Games é opcional e separado da proteção etária dos anúncios. O SDK só inicia após a leitura do aviso e a escolha de conectar. Se o Google permitir o login e o armazenamento, fases, estrelas e recordes serão salvos no Google Saved Games e combinados entre dispositivos. Data de nascimento, escolhas de anúncios, configurações e tabuleiros em andamento não entram nesse backup. O Google também processa o perfil de jogo e dados próprios de uso e diagnóstico do SDK para fornecer e melhorar o serviço. O aplicativo não solicita amigos, e-mail ou recursos sociais, nem usa dados do Play Games para publicidade. Contas infantis supervisionadas dependem da aprovação dos responsáveis no Google e do suporte do serviço; o armazenamento não é garantido para todas as contas. Todos os jogos continuam disponíveis com salvamento local sem conexão ou se o acesso for negado. As proteções de anúncios e do Firebase permanecem. A escolha fica no dispositivo, fora do backup do Android. Usuários existentes também veem o aviso uma vez; é possível conectar depois nas configurações.",
           "Não é necessário cadastro nem login. O aplicativo não solicita nome, telefone, endereço, contatos, fotos, gravações de microfone ou localização GPS precisa, nem possui funções para coletar essas informações. Se você enviar um e-mail, receberemos o endereço do remetente e a mensagem.",
           "Se o backup e a restauração Android estiverem ativados, o fornecedor do sistema operacional poderá salvar alguns dados e restaurá-los após a reinstalação, conforme os ajustes do dispositivo e da conta Google. Isso é independente de uma conta de jogo do desenvolvedor. Você pode gerenciar essa função nos ajustes de backup Android."
         ]
@@ -1335,6 +1394,10 @@
           [
             "E-mails de suporte",
             "São guardados até a conclusão da solicitação e dos acompanhamentos necessários e depois excluídos. Se houver obrigação legal, apenas as informações necessárias serão conservadas pelo prazo exigido."
+          ],
+          [
+            "Backup do Google Play Games e dados do serviço",
+            "Os registros ficam no Saved Games da sua conta do Google e seguem os procedimentos de retenção e exclusão do Google. Gerencie a conta de login nas configurações do Google no Android e exclua os dados deste jogo pelo perfil do Play Games ou pelos controles de dados de jogos da conta do Google. Desinstalar ou redefinir o progresso local não exclui a cópia na nuvem; os registros podem ser combinados novamente enquanto houver conexão."
           ]
         ],
         "after": [
@@ -1355,7 +1418,7 @@
         "title": "8. Seus direitos e representantes",
         "paragraphs": [
           "Conforme a legislação aplicável, você pode solicitar acesso ou cópia, correção, exclusão, restrição, oposição, revogação do consentimento, portabilidade ou opções sobre publicidade direcionada. Pais, responsáveis ou outros representantes autorizados podem agir quando a lei permitir.",
-          "Não há contas de usuário nem mantemos uma correspondência entre identificadores de instalação e nomes reais ou e-mails. Um e-mail sozinho pode não permitir localizar os registros SDK de uma instalação. Ajudaremos a identificá-los quando for razoavelmente possível e explicaremos os controles Google ou dos prestadores. Pedimos apenas o necessário; não envie identificadores oficiais ou informações sensíveis desnecessárias.",
+          "Não operamos contas próprias de membros nem mantemos uma relação entre identificadores de instalação, nomes e e-mails. O Google fornece controles da conexão opcional e exclusão do Play Games. Um e-mail sozinho pode não identificar os registros do SDK de uma instalação. Ajudaremos, quando razoavelmente possível, a localizar os dados e explicar os controles dos fornecedores. Solicitamos apenas informações necessárias; não envie identificadores oficiais ou dados sensíveis desnecessários.",
           "Você pode apresentar reclamação à autoridade de proteção de dados da sua jurisdição. Na Coreia do Sul, há o Personal Information Infringement Report Center (privacy.kisa.or.kr, 118 na Coreia) e o Personal Information Dispute Mediation Committee (kopico.go.kr, 1833-6972 na Coreia)."
         ],
         "contact": true
@@ -1419,6 +1482,7 @@
         "paragraphs": [
           "自 0.31.28 版起，首次使用時會在裝置記憶體中檢查出生日期，以判定採取保護或成人處理方式。出生日期與實際年齡數字均不儲存，也不傳送至伺服器。僅將概略使用者類別，以及是否選擇分析與當機回報，存於不納入 Android 備份的裝置空間。略過輸入、設定遺失或損毀時，均採取保護處理。",
           "關卡進度、星星、最高分、未完成及最近遊玩的遊戲、音效、震動、語言偏好、教學狀態、廣告間隔與同意選擇，由應用程式或 SDK 儲存在裝置本機。我們不提供遊戲帳號，也沒有用於上傳或同步遊戲存檔的獨立伺服器。",
+          "自 1.0.2+107 起，Google Play 遊戲備份是與廣告年齡保護分開的選用功能。閱讀連結說明並選擇連結後，才會啟動 SDK。Google 允許登入及存取儲存服務時，關卡、星星與最佳紀錄會存入 Google Saved Games，並在裝置間合併。此備份不含出生日期、廣告選擇、設定或未完成的棋盤。Google 也會處理遊戲個人資料及 SDK 本身的使用與診斷資訊，以提供及改善服務。本應用程式不要求好友名單、電子郵件或社交功能，也不將 Play 遊戲資料用於廣告。受監督的兒童帳戶須依 Google 的家長核准及服務支援情況使用，不保證每個帳戶都能儲存。未連結或存取遭拒時，仍可在裝置上儲存並遊玩所有遊戲。廣告與 Firebase 保護設定維持不變。連結選擇存於不納入 Android 備份的裝置儲存空間。既有使用者也會看到一次說明，之後可在應用程式設定中連結。",
           "本應用程式不要求註冊或登入，不要求提供姓名、電話、地址、聯絡人、相片、麥克風錄音或精確 GPS 位置，也未設置蒐集這些資訊的功能。如果您寄信給我們，我們會收到寄件者的電子郵件地址與內容。",
           "若啟用 Android 備份與還原，作業系統供應者可能依裝置及 Google 帳號設定備份部分應用程式資料，並於重新安裝後還原。這與開發者營運的遊戲帳號無關，您可在 Android 備份設定中管理。"
         ]
@@ -1509,6 +1573,10 @@
           [
             "客服電子郵件",
             "保存至問題與必要後續處理完成後刪除。若法律要求保留，僅將必要資訊保存至法定期限。"
+          ],
+          [
+            "Google Play 遊戲備份與服務資料",
+            "紀錄存於 Google 帳戶的 Saved Games，並依 Google 的保留及刪除程序處理。可在 Android 的 Google 設定中管理登入帳戶，並透過 Play 遊戲個人資料或 Google 帳戶的遊戲資料管理刪除本遊戲資料。解除安裝或重設本機進度不會刪除雲端副本；維持連結時，紀錄可能再次合併回來。"
           ]
         ],
         "after": [
@@ -1529,7 +1597,7 @@
         "title": "8. 您的權利與代理人",
         "paragraphs": [
           "依適用法律，您可請求查閱或取得副本、更正、刪除、限制處理、提出異議、撤回同意、資料可攜，或行使定向廣告相關選擇。法律允許時，父母、監護人或其他授權代理人可代為行使。",
-          "我們沒有使用者帳號，也未保存安裝識別碼與真實姓名或電子郵件的對應關係。因此，單憑電子郵件可能無法找到特定安裝的 SDK 紀錄。我們會在合理可行的範圍協助找出資料，並說明 Google 或供應者可用的控制方式。只會索取處理請求所需的資訊，請勿寄送不必要的政府識別碼或敏感資料。",
+          "我們不營運自有會員帳戶，也不保有安裝識別碼與真實姓名、電子郵件的對照表。選用的 Play 遊戲連結及刪除由 Google 提供管理功能。僅憑電子郵件可能無法找出特定安裝的 SDK 紀錄。我們會在合理可行範圍內協助確認紀錄，並說明服務提供者的管理途徑。僅要求處理請求所需的資料，請勿傳送不必要的身分證號或敏感資訊。",
           "您可向所在地的個人資料保護機關申訴。在韓國可向個人資訊侵害申告中心（privacy.kisa.or.kr，韓國境內 118）或個人資訊紛爭調停委員會（kopico.go.kr，韓國境內 1833-6972）尋求協助。"
         ],
         "contact": true
@@ -1593,6 +1661,7 @@
         "paragraphs": [
           "Mulai versi 0.31.28, tanggal lahir diperiksa dalam memori perangkat saat pertama kali digunakan untuk menentukan perlakuan terlindungi atau dewasa. Tanggal lahir dan angka usia tidak disimpan atau dikirim ke server. Hanya kategori umum pengguna dan pilihan analisis/laporan error opsional yang disimpan di penyimpanan perangkat yang tidak disertakan dalam cadangan Android. Jika Anda melewati pengisian atau setelan hilang/rusak, perlakuan terlindungi diterapkan.",
           "Progres level, bintang, skor tertinggi, permainan yang belum selesai dan yang baru dimainkan, preferensi suara, getaran dan bahasa, status tutorial, interval iklan, serta pilihan persetujuan disimpan secara lokal oleh aplikasi atau SDK. Kami tidak menyediakan akun permainan maupun server terpisah untuk mengunggah dan menyinkronkan file permainan Anda.",
+          "Mulai 1.0.2+107, pencadangan Google Play Games bersifat opsional dan terpisah dari perlindungan usia untuk iklan. SDK hanya dimulai setelah Anda membaca pemberitahuan dan memilih terhubung. Jika Google mengizinkan login dan akses penyimpanan, level, bintang, dan rekor disimpan di Google Saved Games lalu digabungkan antarperangkat. Tanggal lahir, pilihan iklan, pengaturan, dan papan yang belum selesai tidak masuk cadangan ini. Google juga memproses profil game serta data penggunaan dan diagnostik SDK untuk menyediakan dan meningkatkan layanan. Aplikasi tidak meminta daftar teman, email, atau fitur sosial, serta tidak memakai data Play Games untuk iklan. Akun anak yang diawasi bergantung pada persetujuan orang tua dari Google dan dukungan layanan; penyimpanan tidak dijamin untuk setiap akun. Semua game tetap dapat dimainkan dengan penyimpanan lokal jika tidak terhubung atau akses ditolak. Perlindungan iklan dan Firebase tetap berlaku. Pilihan disimpan di perangkat, di luar pencadangan Android. Pengguna lama juga melihat pemberitahuan sekali dan dapat terhubung nanti melalui Pengaturan.",
           "Pendaftaran dan login tidak diperlukan. Aplikasi tidak meminta nama, nomor telepon, alamat, kontak, foto, rekaman mikrofon, atau lokasi GPS presisi, dan tidak memiliki fitur untuk mengumpulkannya. Jika Anda mengirim email kepada kami, kami menerima alamat pengirim dan pesannya.",
           "Jika pencadangan dan pemulihan Android diaktifkan, penyedia sistem operasi dapat mencadangkan sebagian data dan memulihkannya setelah instalasi ulang, bergantung pada setelan perangkat dan akun Google. Ini terpisah dari akun permainan yang dikelola pengembang. Anda dapat mengaturnya melalui setelan pencadangan Android."
         ]
@@ -1683,6 +1752,10 @@
           [
             "Email bantuan",
             "Disimpan sampai pertanyaan dan tindak lanjut yang diperlukan selesai, lalu dihapus. Jika diwajibkan hukum, hanya informasi yang diperlukan yang disimpan selama jangka waktu yang ditetapkan."
+          ],
+          [
+            "Cadangan Google Play Games dan data layanan",
+            "Catatan disimpan di Saved Games akun Google Anda dan mengikuti prosedur penyimpanan serta penghapusan Google. Kelola akun login di setelan Google Android, lalu hapus data game ini melalui profil Play Games atau kontrol data game akun Google. Menghapus aplikasi atau mereset progres lokal tidak menghapus salinan cloud; catatan dapat digabungkan kembali selama masih terhubung."
           ]
         ],
         "after": [
@@ -1703,7 +1776,7 @@
         "title": "8. Hak Anda dan perwakilan",
         "paragraphs": [
           "Sesuai hukum yang berlaku, Anda dapat meminta akses atau salinan, perbaikan, penghapusan, pembatasan, keberatan, penarikan persetujuan, portabilitas, atau pilihan terkait iklan tertarget. Orang tua, wali, atau perwakilan sah lainnya dapat bertindak jika diizinkan hukum.",
-          "Tidak ada akun pengguna dan kami tidak menyimpan pemetaan pengenal instalasi ke nama asli atau email. Email saja mungkin tidak cukup untuk menemukan catatan SDK dari instalasi tertentu. Kami akan membantu sejauh wajar dan menjelaskan kontrol Google/penyedia yang tersedia. Kami hanya meminta informasi yang diperlukan; jangan kirim nomor identitas resmi atau informasi sensitif yang tidak dibutuhkan.",
+          "Kami tidak mengelola akun anggota sendiri atau pemetaan pengenal instalasi ke nama dan alamat email. Google menyediakan kontrol koneksi opsional dan penghapusan Play Games. Alamat email saja mungkin tidak cukup untuk menemukan catatan SDK suatu instalasi. Kami membantu semampunya untuk menemukan catatan dan menjelaskan kontrol penyedia. Kami hanya meminta informasi yang diperlukan; jangan mengirim identitas resmi atau informasi sensitif yang tidak diperlukan.",
           "Anda dapat mengajukan keluhan kepada otoritas perlindungan data di wilayah Anda. Di Korea Selatan, bantuan tersedia melalui Personal Information Infringement Report Center (privacy.kisa.or.kr, 118 di Korea) atau Personal Information Dispute Mediation Committee (kopico.go.kr, 1833-6972 di Korea)."
         ],
         "contact": true
@@ -1767,6 +1840,7 @@
         "paragraphs": [
           "ตั้งแต่เวอร์ชัน 0.31.28 แอปจะตรวจวันเกิดในหน่วยความจำของอุปกรณ์เมื่อใช้ครั้งแรก เพื่อเลือกการดูแลแบบคุ้มครองหรือแบบผู้ใหญ่ โดยไม่บันทึกหรือส่งวันเกิดและตัวเลขอายุไปยังเซิร์ฟเวอร์ จะเก็บเพียงประเภทผู้ใช้โดยกว้างและตัวเลือกการวิเคราะห์/รายงานข้อขัดข้องที่สมัครใจไว้ในพื้นที่ที่ไม่รวมในการสำรองข้อมูล Android หากข้ามการกรอก หรือการตั้งค่าหายหรือเสียหาย จะใช้การดูแลแบบคุ้มครอง",
           "ความคืบหน้าด่าน ดาว คะแนนสูงสุด เกมที่ยังไม่จบและเกมล่าสุด การตั้งค่าเสียง การสั่น ภาษา สถานะบทสอน ช่วงห่างโฆษณา และตัวเลือกความยินยอมจะถูกเก็บในอุปกรณ์โดยแอปหรือ SDK เราไม่มีบัญชีเกมหรือเซิร์ฟเวอร์แยกสำหรับอัปโหลดและซิงค์ไฟล์บันทึกเกม",
+          "ตั้งแต่ 1.0.2+107 การสำรองข้อมูล Google Play Games เป็นทางเลือกที่แยกจากการปกป้องโฆษณาตามอายุ SDK จะเริ่มทำงานเมื่ออ่านคำชี้แจงและเลือกเชื่อมต่อเท่านั้น หาก Google อนุญาตให้ลงชื่อเข้าใช้และเข้าถึงพื้นที่จัดเก็บ ด่าน ดาว และสถิติจะบันทึกใน Google Saved Games และรวมข้อมูลระหว่างอุปกรณ์ โดยไม่รวมวันเกิด ตัวเลือกโฆษณา การตั้งค่า หรือกระดานที่ยังเล่นไม่จบ Google ยังประมวลผลโปรไฟล์เกมและข้อมูลการใช้งานกับการวินิจฉัยของ SDK เพื่อให้บริการและปรับปรุงบริการ แอปไม่ขอรายชื่อเพื่อน อีเมล หรือฟีเจอร์โซเชียล และไม่นำข้อมูล Play Games ไปใช้โฆษณา บัญชีเด็กที่มีการควบคุมดูแลขึ้นอยู่กับการอนุมัติของผู้ปกครองผ่าน Google และการรองรับของบริการ จึงไม่รับประกันว่าทุกบัญชีจะจัดเก็บข้อมูลได้ แม้ไม่เชื่อมต่อหรือถูกปฏิเสธการเข้าถึง ก็ยังเล่นได้ทุกเกมพร้อมบันทึกในอุปกรณ์ การปกป้องโฆษณาและ Firebase ยังคงเดิม ตัวเลือกนี้เก็บในอุปกรณ์และไม่รวมในการสำรองข้อมูล Android ผู้ใช้เดิมจะเห็นคำชี้แจงหนึ่งครั้งเช่นกัน และเชื่อมต่อภายหลังได้ในการตั้งค่า",
           "ไม่ต้องลงทะเบียนหรือเข้าสู่ระบบ แอปไม่ขอชื่อ เบอร์โทร ที่อยู่ รายชื่อติดต่อ รูปภาพ เสียงจากไมโครโฟน หรือตำแหน่ง GPS ที่แม่นยำ และไม่มีฟังก์ชันเก็บข้อมูลเหล่านี้ หากคุณส่งอีเมลหาเรา เราจะได้รับอีเมลผู้ส่งและข้อความ",
           "หากเปิดการสำรองและกู้คืนข้อมูล Android ผู้ให้บริการระบบปฏิบัติการอาจสำรองข้อมูลบางส่วนและกู้คืนหลังติดตั้งใหม่ ตามการตั้งค่าอุปกรณ์และบัญชี Google กลไกนี้แยกจากบัญชีเกมของผู้พัฒนา คุณจัดการได้ในการตั้งค่าการสำรองข้อมูล Android"
         ]
@@ -1857,6 +1931,10 @@
           [
             "อีเมลช่วยเหลือ",
             "เก็บจนคำถามและการติดตามที่จำเป็นเสร็จสิ้นแล้วลบ หากกฎหมายกำหนดให้เก็บ จะเก็บเฉพาะข้อมูลที่จำเป็นตามระยะเวลาที่กฎหมายกำหนด"
+          ],
+          [
+            "ข้อมูลสำรอง Google Play Games และข้อมูลบริการ",
+            "สถิติเก็บใน Saved Games ของบัญชี Google ตามขั้นตอนการเก็บรักษาและลบของ Google จัดการบัญชีลงชื่อเข้าใช้ในการตั้งค่า Google ของ Android และลบข้อมูลเกมนี้ผ่านโปรไฟล์ Play Games หรือเครื่องมือจัดการข้อมูลเกมของบัญชี Google การถอนการติดตั้งหรือรีเซ็ตความคืบหน้าในอุปกรณ์ไม่ลบสำเนาบนคลาวด์ และข้อมูลอาจกลับมารวมอีกครั้งหากยังเชื่อมต่ออยู่"
           ]
         ],
         "after": [
@@ -1877,7 +1955,7 @@
         "title": "8. สิทธิของคุณและผู้แทน",
         "paragraphs": [
           "ตามกฎหมายที่ใช้ คุณอาจขอเข้าถึงหรือรับสำเนา แก้ไข ลบ จำกัด คัดค้าน ถอนความยินยอม โอนย้ายข้อมูล หรือเลือกเกี่ยวกับโฆษณาเจาะกลุ่มได้ พ่อแม่ ผู้ปกครอง หรือผู้แทนที่ได้รับอนุญาตอาจดำเนินการแทนเมื่อกฎหมายอนุญาต",
-          "ไม่มีบัญชีผู้ใช้ และเราไม่เก็บตารางเชื่อมรหัสการติดตั้งกับชื่อจริงหรืออีเมล จึงอาจค้นหาบันทึก SDK ของการติดตั้งเฉพาะจากอีเมลอย่างเดียวไม่ได้ เราจะช่วยเท่าที่เป็นไปได้ตามสมควรและอธิบายการควบคุม Google/ผู้ให้บริการที่มี เราขอเพียงข้อมูลที่จำเป็น โปรดอย่าส่งรหัสประจำตัวราชการหรือข้อมูลอ่อนไหวที่ไม่จำเป็น",
+          "เราไม่มีบัญชีสมาชิกของเราเองและไม่เก็บตารางจับคู่รหัสการติดตั้งกับชื่อจริงหรืออีเมล Google มีเครื่องมือจัดการการเชื่อมต่อ Play Games แบบเลือกได้และการลบข้อมูล อีเมลเพียงอย่างเดียวอาจไม่พอค้นหาข้อมูล SDK ของการติดตั้ง เราจะช่วยค้นหาตามที่ทำได้อย่างสมเหตุสมผลและอธิบายวิธีจัดการของผู้ให้บริการ เราขอเฉพาะข้อมูลที่จำเป็น โปรดอย่าส่งเลขประจำตัวราชการหรือข้อมูลอ่อนไหวที่ไม่จำเป็น",
           "คุณร้องเรียนต่อหน่วยงานคุ้มครองข้อมูลในเขตอำนาจของคุณได้ ในเกาหลีใต้ ขอความช่วยเหลือได้จาก Personal Information Infringement Report Center (privacy.kisa.or.kr, 118 ภายในเกาหลี) หรือ Personal Information Dispute Mediation Committee (kopico.go.kr, 1833-6972 ภายในเกาหลี)"
         ],
         "contact": true
@@ -1941,6 +2019,7 @@
         "paragraphs": [
           "Từ phiên bản 0.31.28, ngày sinh được kiểm tra trong bộ nhớ thiết bị ở lần sử dụng đầu để áp dụng chế độ bảo vệ hoặc người lớn. Ngày sinh và tuổi bằng số không được lưu hay gửi đến máy chủ. Chỉ nhóm người dùng khái quát và lựa chọn phân tích/báo cáo sự cố tự nguyện được lưu tại vùng không đưa vào bản sao lưu Android. Nếu bỏ qua ngày sinh hoặc cài đặt bị thiếu/hỏng, chế độ bảo vệ được áp dụng.",
           "Tiến độ màn chơi, sao, điểm cao, ván chưa xong và trò chơi gần đây, tùy chọn âm thanh, rung, ngôn ngữ, trạng thái hướng dẫn, khoảng cách quảng cáo và lựa chọn đồng ý được lưu cục bộ bởi ứng dụng hoặc SDK. Chúng tôi không cung cấp tài khoản trò chơi hay máy chủ riêng để tải lên và đồng bộ tệp lưu trò chơi.",
+          "Từ 1.0.2+107, sao lưu Google Play Games là tính năng tùy chọn, tách biệt với bảo vệ quảng cáo theo độ tuổi. SDK chỉ khởi động sau khi bạn đọc thông báo và chọn kết nối. Nếu Google cho phép đăng nhập và truy cập lưu trữ, màn chơi, sao và kỷ lục sẽ được lưu trong Google Saved Games và hợp nhất giữa các thiết bị. Bản sao lưu không gồm ngày sinh, lựa chọn quảng cáo, cài đặt hay bàn chơi chưa hoàn thành. Google còn xử lý hồ sơ chơi game cùng dữ liệu sử dụng và chẩn đoán riêng của SDK để cung cấp, cải thiện dịch vụ. Ứng dụng không yêu cầu bạn bè, email hay tính năng xã hội, cũng không dùng dữ liệu Play Games cho quảng cáo. Tài khoản trẻ em được giám sát phụ thuộc vào sự chấp thuận của phụ huynh qua Google và khả năng hỗ trợ của dịch vụ; không bảo đảm mọi tài khoản đều dùng được lưu trữ. Bạn vẫn chơi được mọi trò và lưu trên thiết bị nếu không kết nối hoặc bị từ chối truy cập. Bảo vệ quảng cáo và Firebase được giữ nguyên. Lựa chọn được lưu trên thiết bị, ngoài bản sao lưu Android. Người dùng hiện tại cũng thấy thông báo một lần và có thể kết nối sau trong Cài đặt.",
           "Không cần đăng ký hoặc đăng nhập. Ứng dụng không yêu cầu tên, số điện thoại, địa chỉ, danh bạ, ảnh, bản ghi micrô hay vị trí GPS chính xác, và không có chức năng thu thập những thông tin này. Nếu bạn gửi email, chúng tôi nhận địa chỉ người gửi và nội dung thư.",
           "Nếu bật sao lưu và khôi phục Android, nhà cung cấp hệ điều hành có thể sao lưu một số dữ liệu rồi khôi phục khi cài lại, tùy cài đặt thiết bị và tài khoản Google. Cơ chế này tách biệt với tài khoản trò chơi do nhà phát triển vận hành. Bạn có thể quản lý trong phần cài đặt sao lưu Android."
         ]
@@ -2031,6 +2110,10 @@
           [
             "Email hỗ trợ",
             "Được giữ đến khi hoàn tất yêu cầu và việc theo dõi cần thiết, rồi xóa. Nếu luật buộc lưu giữ, chỉ giữ thông tin cần thiết trong thời hạn luật định."
+          ],
+          [
+            "Bản sao lưu Google Play Games và dữ liệu dịch vụ",
+            "Kỷ lục được lưu trong Saved Games của tài khoản Google theo quy trình lưu giữ và xóa của Google. Quản lý tài khoản đăng nhập trong cài đặt Google trên Android và xóa dữ liệu trò chơi qua hồ sơ Play Games hoặc công cụ quản lý dữ liệu trò chơi của tài khoản Google. Gỡ ứng dụng hay đặt lại tiến độ cục bộ không xóa bản sao trên đám mây; dữ liệu có thể được hợp nhất trở lại khi còn kết nối."
           ]
         ],
         "after": [
@@ -2051,7 +2134,7 @@
         "title": "8. Quyền của bạn và người đại diện",
         "paragraphs": [
           "Theo pháp luật áp dụng, bạn có thể yêu cầu truy cập hoặc bản sao, chỉnh sửa, xóa, hạn chế, phản đối, rút lại đồng ý, chuyển dữ liệu hoặc lựa chọn về quảng cáo nhắm mục tiêu. Cha mẹ, người giám hộ hoặc đại diện được ủy quyền có thể thực hiện khi luật cho phép.",
-          "Không có tài khoản người dùng và chúng tôi không giữ bảng liên kết mã cài đặt với tên thật hay email. Chỉ email có thể không đủ để tìm hồ sơ SDK của một lượt cài đặt. Chúng tôi sẽ hỗ trợ trong phạm vi hợp lý và giải thích các kiểm soát Google/nhà cung cấp hiện có. Chỉ yêu cầu thông tin cần thiết; không gửi mã định danh nhà nước hay dữ liệu nhạy cảm không cần thiết.",
+          "Chúng tôi không vận hành tài khoản thành viên riêng hoặc lưu bảng đối chiếu mã cài đặt với tên thật và email. Google cung cấp công cụ quản lý kết nối Play Games tùy chọn và xóa dữ liệu. Chỉ địa chỉ email có thể không đủ để tìm bản ghi SDK của một lần cài đặt. Chúng tôi hỗ trợ tìm dữ liệu trong phạm vi hợp lý và hướng dẫn dùng công cụ của nhà cung cấp. Chỉ thông tin cần thiết mới được yêu cầu; vui lòng không gửi mã định danh do nhà nước cấp hoặc dữ liệu nhạy cảm không cần thiết.",
           "Bạn có thể khiếu nại với cơ quan bảo vệ dữ liệu tại nơi mình sống. Tại Hàn Quốc, có thể liên hệ Personal Information Infringement Report Center (privacy.kisa.or.kr, 118 trong Hàn Quốc) hoặc Personal Information Dispute Mediation Committee (kopico.go.kr, 1833-6972 trong Hàn Quốc)."
         ],
         "contact": true
