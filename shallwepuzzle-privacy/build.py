@@ -1,4 +1,4 @@
-"""Build all eleven static privacy pages from the shared offline policy source."""
+"""Build all nineteen static privacy pages from the shared policy source."""
 from html import escape
 import json
 from pathlib import Path
@@ -8,10 +8,15 @@ data = json.loads((ROOT / 'policy.json').read_text())
 assert data['contact'] == 'dydxo116@gmail.com'
 assert data['package'] == 'kr.shall.we.puzzle'
 languages = data['languages']
-assert len(languages) == 11
-labels = dict(zip(
-    [item['code'] for item in languages],
-    ['언어', 'Language', '言語', 'Sprache', 'Langue', 'Idioma', 'Idioma', '語言', 'Bahasa', 'ภาษา', 'Ngôn ngữ']))
+assert len(languages) == 19
+labels = {
+    'ko': '언어', 'en': 'Language', 'ja': '言語', 'de': 'Sprache',
+    'fr': 'Langue', 'es': 'Idioma', 'pt-BR': 'Idioma',
+    'zh-Hant': '語言', 'zh-Hans': '语言', 'id': 'Bahasa',
+    'th': 'ภาษา', 'vi': 'Ngôn ngữ', 'ms': 'Bahasa', 'fil': 'Wika',
+    'my': 'ဘာသာစကား', 'km': 'ភាសា', 'lo': 'ພາສາ', 'tet': 'Lian',
+    'ta': 'மொழி',
+}
 
 def shape(value):
     if isinstance(value, dict):

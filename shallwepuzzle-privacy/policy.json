@@ -163,7 +163,7 @@
         "title": "9. 아동 및 미성년자",
         "paragraphs": [
           "앱은 전 연령을 대상으로 합니다. 0.31.28 이상은 18세 미만 및 생년월일을 입력하지 않은 이용자에게 보수적인 보호 설정을 적용합니다. 생년월일은 연령 판정에만 쓰이며 저장·전송하지 않습니다. 모든 연령에서 게임을 이용할 수 있고, 성인 연령을 미리 선택하거나 이를 게임 혜택의 조건으로 제시하지 않습니다.",
-          "보호 대상은 Firebase 분석·오류 진단 SDK를 시작하지 않으며, 광고는 Families self-certified 범위의 Google Mobile Ads SDK에 G등급·비개인화·아동 보호 처리를 적용합니다. 보호 대상의 Android 광고 ID를 전송하지 않습니다. 아동 보호 설정도 문맥 광고 제공·보안에 필요한 모든 네트워크 처리를 없애는 것은 아니며 처리 유형은 위 SDK 설명을 확인해 주세요.",
+          "보호 대상 사용자에게는 Firebase 분석·오류 보고 SDK를 시작하지 않습니다. 광고에는 Families 자체 인증 버전 범위의 Google Mobile Ads를 사용하며, G등급·비개인화·아동용 광고 설정을 적용합니다. 보호 대상 사용자의 Android 광고 ID는 전송하지 않습니다. 아동용 광고 설정을 적용해도 문맥 광고 제공과 보안에 필요한 모든 네트워크 처리가 없어지는 것은 아닙니다. 위 SDK 설명을 확인해 주세요.",
           "아동 정보 처리에 보호자의 동의나 추가 보호가 요구되는 경우 관련 법령이 적용됩니다. 보호자가 정보 처리에 관해 우려하거나 적절한 동의 없이 정보가 처리되었다고 판단하면 개인정보 문의 이메일로 알려주세요. 확인 가능한 범위에서 조사하고 필요한 삭제·제한 등의 조치를 취합니다."
         ]
       },
@@ -354,7 +354,7 @@
         "title": "9. Children and minors",
         "paragraphs": [
           "The app is for all ages. Version 0.31.28 and later applies conservative protections to users under 18 and those who do not enter a date of birth. Birth dates are used only for the local age decision, not saved or transmitted. All games remain available to every age. An adult age is not preselected or presented as a condition for game benefits.",
-          "Protected users do not start Firebase analytics or crash-reporting SDKs. Ads use Google Mobile Ads within the Families self-certified version range with G-rated, non-personalized, child-treatment settings. Protected users’ Android advertising IDs are not transmitted. Child treatment does not eliminate all network processing needed for contextual ad delivery and security; see the SDK information above.",
+          "Protected users do not start Firebase analytics or crash-reporting SDKs. Ads use Google Mobile Ads within the Families self-certified version range, with G-rated, non-personalized settings and child-directed ad treatment. Protected users’ Android advertising IDs are not transmitted. Child-directed ad treatment does not remove all network processing needed to serve contextual ads and maintain security; see the SDK information above.",
           "Applicable rules on children’s information, parental permission and additional protections still apply. Parents or guardians concerned about a child’s information or processing without required permission can contact our privacy email. We will investigate where reasonably possible and take necessary deletion, restriction or other measures."
         ]
       },
@@ -398,7 +398,15 @@
       "zh-Hant": "Google 隱私權政策",
       "id": "Kebijakan Privasi Google",
       "th": "นโยบายความเป็นส่วนตัวของ Google",
-      "vi": "Chính sách quyền riêng tư Google"
+      "vi": "Chính sách quyền riêng tư Google",
+      "ms": "Dasar Privasi Google",
+      "fil": "Patakaran sa Privacy ng Google",
+      "my": "Google ကိုယ်ရေးကိုယ်တာမူဝါဒ",
+      "km": "គោលការណ៍ឯកជនភាព Google",
+      "lo": "ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວຂອງ Google",
+      "tet": "Polítika Privasidade Google nian",
+      "ta": "Google தனியுரிமைக் கொள்கை",
+      "zh-Hans": "谷歌隐私政策"
     },
     {
       "ko": "Google Mobile Ads SDK 데이터 공개 안내",
@@ -412,7 +420,15 @@
       "zh-Hant": "Google Mobile Ads SDK 資料揭露",
       "id": "Pengungkapan data SDK Google Mobile Ads",
       "th": "การเปิดเผยข้อมูล SDK Google Mobile Ads",
-      "vi": "Công bố dữ liệu SDK Google Mobile Ads"
+      "vi": "Công bố dữ liệu SDK Google Mobile Ads",
+      "ms": "Pendedahan data SDK Iklan Mudah Alih Google",
+      "fil": "Pagsisiwalat ng data ng Google Mobile Ads SDK",
+      "my": "Google Mobile Ads SDK ဒေတာ ထုတ်ဖော်ခြင်း။",
+      "km": "ការបង្ហាញទិន្នន័យ SDK របស់ Google Mobile Ads",
+      "lo": "ການເປີດເຜີຍຂໍ້ມູນ SDK ໂຄສະນາມືຖືຂອງ Google",
+      "tet": "Divulgasaun dadus SDK Google Mobile Ads",
+      "ta": "Google Mobile Ads SDK தரவு வெளிப்பாடு",
+      "zh-Hans": "Google 移动广告 SDK 数据泄露"
     },
     {
       "ko": "Google 광고 개인정보 보호 안내",
@@ -426,7 +442,15 @@
       "zh-Hant": "Google 廣告隱私資訊",
       "id": "Privasi iklan Google",
       "th": "ความเป็นส่วนตัวของโฆษณา Google",
-      "vi": "Quyền riêng tư quảng cáo Google"
+      "vi": "Quyền riêng tư quảng cáo Google",
+      "ms": "Maklumat privasi pengiklanan Google",
+      "fil": "Impormasyon sa privacy ng advertising sa Google",
+      "my": "Google ကြော်ငြာကိုယ်ရေးကိုယ်တာအချက်အလက်",
+      "km": "ព័ត៌មានឯកជនភាពនៃការផ្សាយពាណិជ្ជកម្ម Google",
+      "lo": "ຂໍ້ມູນຄວາມເປັນສ່ວນຕົວຂອງການໂຄສະນາ Google",
+      "tet": "Informasaun privasidade publisidade Google nian",
+      "ta": "Google விளம்பர தனியுரிமை தகவல்",
+      "zh-Hans": "谷歌广告隐私信息"
     },
     {
       "ko": "Google 광고 선택 관리",
@@ -440,7 +464,15 @@
       "zh-Hant": "Google 廣告控制",
       "id": "Kontrol iklan Google",
       "th": "การควบคุมโฆษณา Google",
-      "vi": "Kiểm soát quảng cáo Google"
+      "vi": "Kiểm soát quảng cáo Google",
+      "ms": "Kawalan pengiklanan Google",
+      "fil": "Mga kontrol sa advertising ng Google",
+      "my": "Google ကြော်ငြာထိန်းချုပ်မှုများ",
+      "km": "ការគ្រប់គ្រងការផ្សាយពាណិជ្ជកម្មរបស់ Google",
+      "lo": "ການຄວບຄຸມການໂຄສະນາຂອງ Google",
+      "tet": "Kontrolu sira publisidade Google nian",
+      "ta": "Google விளம்பர கட்டுப்பாடுகள்",
+      "zh-Hans": "谷歌广告控制"
     },
     {
       "ko": "Google Analytics 데이터 보관",
@@ -454,7 +486,15 @@
       "zh-Hant": "Google Analytics 資料保存",
       "id": "Retensi data Google Analytics",
       "th": "การเก็บรักษาข้อมูล Google Analytics",
-      "vi": "Lưu giữ dữ liệu Google Analytics"
+      "vi": "Lưu giữ dữ liệu Google Analytics",
+      "ms": "Pengekalan data Google Analitis",
+      "fil": "Pagpapanatili ng data ng Google Analytics",
+      "my": "Google Analytics ဒေတာကို ထိန်းသိမ်းခြင်း။",
+      "km": "ការរក្សាទុកទិន្នន័យ Google Analytics",
+      "lo": "ການຮັກສາຂໍ້ມູນ Google Analytics",
+      "tet": "Retensaun dadus Google Analytics",
+      "ta": "Google Analytics தரவு வைத்திருத்தல்",
+      "zh-Hans": "谷歌分析数据保留"
     },
     {
       "ko": "Firebase 개인정보 보호 및 Crashlytics 보관 안내",
@@ -468,7 +508,15 @@
       "zh-Hant": "Firebase 隱私與 Crashlytics 保存期間",
       "id": "Privasi Firebase dan retensi Crashlytics",
       "th": "ความเป็นส่วนตัว Firebase และการเก็บข้อมูล Crashlytics",
-      "vi": "Quyền riêng tư Firebase và lưu giữ Crashlytics"
+      "vi": "Quyền riêng tư Firebase và lưu giữ Crashlytics",
+      "ms": "Privasi Firebase dan pengekalan Crashlytics",
+      "fil": "Pagkapribado ng Firebase at pagpapanatili ng Crashlytics",
+      "my": "Firebase ကိုယ်ရေးကိုယ်တာနှင့် Crashlytics ထိန်းသိမ်းမှု",
+      "km": "ភាពឯកជនរបស់ Firebase និងការរក្សាទុក Crashlytics",
+      "lo": "ຄວາມເປັນສ່ວນຕົວຂອງ Firebase ແລະການເກັບຮັກສາ Crashlytics",
+      "tet": "Privasidade Firebase no retensaun Crashlytics",
+      "ta": "Firebase தனியுரிமை மற்றும் Crashlytics வைத்திருத்தல்",
+      "zh-Hans": "Firebase 隐私和 Crashlytics 保留"
     },
     {
       "ko": "Firebase 데이터 처리 약관",
@@ -482,7 +530,15 @@
       "zh-Hant": "Firebase 資料處理條款",
       "id": "Ketentuan pemrosesan data Firebase",
       "th": "ข้อกำหนดการประมวลผลข้อมูล Firebase",
-      "vi": "Điều khoản xử lý dữ liệu Firebase"
+      "vi": "Điều khoản xử lý dữ liệu Firebase",
+      "ms": "Syarat pemprosesan data Firebase",
+      "fil": "Mga tuntunin sa pagpoproseso ng data ng Firebase",
+      "my": "Firebase ဒေတာလုပ်ဆောင်ခြင်းဆိုင်ရာ စည်းမျဉ်းများ",
+      "km": "លក្ខខណ្ឌដំណើរការទិន្នន័យ Firebase",
+      "lo": "ຂໍ້ກໍານົດການປະມວນຜົນຂໍ້ມູນ Firebase",
+      "tet": "Termu sira prosesamentu dadus Firebase nian",
+      "ta": "ஃபயர்பேஸ் தரவு செயலாக்க விதிமுறைகள்",
+      "zh-Hans": "Firebase 数据处理术语"
     },
     {
       "ko": "Google 데이터 센터 위치",
@@ -496,7 +552,15 @@
       "zh-Hant": "Google 資料中心位置",
       "id": "Lokasi pusat data Google",
       "th": "ที่ตั้งศูนย์ข้อมูล Google",
-      "vi": "Vị trí trung tâm dữ liệu Google"
+      "vi": "Vị trí trung tâm dữ liệu Google",
+      "ms": "Lokasi pusat data Google",
+      "fil": "Mga lokasyon ng Google data center",
+      "my": "Google ဒေတာစင်တာတည်နေရာများ",
+      "km": "ទីតាំងមជ្ឈមណ្ឌលទិន្នន័យ Google",
+      "lo": "ສະຖານທີ່ສູນຂໍ້ມູນ Google",
+      "tet": "Fatin sentru dadus Google nian",
+      "ta": "Google தரவு மைய இடங்கள்",
+      "zh-Hans": "Google 数据中心位置"
     },
     {
       "ko": "GitHub 개인정보처리방침",
@@ -510,7 +574,15 @@
       "zh-Hant": "GitHub 隱私聲明",
       "id": "Pernyataan Privasi GitHub",
       "th": "คำชี้แจงความเป็นส่วนตัว GitHub",
-      "vi": "Tuyên bố quyền riêng tư GitHub"
+      "vi": "Tuyên bố quyền riêng tư GitHub",
+      "ms": "Pernyataan Privasi Umum GitHub",
+      "fil": "Pangkalahatang Pahayag sa Privacy ng GitHub",
+      "my": "GitHub အထွေထွေ ကိုယ်ရေးကိုယ်တာ ထုတ်ပြန်ချက်",
+      "km": "សេចក្តីថ្លែងការណ៍ឯកជនភាពទូទៅ GitHub",
+      "lo": "GitHub ຖະແຫຼງການຄວາມເປັນສ່ວນຕົວທົ່ວໄປ",
+      "tet": "Deklarasaun Privasidade Jerál GitHub nian",
+      "ta": "GitHub பொது தனியுரிமை அறிக்கை",
+      "zh-Hans": "GitHub 一般隐私声明"
     },
     {
       "ko": "Play 게임즈 데이터 공개 안내",
@@ -524,7 +596,15 @@
       "id": "Pengungkapan data Play Games",
       "th": "การเปิดเผยข้อมูล Play Games",
       "vi": "Thông tin dữ liệu Play Games",
-      "url": "https://developer.android.com/games/pgs/data-collection"
+      "url": "https://developer.android.com/games/pgs/data-collection",
+      "ms": "Pendedahan data Play Games",
+      "fil": "Pagbubunyag ng data ng Play Games",
+      "my": "Play Games ဒေတာ ထုတ်ဖော်ခြင်း။",
+      "km": "ការបង្ហាញទិន្នន័យ Play Games",
+      "lo": "ການເປີດເຜີຍຂໍ້ມູນ Play Games",
+      "tet": "Divulgasaun dadus Jogu Jogu nian",
+      "ta": "Play கேம்ஸ் தரவு வெளிப்பாடு",
+      "zh-Hans": "Play 游戏数据披露"
     },
     {
       "ko": "자녀의 Play 게임즈 프로필 관리",
@@ -538,7 +618,15 @@
       "id": "Kelola profil Play Games anak",
       "th": "จัดการโปรไฟล์ Play Games ของบุตรหลาน",
       "vi": "Quản lý hồ sơ Play Games của trẻ",
-      "url": "https://support.google.com/families/answer/7103028"
+      "url": "https://support.google.com/families/answer/7103028",
+      "ms": "Urus profil Main Play kanak-kanak",
+      "fil": "Pamahalaan ang profile ng Play Games ng isang bata",
+      "my": "ကလေး၏ Play Games ပရိုဖိုင်ကို စီမံပါ။",
+      "km": "គ្រប់គ្រងកម្រងព័ត៌មាន Play Games របស់កុមារ",
+      "lo": "ຈັດການໂປຣໄຟລ໌ Play Games ຂອງເດັກນ້ອຍ",
+      "tet": "Jere labarik ida nia perfil Jogu Jogu nian",
+      "ta": "குழந்தையின் Play கேம்ஸ் சுயவிவரத்தை நிர்வகிக்கவும்",
+      "zh-Hans": "管理孩子的 Play 游戏个人资料"
     }
   ],
   "ja": {
@@ -701,7 +789,7 @@
         "title": "9. 子どもと未成年者",
         "paragraphs": [
           "本アプリは全年齢向けです。バージョン 0.31.28 以降では、18 歳未満と生年月日を入力しない利用者に対し、保守的な保護措置を適用します。生年月日は端末内の年齢判断にのみ使用し、保存・送信しません。どの年齢でもすべてのゲームを利用できます。成人の年齢をあらかじめ選んだり、ゲーム内の特典を得る条件として提示したりしません。",
-          "保護対象には Firebase の分析・不具合報告 SDK を起動しません。広告は Families 自己認証の対象バージョン範囲にある Google Mobile Ads を使い、G レーティング、非パーソナライズ、子ども向けの設定を適用します。保護対象の Android 広告 ID は送信しません。ただし、子ども向けの取り扱いでも、コンテキスト広告の配信や安全確保に必要な通信上の処理がすべてなくなるわけではありません。上記の SDK 情報をご確認ください。",
+          "保護対象のユーザーでは、Firebase の分析・不具合報告 SDK を起動しません。広告には Families の自己認証対象バージョン範囲の Google Mobile Ads を使用し、G レーティング、非パーソナライズ、子ども向けの設定を適用します。保護対象ユーザーの Android 広告 ID は送信しません。子ども向けの設定でも、コンテキスト広告の配信や安全確保に必要な通信処理がすべてなくなるわけではありません。上記の SDK 情報をご確認ください。",
           "子どもの情報、保護者の許可、追加的な保護に関する法令は引き続き適用されます。子どもの情報や必要な許可なしでの処理について懸念がある保護者は、当方の個人情報窓口へご連絡ください。合理的に可能な範囲で調査し、削除、制限などの必要な措置を講じます。"
         ]
       },
@@ -776,6 +864,38 @@
     {
       "code": "vi",
       "name": "Tiếng Việt"
+    },
+    {
+      "code": "ms",
+      "name": "Bahasa Melayu"
+    },
+    {
+      "code": "fil",
+      "name": "Filipino"
+    },
+    {
+      "code": "my",
+      "name": "မြန်မာ"
+    },
+    {
+      "code": "km",
+      "name": "ភាសាខ្មែរ"
+    },
+    {
+      "code": "lo",
+      "name": "ລາວ"
+    },
+    {
+      "code": "tet",
+      "name": "Tetun"
+    },
+    {
+      "code": "ta",
+      "name": "தமிழ்"
+    },
+    {
+      "code": "zh-Hans",
+      "name": "简体中文"
     }
   ],
   "de": {
@@ -938,7 +1058,7 @@
         "title": "9. Kinder und Minderjährige",
         "paragraphs": [
           "Die App richtet sich an alle Altersgruppen. Ab Version 0.31.28 gelten vorsorgliche Schutzmaßnahmen für Personen unter 18 Jahren und Personen ohne Geburtsdatumsangabe. Das Geburtsdatum dient nur der lokalen Altersentscheidung und wird weder gespeichert noch übertragen. Alle Spiele stehen jeder Altersgruppe offen. Ein Erwachsenenalter ist weder vorausgewählt noch Bedingung für Spielvorteile.",
-          "Bei geschützten Personen werden die Firebase-SDKs für Analyse und Absturzberichte nicht gestartet. Anzeigen verwenden Google Mobile Ads innerhalb des für Families selbstzertifizierten Versionsbereichs mit G-Einstufung, ohne Personalisierung und mit Behandlung für Kinder. Die Android-Werbe-ID geschützter Personen wird nicht übermittelt. Diese Behandlung beseitigt nicht sämtliche Netzwerkverarbeitung, die für kontextbezogene Werbung und Sicherheit nötig ist; siehe die SDK-Angaben oben.",
+          "Bei geschützten Nutzern werden die Firebase-SDKs für Analyse und Absturzberichte nicht gestartet. Für Anzeigen wird Google Mobile Ads im für Familien selbstzertifizierten Versionsbereich verwendet, mit G-Einstufung, ohne Personalisierung und mit Einstellungen für kindgerechte Werbung. Die Android-Werbe-ID geschützter Nutzer wird nicht übertragen. Diese Einstellungen verhindern nicht alle Netzwerkverarbeitungen, die für kontextbezogene Anzeigen und Sicherheit erforderlich sind; siehe die SDK-Informationen oben.",
           "Die geltenden Vorschriften zu Kinderdaten, elterlicher Erlaubnis und zusätzlichen Schutzmaßnahmen bleiben anwendbar. Eltern oder Sorgeberechtigte mit Bedenken zu Kinderdaten oder einer Verarbeitung ohne erforderliche Erlaubnis können uns per Datenschutz-E-Mail kontaktieren. Wir prüfen den Sachverhalt im vernünftigerweise möglichen Umfang und ergreifen erforderliche Lösch-, Einschränkungs- oder sonstige Maßnahmen."
         ]
       },
@@ -1129,7 +1249,7 @@
         "title": "9. Enfants et mineurs",
         "paragraphs": [
           "L’application s’adresse à tous les âges. À partir de la version 0.31.28, des protections prudentes s’appliquent aux moins de 18 ans et aux personnes sans date de naissance renseignée. Celle-ci sert uniquement à la décision locale d’âge, sans être conservée ni transmise. Tous les jeux restent accessibles à chaque âge. Un âge adulte n’est ni présélectionné ni présenté comme une condition d’avantages dans le jeu.",
-          "Les SDK Firebase d’analyse et de rapports de plantage ne démarrent pas pour les utilisateurs protégés. Les annonces utilisent Google Mobile Ads dans la plage de versions autocertifiées Families, avec classement G, sans personnalisation et avec traitement destiné aux enfants. L’identifiant publicitaire Android des utilisateurs protégés n’est pas transmis. Ce traitement ne supprime pas tous les échanges réseau nécessaires aux publicités contextuelles et à la sécurité ; consultez les informations sur les SDK.",
+          "Les SDK Firebase d’analyse et de rapports d’incident ne démarrent pas pour les utilisateurs protégés. Les annonces utilisent Google Mobile Ads dans la plage de versions autocertifiées Families, avec classement G, sans personnalisation et avec des paramètres adaptés aux enfants. L’identifiant publicitaire Android des utilisateurs protégés n’est pas transmis. Ces paramètres ne suppriment pas tous les échanges réseau nécessaires aux annonces contextuelles et à la sécurité ; consultez les informations sur les SDK ci-dessus.",
           "Les règles applicables aux données des enfants, à l’autorisation parentale et aux protections supplémentaires restent en vigueur. Les parents ou tuteurs préoccupés par les données d’un enfant ou un traitement sans autorisation requise peuvent contacter notre adresse de confidentialité. Nous examinerons la situation dans la mesure du raisonnable et prendrons les mesures nécessaires d’effacement, de limitation ou autres."
         ]
       },
@@ -1320,7 +1440,7 @@
         "title": "9. Niños y menores",
         "paragraphs": [
           "La aplicación está dirigida a todas las edades. Desde la versión 0.31.28 aplica protecciones prudentes a menores de 18 años y a quienes no indican su fecha de nacimiento. La fecha solo sirve para determinar la edad localmente y no se conserva ni transmite. Todos los juegos están disponibles para cualquier edad. No se preselecciona una edad adulta ni se presenta como condición para obtener ventajas.",
-          "Los usuarios protegidos no inician los SDK Firebase de análisis ni de informes de fallos. Los anuncios usan Google Mobile Ads dentro del rango de versiones autocertificadas Families, con clasificación G, sin personalización y con tratamiento infantil. No se transmite el ID de publicidad Android de usuarios protegidos. Esto no elimina todo tratamiento de red necesario para anuncios contextuales y seguridad; consulta la información sobre SDK.",
+          "Los usuarios protegidos no inician los SDK de Firebase para analítica ni informes de fallos. Los anuncios usan Google Mobile Ads dentro del rango de versiones autocertificadas para Families, con clasificación G, sin personalización y con ajustes de anuncios dirigidos a niños. No se transmite el ID de publicidad de Android de los usuarios protegidos. Estos ajustes no eliminan todo el procesamiento de red necesario para los anuncios contextuales y la seguridad; consulta la información sobre los SDK anterior.",
           "Siguen siendo aplicables las normas sobre datos infantiles, permiso parental y protecciones adicionales. Los padres o tutores preocupados por datos de un menor o por tratamientos sin el permiso exigido pueden escribir a nuestro correo de privacidad. Investigaremos en la medida razonablemente posible y adoptaremos las medidas necesarias de eliminación, limitación u otras."
         ]
       },
@@ -1511,7 +1631,7 @@
         "title": "9. Crianças e adolescentes",
         "paragraphs": [
           "O aplicativo é para todas as idades. A partir da versão 0.31.28, adota proteções conservadoras para menores de 18 anos e pessoas que não informam a data de nascimento. A data serve apenas para a definição local de idade, sem ser salva ou transmitida. Todos os jogos permanecem disponíveis para qualquer idade. Uma idade adulta não é pré-selecionada nem apresentada como condição para vantagens no jogo.",
-          "Usuários protegidos não iniciam os SDKs Firebase de análise ou relatórios de falhas. Os anúncios usam Google Mobile Ads dentro da faixa de versões autocertificadas Families, com classificação G, sem personalização e com tratamento infantil. O ID de publicidade Android de usuários protegidos não é transmitido. Isso não elimina todo processamento de rede necessário à publicidade contextual e à segurança; veja as informações dos SDKs.",
+          "Usuários protegidos não iniciam os SDKs Firebase de análise ou relatórios de falhas. Os anúncios usam Google Mobile Ads dentro da faixa de versões autocertificadas para Families, com classificação G, sem personalização e com configurações de anúncios voltadas ao público infantil. O ID de publicidade Android de usuários protegidos não é transmitido. Essas configurações não eliminam todo o processamento de rede necessário para anúncios contextuais e segurança; consulte as informações dos SDKs acima.",
           "Continuam aplicáveis as regras sobre dados infantis, permissão dos responsáveis e proteções adicionais. Pais ou responsáveis preocupados com dados de uma criança ou tratamento sem a permissão exigida podem escrever ao nosso contato de privacidade. Investigaremos no limite do razoavelmente possível e adotaremos as medidas necessárias de exclusão, restrição ou outras."
         ]
       },
@@ -1702,7 +1822,7 @@
         "title": "9. 兒童與未成年人",
         "paragraphs": [
           "本應用程式適合所有年齡。自 0.31.28 版起，對未滿 18 歲及未填寫出生日期者採取審慎的保護措施。出生日期僅用於本機年齡判定，不保存或傳送。所有年齡都可使用全部遊戲。不會預選成人年齡，也不會將成年設為獲得遊戲利益的條件。",
-          "受保護使用者不會啟動 Firebase 分析或當機回報 SDK。廣告使用位於 Families 自我認證版本範圍內的 Google Mobile Ads，並採 G 級、非個人化及兒童處理設定。不會傳送受保護使用者的 Android 廣告 ID。兒童處理並不會消除情境式廣告投放及安全所需的所有網路處理，請參閱上述 SDK 說明。",
+          "受保護的使用者不會啟動 Firebase 分析或當機回報 SDK。廣告使用 Families 自我認證版本範圍內的 Google Mobile Ads，並採用 G 級、非個人化及適合兒童的廣告設定。受保護使用者的 Android 廣告 ID 不會傳送。這些設定不會消除情境式廣告投放及安全所需的所有網路處理，請參閱上述 SDK 說明。",
           "兒童資料、家長許可與額外保護的適用規定仍須遵守。家長或監護人若對兒童資料或未取得必要許可的處理有疑慮，可聯絡我們的隱私信箱。我們會在合理可行的範圍內調查，並採取必要的刪除、限制或其他措施。"
         ]
       },
@@ -1893,7 +2013,7 @@
         "title": "9. Anak dan pengguna di bawah umur",
         "paragraphs": [
           "Aplikasi ini untuk segala usia. Mulai versi 0.31.28, perlindungan konservatif diterapkan pada pengguna di bawah 18 tahun dan yang tidak memasukkan tanggal lahir. Tanggal lahir hanya dipakai untuk keputusan usia lokal, tidak disimpan atau dikirim. Semua permainan tersedia untuk setiap usia. Usia dewasa tidak dipilih sebelumnya maupun dijadikan syarat mendapatkan manfaat permainan.",
-          "Pengguna terlindungi tidak menjalankan SDK analisis atau laporan error Firebase. Iklan memakai Google Mobile Ads dalam rentang versi tersertifikasi mandiri Families dengan peringkat G, tanpa personalisasi, dan perlakuan anak. ID iklan Android pengguna terlindungi tidak dikirim. Perlakuan anak tidak menghilangkan seluruh pemrosesan jaringan yang diperlukan untuk iklan kontekstual dan keamanan; lihat informasi SDK di atas.",
+          "Pengguna yang dilindungi tidak menjalankan SDK analitik atau laporan error Firebase. Iklan menggunakan Google Mobile Ads dalam rentang versi tersertifikasi mandiri Families, dengan rating G, tanpa personalisasi, dan setelan yang ditujukan untuk anak-anak. ID iklan Android pengguna yang dilindungi tidak dikirim. Setelan ini tidak menghilangkan seluruh pemrosesan jaringan yang diperlukan untuk iklan kontekstual dan keamanan; lihat informasi SDK di atas.",
           "Aturan yang berlaku tentang data anak, izin orang tua, dan perlindungan tambahan tetap berlaku. Orang tua atau wali yang khawatir tentang data anak atau pemrosesan tanpa izin yang diwajibkan dapat menghubungi email privasi kami. Kami akan menyelidiki sejauh wajar dan mengambil tindakan penghapusan, pembatasan, atau tindakan lain yang diperlukan."
         ]
       },
@@ -2084,7 +2204,7 @@
         "title": "9. เด็กและผู้เยาว์",
         "paragraphs": [
           "แอปเหมาะสำหรับทุกวัย ตั้งแต่เวอร์ชัน 0.31.28 ใช้มาตรการระมัดระวังกับผู้ใช้อายุต่ำกว่า 18 ปีและผู้ไม่ระบุวันเกิด วันเกิดใช้เฉพาะการตัดสินประเภทอายุในอุปกรณ์ ไม่บันทึกหรือส่ง ทุกวัยเล่นได้ทุกเกม ไม่มีการเลือกอายุผู้ใหญ่ไว้ล่วงหน้าหรือเสนอเป็นเงื่อนไขเพื่อรับสิทธิประโยชน์ในเกม",
-          "ผู้ใช้แบบคุ้มครองจะไม่เริ่ม SDK Firebase สำหรับการวิเคราะห์หรือรายงานข้อขัดข้อง โฆษณาใช้ Google Mobile Ads ในช่วงเวอร์ชันที่รับรองตนเองตาม Families พร้อมระดับ G ไม่ปรับตามบุคคล และการดูแลสำหรับเด็ก ไม่ส่งรหัสโฆษณา Android ของผู้ใช้แบบคุ้มครอง อย่างไรก็ตาม การดูแลสำหรับเด็กไม่ได้ตัดการประมวลผลเครือข่ายทั้งหมดที่จำเป็นต่อโฆษณาตามบริบทและความปลอดภัย โปรดดูข้อมูล SDK ด้านบน",
+          "ผู้ใช้ที่ได้รับการคุ้มครองจะไม่เริ่ม SDK ของ Firebase สำหรับการวิเคราะห์หรือรายงานข้อขัดข้อง โฆษณาใช้ Google Mobile Ads ในช่วงเวอร์ชันที่รับรองตนเองสำหรับ Families โดยจัดระดับ G ไม่ปรับโฆษณาตามบุคคล และตั้งค่าโฆษณาสำหรับเด็ก จะไม่ส่งรหัสโฆษณา Android ของผู้ใช้ที่ได้รับการคุ้มครอง การตั้งค่าเหล่านี้ไม่ได้ตัดการประมวลผลเครือข่ายทั้งหมดที่จำเป็นต่อโฆษณาตามบริบทและความปลอดภัย โปรดดูข้อมูล SDK ด้านบน",
           "กฎเรื่องข้อมูลเด็ก การอนุญาตของผู้ปกครอง และการคุ้มครองเพิ่มเติมยังคงใช้ ผู้ปกครองที่กังวลเรื่องข้อมูลเด็กหรือการประมวลผลโดยไม่มีการอนุญาตที่จำเป็นติดต่ออีเมลความเป็นส่วนตัวของเราได้ เราจะตรวจสอบเท่าที่ทำได้ตามสมควรและดำเนินการลบ จำกัด หรือมาตรการอื่นที่จำเป็น"
         ]
       },
@@ -2275,7 +2395,7 @@
         "title": "9. Trẻ em và người chưa thành niên",
         "paragraphs": [
           "Ứng dụng dành cho mọi lứa tuổi. Từ phiên bản 0.31.28, áp dụng bảo vệ thận trọng cho người dưới 18 tuổi và người không nhập ngày sinh. Ngày sinh chỉ dùng xác định tuổi trên thiết bị, không lưu hoặc gửi. Tất cả trò chơi đều dành cho mọi tuổi. Không chọn sẵn tuổi trưởng thành hay đặt đó làm điều kiện nhận lợi ích trong game.",
-          "Người dùng được bảo vệ không khởi chạy SDK Firebase phân tích hay báo cáo sự cố. Quảng cáo dùng Google Mobile Ads trong phạm vi phiên bản tự chứng nhận Families, với xếp hạng G, không cá nhân hóa và chế độ trẻ em. Mã quảng cáo Android của người dùng được bảo vệ không được gửi. Chế độ này không loại bỏ mọi xử lý mạng cần cho quảng cáo theo ngữ cảnh và bảo mật; xem thông tin SDK ở trên.",
+          "Người dùng được bảo vệ không khởi chạy SDK Firebase phân tích hoặc báo cáo sự cố. Quảng cáo dùng Google Mobile Ads trong phạm vi phiên bản tự chứng nhận Families, với xếp hạng G, không cá nhân hóa và cài đặt dành cho trẻ em. Mã quảng cáo Android của người dùng được bảo vệ không được gửi. Các cài đặt này không loại bỏ mọi xử lý mạng cần thiết cho quảng cáo theo ngữ cảnh và bảo mật; xem thông tin SDK ở trên.",
           "Các quy định về dữ liệu trẻ em, sự cho phép của cha mẹ và bảo vệ bổ sung vẫn áp dụng. Cha mẹ hoặc người giám hộ lo ngại về dữ liệu trẻ hay xử lý thiếu sự cho phép bắt buộc có thể gửi đến email quyền riêng tư. Chúng tôi sẽ điều tra trong phạm vi hợp lý và thực hiện xóa, hạn chế hoặc biện pháp cần thiết khác."
         ]
       },
@@ -2305,5 +2425,1533 @@
       }
     ],
     "skip": "Chuyển đến nội dung chính sách"
+  },
+  "ms": {
+    "title": "Dasar Privasi",
+    "operator": "Pembangun ShallWePuzzle",
+    "dateLabel": "Berkesan dan terakhir dikemas kini",
+    "intro": "Pembangun ShallWePuzzle menerangkan cara maklumat dikendalikan dalam aplikasi Android ShallWePuzzle dan di laman web dasar privasi ini.",
+    "summary": "Anda boleh bermain tanpa membuat akaun. Simpanan permainan dan tetapan disimpan pada peranti anda. Apl ini menggunakan perkhidmatan Google untuk iklan, analitik penggunaan dan diagnostik ranap; oleh itu, sesetengah data peribadi diproses.",
+    "contactLabel": "Soalan privasi dan permintaan hak",
+    "contents": "Kandungan",
+    "sections": [
+      {
+        "id": "controller",
+        "title": "1. Siapa yang bertanggungjawab dan cara menghubungi kami",
+        "paragraphs": [
+          "Perkhidmatan ini ialah pakej ShallWePuzzle, Android kr.shall.we.puzzle. Pembangun ShallWePuzzle bertanggungjawab untuk pengendalian data peribadi dan pertanyaan privasi apl.",
+          "Hantar soalan privasi, aduan, akses, pembetulan, pemadaman, sekatan atau permintaan pengeluaran persetujuan ke e-mel di bawah. Kami mungkin meminta maklumat yang semunasabahnya diperlukan untuk mengesahkan dan mengesan permintaan itu, dan bertindak balas di bawah prosedur dan had masa undang-undang yang terpakai."
+        ],
+        "contact": true
+      },
+      {
+        "id": "local",
+        "title": "2. Permainan menyimpan dan maklumat pada peranti anda",
+        "paragraphs": [
+          "Versi 0.31.28 dan kemudiannya menyemak tarikh lahir dalam memori peranti pada penggunaan pertama untuk menentukan rawatan yang dilindungi atau dewasa. Tarikh lahir dan umur angka tidak disimpan atau dihantar ke pelayan. Hanya kategori khalayak luas dan pilihan analitik/pelaporan ranap disimpan dalam storan peranti dikecualikan daripada sandaran Android. Melangkau tarikh atau tetapan yang hilang/rasuah menghasilkan rawatan yang dilindungi.",
+          "Kemajuan peringkat, bintang, markah tinggi, permainan yang belum selesai, permainan yang dimainkan baru-baru ini, bunyi, getaran dan pilihan bahasa, status tutorial, selang pengiklanan dan pilihan persetujuan disimpan dalam storan peranti tempatan apl atau SDK. Kami tidak menawarkan akaun permainan atau pelayan berasingan yang memuat naik dan menyegerakkan fail simpanan permainan anda.",
+          "Daripada 1.0.2+107, sandaran Google Play Games adalah pilihan dan berasingan daripada perlindungan umur pengiklanan. SDK bermula hanya selepas anda membaca notis sambungan dan memilih untuk menyambung. Apabila log masuk dan akses storan Google dibenarkan, peringkat, bintang dan rekod terbaik disimpan dalam Google Permainan Disimpan dan digabungkan merentas peranti. Tarikh lahir, pilihan iklan, tetapan dan papan yang belum selesai tidak disertakan dalam sandaran ini. Google juga memproses profil Play Games dan data penggunaan dan diagnostik SDK sendiri untuk menyediakan dan menambah baik perkhidmatan. Apl ini tidak meminta rakan, e-mel atau ciri sosial atau menggunakan data Play Games untuk pengiklanan. Akaun anak di bawah seliaan bergantung pada kelulusan ibu bapa dan sokongan perkhidmatan Google; storan tidak dijamin untuk setiap akaun. Semua permainan kekal boleh dimainkan dengan simpanan tempatan jika anda tidak menyambung atau akses ditolak. Pengiklanan yang dilindungi dan tetapan Firebase kekal berkuat kuasa. Pilihan sandaran disimpan dalam storan peranti dikecualikan daripada sandaran Android. Pengguna sedia ada juga melihat notis itu sekali dan sambungan tersedia kemudian dalam Tetapan apl.",
+          "Aplikasi ini tidak memerlukan pendaftaran atau log masuk. Ia tidak meminta anda menyerahkan nama, nombor telefon, alamat, kenalan, foto, rakaman mikrofon atau lokasi GPS yang tepat, atau menyertakan ciri untuk mengumpul maklumat tersebut. Jika anda menghantar e-mel kepada kami, kami menerima alamat e-mel dan mesej penghantar anda.",
+          "Jika sandaran dan pemulihan Android didayakan, sesetengah data apl mungkin disandarkan oleh pembekal sistem pengendalian dan dipulihkan selepas pemasangan semula, bergantung pada peranti anda dan tetapan akaun Google. Ini berasingan daripada akaun permainan yang dikendalikan oleh pembangun. Anda boleh mengurusnya dalam tetapan sandaran Android."
+        ]
+      },
+      {
+        "id": "sdk",
+        "title": "3. Maklumat diproses secara automatik dan mengapa",
+        "paragraphs": [
+          "Apl yang diedarkan termasuk SDK Google di bawah. Mereka boleh memproses maklumat secara automatik apabila anda menggunakan aplikasi atau menyambung ke rangkaian. Skop yang tepat bergantung pada versi SDK, tetapan peranti dan serantau, status persetujuan dan konfigurasi perkhidmatan Google.",
+          "Pada semua peringkat umur, semakan kemas kini mungkin menggunakan perkhidmatan Firebase Remote Config dan Firebase yang berasingan. Pengecam pemasangan dan token pengesahan khusus kemas kini, versi apl, bahasa, sistem pengendalian dan alamat IP yang digunakan untuk sambungan diproses untuk menyampaikan konfigurasi dan mengendalikan ciri ini. Ini berasingan daripada analisis pilihan dan pelaporan ranap; menyemak kemas kini tidak mendayakan Analitis, Crashlytics atau pengumpulan ID pengiklanan. Kami tidak menggunakan sifat pengguna pengiklanan atau analitis, percubaan atau pemperibadian untuk semakan ini."
+        ],
+        "headers": [
+          "Perkhidmatan",
+          "Maklumat yang mungkin diproses",
+          "Tujuan"
+        ],
+        "rows": [
+          [
+            "Google AdMob / Google Iklan Mudah Alih",
+            "dan anggaran lokasi disimpulkan daripadanya; ID pengiklanan Android, ID set aplikasi dan pengecam berkaitan peranti/akaun lain; interaksi seperti pelancaran apl, tera iklan, klik dan tontonan video; prestasi dan diagnostik SDK apl dan pengiklanan (Permintaan iklan yang dilindungi menggunakan rawatan kanak-kanak dan menghalang penghantaran ID pengiklanan Android.)",
+            "Menyampaikan dan mengukur pengiklanan tidak diperibadikan; keselamatan dan pencegahan penipuan"
+          ],
+          [
+            "Google Platform Pemesejan Pengguna (UMP)",
+            "Maklumat serantau dan peranti, status persetujuan dan pilihan privasi pengiklanan serta maklumat pengecam/tetapan yang diperlukan untuk menggunakan pilihan tersebut",
+            "Kemukakan mesej persetujuan pengiklanan yang diperlukan, simpan pilihan dan gunakannya pada permintaan iklan"
+          ],
+          [
+            "Google Analytics untuk Firebase",
+            "Untuk orang dewasa yang ikut serta: pengecam contoh apl/pemasangan, model peranti, sistem pengendalian, versi dan bahasa apl, acara sesi/skrin dan maklumat IP/rantau am yang diproses SDK. Pengumpulan ID pengiklanan analitis, storan iklan, data pengguna iklan dan isyarat pemperibadian iklan dilumpuhkan.",
+            "Fahami penggunaan, penggunaan ciri dan trend kestabilan, dan tingkatkan perkhidmatan"
+          ],
+          [
+            "Firebase Crashlytics dan perkhidmatan pemasangan Firebase",
+            "Untuk orang dewasa yang mengikut serta: pengecam pemasangan/sesi, masa ranap/ralat dan surih tindanan, mesej ralat, versi apl, sistem pengendalian, model peranti, memori dan diagnostik yang berkaitan, dan acara apl pra ranap terpaut",
+            "Mengesan dan menyiasat ralat, mengukur pemasangan yang terjejas dan meningkatkan kebolehpercayaan"
+          ],
+          [
+            "Firebase Konfigurasi Jauh / Firebase Pemasangan",
+            "Pengecam pemasangan dan token pengesahan khusus kemas kini, versi apl, bahasa, sistem pengendalian dan maklumat sambungan",
+            "Menghantar dan menyimpan cache tetapan versi apl yang disyorkan dan diperlukan serta menyediakan kemas kini"
+          ],
+          [
+            "Google Play Kemas Kini Dalam Apl",
+            "Metadata apl dan peranti, versi apl yang dipasang, status kemas kini dan maklumat ralat",
+            "Menyemak ketersediaan kemas kini melalui Google Play, memuat turun, memasang dan memulakan semula apl"
+          ]
+        ],
+        "after": [
+          "Kami tidak menetapkan nama, alamat e-mel atau nombor telefon anda sebagai ID pengguna Analitis atau menghantar fail simpan permainan sebagai acara analitik. Pengecam peranti dan apl masih boleh menjadi data peribadi di bawah undang-undang yang terpakai walaupun ia bukan nama sebenar anda.",
+          "0.31.28 dan kemudiannya tidak memulakan Firebase Teras, Analitis atau Crashlytics sebelum keputusan umur atau untuk pengguna dilindungi di bawah 18 atau umur yang tidak diketahui. Orang dewasa boleh mengikut serta secara jelas untuk menggunakan analitis dan pelaporan ranap sistem dan mematikan kedua-duanya bersama-sama dalam Tetapan. Versi bukan nyahpepijat terdahulu mendayakan pengumpulan automatik; sila kemas kini untuk menggunakan kawalan baharu."
+        ]
+      },
+      {
+        "id": "providers",
+        "title": "4. Google dan pembekal perkhidmatan lain",
+        "paragraphs": [
+          "Maklumat yang diterangkan di atas mungkin dihantar kepada dan diproses oleh ahli gabungan Google LLC dan Google yang dikenal pasti dalam syarat perkhidmatan yang berkaitan untuk pengiklanan, analitis dan pelaporan ranap. Google boleh bertindak sebagai pemproses kami atau sebagai pengawal bebas, bergantung pada perkhidmatan dan syaratnya.",
+          "Bergantung pada wilayah anda, pilihan dan konfigurasi pengiklanan, pembekal teknologi pengiklanan Google boleh memproses maklumat permintaan iklan dan ukuran. Apabila mesej persetujuan diberikan, rujuknya dan maklumat berkaitan Google untuk pembekal dan pilihan yang berkenaan.",
+          "Kami menerima dan menyimpan e-mel sokongan melalui Gmail (Google). Pembekal e-mel boleh memproses alamat penghantar, mesej dan sebarang lampiran yang anda pilih untuk dihantar. Sila hantar hanya maklumat yang diperlukan untuk menyelesaikan pertanyaan anda.",
+          "Kami tidak menjalankan perniagaan berasingan yang menjual data peribadi. Pendedahan pengiklanan mungkin layak sebagai pemprosesan 'perkongsian' atau pengiklanan disasarkan di bawah beberapa undang-undang; lihat pilihan di bawah. Kami juga mungkin mendedahkan maklumat terhad apabila diperlukan untuk mematuhi kewajipan undang-undang atau permintaan yang sah, atau untuk melaksanakan permintaan yang anda buat."
+        ]
+      },
+      {
+        "id": "choices",
+        "title": "5. Pilihan pengiklanan, persetujuan dan alasan untuk memproses",
+        "paragraphs": [
+          "0.31.28 dan kemudiannya menunggu keputusan umur setempat atau pilihan untuk melangkau sebelum membuat permintaan privasi pengiklanan atau iklan. Persetujuan analitis dewasa/pelaporan ranap pilihan tidak ditandakan secara lalai dan penolakan tidak menyekat mana-mana permainan. Mematikan Analitis penggunaan dan pelaporan ranap sistem dalam Tetapan menghentikan pengumpulan masa hadapan dan memadamkan laporan ranap sistem yang tidak dihantar pada peranti. Ia tidak memadamkan rekod yang telah dihantar secara automatik.",
+          "SDK pengiklanan meminta iklan selepas Google UMP menunjukkan bahawa permintaan iklan dibenarkan. Notis pengiklanan atau mesej persetujuan mungkin muncul bergantung pada wilayah anda dan keperluan Google. Apabila pilihan privasi diperlukan, anda boleh menyemak semula atau menukar pilihan melalui entri pilihan privasi pengiklanan dalam tetapan apl. Entri ini dipaparkan apabila UMP menentukan bahawa ia diperlukan.",
+          "Apl ini meminta iklan tidak diperibadikan dinilai G. Untuk pengguna yang dilindungi di bawah 18 atau umur yang tidak diketahui, ia menggunakan Google rawatan umur kanak-kanak dan tetapan di bawah umur persetujuan UMP. Iklan tidak diperibadikan atau terhad masih boleh memproses IP/lokasi umum, pengecam yang dibenarkan, interaksi dan diagnostik. Menolak persetujuan pengiklanan atau kegagalan memuatkan iklan tidak menghalang mainan.",
+          "Anda boleh mengurus pilihan pengiklanan-ID yang tersedia, seperti memadamkan ID, dalam tetapan privasi/pengiklanan Android. Nama dan pilihan berbeza mengikut peranti. Kawalan pengiklanan akaun Google digunakan secara berasingan dalam skop perkhidmatan Google.",
+          "Bergantung pada undang-undang yang terpakai, pemprosesan bergantung pada penyediaan perkhidmatan, kepentingan sah dalam kebolehpercayaan perkhidmatan, keselamatan dan penambahbaikan, kewajipan undang-undang atau persetujuan jika diperlukan. Jika pemprosesan bergantung pada persetujuan, anda boleh menarik baliknya tanpa menjejaskan kesahihan pemprosesan awal. Keperluan persetujuan yang berkenaan mesti dipenuhi di kawasan yang memerlukannya. Keizinan pengiklanan dan pemprosesan analitis/diagnostik mempunyai skop yang berasingan."
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "6. Pengekalan dan pemadaman",
+        "headers": [
+          "Maklumat",
+          "Pengekalan dan pemadaman"
+        ],
+        "rows": [
+          [
+            "Simpanan dan pilihan permainan tempatan",
+            "Disimpan semasa ia kekal pada peranti anda. Tetapan semula kemajuan apl mengosongkan penyiapan pentas, bintang dan rekod kemajuan lain yang diliputi oleh ciri itu; keutamaan, beberapa rekod skor tinggi dan data SDK mungkin kekal. Kosongkan storan apl dalam tetapan Android untuk mengalih keluar data setempatnya. Penyahpasangan, pengekalan sandaran dan pemulihan bergantung pada tetapan peranti dan sandaran."
+          ],
+          [
+            "Data analitis",
+            "Dikendalikan di bawah tetapan pengekalan dan prosedur pemadaman sifat Analitis. Standard GA4 biasanya menawarkan tetapan pengguna/peringkat acara 2- atau 14 bulan; pembaharuan berasaskan aktiviti dan tetapan lain boleh menjejaskan pengekalan. Had ini tidak digunakan dengan cara yang sama untuk semua laporan agregat standard dan statistik agregat boleh kekal lebih lama."
+          ],
+          [
+            "Crashlytics data",
+            "Google menyatakan bahawa surih tindanan ranap dan pengecam yang berkaitan disimpan selama 90 hari sebelum proses pengalihan keluar daripada sistem langsung dan sandaran bermula. Ini tidak bermakna pemadaman selesai pada hari ke-90."
+          ],
+          [
+            "Pengiklanan dan data persetujuan",
+            "Diproses di bawah dasar pengekalan/pemadaman Google dan pembekal yang berkaitan untuk tempoh yang diperlukan untuk penyampaian iklan, pengukuran, pencegahan penipuan dan penghormatan pilihan. Keutamaan persetujuan tempatan dan rekod penyedia mungkin mempunyai tempoh pengekalan yang berbeza."
+          ],
+          [
+            "E-mel sokongan",
+            "Disimpan sehingga siasatan dan susulan yang diperlukan selesai, kemudian dipadamkan. Jika pengekalan diperlukan secara sah, hanya maklumat yang diperlukan disimpan untuk tempoh berkanun yang berkenaan."
+          ],
+          [
+            "Google Play Games sandaran dan data perkhidmatan",
+            "disimpan dalam Permainan Tersimpan di bawah akaun Google anda dan ikuti prosedur pengekalan dan pemadaman Google. Urus akaun log masuk dalam tetapan Google Google dan padamkan data permainan ini melalui profil Main Play anda atau kawalan data permainan Akaun Google. Menyahpasang atau menetapkan semula kemajuan tempatan tidak memadamkan salinan awan; rekod mungkin bergabung semula semasa disambungkan."
+          ]
+        ],
+        "after": [
+          "Membersihkan data apl atau menyahpasang tidak segera memadamkan maklumat yang telah dihantar ke Google. Hubungi kami atau gunakan kawalan privasi Google yang berkaitan untuk melaksanakan hak mengenai maklumat yang telah dihantar."
+        ]
+      },
+      {
+        "id": "international",
+        "title": "7. Pemprosesan dan pemindahan antarabangsa",
+        "paragraphs": [
+          "Menggunakan perkhidmatan Google boleh melibatkan penyimpanan dan pemprosesan di luar negara anda, termasuk di Amerika Syarikat dan negara lain di mana Google dan pembekal berkaitannya mengendalikan kemudahan. Penerima termasuk Google LLC dan ahli gabungan/pemproses yang dikenal pasti dalam terma dan dasar perkhidmatan yang berkaitan. Lokasi pemprosesan bergantung pada syarat pemprosesan data dan maklumat kemudahan Google.",
+          "Maklumat dan tujuan adalah yang diterangkan dalam bahagian pengumpulan automatik dan pembekal: pengiklanan, analitik, diagnostik ranap dan sokongan e-mel. Pemindahan berlaku melalui rangkaian semasa SDK digunakan. Pengekalan mengikut bahagian pengekalan dan dasar penyedia yang berkaitan. Dasar privasi Google menyediakan laluan hubungan privasinya.",
+          "Jika dikehendaki oleh undang-undang, asas pemindahan yang sesuai, seperti persetujuan atau perlindungan kontrak, mesti terpakai. Hubungi e-mel privasi kami tentang pemindahan atau bantahan. Urus pilihan pengiklanan melalui tetapan mesej dan apl yang berkaitan. Dalam versi 0.31.28 dan yang lebih baru, orang dewasa juga boleh menghentikan analisis pilihan dan pelaporan ranap dalam Tetapan; pengguna yang dilindungi tidak menggunakan analitik/koleksi ranap ini."
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "8. Hak dan wakil anda",
+        "paragraphs": [
+          "Bergantung pada undang-undang yang terpakai, anda boleh meminta akses atau salinan, pembetulan, pemadaman, sekatan, bantahan, penarikan balik kebenaran, mudah alih atau pilihan yang berkaitan dengan pengiklanan yang disasarkan. Ibu bapa, penjaga atau wakil diberi kuasa lain boleh bertindak jika undang-undang membenarkan.",
+          "Kami tidak mengendalikan akaun keahlian kami sendiri atau pemetaan pengecam pemasangan kepada nama sebenar atau alamat e-mel. Google menyediakan kawalan untuk sambungan dan pemadaman akaun Play Games pilihan. Alamat e-mel sahaja mungkin tidak mengenal pasti rekod SDK pemasangan tertentu. Kami akan membantu mencari rekod yang berkaitan jika boleh dan menjelaskan kawalan pembekal. Kami hanya meminta maklumat yang diperlukan untuk mengendalikan permintaan; jangan hantar pengecam kerajaan atau maklumat sensitif yang tidak perlu.",
+          "Anda boleh mengadu kepada pihak berkuasa perlindungan data dalam bidang kuasa anda. Di Korea Selatan, bantuan boleh didapati daripada Pusat Laporan Pelanggaran Maklumat Peribadi (privacy.kisa.or.kr, 118 dalam Korea) atau Jawatankuasa Pengantaraan Pertikaian Maklumat Peribadi (kopico.go.kr, 1833-6972 dalam Korea)."
+        ],
+        "contact": true
+      },
+      {
+        "id": "children",
+        "title": "9. Kanak-kanak dan bawah umur",
+        "paragraphs": [
+          "Aplikasi ini adalah untuk semua peringkat umur. Versi 0.31.28 dan kemudiannya menggunakan perlindungan konservatif kepada pengguna di bawah 18 dan mereka yang tidak memasukkan tarikh lahir. Tarikh lahir hanya digunakan untuk keputusan umur tempatan, bukan disimpan atau dihantar. Semua permainan kekal tersedia untuk setiap peringkat umur. Umur dewasa tidak dipilih atau dibentangkan sebagai syarat untuk faedah permainan.",
+          "Pengguna yang dilindungi tidak memulakan SDK analitis atau pelaporan ranap Firebase. Iklan menggunakan Google Mobile Ads dalam julat versi yang diperakui sendiri untuk Families, dengan penarafan G, tanpa pemperibadian dan tetapan iklan untuk kanak-kanak. ID pengiklanan Android pengguna yang dilindungi tidak dihantar. Tetapan ini tidak menghapuskan semua pemprosesan rangkaian yang diperlukan untuk iklan kontekstual dan keselamatan; lihat maklumat SDK di atas.",
+          "Peraturan berkenaan maklumat kanak-kanak, kebenaran ibu bapa dan perlindungan tambahan masih terpakai. Ibu bapa atau penjaga yang prihatin tentang maklumat atau pemprosesan kanak-kanak tanpa kebenaran yang diperlukan boleh menghubungi e-mel privasi kami. Kami akan menyiasat di mana munasabah mungkin dan mengambil pemadaman, sekatan atau langkah lain yang diperlukan."
+        ]
+      },
+      {
+        "id": "security",
+        "title": "10. Keselamatan",
+        "paragraphs": [
+          "Kami mengehadkan akses kepada akaun pentadbiran perkhidmatan dan data peribadi kepada apa yang perlu, dan menggunakan perlindungan yang sesuai seperti ciri keselamatan pembekal dan penyulitan dalam transit. Maklumat setempat tertakluk pada perlindungan storan aplikasi sistem pengendalian. Maklumat yang tidak diperlukan lagi dipadamkan atau dinyahkenal pasti di bawah prosedur pengekalan dan pemadaman yang berkaitan.",
+          "Jangan sertakan kata laluan, pengecam kerajaan, butiran pembayaran atau maklumat sensitif lain yang tidak diperlukan untuk menyelesaikan permintaan sokongan."
+        ]
+      },
+      {
+        "id": "website",
+        "title": "11. Laman web dasar ini",
+        "paragraphs": [
+          "Halaman ini tidak mengandungi pengiklanan yang dipasang oleh pembangun, SDK analitik pelawat, skrip penjejakan atau kuki penjejakan. Ia dihoskan pada GitHub Pages. GitHub boleh memproses alamat IP pelawat dan maklumat sambungan lain untuk keselamatan dan tujuan berkaitan di bawah pernyataan privasinya sendiri. Mengikuti pautan dasar luaran membawa anda ke tapak web dan dasar penyedia tersebut.",
+          "Daripada versi 1.0.3, apl menyemak GitHub Pages untuk kemas kini kandungan peringkat dan muat turun mengubah data permainan. Permintaan ini tidak termasuk maklumat akaun Play Games atau rekod permainan peribadi. GitHub boleh memproses alamat IP dan maklumat sambungan rutin lain untuk menyampaikan dan melindungi kandungan, di bawah pernyataan privasinya sendiri."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "12. Perubahan dan dasar berkaitan",
+        "paragraphs": [
+          "Kami mungkin menyemak semula dasar ini apabila ciri apl, pembekal perkhidmatan atau undang-undang berubah dan mengemas kini tarikh berkuat kuasa. Apabila perubahan material memerlukan notis atau persetujuan tambahan, kami akan mematuhi keperluan tersebut. Rujuk sumber rasmi di bawah untuk mendapatkan amalan dan kawalan yang tersedia Google dan GitHub."
+        ],
+        "sources": true
+      }
+    ],
+    "skip": "Langkau ke dasar"
+  },
+  "fil": {
+    "title": "Patakaran sa Privacy",
+    "operator": "Developer ng ShallWePuzzle",
+    "dateLabel": "Epektibo at huling na-update",
+    "intro": "Ipinapaliwanag ng developer ng ShallWePuzzle kung paano pinangangasiwaan ang impormasyon sa Android app na ShallWePuzzle at sa website ng patakaran sa privacy na ito.",
+    "summary": "Maaari kang maglaro nang walang account. Nasa iyong device ang mga save at setting ng laro. Gumagamit ang app ng mga serbisyo ng Google para sa mga ad, analytics ng paggamit, at pagsusuri ng pag-crash; kaya may ilang personal na data na pinoproseso.",
+    "contactLabel": "Mga tanong sa privacy at kahilingan sa karapatan",
+    "contents": "Mga Nilalaman",
+    "sections": [
+      {
+        "id": "controller",
+        "title": "1. Sino ang responsable at kung paano makipag-ugnayan sa amin",
+        "paragraphs": [
+          "Ang serbisyo ay ShallWePuzzle, Android package kr.shall.we.puzzle. Responsable ang developer ng ShallWePuzzle para sa pangangasiwa ng personal na data ng app at mga katanungan sa privacy.",
+          "Magpadala ng mga tanong sa privacy, reklamo, pag-access, pagwawasto, pagtanggal, paghihigpit o mga kahilingan sa pag-withdraw ng pahintulot sa email sa ibaba. Maaari kaming humingi ng impormasyon na makatwirang kinakailangan upang ma-verify at mahanap ang kahilingan, at tumugon sa ilalim ng mga pamamaraan at mga limitasyon sa oras ng naaangkop na batas."
+        ],
+        "contact": true
+      },
+      {
+        "id": "local",
+        "title": "2. Pag-save ng laro at impormasyon sa iyong device",
+        "paragraphs": [
+          "Bersyon 0.31.28 at sa ibang pagkakataon ay tumitingin ng petsa ng kapanganakan sa memorya ng device sa unang paggamit upang matukoy ang protektado o pang-adultong paggamot. Ang petsa ng kapanganakan at numeric na edad ay hindi nai-save o ipinadala sa isang server. Tanging ang malawak na kategorya ng audience at opsyonal na pagpipilian sa analytics/pag-uulat ng pag-crash ang pinananatili sa storage ng device na hindi kasama sa backup ng Android. Ang paglaktaw sa petsa o nawawala/corrupt na mga setting ay nagreresulta sa protektadong paggamot.",
+          "Stage progress, mga bituin, matataas na marka, hindi natapos na mga laro, kamakailang nilalaro na mga laro, tunog, vibration at mga kagustuhan sa wika, status ng tutorial, mga agwat sa pag-advertise at mga pagpipilian sa pagpapahintulot ay naka-save sa storage ng lokal na device ng app o SDK. Hindi kami nag-aalok ng isang account sa laro o isang hiwalay na server na nag-a-upload at nagsi-synchronize ng iyong mga file sa pag-save ng laro.",
+          "Mula sa 1.0.2+107, ang Google Play Games backup ay opsyonal at hiwalay sa proteksyon sa edad ng advertising. Magsisimula lang ang SDK pagkatapos mong basahin ang abiso sa koneksyon at piliing kumonekta. Kapag pinapayagan ang Google na pag-sign-in at pag-access sa storage, ang mga yugto, bituin, at pinakamahusay na mga tala ay sine-save sa Google Mga Nai-save na Laro at pinagsama sa mga device. Ang mga petsa ng kapanganakan, mga pagpipilian sa ad, mga setting at hindi natapos na mga board ay hindi kasama sa backup na ito. Pinoproseso din ng Google ang profile sa Play Games at ang sariling data ng paggamit at diagnostic ng SDK upang maibigay at mapahusay ang serbisyo. Ang app na ito ay hindi humihiling ng mga kaibigan, email o social na feature, o gumagamit ng data ng Play Games para sa pag-advertise. Nakadepende ang mga pinangangasiwaang child account sa pag-apruba ng magulang at suporta sa serbisyo ng Google; hindi ginagarantiyahan ang imbakan para sa bawat account. Ang lahat ng mga laro ay nananatiling nalalaro sa mga lokal na pag-save kung hindi ka kumonekta o tinanggihan ang pag-access. Nananatiling may bisa ang mga setting ng protektadong advertising at Firebase. Ang backup na pagpipilian ay pinananatili sa storage ng device na hindi kasama sa Android backup. Nakikita rin ng mga kasalukuyang user ang paunawa nang isang beses, at available ang koneksyon sa ibang pagkakataon sa Mga Setting ng app.",
+          "Ang app ay hindi nangangailangan ng pagpaparehistro o pag-sign-in. Hindi nito hinihiling sa iyo na isumite ang iyong pangalan, numero ng telepono, address, mga contact, larawan, pag-record ng mikropono o tumpak na lokasyon ng GPS, o isama ang mga tampok upang mangolekta ng impormasyong iyon. Kung mag-email ka sa amin, matatanggap namin ang iyong email address at mensahe ng nagpadala.",
+          "Kung naka-enable ang Android backup at restore, maaaring i-back up ng provider ng operating-system ang ilang data ng app at i-restore pagkatapos ng muling pag-install, depende sa iyong device at mga setting ng Google account. Hiwalay ito sa isang account ng laro na pinapatakbo ng developer. Mapapamahalaan mo ito sa Android backup na mga setting."
+        ]
+      },
+      {
+        "id": "sdk",
+        "title": "3. Awtomatikong pinoproseso ang impormasyon at bakit",
+        "paragraphs": [
+          "Ang ipinamahagi na app ay kinabibilangan ng mga Google SDK sa ibaba. Maaari nilang awtomatikong iproseso ang impormasyon kapag ginamit mo ang app o kumonekta sa network. Ang tumpak na saklaw ay nakasalalay sa mga bersyon ng SDK, device at mga setting ng rehiyon, status ng pahintulot at configuration ng serbisyo ng Google.",
+          "Sa lahat ng edad, ang mga pagsusuri sa pag-update ay maaaring gumamit ng hiwalay na Firebase Remote Config at Firebase mga serbisyo sa Pag-install. Pinoproseso ang isang identifier ng pag-install na partikular sa update at token sa pagpapatotoo, bersyon ng app, wika, operating system, at ang IP address na ginamit para sa koneksyon upang maihatid ang configuration at patakbuhin ang feature na ito. Hiwalay ito sa opsyonal na analytics at pag-uulat ng pag-crash; hindi pinapagana ng pagsuri para sa mga update ang Analytics, Crashlytics, o pagkolekta ng advertising ID. Hindi kami gumagamit ng advertising o analytics ng mga property ng user, eksperimento, o pag-personalize para sa mga pagsusuring ito."
+        ],
+        "headers": [
+          "Serbisyo",
+          "Impormasyong maaaring iproseso",
+          "Layunin"
+        ],
+        "rows": [
+          [
+            "Google AdMob / Google Mga Ad sa Mobile",
+            "IP address at tinatayang lokasyon na hinuha mula dito; Android advertising ID, app set ID at iba pang mga identifier na nauugnay sa device/account; mga pakikipag-ugnayan gaya ng paglulunsad ng app, ad impression, pag-click at panonood ng video; app at advertising SDK performance at diagnostics (Ang mga kahilingan sa protektadong ad ay naglalapat ng paggamot sa bata at pinipigilan ang pagpapadala ng Android advertising ID.)",
+            "Ihatid at sukatin ang hindi naka-personalize na advertising; seguridad at pag-iwas sa panloloko"
+          ],
+          [
+            "Google User Messaging Platform (UMP)",
+            "Impormasyon sa rehiyon at device, status ng pahintulot at mga pagpipilian sa privacy ng advertising, at impormasyon ng identifier/setting na kailangan upang mailapat ang mga pagpipiliang iyon",
+            "Ipakita ang mga kinakailangang mensahe ng pahintulot sa advertising, i-save ang mga pagpipilian at ilapat ang mga ito sa mga kahilingan sa ad"
+          ],
+          [
+            "Google Analytics para sa Firebase",
+            "Para sa mga nasa hustong gulang na nag-opt in: app-instance/installation identifiers, device model, operating system, bersyon ng app at wika, session/screen na mga kaganapan at SDK-processed IP/general region information. Naka-disable ang mga signal ng pagkolekta ng advertising-ID ng Analytics, storage ng ad, ad-user-data at ad-personalization.",
+            "Unawain ang paggamit, tampok ang pag-aampon at stability trend, at pagbutihin ang serbisyo"
+          ],
+          [
+            "Firebase Crashlytics at Firebase mga serbisyo sa pag-install",
+            "Para sa mga nasa hustong gulang na nag-opt in: mga pagkakakilanlan ng pag-install/session, mga oras ng pag-crash/error at mga stack trace, mga mensahe ng error, bersyon ng app, operating system, modelo ng device, memory at mga nauugnay na diagnostic, at naka-link na mga kaganapan bago ang pag-crash ng app",
+            "Tuklasin at imbestigahan ang mga error, sukatin ang mga apektadong installation at pagbutihin ang pagiging maaasahan"
+          ],
+          [
+            "Firebase Remote Config / Firebase Mga Pag-install",
+            "Identifier ng pag-install na partikular sa update at token ng pagpapatunay, bersyon ng app, wika, operating system at impormasyon ng koneksyon",
+            "Paghahatid at pag-cache ng inirerekomenda at kinakailangang mga setting ng bersyon ng app at pagbibigay ng mga update"
+          ],
+          [
+            "Google Play In-App na Mga Update",
+            "Metadata ng app at device, bersyon ng naka-install na app, status ng update at impormasyon ng error",
+            "Sinusuri ang availability ng update sa pamamagitan ng Google Play, pag-download, pag-install at pag-restart ng app"
+          ]
+        ],
+        "after": [
+          "Hindi namin itinatakda ang iyong pangalan, email address o numero ng telepono bilang isang Analytics user ID, o nagpapadala ng mga file sa pag-save ng laro bilang mga kaganapan sa analytics. Ang mga identifier ng device at app ay maaari pa ring maging personal na data sa ilalim ng naaangkop na batas kahit na hindi mo tunay na pangalan ang mga ito.",
+          "Bersyon 0.31.28 at mas bago ay hindi magsisimula ng Firebase Core, Analytics o Crashlytics bago ang desisyon sa edad o para sa mga protektadong user na wala pang 18 o wala pang alam na edad. Ang mga nasa hustong gulang ay maaaring tahasang mag-opt in sa analytics ng paggamit at pag-uulat ng pag-crash at i-off ang dalawa nang magkasama sa Mga Setting. Ang mga naunang bersyon na hindi nag-debug ay pinagana ang awtomatikong pagkolekta; mangyaring mag-update upang magamit ang mga bagong kontrol."
+        ]
+      },
+      {
+        "id": "providers",
+        "title": "4. Google at iba pang service provider",
+        "paragraphs": [
+          "Ang impormasyong inilarawan sa itaas ay maaaring ipadala at iproseso ng mga kaakibat ng Google LLC at Google na tinukoy sa nauugnay na mga tuntunin ng serbisyo para sa advertising, analytics at pag-uulat ng pag-crash. Ang Google ay maaaring kumilos bilang aming processor o bilang isang independiyenteng controller, depende sa serbisyo at mga tuntunin nito.",
+          "Depende sa iyong rehiyon, mga pagpipilian at configuration ng advertising, ang Google na mga provider ng teknolohiya sa advertising ay maaaring magproseso ng impormasyon sa kahilingan sa ad at pagsukat. Kung saan may ibinigay na mensahe ng pahintulot, konsultahin ito at ang nauugnay na impormasyon ng Google para sa mga naaangkop na provider at mga pagpipilian.",
+          "Tumatanggap at nag-iimbak kami ng mga email ng suporta sa pamamagitan ng Gmail (Google). Maaaring iproseso ng email provider ang iyong address ng nagpadala, mensahe at anumang mga attachment na pipiliin mong ipadala. Mangyaring magpadala lamang ng impormasyong kailangan upang malutas ang iyong pagtatanong.",
+          "Hindi kami nagpapatakbo ng hiwalay na negosyong nagbebenta ng personal na data. Ang mga pagsisiwalat sa advertising ay maaaring maging kwalipikado bilang 'pagbabahagi' o naka-target na pagpoproseso ng advertising sa ilalim ng ilang mga batas; tingnan ang mga pagpipilian sa ibaba. Maaari rin kaming magbunyag ng limitadong impormasyon kapag kinakailangan upang sumunod sa isang legal na obligasyon o legal na kahilingan, o upang maisagawa ang isang kahilingan na iyong ginawa."
+        ]
+      },
+      {
+        "id": "choices",
+        "title": "5. Mga pagpipilian sa advertising, pahintulot at batayan para sa pagproseso ng",
+        "paragraphs": [
+          "Bersyon 0.31.28 at sa ibang pagkakataon ay naghihintay para sa isang lokal na desisyon sa edad o isang pagpipilian na laktawan bago gumawa ng advertising-privacy o mga kahilingan sa ad. Ang opsyonal na pahintulot sa analytics/pag-uulat ng pag-crash ng nasa hustong gulang ay hindi naka-check bilang default, at ang pagtanggi ay hindi naghihigpit sa anumang laro. Kapag na-off ang Analytics sa paggamit at pag-uulat ng pag-crash sa Mga Setting, hihinto ang koleksyon sa hinaharap at dine-delete ang mga hindi naipadalang ulat ng pag-crash sa device. Hindi nito awtomatikong binubura ang mga rekord na naipadala na.",
+          "Ang advertising SDK ay humihiling ng mga ad pagkatapos ipahiwatig ng Google UMP na ang mga kahilingan sa ad ay pinahihintulutan. Maaaring lumabas ang mga abiso sa pag-advertise o mga mensahe ng pahintulot depende sa iyong rehiyon at mga kinakailangan ng Google. Kapag kinakailangan ang mga opsyon sa privacy, maaari mong bisitahin muli o baguhin ang mga pagpipilian sa pamamagitan ng entry ng mga opsyon sa privacy sa advertising sa mga setting ng app. Ang entry na ito ay ipinapakita kapag natukoy ng UMP na ito ay kinakailangan.",
+          "Humihiling ang app ng mga G-rated, hindi naka-personalize na mga ad. Para sa mga protektadong user na wala pang 18 o wala pang alam na edad, inilalapat nito ang Google child-age treatment at ang setting ng UMP under-age-of-consent. Ang mga hindi naka-personalize o limitadong ad ay maaari pa ring magproseso ng IP/pangkalahatang lokasyon, mga pinahihintulutang pagkakakilanlan, pakikipag-ugnayan, at diagnostic. Ang pagtanggi sa pahintulot sa advertising o pagkabigo sa pag-load ng ad ay hindi pumipigil sa paglalaro.",
+          "Maaari mong pamahalaan ang mga magagamit na pagpipilian sa advertising-ID, tulad ng pagtanggal ng ID, sa Android mga setting ng privacy/advertising. Ang mga pangalan at opsyon ay nag-iiba ayon sa device. Ang mga kontrol sa advertising ng Google ay nalalapat nang hiwalay sa saklaw ng mga serbisyo ng Google.",
+          "Depende sa naaangkop na batas, ang pagproseso ay umaasa sa pagbibigay ng serbisyo, mga lehitimong interes sa pagiging maaasahan ng serbisyo, seguridad at pagpapabuti, mga legal na obligasyon, o pahintulot kung kinakailangan. Kung saan ang pagpoproseso ay umaasa sa pahintulot, maaari mo itong bawiin nang hindi naaapektuhan ang pagiging legal ng naunang pagproseso. Dapat matugunan ang mga naaangkop na kinakailangan sa pahintulot sa mga rehiyong nangangailangan ng mga ito. Ang pahintulot sa pag-advertise at pagpoproseso ng analytics/diagnostics ay may magkahiwalay na saklaw."
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "6. Pagpapanatili at pagtanggal",
+        "headers": [
+          "Impormasyon",
+          "Pagpapanatili at pagtanggal"
+        ],
+        "rows": [
+          [
+            "Lokal na laro ay nagse-save at mga kagustuhan",
+            "ay iniingatan habang nananatili ang mga ito sa iyong device. Ang pag-reset ng pag-usad ng app ay nililimas ang pagkumpleto ng yugto, bituin at iba pang mga tala ng pag-unlad na saklaw ng tampok na iyon; mga kagustuhan, maaaring manatili ang ilang talaan na may mataas na marka at data ng SDK. I-clear ang storage ng app sa mga setting ng Android para alisin ang lokal na data nito. Ang pag-uninstall, backup na pagpapanatili at pagpapanumbalik ay nakasalalay sa mga setting ng device at backup."
+          ],
+          [
+            "Data ng Analytics",
+            "Pinangangasiwaan sa ilalim ng mga setting ng pagpapanatili at mga pamamaraan sa pagtanggal ng property ng Analytics. Karaniwang nag-aalok ang Standard GA4 ng 2- o 14-buwan na mga setting ng user/event-level; Ang pag-renew batay sa aktibidad at iba pang mga setting ay maaaring makaapekto sa pagpapanatili. Ang mga limitasyong ito ay hindi nalalapat sa parehong paraan sa lahat ng karaniwang pinagsama-samang ulat, at ang pinagsama-samang istatistika ay maaaring manatili nang mas mahaba."
+          ],
+          [
+            "Crashlytics data",
+            "Google ay nagsasaad na ang mga crash stack trace at nauugnay na mga identifier ay pinapanatili para sa 90 araw bago magsimula ang proseso ng pag-alis mula sa mga live at backup na system. Hindi ito nangangahulugan na matatapos ang pagtanggal sa ika-90 araw."
+          ],
+          [
+            "Data ng advertising at pahintulot",
+            "Naproseso sa ilalim ng Google at may kaugnayang mga patakaran sa pagpapanatili/pagtanggal ng mga provider para sa mga panahong kailangan para sa paghahatid ng ad, pagsukat, pag-iwas sa panloloko at paggalang sa mga pagpipilian. Ang mga kagustuhan sa lokal na pahintulot at mga talaan ng mga provider ay maaaring may magkakaibang panahon ng pagpapanatili."
+          ],
+          [
+            "Suporta sa mga email",
+            "Itago hanggang sa makumpleto ang pagtatanong at kinakailangang follow-up, pagkatapos ay tanggalin. Kung legal na kinakailangan ang pagpapanatili, tanging ang kinakailangang impormasyon ang pananatilihin para sa naaangkop na panahon ng batas."
+          ],
+          [
+            "Google Play Games backup at data ng serbisyo",
+            "ay iniimbak sa Mga Nai-save na Laro sa ilalim ng iyong Google account at sundin ang mga pamamaraan ng pagpapanatili at pagtanggal ng Google. Pamahalaan ang sign-in account sa Android na mga setting ng Google, at tanggalin ang data ng larong ito sa pamamagitan ng iyong profile sa Play Games o Google Account game-data controls. Ang pag-uninstall o pag-reset ng lokal na pag-unlad ay hindi nagtatanggal ng kopya ng ulap; maaaring magsama-sama ang mga tala habang nakakonekta."
+          ]
+        ],
+        "after": [
+          "Ang pag-clear ng data ng app o pag-uninstall ay hindi agad nagtatanggal ng impormasyong naipadala na sa Google. Makipag-ugnayan sa amin o gamitin ang nauugnay na Google na mga kontrol sa privacy upang gamitin ang mga karapatan tungkol sa impormasyong naipadala na."
+        ]
+      },
+      {
+        "id": "international",
+        "title": "7. Internasyonal na pagproseso at paglilipat ng",
+        "paragraphs": [
+          "Ang paggamit ng mga serbisyo ng Google ay maaaring may kasamang pag-iimbak at pagproseso sa labas ng iyong bansa, kabilang ang sa United States at iba pang mga bansa kung saan ang Google at ang mga nauugnay na provider nito ay nagpapatakbo ng mga pasilidad. Kasama sa mga tatanggap ang Google LLC at mga kaakibat/processor na tinukoy sa nauugnay na mga tuntunin at patakaran ng serbisyo. Ang mga lokasyon ng pagpoproseso ay nakasalalay sa mga tuntunin sa pagproseso ng data at impormasyon ng pasilidad ng Google.",
+          "Ang impormasyon at mga layunin ay ang mga inilarawan sa awtomatikong pagkolekta at mga seksyon ng provider: advertising, analytics, diagnostic ng pag-crash at suporta sa email. Nagaganap ang mga paglilipat sa network habang ginagamit ang mga SDK. Ang pagpapanatili ay sumusunod sa seksyon ng pagpapanatili at ang mga nauugnay na patakaran ng provider. Ang patakaran sa privacy ng Google ay nagbibigay ng mga ruta ng pakikipag-ugnayan sa privacy nito.",
+          "Kung kinakailangan ng batas, isang naaangkop na batayan sa paglipat, tulad ng pahintulot o mga pananggalang sa kontraktwal, ay dapat maglapat. Makipag-ugnayan sa aming email sa privacy tungkol sa mga paglilipat o pagtutol. Pamahalaan ang mga pagpipilian sa pag-advertise sa pamamagitan ng nauugnay na mensahe at mga setting ng app. Sa bersyong 0.31.28 at mas bago, maaari ding ihinto ng mga nasa hustong gulang ang opsyonal na analytics at pag-uulat ng pag-crash sa Mga Setting; hindi ginagamit ng mga protektadong user ang analytics/crash collection na ito."
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "8. Ang iyong mga karapatan at kinatawan",
+        "paragraphs": [
+          "Depende sa naaangkop na batas, maaari kang humiling ng access o isang kopya, pagwawasto, pagtanggal, paghihigpit, pagtutol, pag-withdraw ng pahintulot, portability, o mga pagpipiliang nauugnay sa naka-target na advertising. Ang isang magulang, tagapag-alaga o iba pang awtorisadong kinatawan ay maaaring kumilos kung saan pinahihintulutan ng batas.",
+          "Hindi kami nagpapatakbo ng aming sariling mga account sa pagiging miyembro o isang pagmamapa ng mga pagkakakilanlan ng pag-install sa mga tunay na pangalan o email address. Nagbibigay ang Google ng mga kontrol para sa opsyonal na koneksyon at pagtanggal ng account sa Play Games. Maaaring hindi matukoy ng isang email address lamang ang mga tala ng SDK ng isang partikular na pag-install. Tutulungan namin na mahanap ang mga nauugnay na talaan kung saan makatwirang posible at ipaliwanag ang mga kontrol ng provider. Humihiling lamang kami ng impormasyong kinakailangan upang mahawakan ang isang kahilingan; huwag magpadala ng mga hindi kinakailangang pagkakakilanlan ng pamahalaan o sensitibong impormasyon.",
+          "Maaari kang magreklamo sa awtoridad sa proteksyon ng data sa iyong hurisdiksyon. Sa South Korea, ang tulong ay makukuha mula sa Personal Information Infringement Report Center (privacy.kisa.or.kr, 118 sa loob ng Korea) o sa Personal Information Dispute Mediation Committee (kopico.go.kr, 1833-6972 sa loob ng Korea)."
+        ],
+        "contact": true
+      },
+      {
+        "id": "children",
+        "title": "9. Mga bata at menor de edad",
+        "paragraphs": [
+          "Ang app ay para sa lahat ng edad. Bersyon 0.31.28 at mas bago ay naglalapat ng mga konserbatibong proteksyon sa mga user sa ilalim ng 18 at sa mga hindi nagpasok ng petsa ng kapanganakan. Ang mga petsa ng kapanganakan ay ginagamit lamang para sa lokal na pagpapasya sa edad, hindi nai-save o ipinadala. Ang lahat ng mga laro ay mananatiling magagamit sa bawat edad. Ang isang nasa hustong gulang na edad ay hindi paunang pinili o ipinakita bilang isang kondisyon para sa mga benepisyo ng laro.",
+          "Hindi sinisimulan ng mga protektadong user ang mga SDK ng Firebase para sa analytics o pag-uulat ng pag-crash. Gumagamit ang mga ad ng Google Mobile Ads sa saklaw ng bersyong self-certified para sa Families, na may G rating, hindi naka-personalize, at nakatakda para sa mga bata. Hindi ipinapadala ang Android advertising ID ng mga protektadong user. Hindi inaalis ng mga setting na ito ang lahat ng pagproseso sa network na kailangan para sa contextual ads at seguridad; tingnan ang impormasyon ng SDK sa itaas.",
+          "Nalalapat pa rin ang mga naaangkop na panuntunan sa impormasyon ng mga bata, pahintulot ng magulang at karagdagang proteksyon. Ang mga magulang o tagapag-alaga na nag-aalala tungkol sa impormasyon o pagproseso ng isang bata nang walang kinakailangang pahintulot ay maaaring makipag-ugnayan sa aming email sa privacy. Mag-iimbestiga kami kung saan makatwirang posible at magsasagawa ng kinakailangang pagtanggal, paghihigpit o iba pang mga hakbang."
+        ]
+      },
+      {
+        "id": "security",
+        "title": "10. Seguridad",
+        "paragraphs": [
+          "Nililimitahan namin ang pag-access sa mga account ng pangangasiwa ng serbisyo at personal na data sa kung ano ang kinakailangan, at gumagamit kami ng naaangkop na mga pananggalang gaya ng mga tampok sa seguridad ng provider at pag-encrypt sa transit. Ang lokal na impormasyon ay napapailalim sa mga proteksyon sa imbakan ng app ng operating system. Ang impormasyong hindi na kailangan ay tinatanggal o na-de-identify sa ilalim ng mga nauugnay na pamamaraan sa pagpapanatili at pagtanggal.",
+          "Huwag isama ang mga password, identifier ng gobyerno, mga detalye ng pagbabayad o iba pang sensitibong impormasyon na hindi kinakailangan upang malutas ang isang kahilingan sa suporta."
+        ]
+      },
+      {
+        "id": "website",
+        "title": "11. Ang website ng patakarang ito",
+        "paragraphs": [
+          "Ang pahinang ito ay naglalaman ng walang pag-advertise na naka-install ng developer, mga SDK ng analytics ng bisita, tracking script o tracking cookies. Ito ay naka-host sa GitHub Pages. Maaaring iproseso ng GitHub ang mga IP address ng bisita at iba pang impormasyon ng koneksyon para sa seguridad at mga kaugnay na layunin sa ilalim ng sarili nitong pahayag sa privacy. Ang pagsunod sa link ng panlabas na patakaran ay magdadala sa iyo sa website at mga patakaran ng provider na iyon.",
+          "Mula sa bersyong 1.0.3, sinusuri ng app ang GitHub Pages para sa mga pag-update ng content at pag-download sa yugto na nagbago ng data ng laro. Hindi kasama sa mga kahilingang ito ang impormasyon ng account sa Play Games o mga personal na tala ng gameplay. Maaaring iproseso ng GitHub ang mga IP address at iba pang nakagawiang impormasyon sa koneksyon upang maihatid at ma-secure ang nilalaman, sa ilalim ng sarili nitong pahayag sa privacy."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "12. Mga pagbabago at nauugnay na patakaran",
+        "paragraphs": [
+          "Maaari naming baguhin ang patakarang ito habang nagbabago ang mga feature ng app, service provider o batas, at i-update ang petsa ng bisa. Kung ang mga materyal na pagbabago ay nangangailangan ng karagdagang paunawa o pahintulot, susundin namin ang mga kinakailangang iyon. Kumonsulta sa opisyal na mapagkukunan sa ibaba para sa mga kasanayan at available na kontrol ng Google at GitHub."
+        ],
+        "sources": true
+      }
+    ],
+    "skip": "Lumaktaw sa patakaran"
+  },
+  "my": {
+    "title": "ကိုယ်ရေးကိုယ်တာမူဝါဒ",
+    "operator": "ShallWePuzzle အက်ပ်၏ ဆော့ဖ်ဝဲရေးသားသူ",
+    "dateLabel": "ထိရောက်ပြီး နောက်ဆုံးမွမ်းမံထားသော",
+    "intro": "ShallWePuzzle အက်ပ်ကို ဖန်တီးသူက ShallWePuzzle Android အက်ပ်နှင့် ဤကိုယ်ရေးကိုယ်တာမူဝါဒ ဝဘ်ဆိုက်တွင် အချက်အလက်များကို မည်သို့ကိုင်တွယ်ကြောင်း အောက်တွင် ရှင်းပြထားသည်။",
+    "summary": "အကောင့်မဖန်တီးဘဲ ကစားနိုင်ပါတယ်။ ဂိမ်းမှတ်တမ်းနဲ့ ဆက်တင်တွေကို သင့်စက်ထဲမှာ သိမ်းထားပါတယ်။ အက်ပ်မှာ ကြော်ငြာ၊ အသုံးပြုပုံခွဲခြမ်းစိတ်ဖြာမှုနဲ့ အက်ပ်ပျက်ကျမှု စစ်ဆေးရေးအတွက် Google ဝန်ဆောင်မှုတွေ ပါဝင်တာကြောင့် ကိုယ်ရေးကိုယ်တာဒေတာအချို့ကို လုပ်ဆောင်ပါတယ်။",
+    "contactLabel": "ကိုယ်ရေးကိုယ်တာမေးခွန်းများနှင့် အခွင့်အရေးတောင်းဆိုမှုများ",
+    "contents": "မာတိကာ",
+    "sections": [
+      {
+        "id": "controller",
+        "title": "1။ ဘယ်သူက တာဝန်ရှိပြီး ကျွန်ုပ်တို့ကို",
+        "paragraphs": [
+          "ဝန်ဆောင်မှုမှာ ShallWePuzzle၊ Android ပက်ကေ့ခ်ျ kr.shall.we.puzzle ဖြစ်သည်။ ShallWePuzzle ဆော့ဖ်ဝဲရေးသားသူသည် အက်ပ်၏ကိုယ်ရေးကိုယ်တာဒေတာကိုင်တွယ်မှုနှင့် ကိုယ်ရေးကိုယ်တာစုံစမ်းမေးမြန်းမှုများကို တာဝန်ယူပါသည်။",
+          "ကိုယ်ရေးကိုယ်တာမေးခွန်းများ၊ တိုင်ကြားချက်များ၊ ဝင်ရောက်ခွင့်၊ ပြင်ဆင်ခြင်း၊ ဖျက်ခြင်း၊ ကန့်သတ်ခြင်း သို့မဟုတ် သဘောတူညီချက်-ငွေထုတ်ခြင်း တောင်းဆိုချက်များကို အောက်ပါအီးမေးလ်သို့ ပေးပို့ပါ။ တောင်းဆိုချက်ကို အတည်ပြုရန်နှင့် ရှာဖွေရန် ကျိုးကြောင်းဆီလျော်စွာ လိုအပ်သော အချက်အလက်များကို တောင်းဆိုနိုင်ပြီး တည်ဆဲဥပဒေ၏ လုပ်ထုံးလုပ်နည်းများနှင့် အချိန်ကန့်သတ်ချက်များအောက်တွင် တုံ့ပြန်နိုင်ပါသည်။"
+        ],
+        "contact": true
+      },
+      {
+        "id": "local",
+        "title": "2။ သင့်စက်ပစ္စည်း",
+        "paragraphs": [
+          "ဗားရှင်း 0.31.28 နှင့် နောက်ပိုင်းတွင် အကာအကွယ် သို့မဟုတ် အရွယ်ရောက်ပြီးသူ ကုသမှုကို ဆုံးဖြတ်ရန်အတွက် ပထမအသုံးပြုသည့် မွေးသက္ကရာဇ်ကို စက်မှတ်ဉာဏ်တွင် စစ်ဆေးသည်။ မွေးသက္ကရာဇ်နှင့် ကိန်းဂဏာန်းအသက်တို့ကို သိမ်းဆည်းခြင်း သို့မဟုတ် ဆာဗာသို့ ပေးပို့ခြင်းမပြုပါ။ Android အရန်သိမ်းဆည်းမှုမှ ဖယ်ထုတ်ထားသော ကျယ်ပြန့်သော ပရိသတ်အမျိုးအစားနှင့် ရွေးချယ်နိုင်သော ခွဲခြမ်းစိတ်ဖြာမှု/ ပျက်စီးမှု-အစီရင်ခံခြင်း ရွေးချယ်မှုတို့ကိုသာ သိမ်းဆည်းထားသည်။ ရက်စွဲကို ကျော်သွားခြင်း သို့မဟုတ် ပျောက်ဆုံးခြင်း/ ယိုယွင်းနေသော ဆက်တင်များကို အကာအကွယ်ပေးထားသည့် ကုသမှုကို ဖြစ်ပေါ်စေသည်။",
+          "အဆင့်တိုးတက်မှု၊ ကြယ်ပွင့်များ၊ ရမှတ်များမြင့်မားသော၊ မပြီးဆုံးသေးသောဂိမ်းများ၊ မကြာသေးမီက ကစားထားသောဂိမ်းများ၊ အသံ၊ တုန်ခါမှုနှင့် ဘာသာစကားရွေးချယ်မှုများ၊ သင်ခန်းစာအခြေအနေ၊ ကြော်ငြာကာလနှင့် ခွင့်ပြုချက်ရွေးချယ်မှုများကို အက်ပ်၏ သို့မဟုတ် SDK ၏ ဒေသတွင်းစက်ပစ္စည်းသိုလှောင်မှုတွင် သိမ်းဆည်းထားသည်။ သင့်ဂိမ်းသိမ်းဆည်းသည့်ဖိုင်များကို အပ်လုဒ်လုပ်ပြီး တစ်ပြိုင်တည်းလုပ်ဆောင်သော ဂိမ်းအကောင့် သို့မဟုတ် သီးခြားဆာဗာတစ်ခုအား ကျွန်ုပ်တို့ မကမ်းလှမ်းပါ။",
+          "မှ 1.0.2+107, Google Play Games အရန်သိမ်းမှုသည် ရွေးချယ်နိုင်ပြီး ကြော်ငြာအသက်ကာကွယ်မှုမှ သီးခြားဖြစ်သည်။ ချိတ်ဆက်မှုသတိပေးချက်ကို သင်ဖတ်ပြီး ချိတ်ဆက်ရန် ရွေးချယ်ပြီးနောက် SDK သည် စတင်သည်။ Google အကောင့်ဝင်ခြင်းနှင့် သိုလှောင်မှုအသုံးပြုခွင့်ကို ခွင့်ပြုသောအခါ၊ အဆင့်များ၊ ကြယ်ပွင့်များနှင့် အကောင်းဆုံးမှတ်တမ်းများကို Google သိမ်းဆည်းထားသောဂိမ်းများတွင် သိမ်းဆည်းပြီး စက်များအတွင်း ပေါင်းစည်းလိုက်ပါ။ မွေးရက်စွဲများ၊ ကြော်ငြာရွေးချယ်မှုများ၊ ဆက်တင်များနှင့် မပြီးဆုံးသေးသော ဘုတ်များကို ဤအရန်သိမ်းဆည်းမှုတွင် မပါဝင်ပါ။ Google သည် ဝန်ဆောင်မှုကိုပေးဆောင်ရန်နှင့် ပိုမိုကောင်းမွန်လာစေရန်အတွက် Play Games ပရိုဖိုင်နှင့် SDK ၏ကိုယ်ပိုင်အသုံးပြုမှုနှင့် ရောဂါရှာဖွေရေးဒေတာကိုလည်း လုပ်ဆောင်ပါသည်။ ဤအက်ပ်သည် သူငယ်ချင်းများ၊ အီးမေးလ် သို့မဟုတ် လူမှုရေးဝန်ဆောင်မှုများကို တောင်းဆိုခြင်းမရှိပါ၊ သို့မဟုတ် ကြော်ငြာရန်အတွက် Play Games ဒေတာကို အသုံးမပြုပါ။ ကြီးကြပ်ထားသော ကလေးအကောင့်များသည် Google ၏ မိဘခွင့်ပြုချက်နှင့် ဝန်ဆောင်မှုပံ့ပိုးမှုအပေါ် မူတည်ပါသည်။ အကောင့်တိုင်းအတွက် သိုလှောင်မှုအာမခံချက်မရှိပါ။ သင်ချိတ်ဆက်ခြင်းမရှိပါက သို့မဟုတ် အသုံးပြုခွင့်ကို ငြင်းပယ်ပါက ဂိမ်းအားလုံးကို စက်တွင်းသိမ်းဆည်းမှုများဖြင့် ဆက်လက်ကစားနိုင်သည်။ ကာကွယ်ထားသော ကြော်ငြာများနှင့် Firebase ဆက်တင်များသည် သက်ရောက်မှုရှိနေဆဲဖြစ်သည်။ အရန်ရွေးချယ်မှုကို Android အရန်သိမ်းခြင်းမှ ဖယ်ထုတ်ထားသော စက်သိုလှောင်မှုတွင် သိမ်းဆည်းထားသည်။ လက်ရှိအသုံးပြုသူများသည် သတိပေးချက်ကို တစ်ကြိမ်တွေ့မြင်ရပြီး နောက်ပိုင်းတွင် အက်ပ်ဆက်တင်များတွင် ချိတ်ဆက်မှုကို ရရှိနိုင်သည်။",
+          "အက်ပ်သည် မှတ်ပုံတင်ခြင်း သို့မဟုတ် လက်မှတ်ထိုးဝင်ရန် မလိုအပ်ပါ။ သင့်အမည်၊ တယ်လီဖုန်းနံပတ်၊ လိပ်စာ၊ အဆက်အသွယ်များ၊ ဓာတ်ပုံများ၊ မိုက်ခရိုဖုန်းမှတ်တမ်းများ သို့မဟုတ် တိကျသော GPS တည်နေရာကို တင်ပြရန် သို့မဟုတ် ထိုအချက်အလက်များကို စုဆောင်းရန် အင်္ဂါရပ်များ မပါဝင်ပါ။ ကျွန်ုပ်တို့ထံ အီးမေးလ်ပို့ပါက၊ ကျွန်ုပ်တို့သည် သင့်ပေးပို့သူအီးမေးလ်လိပ်စာနှင့် မက်ဆေ့ချ်ကို လက်ခံရရှိပါသည်။",
+          "Android အရန်သိမ်းခြင်းနှင့် ပြန်လည်ရယူခြင်းကို ဖွင့်ထားပါက၊ သင့်စက်ပစ္စည်းနှင့် Google အကောင့်ဆက်တင်များပေါ်မူတည်၍ အချို့သောအက်ပ်ဒေတာများကို လည်ပတ်မှုစနစ်ပံ့ပိုးပေးသူက အရန်သိမ်းပြီး ပြန်လည်ထည့်သွင်းပြီးနောက် ပြန်လည်ထည့်သွင်းနိုင်သည်။ ၎င်းသည် ဆော့ဖ်ဝဲရေးသားသူလုပ်ဆောင်သည့် ဂိမ်းအကောင့်မှ သီးခြားဖြစ်သည်။ Android မိတ္တူဆက်တင်များတွင် ၎င်းကို သင်စီမံနိုင်သည်။"
+        ]
+      },
+      {
+        "id": "sdk",
+        "title": "3။ အချက်အလက်ကို အလိုအလျောက် လုပ်ဆောင်ပြီး အဘယ်ကြောင့်",
+        "paragraphs": [
+          "ဖြန့်ဝေထားသောအက်ပ်တွင် အောက်ဖော်ပြပါ Google SDKs ပါဝင်သည်။ သင်အက်ပ်ကိုအသုံးပြုခြင်း သို့မဟုတ် ကွန်ရက်သို့ချိတ်ဆက်သည့်အခါ ၎င်းတို့သည် အချက်အလက်များကို အလိုအလျောက်လုပ်ဆောင်နိုင်သည်။ တိကျသောနယ်ပယ်သည် SDK ဗားရှင်းများ၊ စက်ပစ္စည်းနှင့် ဒေသဆိုင်ရာဆက်တင်များ၊ သဘောတူညီချက်အခြေအနေနှင့် Google ဝန်ဆောင်မှုဖွဲ့စည်းပုံအပေါ် မူတည်သည်။",
+          "အသက်အရွယ်တိုင်းတွင်၊ အပ်ဒိတ်စစ်ဆေးမှုများသည် သီးခြား Firebase အဝေးထိန်းစနစ်နှင့် Firebase တပ်ဆင်ခြင်းဝန်ဆောင်မှုများကို အသုံးပြုနိုင်ပါသည်။ အပ်ဒိတ်-သတ်သတ်မှတ်မှတ် တပ်ဆင်မှုအမှတ်အသားနှင့် စစ်မှန်ကြောင်းအထောက်အထားပြ တိုကင်၊ အက်ပ်ဗားရှင်း၊ ဘာသာစကား၊ လည်ပတ်မှုစနစ်နှင့် ချိတ်ဆက်မှုအတွက် အသုံးပြုသည့် IP လိပ်စာတို့ကို စီစဉ်သတ်မှတ်ပြီး ဤအင်္ဂါရပ်ကို လုပ်ဆောင်ရန်အတွက် စီမံဆောင်ရွက်ထားပါသည်။ ၎င်းသည် ရွေးချယ်နိုင်သော ခွဲခြမ်းစိတ်ဖြာမှုနှင့် ပျက်စီးမှုအစီရင်ခံခြင်းမှ သီးခြားဖြစ်သည်။ အပ်ဒိတ်များကိုစစ်ဆေးခြင်းသည် Analytics၊ Crashlytics သို့မဟုတ် ကြော်ငြာ ID စုဆောင်းခြင်းကို ဖွင့်မထားပါ။ ကျွန်ုပ်တို့သည် ဤစစ်ဆေးမှုများအတွက် ကြော်ငြာ သို့မဟုတ် ခွဲခြမ်းစိတ်ဖြာမှုအသုံးပြုသူ၏ ဂုဏ်သတ္တိများ၊ စမ်းသပ်မှုများ သို့မဟုတ် ပုဂ္ဂိုလ်ရေးသီးသန့်ပြုလုပ်ခြင်းကို မသုံးပါ။"
+        ],
+        "headers": [
+          "ဝန်ဆောင်မှု",
+          "လုပ်ဆောင်နိုင်သော အချက်အလက်",
+          "ရည်ရွယ်ချက်"
+        ],
+        "rows": [
+          [
+            "Google AdMob / Google မိုဘိုင်းကြော်ငြာ",
+            "IP လိပ်စာနှင့် ၎င်းမှ ခန့်မှန်းထားသော အနီးစပ်ဆုံးတည်နေရာ၊ Android ကြော်ငြာ ID၊ အက်ပ်သတ်မှတ် ID နှင့် အခြားစက်ပစ္စည်း/အကောင့်ဆိုင်ရာ သတ်မှတ်ဖော်ပြချက်များ၊ အက်ပ်စတင်ခြင်းများ၊ ကြော်ငြာအမြင်များ၊ ကလစ်များနှင့် ဗီဒီယိုကြည့်ရှုမှုများကဲ့သို့သော အပြန်အလှန်တုံ့ပြန်မှုများ၊ အက်ပ်နှင့် ကြော်ငြာ SDK စွမ်းဆောင်ရည်နှင့် ရောဂါရှာဖွေမှုများ (ကာကွယ်ထားသော ကြော်ငြာတောင်းဆိုမှုများသည် ကလေးကုသမှုကို သက်ရောက်စေပြီး Android ကြော်ငြာ ID ၏ ကူးစက်ခြင်းကို တားဆီးပါသည်။)",
+            "သီးသန့်မဟုတ်သော ကြော်ငြာများကို ပေးပို့ခြင်းနှင့် တိုင်းတာခြင်း၊ လုံခြုံရေးနှင့် လိမ်လည်မှု ကာကွယ်ရေး"
+          ],
+          [
+            "Google User Messaging Platform (UMP)",
+            "ဒေသဆိုင်ရာနှင့် စက်ပစ္စည်းအချက်အလက်၊ ခွင့်ပြုချက်အခြေအနေနှင့် ကြော်ငြာကိုယ်ရေးကိုယ်တာရွေးချယ်မှုများနှင့်",
+            "လိုအပ်သော ကြော်ငြာခွင့်ပြုချက်စာတိုများကို တင်ပြပါ၊ ရွေးချယ်မှုများကို သိမ်းဆည်းပြီး ၎င်းတို့ကို ကြော်ငြာတောင်းဆိုမှုများ"
+          ],
+          [
+            "Google Analytics အတွက် Firebase",
+            "ပါဝင်သည့် အရွယ်ရောက်ပြီးသူများအတွက်- အက်ပ်-အင်စတီကျရှင်း/ထည့်သွင်းမှု ခွဲခြားသတ်မှတ်မှုများ၊ စက်ပစ္စည်းမော်ဒယ်၊ လည်ပတ်မှုစနစ်၊ အက်ပ်ဗားရှင်းနှင့် ဘာသာစကား၊ စက်ရှင်/မျက်နှာပြင် ဖြစ်ရပ်များနှင့် SDK-စီမံဆောင်ရွက်ထားသော IP/အထွေထွေ ဒေသဆိုင်ရာ အချက်အလက်။ Analytics ကြော်ငြာ-ID စုဆောင်းမှု၊ ကြော်ငြာသိုလှောင်မှု၊ ကြော်ငြာ-အသုံးပြုသူ-ဒေတာနှင့် ကြော်ငြာ-ကိုယ်ရေးကိုယ်တာအချက်ပြမှုများကို ပိတ်ထားသည်။",
+            "အသုံးပြုမှု၊ အင်္ဂါရပ်အသုံးပြုမှုနှင့် တည်ငြိမ်မှုလမ်းကြောင်းများကို နားလည်ပြီး"
+          ],
+          [
+            "Firebase Crashlytics နှင့် Firebase တပ်ဆင်ခြင်းဝန်ဆောင်မှုများ",
+            "ပါဝင်သည့် အရွယ်ရောက်ပြီးသူများအတွက်- တပ်ဆင်ခြင်း/စက်ရှင်သတ်မှတ်မှုစနစ်များ၊ ပျက်စီးမှု/အမှားအယွင်းအချိန်များနှင့် အစုလိုက်ခြေရာခံများ၊ အမှားမက်ဆေ့ချ်များ၊ အက်ပ်ဗားရှင်း၊ လည်ပတ်မှုစနစ်၊ စက်မော်ဒယ်၊ မှတ်ဉာဏ်နှင့် ဆက်စပ်ရောဂါရှာဖွေမှုများ၊ နှင့် ချိတ်ဆက်ထားသော အကြိုပျက်စီးမှုအက်ပ်ဖြစ်ရပ်များ",
+            "အမှားအယွင်းများကို ရှာဖွေပြီး စုံစမ်းစစ်ဆေးခြင်း၊ ထိခိုက်သည့် တပ်ဆင်မှုများကို တိုင်းတာပြီး"
+          ],
+          [
+            "Firebase Remote Config / Firebase ထည့်သွင်းမှုများ",
+            "အပ်ဒိတ်-သတ်သတ်မှတ်မှတ် တပ်ဆင်မှုအမှတ်အသားနှင့် အထောက်အထားစိစစ်ခြင်းတိုကင်၊ အက်ပ်ဗားရှင်း၊ ဘာသာစကား၊ လည်ပတ်မှုစနစ်နှင့် ချိတ်ဆက်မှုအချက်အလက်",
+            "အကြံပြုထားသော အက်ပ်ဗားရှင်း ဆက်တင်များ ပေးပို့ခြင်းနှင့် ကက်ရှ်လုပ်ခြင်း နှင့်"
+          ],
+          [
+            "Google Play အက်ပ်အတွင်း အပ်ဒိတ်များ",
+            "အက်ပ်နှင့် စက်ပစ္စည်း မက်တာဒေတာ၊ ထည့်သွင်းထားသောအက်ပ်ဗားရှင်း၊ အဆင့်မြှင့်တင်မှု အခြေအနေနှင့် အမှားအယွင်း အချက်အလက်",
+            "Google Play မှတစ်ဆင့် အပ်ဒိတ်ရရှိနိုင်မှုကို စစ်ဆေးခြင်း၊"
+          ]
+        ],
+        "after": [
+          "ကျွန်ုပ်တို့သည် သင့်အမည်၊ အီးမေးလ်လိပ်စာ သို့မဟုတ် တယ်လီဖုန်းနံပါတ်ကို Analytics အသုံးပြုသူ ID အဖြစ် သတ်မှတ်ခြင်း သို့မဟုတ် ခွဲခြမ်းစိတ်ဖြာမှုဖြစ်ရပ်များအဖြစ် ဂိမ်းသိမ်းဆည်းခြင်းဖိုင်များကို ထုတ်လွှင့်ခြင်းမပြုပါ။ စက်ပစ္စည်းနှင့် အက်ပ်သတ်မှတ်ချက်များသည် သင့်အမည်ရင်းမဟုတ်သည့်တိုင် တည်ဆဲဥပဒေအောက်တွင် ကိုယ်ရေးကိုယ်တာဒေတာအဖြစ် ဆက်လက်ရှိနေနိုင်ပါသည်။",
+          "ဗားရှင်း 0.31.28 နှင့် နောက်ပိုင်းတွင် Firebase Core၊ ပိုင်းခြားစိတ်ဖြာချက် သို့မဟုတ် Crashlytics သို့မဟုတ် 18 သို့မဟုတ် အသက်မသိရသေးသော အသုံးပြုသူများအတွက် မစတင်ပါ။ အရွယ်ရောက်ပြီးသူများသည် သုံးစွဲမှုပိုင်းခြားစိတ်ဖြာချက်နှင့် ပျက်စီးမှုသတင်းပို့ခြင်းတွင် ပြတ်သားစွာရွေးချယ်နိုင်ပြီး နှစ်ခုလုံးကို ဆက်တင်များတွင် အတူတကွပိတ်နိုင်သည်။ အစောပိုင်းက အမှားအယွင်းမရှိသော ဗားရှင်းများသည် အလိုအလျောက် စုစည်းမှုကို ဖွင့်ပေးခဲ့သည်။ ထိန်းချုပ်မှုအသစ်များကို အသုံးပြုရန် ကျေးဇူးပြု၍ အပ်ဒိတ်လုပ်ပါ။"
+        ]
+      },
+      {
+        "id": "providers",
+        "title": "4။ Google နှင့် အခြားဝန်ဆောင်မှုပေးသူများ",
+        "paragraphs": [
+          "အထက်တွင်ဖော်ပြထားသောအချက်အလက်များကို Google LLC နှင့် Google တွဲဖက်လုပ်ကိုင်သူများသည် ကြော်ငြာ၊ ခွဲခြမ်းစိတ်ဖြာမှုနှင့် ပျက်စီးမှုအစီရင်ခံခြင်းအတွက် သက်ဆိုင်ရာဝန်ဆောင်မှုစည်းမျဉ်းများတွင် ဖော်ပြထားသော ပို့လွှတ်ခြင်းနှင့် စီမံဆောင်ရွက်နိုင်ပါသည်။ Google သည် ကျွန်ုပ်တို့၏ပရိုဆက်ဆာအဖြစ် သို့မဟုတ် ဝန်ဆောင်မှုနှင့် ၎င်း၏စည်းမျဉ်းများပေါ်မူတည်၍ သီးခြားထိန်းချုပ်သူအဖြစ် ဆောင်ရွက်နိုင်ပါသည်။",
+          "သင့်ဒေသ၊ ရွေးချယ်မှုများနှင့် ကြော်ငြာဖွဲ့စည်းပုံအပေါ်မူတည်၍ Google ကြော်ငြာနည်းပညာပံ့ပိုးသူများသည် ကြော်ငြာတောင်းဆိုမှုနှင့် တိုင်းတာမှုအချက်အလက်ကို လုပ်ဆောင်နိုင်ပါသည်။ သဘောတူညီချက် မက်ဆေ့ချ်ကို ပေးသည့်အခါ၊ သက်ဆိုင်ရာ ဝန်ဆောင်မှုပေးသူများနှင့် ရွေးချယ်မှုများအတွက် Google ၏ ဆက်စပ်အချက်အလက်များကို တိုင်ပင်ပါ။",
+          "ကျွန်ုပ်တို့သည် Gmail (Google) မှတဆင့် ပံ့ပိုးကူညီမှုအီးမေးလ်များကို လက်ခံ သိမ်းဆည်းပါသည်။ အီးမေးလ်ဝန်ဆောင်မှုပေးသူက သင့်ပေးပို့သူလိပ်စာ၊ မက်ဆေ့ဂျ်နှင့် သင်ပေးပို့ရန် ရွေးချယ်ထားသော ပူးတွဲပါဖိုင်များကို စီမံဆောင်ရွက်နိုင်ပါသည်။ သင့်စုံစမ်းမေးမြန်းမှုကို ဖြေရှင်းရန် လိုအပ်သော အချက်အလက်များကိုသာ ပေးပို့ပါ။",
+          "ကျွန်ုပ်တို့သည် ကိုယ်ရေးကိုယ်တာအချက်အလက်များကို ရောင်းချသည့် သီးခြားစီးပွားရေးလုပ်ငန်းကို မလုပ်ဆောင်ပါ။ ကြော်ငြာထုတ်ဖော်မှုများသည် အချို့သောဥပဒေများအောက်တွင် 'မျှဝေခြင်း' သို့မဟုတ် ပစ်မှတ်ထားသော-ကြော်ငြာလုပ်ဆောင်ခြင်းအဖြစ် အရည်အချင်းပြည့်မီနိုင်သည်၊ အောက်ပါရွေးချယ်မှုများကိုကြည့်ပါ။ ဥပဒေဆိုင်ရာတာဝန်ဝတ္တရား သို့မဟုတ် တရားဝင်တောင်းဆိုမှုကို လိုက်နာရန် သို့မဟုတ် သင်တောင်းဆိုသည့်တောင်းဆိုချက်ကို အကောင်အထည်ဖော်ရန် လိုအပ်သည့်အခါတွင်လည်း ကျွန်ုပ်တို့သည် အကန့်အသတ်ရှိသော အချက်အလက်များကို ထုတ်ဖော်နိုင်ပါသည်။"
+        ]
+      },
+      {
+        "id": "choices",
+        "title": "5။ ကြော်ငြာရွေးချယ်မှုများ၊ သဘောတူညီချက်နှင့်",
+        "paragraphs": [
+          "ဗားရှင်း 0.31.28 နှင့် နောက်ပိုင်းတွင် ဒေသန္တရ အသက်အရွယ် ဆုံးဖြတ်ချက် သို့မဟုတ် ကြော်ငြာ-ကိုယ်ရေးကိုယ်တာ သို့မဟုတ် ကြော်ငြာတောင်းဆိုမှုများ မပြုလုပ်မီ ကျော်သွားရန် ရွေးချယ်မှုတစ်ခုကို စောင့်သည်။ ရွေးချယ်နိုင်သော အရွယ်ရောက်ပြီးသူ ခွဲခြမ်းစိတ်ဖြာမှု/ ပျက်စီးမှု-အစီရင်ခံခြင်းဆိုင်ရာ သဘောတူညီချက်ကို မူရင်းအတိုင်း အမှန်ခြစ်ဖြုတ်ထားခြင်းဖြစ်ပြီး ငြင်းပယ်ခြင်းသည် မည်သည့်ဂိမ်းကိုမျှ ကန့်သတ်ထားခြင်းမရှိပါ။ ဆက်တင်များတွင် အသုံးပြုမှုပိုင်းခြားစိတ်ဖြာချက်နှင့် ပျက်စီးမှုအစီရင်ခံခြင်းကို ပိတ်ခြင်းသည် အနာဂတ်စုစည်းမှုကို ရပ်တန့်စေပြီး စက်ပေါ်ရှိ မပို့ရသေးသော ပျက်စီးမှုအစီရင်ခံစာများကို ဖျက်ပစ်သည်။ ပို့ပြီးသား မှတ်တမ်းများကို အလိုအလျောက် ဖျက်မည်မဟုတ်ပါ။",
+          "ကြော်ငြာ SDK သည် Google UMP ပြီးနောက် ကြော်ငြာတောင်းဆိုမှုများကို ကြော်ငြာတောင်းဆိုမှုများကို ခွင့်ပြုထားကြောင်း ဖော်ပြသည်။ သင့်ဒေသနှင့် Google ၏လိုအပ်ချက်များအပေါ် မူတည်၍ ကြော်ငြာသတိပေးချက်များ သို့မဟုတ် ခွင့်ပြုချက်စာတိုများ ပေါ်လာနိုင်သည်။ ကိုယ်ရေးကိုယ်တာရွေးချယ်စရာများ လိုအပ်သည့်အခါ၊ အက်ပ်ဆက်တင်များရှိ ကြော်ငြာကိုယ်ရေးကိုယ်တာရွေးချယ်စရာများ ထည့်သွင်းမှုမှတစ်ဆင့် ရွေးချယ်မှုများကို ပြန်လည်ကြည့်ရှု သို့မဟုတ် ပြောင်းလဲနိုင်သည်။ UMP လိုအပ်ကြောင်း ဆုံးဖြတ်သောအခါ ဤထည့်သွင်းမှုကို ပြသပါသည်။",
+          "အက်ပ်သည် စိတ်ကြိုက်မဟုတ်သော ကြော်ငြာများကို G အဆင့်သတ်မှတ်ပေးရန် တောင်းဆိုသည်။ 18 အောက် သို့မဟုတ် အသက်မသိရသေးသော အသုံးပြုသူများအတွက်၊ ၎င်းသည် Google ကလေးအရွယ်ကုသမှုနှင့် UMP အသက်မပြည့်သေးသော သဘောတူညီချက် ဆက်တင်ကို အကျုံးဝင်ပါသည်။ ပုဂ္ဂိုလ်ရေးသီးသန့်မဟုတ်သော သို့မဟုတ် အကန့်အသတ်မရှိသော ကြော်ငြာများသည် IP/အထွေထွေတည်နေရာ၊ ခွင့်ပြုထားသော ခွဲခြားသတ်မှတ်မှုများ၊ အပြန်အလှန်တုံ့ပြန်မှုများနှင့် ရောဂါရှာဖွေမှုများကို လုပ်ဆောင်နိုင်သေးသည်။ ကြော်ငြာခွင့်ပြုချက် ကျဆင်းခြင်း သို့မဟုတ် ကြော်ငြာတင်ခြင်း ပျက်ကွက်ခြင်းသည် ကစားခြင်းကို မတားဆီးနိုင်ပါ။",
+          "သင်သည် ID ကိုဖျက်ခြင်းကဲ့သို့သော ကြော်ငြာ ID ရွေးချယ်မှုများကို Android လျှို့ဝှက်ရေး/ကြော်ငြာဆက်တင်များတွင် စီမံခန့်ခွဲနိုင်ပါသည်။ အမည်များနှင့် ရွေးချယ်စရာများသည် စက်ပစ္စည်းအလိုက် ကွဲပြားသည်။ Google အကောင့်ကြော်ငြာထိန်းချုပ်မှုများကို Google ၏ဝန်ဆောင်မှုနယ်ပယ်အတွင်း သီးခြားစီသက်ရောက်သည်။",
+          "တည်ဆဲဥပဒေအပေါ် မူတည်၍ ဝန်ဆောင်မှုပေးခြင်း၊ ဝန်ဆောင်မှုပေးခြင်း၊ လုံခြုံရေးနှင့် တိုးတက်မှုအတွက် တရားဝင်အကျိုးစီးပွားများ၊ ဥပဒေဆိုင်ရာတာဝန်ဝတ္တရားများ သို့မဟုတ် သဘောတူခွင့်ပြုချက်အပေါ် မူတည်ပါသည်။ စီမံဆောင်ရွက်ခြင်းသည် ခွင့်ပြုချက်အပေါ် မှီခိုနေပါက၊ အစောပိုင်းလုပ်ဆောင်ခြင်း၏ တရားဝင်မှုကို မထိခိုက်စေဘဲ ၎င်းကို ရုပ်သိမ်းနိုင်သည်။ ၎င်းတို့လိုအပ်သည့် ဒေသများတွင် သက်ဆိုင်ရာ သဘောတူညီချက် လိုအပ်ချက်များ ပြည့်မီရပါမည်။ ကြော်ငြာခွင့်ပြုချက်နှင့် ခွဲခြမ်းစိတ်ဖြာခြင်း/ရောဂါရှာဖွေခြင်း လုပ်ဆောင်ခြင်းတွင် သီးခြားနယ်ပယ်များရှိသည်။"
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "6။ ထိန်းသိမ်းခြင်းနှင့် ဖျက်ခြင်း",
+        "headers": [
+          "အချက်အလက်",
+          "ထိန်းသိမ်းခြင်းနှင့် ဖျက်ခြင်း"
+        ],
+        "rows": [
+          [
+            "ပြည်တွင်းဂိမ်းကို သိမ်းဆည်းပြီး ဦးစားပေးမှုများ",
+            "၎င်းတို့သည် သင့်စက်တွင် ရှိနေစဉ်တွင် သိမ်းဆည်းထားသည်။ အက်ပ်၏ တိုးတက်မှုကို ပြန်လည်သတ်မှတ်ခြင်းသည် စင်မြင့်ပြီးစီးမှု၊ ကြယ်ပွင့်နှင့် ယင်းအင်္ဂါရပ်မှ ဖုံးလွှမ်းထားသော အခြားတိုးတက်မှုမှတ်တမ်းများကို ရှင်းလင်းပေးသည်။ ဦးစားပေးမှုများ၊ အချို့သော ရမှတ်မြင့်မှတ်တမ်းများနှင့် SDK ဒေတာ ကျန်ရှိနေနိုင်သည်။ ၎င်း၏စက်တွင်းဒေတာကိုဖယ်ရှားရန် Android ဆက်တင်များတွင် အက်ပ်၏သိုလှောင်မှုကို ရှင်းလင်းပါ။ ဖြုတ်ခြင်း၊ အရန်သိမ်းခြင်းနှင့် ပြန်လည်ရယူခြင်းသည် စက်နှင့် အရန်ဆက်တင်များပေါ်တွင် မူတည်သည်။"
+          ],
+          [
+            "ပိုင်းခြားစိတ်ဖြာမှုဒေတာ",
+            "ကို ပိုင်းခြားစိတ်ဖြာချက် ပိုင်ဆိုင်မှု၏ ထိန်းသိမ်းမှု ဆက်တင်များနှင့် ဖျက်ခြင်း လုပ်ထုံးလုပ်နည်းများအောက်တွင် ကိုင်တွယ်ထားသည်။ Standard GA4 သည် ယေဘူယျအားဖြင့် 2- သို့မဟုတ် 14-လအသုံးပြုသူ/ဖြစ်ရပ်အဆင့်ဆက်တင်များကို ပေးဆောင်ပါသည်။ လုပ်ဆောင်ချက်အခြေပြု သက်တမ်းတိုးခြင်းနှင့် အခြားဆက်တင်များသည် ထိန်းသိမ်းမှုကို ထိခိုက်စေနိုင်သည်။ ဤကန့်သတ်ချက်များသည် စံစုစည်းမှုအစီရင်ခံစာများအားလုံးတွင် တူညီသောနည်းလမ်းဖြင့် သက်ရောက်မှုမရှိပါ၊ စုစည်းထားသောစာရင်းအင်းများသည် ပိုကြာနိုင်ပါသည်။"
+          ],
+          [
+            "Crashlytics ဒေတာ",
+            "Google သည် ပျက်စီးနေသော အစုလိုက်ခြေရာများနှင့် ဆက်စပ်သော ခွဲခြားသတ်မှတ်မှုများကို 90 တိုက်ရိုက်နှင့် အရန်စနစ်များမှ ဖယ်ရှားခြင်းလုပ်ငန်းစဉ်မစတင်မီ ရက်များတွင် သိမ်းဆည်းထားကြောင်း 90 က ဖော်ပြသည်။ ၎င်းသည် ရက်ပေါင်း 90 တွင် ဖျက်ခြင်းပြီးဆုံးသည်ဟု မဆိုလိုပါ။"
+          ],
+          [
+            "ကြော်ငြာနှင့်ခွင့်ပြုချက်ဒေတာ",
+            "သည် Google ၏ ကြော်ငြာပေးပို့မှု၊ တိုင်းတာမှု၊ လိမ်လည်မှုတားဆီးကာကွယ်ရေးနှင့် ဂုဏ်ပြုရွေးချယ်မှုများအတွက် လိုအပ်သောကာလများအတွက် လိုအပ်သည့်အချိန်များအတွက် Google နှင့် သက်ဆိုင်ရာဝန်ဆောင်မှုပေးသူများ၏ ထိန်းသိမ်းခြင်း/ဖျက်ခြင်းဆိုင်ရာ မူဝါဒများအောက်တွင် လုပ်ဆောင်ထားသည်။ ဒေသဆိုင်ရာ သဘောတူခွင့်ပြုချက် ဦးစားပေးများနှင့် ဝန်ဆောင်မှုပေးသူများ၏ မှတ်တမ်းများတွင် ထိန်းသိမ်းထားရမည့် ကာလများ မတူညီနိုင်ပါ။"
+          ],
+          [
+            "ပံ့ပိုးမှု",
+            "စုံစမ်းမေးမြန်းခြင်းနှင့် လိုအပ်သောနောက်ဆက်တွဲများ ပြီးသွားသည်အထိ သိမ်းဆည်းထားပြီးနောက် ဖျက်ပစ်ပါ။ ဥပဒေအရ ထိန်းသိမ်းရန် လိုအပ်ပါက၊ လိုအပ်သော အချက်အလက်များကိုသာ သက်ဆိုင်သည့် ဥပဒေအရ သိမ်းဆည်းထားသည်။"
+          ],
+          [
+            "Google Play Games မိတ္တူနှင့် ဝန်ဆောင်မှုဒေတာ",
+            "မှတ်တမ်းများကို သင်၏ Google အကောင့်အောက်တွင် သိမ်းထားသောဂိမ်းများတွင် သိမ်းဆည်းထားပြီး Google ၏ ထိန်းသိမ်းမှုနှင့် ဖျက်ခြင်းဆိုင်ရာ လုပ်ငန်းစဉ်များကို လိုက်နာပါ။ Android ၏ Google ဆက်တင်များတွင် လက်မှတ်ထိုးဝင်သည့်အကောင့်ကို စီမံခန့်ခွဲပြီး သင့် Play Games ပရိုဖိုင် သို့မဟုတ် Google အကောင့်ဂိမ်းဒေတာထိန်းချုပ်မှုများမှတစ်ဆင့် ဤဂိမ်း၏ဒေတာကို ဖျက်ပါ။ ဒေသဆိုင်ရာတိုးတက်မှုကို ဖယ်ရှားခြင်း သို့မဟုတ် ပြန်လည်သတ်မှတ်ခြင်းသည် cloud မိတ္တူကို မဖျက်ပါ။ ချိတ်ဆက်နေစဉ်တွင် မှတ်တမ်းများကို ပြန်လည်ပေါင်းစည်းနိုင်သည်။"
+          ]
+        ],
+        "after": [
+          "အက်ပ်ဒေတာကို ရှင်းလင်းခြင်း သို့မဟုတ် တပ်ဆင်ခြင်းအား ဖယ်ရှားခြင်းသည် Google သို့ ပေးပို့ထားပြီးသော အချက်အလက်များကို ချက်ခြင်းဖျက်မည်မဟုတ်ပါ။ ကျွန်ုပ်တို့ထံ ဆက်သွယ်ပါ သို့မဟုတ် သက်ဆိုင်ရာ Google ကိုယ်ရေးကိုယ်တာ ထိန်းချုပ်မှုများကို အသုံးပြုပြီး သတင်းအချက်အလက်များနှင့်ပတ်သက်ပြီး အခွင့်အရေးများကို ကျင့်သုံးပါ။"
+        ]
+      },
+      {
+        "id": "international",
+        "title": "7။ နိုင်ငံတကာ လုပ်ဆောင်ခြင်းနှင့် လွှဲပြောင်းခြင်း",
+        "paragraphs": [
+          "Google ဝန်ဆောင်မှုများကို အသုံးပြုခြင်းသည် အမေရိကန်ပြည်ထောင်စုနှင့် Google နှင့် သက်ဆိုင်ရာ ဝန်ဆောင်မှုပေးသူများ စက်ရုံများလည်ပတ်သည့် အခြားနိုင်ငံများအပါအဝင် သင့်နိုင်ငံပြင်ပတွင် သိုလှောင်မှုနှင့် စီမံဆောင်ရွက်ပေးခြင်းတို့ ပါဝင်နိုင်သည်။ လက်ခံသူများသည် သက်ဆိုင်ရာဝန်ဆောင်မှုစည်းမျဉ်းများနှင့် မူဝါဒများတွင် သတ်မှတ်ထားသော Google LLC နှင့် တွဲဖက်/ပရိုဆက်ဆာများ ပါဝင်သည်။ စီမံဆောင်ရွက်နေသည့်နေရာများသည် Google ၏ ဒေတာလုပ်ဆောင်ခြင်းဆိုင်ရာ စည်းကမ်းချက်များနှင့် အထောက်အကူပြုအချက်အလက်များအပေါ် မူတည်သည်။",
+          "အချက်အလက်များနှင့် ရည်ရွယ်ချက်များသည် အလိုအလျောက်စုဆောင်းခြင်းနှင့် ဝန်ဆောင်မှုပေးသည့်ကဏ္ဍများတွင် ဖော်ပြထားသည့်အရာများဖြစ်သည်- ကြော်ငြာ၊ ပိုင်းခြားစိတ်ဖြာချက်၊ ပျက်စီးမှုရှာဖွေရေးနှင့် အီးမေးလ်ပံ့ပိုးမှု။ SDKs ကိုအသုံးပြုနေစဉ်တွင် လွှဲပြောင်းမှုများသည် ကွန်ရက်ပေါ်တွင် ဖြစ်ပျက်နေပါသည်။ ထိန်းသိမ်းခြင်းသည် ထိန်းသိမ်းမှုအပိုင်းနှင့် သက်ဆိုင်ရာ ဝန်ဆောင်မှုပေးသူများ၏ မူဝါဒများကို လိုက်နာသည်။ Google ၏ကိုယ်ရေးကိုယ်တာမူဝါဒသည် ၎င်း၏ကိုယ်ရေးကိုယ်တာအဆက်အသွယ်လမ်းကြောင်းများကို ပေးဆောင်သည်။",
+          "ဥပဒေအရ လိုအပ်ပါက၊ ခွင့်ပြုချက် သို့မဟုတ် စာချုပ်ဆိုင်ရာ အကာအကွယ်များကဲ့သို့သော သင့်လျော်သော လွှဲပြောင်းမှုအခြေခံကို လျှောက်ထားရမည်ဖြစ်သည်။ လွှဲပြောင်းမှုများ သို့မဟုတ် ကန့်ကွက်မှုများအကြောင်း ကျွန်ုပ်တို့၏ ကိုယ်ရေးကိုယ်တာအီးမေးလ်ကို ဆက်သွယ်ပါ။ သက်ဆိုင်ရာ မက်ဆေ့ဂျ်နှင့် အက်ပ်ဆက်တင်များမှတစ်ဆင့် ကြော်ငြာရွေးချယ်မှုများကို စီမံပါ။ ဗားရှင်း 0.31.28 နှင့် နောက်ပိုင်းတွင်၊ အရွယ်ရောက်ပြီးသူများသည် ဆက်တင်များတွင် စိတ်ကြိုက်ခွဲခြမ်းစိတ်ဖြာခြင်းနှင့် ပျက်စီးမှုသတင်းပေးပို့ခြင်းတို့ကို ရပ်တန့်နိုင်သည်။ ကာကွယ်ထားသည့်အသုံးပြုသူများသည် ဤခွဲခြမ်းစိတ်ဖြာချက်/ ပျက်စီးမှုစုစည်းမှုကို အသုံးမပြုပါ။"
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "8။ သင်၏အခွင့်အရေးများနှင့် ကိုယ်စားလှယ်များသည်",
+        "paragraphs": [
+          "တည်ဆဲဥပဒေပေါ်မူတည်၍ အသုံးပြုခွင့် သို့မဟုတ် မိတ္တူ၊ ပြင်ဆင်ခြင်း၊ ဖျက်ခြင်း၊ ကန့်သတ်ခြင်း၊ ကန့်ကွက်ခြင်း၊ ခွင့်ပြုချက်ရုပ်သိမ်းခြင်း၊ သယ်ဆောင်ရလွယ်ကူခြင်း သို့မဟုတ် ရွေးချယ်မှုများနှင့် သက်ဆိုင်သော ရွေးချယ်မှုများကို တောင်းဆိုနိုင်ပါသည်။ မိဘ၊ အုပ်ထိန်းသူ သို့မဟုတ် အခြားအခွင့်အာဏာ ကိုယ်စားလှယ်တစ်ဦးသည် ဥပဒေခွင့်ပြုထားသည့်အတိုင်း ဆောင်ရွက်နိုင်သည်။",
+          "ကျွန်ုပ်တို့သည် ကျွန်ုပ်တို့၏ကိုယ်ပိုင်အဖွဲ့ဝင်အကောင့်များ သို့မဟုတ် အမည်အစစ်အမှန်များ သို့မဟုတ် အီးမေးလ်လိပ်စာများသို့ တပ်ဆင်မှုသတ်မှတ်ခြင်းများကို ပုံဖော်ခြင်းအား လုပ်ဆောင်ခြင်းမပြုပါ။ Google သည် ရွေးချယ်နိုင်သော Play Games အကောင့်ချိတ်ဆက်မှုနှင့် ဖျက်ခြင်းအတွက် ထိန်းချုပ်မှုများကို ပံ့ပိုးပေးပါသည်။ အီးမေးလ်လိပ်စာတစ်ခုတည်းသည် သီးခြားတပ်ဆင်မှုတစ်ခု၏ SDK မှတ်တမ်းများကို ဖော်ထုတ်နိုင်မည်မဟုတ်ပေ။ ကျိုးကြောင်းဆီလျော်စွာ ဖြစ်နိုင်သည့်နေရာများတွင် သက်ဆိုင်ရာ မှတ်တမ်းများကို ရှာဖွေပြီး ပံ့ပိုးပေးသူ ထိန်းချုပ်မှုများကို ရှင်းပြပေးပါမည်။ တောင်းဆိုချက်တစ်ခုကို ကိုင်တွယ်ရန် လိုအပ်သော အချက်အလက်ကိုသာ ကျွန်ုပ်တို့ တောင်းဆိုပါသည်။ မလိုအပ်သော အစိုးရ အထောက်အထားများ သို့မဟုတ် အရေးကြီးသော အချက်အလက်များကို မပေးပို့ပါနှင့်။",
+          "သင်သည် သင့်တရားစီရင်ပိုင်ခွင့်ရှိ ဒေတာကာကွယ်ရေး အာဏာပိုင်ထံ တိုင်ကြားနိုင်ပါသည်။ တောင်ကိုရီးယားတွင်၊ ကိုယ်ရေးကိုယ်တာအချက်အလက်များ ချိုးဖောက်မှုအစီရင်ခံစာစင်တာ (privacy.kisa.or.kr၊ 118 Korea အတွင်း) သို့မဟုတ် ကိုယ်ရေးကိုယ်တာအချက်အလက်များ အငြင်းပွားမှု ဖျန်ဖြေရေးကော်မတီ (kopico.go.kr၊ 1833-6972) တို့မှ အကူအညီကို ရရှိနိုင်ပါသည်။"
+        ],
+        "contact": true
+      },
+      {
+        "id": "children",
+        "title": "9။ ကလေးများနှင့် အရွယ်မရောက်သေးသူများ",
+        "paragraphs": [
+          "အက်ပ်သည် အသက်အရွယ်အားလုံးအတွက်ဖြစ်သည်။ ဗားရှင်း 0.31.28 နှင့် နောက်ပိုင်းတွင် 18 အောက်တွင် အသုံးပြုသူများနှင့် မွေးသက္ကရာဇ်မထည့်သော သုံးစွဲသူများအတွက် ရှေးရိုးဆန်သော ကာကွယ်မှုများကို သက်ရောက်သည်။ မွေးရက်များကို ဒေသန္တရ အသက် ဆုံးဖြတ်ချက်အတွက်သာ အသုံးပြုသည်၊ သိမ်းဆည်းခြင်း သို့မဟုတ် ကူးစက်ခြင်း မရှိပါ။ ဂိမ်းအားလုံးသည် အသက်အရွယ်တိုင်းတွင် ရရှိနိုင်သည်။ အရွယ်ရောက်ပြီးသူ၏အသက်ကို ကြိုတင်ရွေးချယ်ထားခြင်း သို့မဟုတ် ဂိမ်းအကျိုးခံစားခွင့်များအတွက် အခြေအနေတစ်ရပ်အဖြစ် ဖော်ပြထားခြင်းမရှိပါ။",
+          "ကာကွယ်မှုလိုအပ်သော အသုံးပြုသူများအတွက် Firebase အသုံးပြုမှု ခွဲခြမ်းစိတ်ဖြာခြင်းနှင့် အက်ပ်ပျက်ကျမှု အစီရင်ခံသည့် SDK များကို မစတင်ပါ။ ကြော်ငြာများတွင် Families ကိုယ်တိုင်အသိအမှတ်ပြုထားသော ဗားရှင်းအတွင်းရှိ Google Mobile Ads ကို အသုံးပြုပြီး G အဆင့်၊ ကိုယ်ပိုင်အလိုက်ပြင်ဆင်မှုမရှိခြင်းနှင့် ကလေးများအတွက် သတ်မှတ်ထားသော ကြော်ငြာဆက်တင်များကို အသုံးပြုသည်။ ကာကွယ်မှုလိုအပ်သော အသုံးပြုသူများ၏ Android ကြော်ငြာ ID ကို မပို့ပါ။ ဤဆက်တင်များကြောင့် အကြောင်းအရာအလိုက် ကြော်ငြာပြသခြင်းနှင့် လုံခြုံရေးအတွက် လိုအပ်သော ကွန်ရက်ဒေတာလုပ်ဆောင်မှုအားလုံး ပျောက်ကွယ်သွားခြင်းမရှိပါ။ အထက်ပါ SDK အချက်အလက်ကို ကြည့်ပါ။",
+          "ကလေးများ၏ အချက်အလက်၊ မိဘခွင့်ပြုချက်နှင့် အပိုအကာအကွယ်များဆိုင်ရာ သက်ဆိုင်သည့် စည်းမျဉ်းများ ရှိနေသေးပါသည်။ ကလေး၏အချက်အလက် သို့မဟုတ် လိုအပ်သောခွင့်ပြုချက်မရှိဘဲ လုပ်ဆောင်ခြင်းနှင့်ပတ်သက်၍ သက်ဆိုင်သည့်မိဘများ သို့မဟုတ် အုပ်ထိန်းသူများသည် ကျွန်ုပ်တို့၏ကိုယ်ရေးကိုယ်တာအီးမေးလ်ကို ဆက်သွယ်နိုင်ပါသည်။ ကျွန်ုပ်တို့သည် ကျိုးကြောင်းဆီလျော်စွာ ဖြစ်နိုင်သည့်နေရာကို စုံစမ်းပြီး လိုအပ်သော ပယ်ဖျက်မှု၊ ကန့်သတ်ချက် သို့မဟုတ် အခြားအစီအမံများကို လုပ်ဆောင်ပါမည်။"
+        ]
+      },
+      {
+        "id": "security",
+        "title": "10။ လုံခြုံရေး",
+        "paragraphs": [
+          "ကျွန်ုပ်တို့သည် လိုအပ်သည့်အရာများတွင် ဝန်ဆောင်မှုစီမံခန့်ခွဲရေးအကောင့်များနှင့် ကိုယ်ရေးကိုယ်တာဒေတာများကို ဝင်ရောက်ကြည့်ရှုခွင့်ကို ကန့်သတ်ထားပြီး ဝန်ဆောင်မှုပေးသူလုံခြုံရေးအင်္ဂါရပ်များနှင့် အသွင်ဝှက်ခြင်းကဲ့သို့သော သင့်လျော်သောအကာအကွယ်များကို အသုံးပြုပါသည်။ ဒေသဆိုင်ရာ အချက်အလက်များသည် လည်ပတ်မှုစနစ်၏ အက်ပ်သိုလှောင်မှု အကာအကွယ်များပေါ်တွင် မူတည်ပါသည်။ မလိုအပ်တော့သော အချက်အလက်များကို သက်ဆိုင်ရာ ထိန်းသိမ်းခြင်းနှင့် ဖျက်ခြင်းဆိုင်ရာ လုပ်ထုံးလုပ်နည်းများအောက်တွင် ဖျက်ပစ်ခြင်း သို့မဟုတ် ဖော်ထုတ်ခြင်းအား ဖယ်ရှားလိုက်ပါသည်။",
+          "ပံ့ပိုးမှုတောင်းဆိုမှုကို ဖြေရှင်းရန် မလိုအပ်သော စကားဝှက်များ၊ အစိုးရသတ်မှတ်မှုစနစ်များ၊ ငွေပေးချေမှုအသေးစိတ်များ သို့မဟုတ် အခြားအရေးကြီးသော အချက်အလက်များ မပါဝင်ပါနှင့်။"
+        ]
+      },
+      {
+        "id": "website",
+        "title": "11။ ဤမူဝါဒဝဘ်ဆိုဒ်",
+        "paragraphs": [
+          "ဤစာမျက်နှာတွင် ဆော့ဖ်ဝဲထည့်သွင်းထားသော ကြော်ငြာများ၊ လည်ပတ်သူ ခွဲခြမ်းစိတ်ဖြာမှု SDKs၊ script များကို ခြေရာခံခြင်း သို့မဟုတ် ခြေရာခံခြင်း cookies များ မပါဝင်ပါ။ ၎င်းကို GitHub Pages တွင် လက်ခံကျင်းပသည်။ GitHub သည် ၎င်း၏ကိုယ်ပိုင်ကိုယ်ရေးကိုယ်တာထုတ်ပြန်ချက်အောက်တွင် လုံခြုံရေးနှင့်ဆက်စပ်သောရည်ရွယ်ချက်များအတွက် ဧည့်သည် IP လိပ်စာများနှင့် အခြားချိတ်ဆက်မှုအချက်အလက်များကို လုပ်ဆောင်နိုင်သည်။ ပြင်ပမူဝါဒလင့်ခ်ကို လိုက်နာခြင်းဖြင့် ထိုဝန်ဆောင်မှုပေးသူ၏ ဝဘ်ဆိုက်နှင့် မူဝါဒများဆီသို့ ခေါ်ဆောင်သွားပါသည်။",
+          "1.0.3 ဗားရှင်းမှ၊ အက်ပ်သည် အဆင့်အကြောင်းအရာမွမ်းမံမှုများနှင့် ဒေါင်းလုဒ်ပြောင်းထားသော ဂိမ်းဒေတာအတွက် GitHub Pages စစ်ဆေးသည်။ ဤတောင်းဆိုချက်များတွင် Play Games အကောင့်အချက်အလက် သို့မဟုတ် ကိုယ်ရေးကိုယ်တာဂိမ်းကစားခြင်းမှတ်တမ်းများ မပါဝင်ပါ။ GitHub သည် ၎င်း၏ကိုယ်ပိုင်ကိုယ်ရေးကိုယ်တာထုတ်ပြန်ချက်အောက်တွင် အကြောင်းအရာကိုပေးပို့ရန်နှင့် လုံခြုံစေရန်အတွက် IP လိပ်စာများနှင့် အခြားပုံမှန်ချိတ်ဆက်မှုအချက်အလက်များကို လုပ်ဆောင်နိုင်သည်။"
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "12။ အပြောင်းအလဲများနှင့် ဆက်စပ်မူဝါဒများ",
+        "paragraphs": [
+          "ကျွန်ုပ်တို့သည် အက်ပ်အင်္ဂါရပ်များ၊ ဝန်ဆောင်မှုပေးသူများ သို့မဟုတ် ဥပဒေများ အပြောင်းအလဲနှင့် အကျုံးဝင်သည့်ရက်စွဲကို အပ်ဒိတ်အဖြစ် ကျွန်ုပ်တို့သည် ဤမူဝါဒကို ပြန်လည်ပြင်ဆင်နိုင်ပါသည်။ အကြောင်းအရာပြောင်းလဲမှုများသည် ထပ်လောင်းသတိပေးချက် သို့မဟုတ် ခွင့်ပြုချက်လိုအပ်ပါက၊ ကျွန်ုပ်တို့သည် အဆိုပါလိုအပ်ချက်များကို လိုက်နာပါမည်။ Google နှင့် GitHub ၏ အလေ့အကျင့်များနှင့် ရရှိနိုင်သော ထိန်းချုပ်မှုများအတွက် အောက်ပါတရားဝင်အရင်းအမြစ်များနှင့် တိုင်ပင်ပါ။"
+        ],
+        "sources": true
+      }
+    ],
+    "skip": "မူဝါဒ"
+  },
+  "km": {
+    "title": "គោលការណ៍ឯកជនភាព",
+    "operator": "អ្នកបង្កើត ShallWePuzzle",
+    "dateLabel": "មានប្រសិទ្ធភាព និងធ្វើបច្ចុប្បន្នភាពចុងក្រោយ",
+    "intro": "អ្នកបង្កើត ShallWePuzzle ពន្យល់ខាងក្រោមអំពីរបៀបដែលព័ត៌មានត្រូវបានប្រើប្រាស់នៅក្នុងកម្មវិធី Android ShallWePuzzle និងគេហទំព័រគោលការណ៍ឯកជនភាពនេះ។",
+    "summary": "អ្នកអាចលេងដោយមិនចាំបាច់បង្កើតគណនី។ កំណត់ត្រាហ្គេម និងការកំណត់ត្រូវបានរក្សាទុកក្នុងឧបករណ៍របស់អ្នក។ កម្មវិធីនេះប្រើសេវាកម្ម Google សម្រាប់ការផ្សាយពាណិជ្ជកម្ម ការវិភាគការប្រើប្រាស់ និងការវិភាគការគាំង ដូច្នេះទិន្នន័យផ្ទាល់ខ្លួនមួយចំនួនត្រូវបានដំណើរការ។",
+    "contactLabel": "សំណួរឯកជនភាព និងសំណើសិទ្ធិ",
+    "contents": "មាតិកា",
+    "sections": [
+      {
+        "id": "controller",
+        "title": "1 ។ តើអ្នកណាជាអ្នកទទួលខុសត្រូវ និងរបៀបទាក់ទងមកយើង",
+        "paragraphs": [
+          "សេវាកម្មគឺ ShallWePuzzle, Android កញ្ចប់ kr.shall.we.puzzle ។ អ្នកអភិវឌ្ឍន៍ ShallWePuzzle ទទួលខុសត្រូវចំពោះការគ្រប់គ្រងទិន្នន័យផ្ទាល់ខ្លួន និងការសាកសួរឯកជនភាពរបស់កម្មវិធី។",
+          "ផ្ញើសំណួរឯកជនភាព ការតវ៉ា ការចូលប្រើ ការកែតម្រូវ ការលុប ការរឹតបន្តឹង ឬសំណើការយល់ព្រម-ដកប្រាក់ ទៅកាន់អ៊ីមែលខាងក្រោម។ យើងអាចស្នើសុំព័ត៌មានដោយសមហេតុផលដែលចាំបាច់ ដើម្បីផ្ទៀងផ្ទាត់ និងកំណត់ទីតាំងសំណើ ហើយឆ្លើយតបតាមនីតិវិធី និងរយៈពេលកំណត់នៃច្បាប់ជាធរមាន។"
+        ],
+        "contact": true
+      },
+      {
+        "id": "local",
+        "title": "2 ។ ហ្គេមរក្សាទុក និងព័ត៌មាននៅលើឧបករណ៍របស់អ្នក",
+        "paragraphs": [
+          "កំណែ 0.31.28 ហើយក្រោយមកពិនិត្យថ្ងៃខែឆ្នាំកំណើតនៅក្នុងអង្គចងចាំឧបករណ៍នៅពេលប្រើលើកដំបូង ដើម្បីកំណត់ការព្យាបាលដែលមានការការពារ ឬមនុស្សពេញវ័យ។ ថ្ងៃខែឆ្នាំកំណើត និងអាយុជាលេខមិនត្រូវបានរក្សាទុក ឬផ្ញើទៅកាន់ម៉ាស៊ីនមេទេ។ មានតែប្រភេទទស្សនិកជនទូលំទូលាយ និងជម្រើសនៃការវិភាគ/របាយការណ៍គាំងប៉ុណ្ណោះដែលត្រូវបានរក្សាទុកក្នុងកន្លែងផ្ទុកឧបករណ៍ ដែលមិនរាប់បញ្ចូលពីការបម្រុងទុក Android ។ ការរំលងកាលបរិច្ឆេទ ឬការកំណត់ដែលបាត់/ខូច នាំឱ្យការព្យាបាលដែលត្រូវបានការពារ។",
+          "ដំណើរការដំណាក់កាល ផ្កាយ ពិន្ទុខ្ពស់ ហ្គេមមិនទាន់បញ្ចប់ ហ្គេមដែលទើបនឹងលេង សំឡេង រំញ័រ និងចំណូលចិត្តភាសា ស្ថានភាពបង្រៀន ចន្លោះពេលផ្សាយពាណិជ្ជកម្ម និងជម្រើសការយល់ព្រមត្រូវបានរក្សាទុកក្នុងឧបករណ៍ផ្ទុកក្នុងឧបករណ៍របស់កម្មវិធី ឬ SDK ។ យើងមិនផ្តល់គណនីហ្គេម ឬម៉ាស៊ីនមេដាច់ដោយឡែកដែលផ្ទុកឡើង និងធ្វើសមកាលកម្មឯកសាររក្សាទុកហ្គេមរបស់អ្នកទេ។",
+          "ពី 1.0.2+107, Google Play Games គឺស្រេចចិត្ត និងដាច់ដោយឡែកពីការការពារអាយុផ្សាយពាណិជ្ជកម្ម។ SDK ចាប់ផ្តើមតែបន្ទាប់ពីអ្នកអានសេចក្តីជូនដំណឹងអំពីការតភ្ជាប់ ហើយជ្រើសរើសភ្ជាប់។ នៅពេលដែល Google ការចូល និងការចូលប្រើការផ្ទុកត្រូវបានអនុញ្ញាត ដំណាក់កាល ផ្កាយ និងកំណត់ត្រាល្អបំផុតត្រូវបានរក្សាទុកនៅក្នុងហ្គេមដែលបានរក្សាទុក Google ហើយបញ្ចូលចូលគ្នានៅទូទាំងឧបករណ៍។ ថ្ងៃខែឆ្នាំកំណើត ការជ្រើសរើសការផ្សាយពាណិជ្ជកម្ម ការកំណត់ និងបន្ទះដែលមិនទាន់បានបញ្ចប់ មិនត្រូវបានរួមបញ្ចូលនៅក្នុងការបម្រុងទុកនេះទេ។ Google ក៏ដំណើរការកម្រងព័ត៌មាន Play Games និងទិន្នន័យនៃការប្រើប្រាស់ និងការវិភាគផ្ទាល់របស់ SDK ដើម្បីផ្តល់ និងកែលម្អសេវាកម្ម។ កម្មវិធីនេះមិនស្នើសុំមិត្តភក្តិ អ៊ីមែល ឬមុខងារសង្គម ឬប្រើទិន្នន័យ Play Games សម្រាប់ការផ្សាយពាណិជ្ជកម្មទេ។ គណនីកុមារដែលត្រូវបានត្រួតពិនិត្យអាស្រ័យលើការយល់ព្រមពីមាតាបិតា និងការគាំទ្រសេវាកម្មរបស់ Google ។ ការផ្ទុកមិនត្រូវបានធានាសម្រាប់គណនីនីមួយៗទេ។ ហ្គេមទាំងអស់នៅតែអាចលេងបានជាមួយនឹងការរក្សាទុកក្នុងតំបន់ ប្រសិនបើអ្នកមិនភ្ជាប់ ឬចូលប្រើត្រូវបានបដិសេធ។ ការផ្សាយពាណិជ្ជកម្មដែលត្រូវបានការពារ និងការកំណត់ Firebase នៅតែមានប្រសិទ្ធភាព។ ជម្រើសនៃការបម្រុងទុកត្រូវបានរក្សាទុកក្នុងឧបករណ៍ផ្ទុកទិន្នន័យដែលមិនរាប់បញ្ចូលពីការបម្រុងទុក Android ។ អ្នក​ប្រើ​ដែល​មាន​ស្រាប់​ក៏​ឃើញ​ការ​ជូន​ដំណឹង​ម្តង​ដែរ ហើយ​ការ​តភ្ជាប់​មាន​ពេល​ក្រោយ​ក្នុង​ការ​កំណត់​កម្មវិធី។",
+          "កម្មវិធីនេះមិនតម្រូវឱ្យមានការចុះឈ្មោះ ឬចូលទេ។ វាមិនស្នើសុំឱ្យអ្នកដាក់ឈ្មោះ លេខទូរស័ព្ទ អាសយដ្ឋាន ទំនាក់ទំនង រូបថត ការថតមីក្រូហ្វូន ឬទីតាំង GPS ច្បាស់លាស់ ឬរួមបញ្ចូលមុខងារដើម្បីប្រមូលព័ត៌មាននោះទេ។ ប្រសិនបើអ្នកផ្ញើអ៊ីមែលមកយើង យើងទទួលបានអាសយដ្ឋានអ៊ីមែល និងសាររបស់អ្នកផ្ញើ។",
+          "ប្រសិនបើការបម្រុងទុក និងស្ដារ Android ត្រូវបានបើក ទិន្នន័យកម្មវិធីមួយចំនួនអាចត្រូវបានបម្រុងទុកដោយអ្នកផ្តល់ប្រព័ន្ធប្រតិបត្តិការ ហើយបានស្ដារឡើងវិញបន្ទាប់ពីដំឡើងឡើងវិញ អាស្រ័យលើឧបករណ៍របស់អ្នក និងការកំណត់គណនី Google ។ នេះគឺដាច់ដោយឡែកពីគណនីហ្គេមដែលដំណើរការដោយអ្នកអភិវឌ្ឍន៍។ អ្នកអាចគ្រប់គ្រងវានៅក្នុងការកំណត់បម្រុងទុក Android ។"
+        ]
+      },
+      {
+        "id": "sdk",
+        "title": "3 ។ ព័ត៌មានត្រូវបានដំណើរការដោយស្វ័យប្រវត្តិ ហើយហេតុអ្វីបានជា",
+        "paragraphs": [
+          "កម្មវិធីដែលបានចែកចាយរួមមាន Google SDKs ខាងក្រោម។ ពួកគេអាចដំណើរការព័ត៌មានដោយស្វ័យប្រវត្តិនៅពេលអ្នកប្រើកម្មវិធី ឬភ្ជាប់ទៅបណ្តាញ។ វិសាលភាពច្បាស់លាស់អាស្រ័យលើកំណែ SDK ឧបករណ៍ និងការកំណត់តំបន់ ស្ថានភាពយល់ព្រម និងការកំណត់រចនាសម្ព័ន្ធសេវាកម្ម Google ។",
+          "នៅគ្រប់វ័យ ការត្រួតពិនិត្យអាប់ដេតអាចប្រើ Firebase Remote Config និង Firebase ដាច់ដោយឡែក។ ឧបករណ៍កំណត់អត្តសញ្ញាណការដំឡើងជាក់លាក់ និងសញ្ញាសម្គាល់ការផ្ទៀងផ្ទាត់ កំណែកម្មវិធី ភាសា ប្រព័ន្ធប្រតិបត្តិការ និងអាសយដ្ឋាន IP ដែលប្រើសម្រាប់ការតភ្ជាប់ត្រូវបានដំណើរការដើម្បីផ្តល់ការកំណត់រចនាសម្ព័ន្ធ និងដំណើរការមុខងារនេះ។ នេះគឺដាច់ដោយឡែកពីការវិភាគស្រេចចិត្ត និងរបាយការណ៍គាំង។ ការពិនិត្យមើលបច្ចុប្បន្នភាពមិនបើកការវិភាគ Crashlytics ឬការប្រមូលលេខសម្គាល់ការផ្សាយពាណិជ្ជកម្មទេ។ យើងមិនប្រើការផ្សាយពាណិជ្ជកម្ម ឬការវិភាគលក្ខណៈសម្បត្តិអ្នកប្រើប្រាស់ ការពិសោធន៍ ឬការកំណត់ផ្ទាល់ខ្លួនសម្រាប់ការត្រួតពិនិត្យទាំងនេះទេ។"
+        ],
+        "headers": [
+          "សេវាកម្ម",
+          "ព័ត៌មានដែលអាចត្រូវបានដំណើរការ",
+          "គោលបំណង"
+        ],
+        "rows": [
+          [
+            "Google AdMob / Google ការផ្សាយពាណិជ្ជកម្មតាមទូរស័ព្ទ",
+            "អាសយដ្ឋាន IP និងទីតាំងប្រហាក់ប្រហែលដែលបានសន្និដ្ឋានពីវា; លេខសម្គាល់ការផ្សាយពាណិជ្ជកម្ម Android លេខសម្គាល់កម្មវិធី និងឧបករណ៍កំណត់អត្តសញ្ញាណដែលទាក់ទងនឹងគណនីផ្សេងទៀត; អន្តរកម្មដូចជាការបើកដំណើរការកម្មវិធី ការផ្សាយពាណិជ្ជកម្ម ការចុច និងការមើលវីដេអូ។ កម្មវិធី និងការផ្សាយពាណិជ្ជកម្ម SDK ការអនុវត្ត និងការវិនិច្ឆ័យ (សំណើការផ្សាយពាណិជ្ជកម្មដែលបានការពារអនុវត្តការព្យាបាលកុមារ និងការពារការបញ្ជូនលេខសម្គាល់ការផ្សាយពាណិជ្ជកម្ម Android ។)",
+            "ចែកចាយ និងវាស់វែងការផ្សាយពាណិជ្ជកម្មដែលមិនមានលក្ខណៈផ្ទាល់ខ្លួន។ សុវត្ថិភាព និងការការពារការក្លែងបន្លំ"
+          ],
+          [
+            "Google User Messaging Platform (UMP)",
+            "ព័ត៌មានក្នុងតំបន់ និងឧបករណ៍ ស្ថានភាពយល់ព្រម និងជម្រើសឯកជនភាពនៃការផ្សាយពាណិជ្ជកម្ម និងព័ត៌មានកំណត់អត្តសញ្ញាណ/ការកំណត់ដែលត្រូវការដើម្បីអនុវត្តជម្រើសទាំងនោះ",
+            "បង្ហាញសារយល់ព្រមលើការផ្សាយពាណិជ្ជកម្ម រក្សាទុកជម្រើស និងអនុវត្តពួកវាទៅសំណើផ្សាយពាណិជ្ជកម្ម"
+          ],
+          [
+            "Google Analytics សម្រាប់ Firebase",
+            "សម្រាប់មនុស្សពេញវ័យដែលជ្រើសរើសចូល៖ កម្មវិធីកំណត់អត្តសញ្ញាណកម្មវិធី/ការដំឡើង ម៉ូដែលឧបករណ៍ ប្រព័ន្ធប្រតិបត្តិការ កំណែកម្មវិធី និងភាសា ព្រឹត្តិការណ៍សម័យ/អេក្រង់ និងព័ត៌មាន IP/តំបន់ទូទៅដែលដំណើរការ SDK ។ ការប្រមូលលេខសម្គាល់ការផ្សាយពាណិជ្ជកម្ម ការវិភាគ ការផ្ទុកការផ្សាយពាណិជ្ជកម្ម ទិន្នន័យអ្នកប្រើប្រាស់ និងសញ្ញាផ្សាយពាណិជ្ជកម្មផ្ទាល់ខ្លួនត្រូវបានបិទ។",
+            "ស្វែងយល់ពីការប្រើប្រាស់ ការទទួលយកលក្ខណៈពិសេស និងនិន្នាការស្ថិរភាព និងកែលម្អសេវាកម្ម"
+          ],
+          [
+            "Firebase Crashlytics និង Firebase សេវាដំឡើង",
+            "សម្រាប់មនុស្សពេញវ័យដែលជ្រើសរើសចូល៖ ការកំណត់អត្តសញ្ញាណការដំឡើង/វគ្គ ពេលវេលាគាំង/កំហុស និងដានជង់ សារកំហុស កំណែកម្មវិធី ប្រព័ន្ធប្រតិបត្តិការ ម៉ូដែលឧបករណ៍ អង្គចងចាំ និងការវិនិច្ឆ័យដែលពាក់ព័ន្ធ និងព្រឹត្តិការណ៍កម្មវិធីមុនគាំងដែលបានភ្ជាប់",
+            "រកឃើញ និងស៊ើបអង្កេតកំហុស វាស់វែងការដំឡើងដែលរងផលប៉ះពាល់ និងធ្វើអោយប្រសើរឡើងនូវភាពជឿជាក់"
+          ],
+          [
+            "Firebase ការកំណត់ពីចម្ងាយ / Firebase ការដំឡើង",
+            "អាប់ដេតការកំណត់អត្តសញ្ញាណការដំឡើងជាក់លាក់ និងសញ្ញាសម្គាល់ការផ្ទៀងផ្ទាត់ កំណែកម្មវិធី ភាសា ប្រព័ន្ធប្រតិបត្តិការ និងព័ត៌មានការតភ្ជាប់",
+            "ការចែកចាយ និងឃ្លាំងសម្ងាត់ដែលបានណែនាំ និងការកំណត់កំណែកម្មវិធីដែលត្រូវការ និងការផ្តល់នូវបច្ចុប្បន្នភាព"
+          ],
+          [
+            "Google Play ការធ្វើបច្ចុប្បន្នភាពក្នុងកម្មវិធី",
+            "កម្មវិធី និងទិន្នន័យមេតាឧបករណ៍ កំណែកម្មវិធីដែលបានដំឡើង ស្ថានភាពអាប់ដេត និងព័ត៌មានបញ្ហា",
+            "កំពុងពិនិត្យមើលភាពអាចរកបាននៃការអាប់ដេតតាមរយៈ Google Play ការទាញយក ដំឡើង និងចាប់ផ្តើមកម្មវិធីឡើងវិញ"
+          ]
+        ],
+        "after": [
+          "យើងមិនកំណត់ឈ្មោះ អាសយដ្ឋានអ៊ីមែល ឬលេខទូរស័ព្ទរបស់អ្នកជាលេខសម្គាល់អ្នកប្រើប្រាស់វិភាគ ឬបញ្ជូនឯកសាររក្សាទុកហ្គេមជាព្រឹត្តិការណ៍វិភាគទេ។ ឧបករណ៍ និងឧបករណ៍កំណត់អត្តសញ្ញាណកម្មវិធីនៅតែអាចជាទិន្នន័យផ្ទាល់ខ្លួននៅក្រោមច្បាប់ដែលអាចអនុវត្តបាន ទោះបីជាពួកវាមិនមែនជាឈ្មោះពិតរបស់អ្នកក៏ដោយ។",
+          "0.31.28 ហើយក្រោយមកមិនចាប់ផ្តើម Firebase ស្នូល ការវិភាគ ឬ Crashlytics មុនពេលការសម្រេចចិត្តអាយុ ឬសម្រាប់អ្នកប្រើប្រាស់ដែលត្រូវបានការពារក្រោម 18 ឬមិនស្គាល់អាយុ។ មនុស្សពេញវ័យអាចជ្រើសរើសចូលប្រើការវិភាគការប្រើប្រាស់ និងការរាយការណ៍អំពីការគាំងយ៉ាងច្បាស់ ហើយបិទទាំងពីររួមគ្នានៅក្នុងការកំណត់។ កំណែដែលមិនមានកំហុសពីមុនបានបើកការប្រមូលដោយស្វ័យប្រវត្តិ។ សូមអាប់ដេតដើម្បីប្រើការគ្រប់គ្រងថ្មី។"
+        ]
+      },
+      {
+        "id": "providers",
+        "title": "4 ។ Google និងអ្នកផ្តល់សេវាផ្សេងទៀត",
+        "paragraphs": [
+          "ព័ត៌មានដែលបានពិពណ៌នាខាងលើអាចត្រូវបានបញ្ជូនទៅ និងដំណើរការដោយសាខា Google LLC និង Google ដែលត្រូវបានកំណត់អត្តសញ្ញាណនៅក្នុងលក្ខខណ្ឌសេវាកម្មពាក់ព័ន្ធសម្រាប់ការផ្សាយពាណិជ្ជកម្ម ការវិភាគ និងរបាយការណ៍គាំង។ Google អាចដើរតួជាខួរក្បាលរបស់យើង ឬជាឧបករណ៍បញ្ជាឯករាជ្យ អាស្រ័យលើសេវាកម្ម និងលក្ខខណ្ឌរបស់វា។",
+          "អាស្រ័យលើតំបន់របស់អ្នក ជម្រើស និងការកំណត់រចនាសម្ព័ន្ធការផ្សាយពាណិជ្ជកម្ម អ្នកផ្តល់បច្ចេកវិជ្ជាផ្សាយពាណិជ្ជកម្ម Google អាចដំណើរការការស្នើសុំការផ្សាយពាណិជ្ជកម្ម និងការវាស់វែងព័ត៌មាន។ នៅពេលដែលសារយល់ព្រមត្រូវបានផ្តល់ សូមពិគ្រោះជាមួយវា និងព័ត៌មានពាក់ព័ន្ធរបស់ Google សម្រាប់អ្នកផ្តល់សេវា និងជម្រើសដែលអាចអនុវត្តបាន។",
+          "យើងទទួល និងរក្សាទុកអ៊ីមែលជំនួយតាមរយៈ Gmail (Google)។ អ្នកផ្តល់អ៊ីមែលអាចដំណើរការអាសយដ្ឋានអ្នកផ្ញើ សារ និងឯកសារភ្ជាប់ណាមួយដែលអ្នកជ្រើសរើសផ្ញើ។ សូមផ្ញើតែព័ត៌មានដែលត្រូវការដើម្បីដោះស្រាយការសាកសួររបស់អ្នក។",
+          "យើងមិនដំណើរការអាជីវកម្មដាច់ដោយឡែកដែលលក់ទិន្នន័យផ្ទាល់ខ្លួនទេ។ ការបង្ហាញការផ្សាយពាណិជ្ជកម្មអាចមានលក្ខណៈគ្រប់គ្រាន់ជា 'ការចែករំលែក' ឬដំណើរការផ្សាយពាណិជ្ជកម្មដែលមានគោលដៅនៅក្រោមច្បាប់មួយចំនួន។ សូមមើលជម្រើសខាងក្រោម។ យើងក៏អាចបង្ហាញព័ត៌មានមានកម្រិតផងដែរ នៅពេលដែលចាំបាច់ដើម្បីអនុវត្តតាមកាតព្វកិច្ចផ្លូវច្បាប់ ឬសំណើស្របច្បាប់ ឬអនុវត្តសំណើដែលអ្នកធ្វើ។"
+        ]
+      },
+      {
+        "id": "choices",
+        "title": "5 ។ ការជ្រើសរើសការផ្សាយពាណិជ្ជកម្ម ការយល់ព្រម និងមូលដ្ឋានសម្រាប់ដំណើរការ",
+        "paragraphs": [
+          "កំណែ 0.31.28 ហើយក្រោយមករង់ចាំការសម្រេចចិត្តអាយុក្នុងតំបន់ ឬជម្រើសដើម្បីរំលង មុនពេលបង្កើតការផ្សាយពាណិជ្ជកម្ម-ឯកជនភាព ឬសំណើការផ្សាយពាណិជ្ជកម្ម។ ការយល់ព្រមសម្រាប់ការវិភាគ/ការរាយការណ៍គាំងសម្រាប់មនុស្សពេញវ័យជាជម្រើសមិនត្រូវបានធីកតាមលំនាំដើម ហើយការបដិសេធមិនដាក់កម្រិតលើហ្គេមណាមួយឡើយ។ ការបិទការវិភាគការប្រើប្រាស់ និងការរាយការណ៍ការគាំងនៅក្នុងការកំណត់បញ្ឈប់ការប្រមូលនាពេលអនាគត និងលុបរបាយការណ៍គាំងដែលមិនបានផ្ញើនៅលើឧបករណ៍។ វាមិនលុបដោយស្វ័យប្រវត្តិនូវកំណត់ត្រាដែលបានបញ្ជូនរួចហើយនោះទេ។",
+          "ការផ្សាយពាណិជ្ជកម្ម SDK ស្នើសុំការផ្សាយពាណិជ្ជកម្មបន្ទាប់ពី Google UMP បង្ហាញថាសំណើផ្សាយពាណិជ្ជកម្មត្រូវបានអនុញ្ញាត។ ការជូនដំណឹងអំពីការផ្សាយពាណិជ្ជកម្ម ឬសារយល់ព្រមអាចលេចឡើង អាស្រ័យលើតំបន់របស់អ្នក និងតម្រូវការរបស់ Google ។ នៅពេលដែលជម្រើសឯកជនភាពត្រូវបានទាមទារ អ្នកអាចពិនិត្យមើលឡើងវិញ ឬផ្លាស់ប្តូរជម្រើសតាមរយៈការបញ្ចូលជម្រើសឯកជនភាពនៃការផ្សាយពាណិជ្ជកម្មនៅក្នុងការកំណត់កម្មវិធី។ ធាតុនេះត្រូវបានបង្ហាញនៅពេលដែល UMP កំណត់ថាវាត្រូវបានទាមទារ។",
+          "កម្មវិធីនេះស្នើសុំការផ្សាយពាណិជ្ជកម្មដែលមិនមែនជាលក្ខណៈបុគ្គលដែលមានការវាយតម្លៃ G ។ សម្រាប់អ្នកប្រើប្រាស់ដែលត្រូវបានការពារក្រោម 18 ឬមិនទាន់ស្គាល់អាយុ វាអនុវត្តការព្យាបាលកុមារអាយុក្រោម Google និងការកំណត់ការយល់ព្រម UMP ក្រោមអាយុ។ ការផ្សាយពាណិជ្ជកម្មដែលមិនមានលក្ខណៈផ្ទាល់ខ្លួន ឬមានកំណត់អាចនៅតែដំណើរការ IP/ទីតាំងទូទៅ ការកំណត់អត្តសញ្ញាណដែលបានអនុញ្ញាត អន្តរកម្ម និងការវិនិច្ឆ័យ។ ការបដិសេធការយល់ព្រមលើការផ្សាយពាណិជ្ជកម្ម ឬការបរាជ័យនៃការផ្សាយពាណិជ្ជកម្មមិនរារាំងការលេងនោះទេ។",
+          "អ្នកអាចគ្រប់គ្រងជម្រើសលេខសម្គាល់ការផ្សាយពាណិជ្ជកម្មដែលមាន ដូចជាការលុបលេខសម្គាល់នៅក្នុង Android ការកំណត់ឯកជនភាព/ការផ្សាយពាណិជ្ជកម្ម។ ឈ្មោះ និងជម្រើសខុសគ្នាតាមឧបករណ៍។ ការគ្រប់គ្រងការផ្សាយពាណិជ្ជកម្មគណនី Google អនុវត្តដោយឡែកពីគ្នាក្នុងវិសាលភាពនៃសេវាកម្មរបស់ Google ។",
+          "អាស្រ័យលើច្បាប់ដែលអាចអនុវត្តបាន ដំណើរការពឹងផ្អែកលើការផ្តល់សេវា ផលប្រយោជន៍ស្របច្បាប់ក្នុងភាពជឿជាក់នៃសេវាកម្ម សុវត្ថិភាព និងការកែលម្អ កាតព្វកិច្ចផ្លូវច្បាប់ ឬការយល់ព្រមតាមតម្រូវការ។ នៅពេលដែលដំណើរការពឹងផ្អែកលើការយល់ព្រម អ្នកអាចដកវាចេញដោយមិនប៉ះពាល់ដល់ភាពស្របច្បាប់នៃដំណើរការមុននេះ។ តម្រូវការការយល់ព្រមដែលអាចអនុវត្តបានត្រូវតែបំពេញតាមតំបន់ដែលតម្រូវឱ្យពួកគេ។ ការយល់ព្រមលើការផ្សាយពាណិជ្ជកម្ម និងដំណើរការវិភាគ/ការវិនិច្ឆ័យមានវិសាលភាពដាច់ដោយឡែក។"
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "6 ។ ការរក្សាទុក និងការលុប",
+        "headers": [
+          "ព័ត៌មាន",
+          "ការរក្សាទុក និងការលុប"
+        ],
+        "rows": [
+          [
+            "ហ្គេមក្នុងស្រុករក្សាទុក និងចំណូលចិត្ត",
+            "បានរក្សាទុកខណៈពេលដែលពួកវានៅតែមាននៅលើឧបករណ៍របស់អ្នក។ ការកំណត់ដំណើរការឡើងវិញរបស់កម្មវិធី សម្អាតការបញ្ចប់ដំណាក់កាល ផ្កាយ និងកំណត់ត្រាវឌ្ឍនភាពផ្សេងទៀតដែលគ្របដណ្តប់ដោយមុខងារនោះ។ ចំណូលចិត្ត កំណត់ត្រាពិន្ទុខ្ពស់មួយចំនួន និងទិន្នន័យ SDK អាចនៅតែមាន។ សម្អាតទំហំផ្ទុករបស់កម្មវិធីនៅក្នុងការកំណត់ Android ដើម្បីលុបទិន្នន័យមូលដ្ឋានរបស់វា។ ការលុបការដំឡើង ការរក្សាការបម្រុងទុក និងការស្ដារឡើងវិញអាស្រ័យលើឧបករណ៍ និងការកំណត់ការបម្រុងទុក។"
+          ],
+          [
+            "ទិន្នន័យវិភាគ",
+            "គ្រប់គ្រងក្រោមការកំណត់ការរក្សាទុក និងនីតិវិធីលុបទ្រព្យសម្បត្តិវិភាគ។ ស្តង់ដារ GA4 ជាទូទៅផ្តល់ជូន 2- ឬ 14-ខែអ្នកប្រើប្រាស់/ការកំណត់កម្រិតព្រឹត្តិការណ៍។ ការបន្តផ្អែកលើសកម្មភាព និងការកំណត់ផ្សេងទៀតអាចប៉ះពាល់ដល់ការរក្សាទុក។ ដែនកំណត់ទាំងនេះមិនអនុវត្តដូចគ្នាចំពោះរបាយការណ៍សរុបស្តង់ដារទាំងអស់ទេ ហើយស្ថិតិសរុបអាចនៅយូរជាងនេះ។"
+          ],
+          [
+            "Crashlytics",
+            "Google បញ្ជាក់ថា ដានជង់គាំង និងឧបករណ៍កំណត់អត្តសញ្ញាណដែលពាក់ព័ន្ធត្រូវបានរក្សាទុកសម្រាប់ 90 ថ្ងៃមុនពេលដំណើរការនៃការដកចេញពីប្រព័ន្ធបន្តផ្ទាល់ និងប្រព័ន្ធបម្រុងទុកចាប់ផ្តើម។ នេះមិនមានន័យថាការលុបបានបញ្ចប់នៅថ្ងៃទី 90 ទេ។"
+          ],
+          [
+            "ទិន្នន័យការផ្សាយពាណិជ្ជកម្ម និងការយល់ព្រម",
+            "ដំណើរការក្រោម Google និងគោលការណ៍រក្សាទុក/លុបរបស់អ្នកផ្តល់សេវាដែលពាក់ព័ន្ធសម្រាប់រយៈពេលដែលត្រូវការសម្រាប់ការចែកចាយ ការវាស់វែង ការទប់ស្កាត់ការក្លែងបន្លំ និងជម្រើសកិត្តិយស។ ចំណូលចិត្តការយល់ព្រមក្នុងតំបន់ និងកំណត់ត្រារបស់អ្នកផ្តល់សេវាអាចមានរយៈពេលរក្សាទុកខុសៗគ្នា។"
+          ],
+          [
+            "អ៊ីមែលជំនួយ",
+            "បានរក្សាទុករហូតដល់ការសាកសួរ និងការតាមដានចាំបាច់ត្រូវបានបញ្ចប់ បន្ទាប់មកលុបចេញ។ ប្រសិនបើការរក្សាទុកត្រូវបានទាមទារដោយស្របច្បាប់ មានតែព័ត៌មានចាំបាច់ប៉ុណ្ណោះដែលត្រូវបានរក្សាទុកសម្រាប់រយៈពេលច្បាប់ជាធរមាន។"
+          ],
+          [
+            "Google Play Games ការបម្រុងទុក និងទិន្នន័យសេវាកម្ម",
+            "ត្រូវបានរក្សាទុកនៅក្នុងហ្គេមដែលបានរក្សាទុកនៅក្រោមគណនី Google របស់អ្នក ហើយអនុវត្តតាមនីតិវិធីរក្សាទុក និងការលុបរបស់ Google ។ គ្រប់គ្រងគណនីចូលនៅក្នុងការកំណត់ Google របស់ Android ហើយលុបទិន្នន័យហ្គេមនេះតាមរយៈកម្រងព័ត៌មាន Play Games របស់អ្នក ឬ Google ការគ្រប់គ្រងទិន្នន័យគណនីហ្គេម។ ការលុប ឬកំណត់ដំណើរការមូលដ្ឋានឡើងវិញមិនលុបច្បាប់ចម្លងពពកទេ។ កំណត់ត្រាអាចបញ្ចូលចូលគ្នាវិញនៅពេលភ្ជាប់។"
+          ]
+        ],
+        "after": [
+          "ការជម្រះទិន្នន័យកម្មវិធី ឬលុបកម្មវិធីមិនលុបភ្លាមៗនូវព័ត៌មានដែលបានផ្ញើទៅ Google ទេ។ ទាក់ទងមកយើងខ្ញុំ ឬប្រើការគ្រប់គ្រងឯកជនភាព Google ដែលពាក់ព័ន្ធ ដើម្បីអនុវត្តសិទ្ធិទាក់ទងនឹងព័ត៌មានដែលបានបញ្ជូនរួចហើយ។"
+        ]
+      },
+      {
+        "id": "international",
+        "title": "7 ។ ដំណើរការនិងផ្ទេរអន្តរជាតិ",
+        "paragraphs": [
+          "ការប្រើប្រាស់សេវាកម្ម Google អាចពាក់ព័ន្ធនឹងការផ្ទុក និងដំណើរការនៅខាងក្រៅប្រទេសរបស់អ្នក រួមទាំងនៅសហរដ្ឋអាមេរិក និងប្រទេសផ្សេងទៀតដែល Google និងអ្នកផ្តល់សេវាពាក់ព័ន្ធរបស់វាដំណើរការឧបករណ៍។ អ្នកទទួលរួមមាន Google LLC និងសាខា/អ្នកដំណើរការដែលបានកំណត់នៅក្នុងលក្ខខណ្ឌសេវាកម្ម និងគោលការណ៍ពាក់ព័ន្ធ។ ទីតាំងដំណើរការអាស្រ័យលើលក្ខខណ្ឌនៃដំណើរការទិន្នន័យ និងព័ត៌មានអំពីឧបករណ៍របស់ Google ។",
+          "ព័ត៌មាន និងគោលបំណងគឺត្រូវបានពិពណ៌នានៅក្នុងផ្នែកប្រមូលដោយស្វ័យប្រវត្តិ និងអ្នកផ្តល់សេវា៖ ការផ្សាយពាណិជ្ជកម្ម ការវិភាគ ការវិនិច្ឆ័យការគាំង និងការគាំទ្រអ៊ីមែល។ ការផ្ទេរកើតឡើងនៅលើបណ្តាញខណៈពេលដែល SDKs ត្រូវបានប្រើ។ ការរក្សាទុកអនុវត្តតាមផ្នែករក្សាទុក និងគោលការណ៍របស់អ្នកផ្តល់សេវាពាក់ព័ន្ធ។ គោលការណ៍ឯកជនភាពរបស់ Google ផ្តល់នូវផ្លូវទំនាក់ទំនងឯកជនភាពរបស់វា។",
+          "ដែលជាកន្លែងដែលតម្រូវដោយច្បាប់ មូលដ្ឋានផ្ទេរប្រាក់សមរម្យ ដូចជាការយល់ព្រម ឬការការពារកិច្ចសន្យា ត្រូវតែអនុវត្ត។ ទាក់ទងអ៊ីមែលឯកជនរបស់យើងអំពីការផ្ទេរ ឬការជំទាស់។ គ្រប់គ្រងជម្រើសផ្សាយពាណិជ្ជកម្មតាមរយៈសារពាក់ព័ន្ធ និងការកំណត់កម្មវិធី។ នៅក្នុងកំណែ 0.31.28 ហើយក្រោយមក មនុស្សពេញវ័យក៏អាចបញ្ឈប់ការវិភាគស្រេចចិត្ត និងការរាយការណ៍អំពីការគាំងនៅក្នុងការកំណត់។ អ្នកប្រើប្រាស់ដែលត្រូវបានការពារមិនប្រើការវិភាគ/ការប្រមូលគាំងនេះទេ។"
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "8 ។ សិទ្ធិរបស់អ្នក និងអ្នកតំណាង",
+        "paragraphs": [
+          "អាស្រ័យលើច្បាប់ដែលអាចអនុវត្តបាន អ្នកអាចស្នើសុំការចូលប្រើ ឬច្បាប់ចម្លង ការកែតម្រូវ ការលុប ការរឹតបន្តឹង ការជំទាស់ ការដកការយល់ព្រម ការចល័ត ឬជម្រើសទាក់ទងនឹងការផ្សាយពាណិជ្ជកម្មដែលមានគោលដៅ។ មាតាបិតា អាណាព្យាបាល ឬអ្នកតំណាងដែលមានការអនុញ្ញាតផ្សេងទៀតអាចធ្វើសកម្មភាពដែលច្បាប់អនុញ្ញាត។",
+          "យើងមិនដំណើរការគណនីសមាជិកភាពផ្ទាល់ខ្លួនរបស់យើង ឬការគូសផែនទីនៃការកំណត់អត្តសញ្ញាណការដំឡើងទៅកាន់ឈ្មោះពិត ឬអាសយដ្ឋានអ៊ីមែលទេ។ Google ផ្តល់ការគ្រប់គ្រងសម្រាប់ការភ្ជាប់គណនី Play Games ជាជម្រើស និងការលុប។ អាសយដ្ឋានអ៊ីមែលតែម្នាក់ឯងអាចមិនកំណត់អត្តសញ្ញាណកំណត់ត្រា SDK នៃការដំឡើងជាក់លាក់មួយ។ យើង​នឹង​ជួយ​កំណត់​ទីតាំង​កំណត់​ត្រា​ដែល​ពាក់ព័ន្ធ​នៅ​កន្លែង​ដែល​អាច​ធ្វើ​ទៅ​បាន​ដោយ​សមហេតុផល និង​ពន្យល់​ពី​ការ​គ្រប់​គ្រង​របស់​អ្នក​ផ្តល់​សេវា។ យើងស្នើសុំតែព័ត៌មានចាំបាច់ដើម្បីដោះស្រាយសំណើ។ កុំផ្ញើអត្តសញ្ញាណរដ្ឋាភិបាលដែលមិនចាំបាច់ ឬព័ត៌មានរសើប។",
+          "អ្នកអាចប្តឹងទៅអាជ្ញាធរការពារទិន្នន័យនៅក្នុងដែនសមត្ថកិច្ចរបស់អ្នក។ នៅក្នុងប្រទេសកូរ៉េខាងត្បូង ជំនួយអាចរកបានពីមជ្ឈមណ្ឌលរាយការណ៍អំពីការរំលោភលើព័ត៌មានផ្ទាល់ខ្លួន (privacy.kisa.or.kr, 118 នៅក្នុងប្រទេសកូរ៉េ) ឬគណៈកម្មាធិការសម្របសម្រួលជម្លោះព័ត៌មានផ្ទាល់ខ្លួន (kopico.go.kr, 1833-6972 នៅក្នុងប្រទេសកូរ៉េ)។"
+        ],
+        "contact": true
+      },
+      {
+        "id": "children",
+        "title": "9 ។ កុមារ និងអនីតិជន",
+        "paragraphs": [
+          "កម្មវិធីគឺសម្រាប់មនុស្សគ្រប់វ័យ។ កំណែ 0.31.28 ហើយក្រោយមកអនុវត្តការការពារបែបអភិរក្សចំពោះអ្នកប្រើប្រាស់ក្រោម 18 និងអ្នកដែលមិនបញ្ចូលថ្ងៃខែឆ្នាំកំណើត។ ថ្ងៃខែឆ្នាំកំណើតត្រូវបានប្រើសម្រាប់តែការសម្រេចចិត្តអាយុក្នុងតំបន់ប៉ុណ្ណោះ មិនត្រូវបានរក្សាទុក ឬបញ្ជូនទេ។ ហ្គេមទាំងអស់នៅតែមានសម្រាប់គ្រប់វ័យ។ អាយុពេញវ័យមិនត្រូវបានជ្រើសរើសជាមុន ឬបង្ហាញជាលក្ខខណ្ឌសម្រាប់អត្ថប្រយោជន៍ហ្គេមទេ។",
+          "អ្នកប្រើប្រាស់ដែលត្រូវបានការពារមិនចាប់ផ្តើម SDK វិភាគ ឬរាយការណ៍ការគាំងរបស់ Firebase ទេ។ ការផ្សាយពាណិជ្ជកម្មប្រើ Google Mobile Ads ក្នុងជួរកំណែដែល Families បានបញ្ជាក់ដោយខ្លួនឯង ដោយកំណត់ចំណាត់ថ្នាក់ G មិនកំណត់ផ្ទាល់ខ្លួន និងការកំណត់ផ្សាយពាណិជ្ជកម្មសម្រាប់កុមារ។ លេខសម្គាល់ការផ្សាយពាណិជ្ជកម្ម Android របស់អ្នកប្រើប្រាស់ដែលត្រូវបានការពារមិនត្រូវបានបញ្ជូនទេ។ ការកំណត់ទាំងនេះមិនលុបបំបាត់ការដំណើរការបណ្តាញទាំងអស់ដែលចាំបាច់សម្រាប់ការផ្សាយពាណិជ្ជកម្មតាមបរិបទ និងសុវត្ថិភាពនោះទេ។ សូមមើលព័ត៌មាន SDK ខាងលើ។",
+          "ច្បាប់ដែលអាចអនុវត្តបានលើព័ត៌មានរបស់កុមារ ការអនុញ្ញាតពីមាតាបិតា និងការការពារបន្ថែមនៅតែអនុវត្ត។ ឪពុកម្តាយ ឬអាណាព្យាបាលដែលមានការព្រួយបារម្ភអំពីព័ត៌មានរបស់កុមារ ឬដំណើរការដោយគ្មានការអនុញ្ញាតចាំបាច់ អាចទាក់ទងអ៊ីមែលឯកជនភាពរបស់យើង។ យើងនឹងស៊ើបអង្កេតកន្លែងដែលអាចធ្វើទៅបានដោយសមហេតុផល និងចាត់វិធានការចាំបាច់ក្នុងការលុប ការរឹតបន្តឹង ឬវិធានការផ្សេងទៀត។"
+        ]
+      },
+      {
+        "id": "security",
+        "title": "10 ។ សុវត្ថិភាព",
+        "paragraphs": [
+          "យើងកំណត់ការចូលប្រើគណនីគ្រប់គ្រងសេវាកម្ម និងទិន្នន័យផ្ទាល់ខ្លួនចំពោះអ្វីដែលចាំបាច់ ហើយប្រើប្រាស់ការការពារសមស្រប ដូចជាមុខងារសុវត្ថិភាពរបស់អ្នកផ្តល់សេវា និងការអ៊ិនគ្រីបក្នុងពេលឆ្លងកាត់។ ព័ត៌មានក្នុងតំបន់ជាកម្មវត្ថុនៃការការពារការផ្ទុកកម្មវិធីរបស់ប្រព័ន្ធប្រតិបត្តិការ។ ព័ត៌មានលែងត្រូវការគឺត្រូវបានលុប ឬកំណត់អត្តសញ្ញាណក្រោមនីតិវិធីរក្សាទុក និងលុបដែលពាក់ព័ន្ធ។",
+          "មិនរួមបញ្ចូលពាក្យសម្ងាត់ អត្តសញ្ញាណរដ្ឋាភិបាល ព័ត៌មានលម្អិតអំពីការទូទាត់ ឬព័ត៌មានរសើបផ្សេងទៀតដែលមិនចាំបាច់ដើម្បីដោះស្រាយសំណើជំនួយ។"
+        ]
+      },
+      {
+        "id": "website",
+        "title": "11 ។ គេហទំព័រគោលការណ៍នេះ",
+        "paragraphs": [
+          "ទំព័រនេះមិនមានការផ្សាយពាណិជ្ជកម្មដែលបានដំឡើងដោយអ្នកអភិវឌ្ឍន៍ ការវិភាគអ្នកទស្សនា SDKs ស្គ្រីបតាមដាន ឬតាមដានខូគី។ វាត្រូវបានបង្ហោះនៅលើ GitHub Pages ។ GitHub អាចដំណើរការអាសយដ្ឋាន IP អ្នកទស្សនា និងព័ត៌មានការតភ្ជាប់ផ្សេងទៀតសម្រាប់គោលបំណងសុវត្ថិភាព និងពាក់ព័ន្ធក្រោមសេចក្តីថ្លែងការឯកជនភាពរបស់ខ្លួន។ ការធ្វើតាមតំណគោលការណ៍ខាងក្រៅនាំអ្នកទៅកាន់គេហទំព័រ និងគោលការណ៍របស់អ្នកផ្តល់សេវានោះ។",
+          "ពីកំណែ 1.0.3 កម្មវិធីនេះពិនិត្យ GitHub Pages សម្រាប់ការអាប់ដេតខ្លឹមសារដំណាក់កាល និងការទាញយកទិន្នន័យហ្គេមដែលបានផ្លាស់ប្តូរ។ សំណើទាំងនេះមិនរួមបញ្ចូលព័ត៌មានគណនី Play Games ឬកំណត់ត្រាលេងហ្គេមផ្ទាល់ខ្លួនទេ។ GitHub អាចនឹងដំណើរការអាសយដ្ឋាន IP និងព័ត៌មានការតភ្ជាប់ទម្លាប់ផ្សេងទៀត ដើម្បីចែកចាយ និងធានាខ្លឹមសារ នៅក្រោមសេចក្តីថ្លែងការឯកជនភាពរបស់វា។"
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "12 ។ ការផ្លាស់ប្តូរ និងគោលការណ៍ពាក់ព័ន្ធ",
+        "paragraphs": [
+          "យើងអាចកែប្រែគោលការណ៍នេះឡើងវិញ ដោយសារលក្ខណៈពិសេសកម្មវិធី អ្នកផ្តល់សេវា ឬច្បាប់ផ្លាស់ប្តូរ និងធ្វើបច្ចុប្បន្នភាពកាលបរិច្ឆេទដែលមានប្រសិទ្ធភាព។ នៅពេលដែលការផ្លាស់ប្តូរសម្ភារៈទាមទារការជូនដំណឹងបន្ថែម ឬការយល់ព្រម យើងនឹងធ្វើតាមលក្ខខណ្ឌទាំងនោះ។ ពិគ្រោះជាមួយធនធានផ្លូវការខាងក្រោមសម្រាប់ការអនុវត្តរបស់ Google និង GitHub និងការគ្រប់គ្រងដែលមាន។"
+        ],
+        "sources": true
+      }
+    ],
+    "skip": "រំលងទៅគោលការណ៍"
+  },
+  "lo": {
+    "title": "ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ",
+    "operator": "ຜູ້ພັດທະນາ ShallWePuzzle",
+    "dateLabel": "ມີປະສິດທິພາບ ແລະອັບເດດຫຼ້າສຸດ",
+    "intro": "ຜູ້ພັດທະນາ ShallWePuzzle ອະທິບາຍຂ້າງລຸ່ມນີ້ວ່າຂໍ້ມູນຖືກຈັດການແນວໃດໃນແອັບ Android ShallWePuzzle ແລະໃນເວັບໄຊນະໂຍບາຍຄວາມເປັນສ່ວນຕົວນີ້.",
+    "summary": "ທ່ານສາມາດຫຼິ້ນໄດ້ໂດຍບໍ່ຕ້ອງສ້າງບັນຊີ. ຂໍ້ມູນຄວາມຄືບໜ້າແລະການຕັ້ງຄ່າເກມຈະຖືກບັນທຶກໄວ້ໃນອຸປະກອນ. ແອັບນີ້ໃຊ້ບໍລິການ Google ສຳລັບໂຄສະນາ, ວິເຄາະການໃຊ້ງານ ແລະກວດສອບການຂັດຂ້ອງ; ດັ່ງນັ້ນມີການປະມວນຜົນຂໍ້ມູນສ່ວນບຸກຄົນບາງປະເພດ.",
+    "contactLabel": "ຄຳຖາມຄວາມເປັນສ່ວນຕົວ ແລະ ຄຳຮ້ອງຂໍສິດທິ",
+    "contents": "ເນື້ອໃນ",
+    "sections": [
+      {
+        "id": "controller",
+        "title": "1. ໃຜເປັນຜູ້ຮັບຜິດຊອບແລະວິທີການຕິດຕໍ່ພວກເຮົາ",
+        "paragraphs": [
+          "ບໍລິການແມ່ນ ShallWePuzzle, Android ຊຸດ kr.shall.we.puzzle. ຜູ້ພັດທະນາ ShallWePuzzle ຮັບຜິດຊອບຕໍ່ການຈັດການຂໍ້ມູນສ່ວນຕົວຂອງແອັບ ແລະ ການສອບຖາມຄວາມເປັນສ່ວນຕົວ.",
+          "ສົ່ງຄຳຖາມຄວາມເປັນສ່ວນຕົວ, ການຮ້ອງຮຽນ, ການເຂົ້າເຖິງ, ການແກ້ໄຂ, ການລຶບ, ການຈຳກັດ ຫຼືການຍິນຍອມ-ຖອນຄຳຮ້ອງຂໍໄປຍັງອີເມວຂ້າງລຸ່ມນີ້. ພວກເຮົາອາດຈະຮ້ອງຂໍໃຫ້ມີຂໍ້ມູນທີ່ຈໍາເປັນຢ່າງສົມເຫດສົມຜົນເພື່ອກວດສອບແລະຊອກຫາຄໍາຮ້ອງຂໍ, ແລະຕອບສະຫນອງພາຍໃຕ້ຂັ້ນຕອນແລະກໍານົດເວລາຂອງກົດຫມາຍທີ່ກ່ຽວຂ້ອງ."
+        ],
+        "contact": true
+      },
+      {
+        "id": "local",
+        "title": "2. ເກມບັນທຶກ ແລະຂໍ້ມູນກ່ຽວກັບອຸປະກອນຂອງທ່ານ",
+        "paragraphs": [
+          "ລຸ້ນ 0.31.28 ແລະຕໍ່ມາກວດເບິ່ງວັນເດືອນປີເກີດໃນໜ່ວຍຄວາມຈຳອຸປະກອນໃນຕອນທຳອິດທີ່ໃຊ້ເພື່ອກຳນົດການປິ່ນປົວແບບປ້ອງກັນ ຫຼືຜູ້ໃຫຍ່. ວັນເດືອນປີເກີດ ແລະອາຍຸຕົວເລກບໍ່ໄດ້ຖືກບັນທຶກ ຫຼືຖືກສົ່ງໄປຫາເຊີບເວີ. ສະເພາະກຸ່ມຜູ້ຊົມທີ່ກວ້າງຂວາງ ແລະທາງເລືອກການວິເຄາະ/ລາຍງານການຂັດຂ້ອງເທົ່ານັ້ນທີ່ເກັບໄວ້ໃນບ່ອນເກັບຂໍ້ມູນອຸປະກອນທີ່ບໍ່ລວມເອົາການສຳຮອງຂໍ້ມູນ Android. ການຂ້າມວັນທີ ຫຼືການຕັ້ງຄ່າທີ່ຂາດຫາຍໄປ/ເສຍຫາຍ ສົ່ງຜົນໃຫ້ການປິ່ນປົວທີ່ມີການປ້ອງກັນ.",
+          "ຄວາມຄືບໜ້າຂອງຂັ້ນຕອນ, ດາວ, ຄະແນນສູງ, ເກມທີ່ຍັງບໍ່ແລ້ວ, ເກມທີ່ຫຼິ້ນເມື່ອບໍ່ດົນມານີ້, ສຽງ, ການສັ່ນສະເທືອນ ແລະການຕັ້ງຄ່າພາສາ, ສະຖານະການສອນ, ໄລຍະການໂຄສະນາ ແລະການເລືອກການຍິນຍອມຈະຖືກບັນທຶກໄວ້ໃນບ່ອນເກັບຂໍ້ມູນຂອງແອັບຯ ຫຼື SDK ທ້ອງຖິ່ນ. ພວກ​ເຮົາ​ບໍ່​ໄດ້​ສະ​ຫນອງ​ໃຫ້​ບັນ​ຊີ​ເກມ​ຫຼື​ເຊີບ​ເວີ​ແຍກ​ຕ່າງ​ຫາກ​ທີ່​ອັບ​ໂຫລດ​ແລະ synchronizes ໄຟລ​໌​ບັນ​ທຶກ​ເກມ​ຂອງ​ທ່ານ​.",
+          "ຈາກ 1.0.2+107, Google Play Games ການສໍາຮອງຂໍ້ມູນແມ່ນທາງເລືອກແລະແຍກຕ່າງຫາກຈາກການປົກປ້ອງອາຍຸການໂຄສະນາ. SDK ເລີ່ມຕົ້ນພຽງແຕ່ຫຼັງຈາກທີ່ທ່ານອ່ານແຈ້ງການການເຊື່ອມຕໍ່ແລະເລືອກທີ່ຈະເຊື່ອມຕໍ່. ເມື່ອ Google ເຂົ້າ​ສູ່​ລະ​ບົບ​ແລະ​ການ​ເຂົ້າ​ເຖິງ​ບ່ອນ​ເກັບ​ຮັກ​ສາ​ໄດ້​ຮັບ​ອະ​ນຸ​ຍາດ​, ຂັ້ນ​ຕອນ​, ດາວ​ແລະ​ການ​ບັນ​ທຶກ​ທີ່​ດີ​ທີ່​ສຸດ​ຈະ​ຖືກ​ບັນ​ທຶກ​ໄວ້​ໃນ Google ບັນ​ທຶກ​ເກມ​ແລະ​ລວມ​ເຂົ້າ​ກັນ​ໃນ​ອຸ​ປະ​ກອນ​. ວັນເດືອນປີເກີດ, ການເລືອກໂຄສະນາ, ການຕັ້ງຄ່າ ແລະກະດານທີ່ຍັງບໍ່ທັນສຳເລັດແມ່ນບໍ່ລວມຢູ່ໃນຂໍ້ມູນສຳຮອງນີ້. Google ຍັງປະມວນຜົນໂປຣໄຟລ໌ Play Games ແລະຂໍ້ມູນການນຳໃຊ້ ແລະວິນິໄສຂອງ SDK ເພື່ອສະໜອງ ແລະປັບປຸງການບໍລິການ. ແອັບນີ້ບໍ່ໄດ້ຮ້ອງຂໍໃຫ້ໝູ່ເພື່ອນ, ອີເມວ ຫຼື ຄຸນສົມບັດທາງສັງຄົມ ຫຼື ໃຊ້ຂໍ້ມູນ Play Games ສໍາລັບການໂຄສະນາ. ບັນຊີເດັກທີ່ມີການເບິ່ງແຍງແມ່ນຂຶ້ນກັບການອະນຸມັດຂອງພໍ່ແມ່ ແລະການຊ່ວຍເຫຼືອການບໍລິການຂອງ Google; ການເກັບຮັກສາບໍ່ໄດ້ຖືກຮັບປະກັນສໍາລັບທຸກໆບັນຊີ. ເກມທັງໝົດຍັງຄົງສາມາດຫຼິ້ນໄດ້ດ້ວຍການບັນທຶກໃນທ້ອງຖິ່ນ ຖ້າທ່ານບໍ່ເຊື່ອມຕໍ່ ຫຼືການເຂົ້າເຖິງຈະຖືກປະຕິເສດ. ການໂຄສະນາທີ່ຖືກປົກປ້ອງ ແລະການຕັ້ງຄ່າ Firebase ຍັງຄົງມີຜົນ. ທາງ​ເລືອກ​ການ​ສໍາ​ຮອງ​ຂໍ້​ມູນ​ແມ່ນ​ເກັບ​ຮັກ​ສາ​ໄວ້​ໃນ​ການ​ເກັບ​ຮັກ​ສາ​ອຸ​ປະ​ກອນ​ທີ່​ບໍ່​ໄດ້​ລວມ​ຈາກ​ການ​ສໍາ​ຮອງ​ຂໍ້​ມູນ Android​. ຜູ້​ໃຊ້​ທີ່​ມີ​ຢູ່​ຍັງ​ເຫັນ​ແຈ້ງ​ການ​ຄັ້ງ​ດຽວ​, ແລະ​ການ​ເຊື່ອມ​ຕໍ່​ແມ່ນ​ມີ​ຢູ່​ພາຍ​ຫຼັງ​ໃນ app Settings​.",
+          "ແອັບບໍ່ຈຳເປັນຕ້ອງລົງທະບຽນ ຫຼືເຂົ້າສູ່ລະບົບ. ມັນ​ບໍ່​ໄດ້​ຮ້ອງ​ຂໍ​ໃຫ້​ທ່ານ​ສົ່ງ​ຊື່​, ເບີ​ໂທລະ​ສັບ​, ທີ່​ຢູ່​, ຕິດ​ຕໍ່​ພົວ​ພັນ​, ຮູບ​ພາບ​, ການ​ບັນ​ທຶກ microphone ຫຼື​ສະ​ຖານ​ທີ່ GPS ທີ່​ຊັດ​ເຈນ​, ຫຼື​ປະ​ກອບ​ມີ​ຄຸນ​ສົມ​ບັດ​ເພື່ອ​ເກັບ​ກໍາ​ຂໍ້​ມູນ​ທີ່​. ຖ້າທ່ານສົ່ງອີເມວຫາພວກເຮົາ, ພວກເຮົາໄດ້ຮັບທີ່ຢູ່ອີເມວຂອງຜູ້ສົ່ງແລະຂໍ້ຄວາມຂອງທ່ານ.",
+          "ຖ້າການສຳຮອງຂໍ້ມູນ ແລະ ກູ້ຄືນ Android ຖືກເປີດໃຊ້, ບາງຂໍ້ມູນແອັບອາດຈະຖືກສຳຮອງໄວ້ໂດຍຜູ້ໃຫ້ບໍລິການລະບົບປະຕິບັດການ ແລະ ກູ້ຄືນຫຼັງຈາກການຕິດຕັ້ງຄືນໃໝ່, ຂຶ້ນກັບອຸປະກອນຂອງທ່ານ ແລະ ການຕັ້ງຄ່າບັນຊີ Google. ອັນນີ້ແມ່ນແຍກຕ່າງຫາກຈາກບັນຊີເກມທີ່ນັກພັດທະນາດໍາເນີນການ. ທ່ານສາມາດຈັດການມັນໄດ້ໃນການຕັ້ງຄ່າການສຳຮອງຂໍ້ມູນ Android."
+        ]
+      },
+      {
+        "id": "sdk",
+        "title": "3. ຂໍ້ມູນຖືກປະມວນຜົນໂດຍອັດຕະໂນມັດ ແລະເປັນຫຍັງ",
+        "paragraphs": [
+          "ແອັບທີ່ແຈກຢາຍປະກອບມີ Google SDKs ຂ້າງລຸ່ມນີ້. ພວກເຂົາສາມາດປະມວນຜົນຂໍ້ມູນອັດຕະໂນມັດເມື່ອທ່ານໃຊ້ແອັບຯ ຫຼືເຊື່ອມຕໍ່ເຄືອຂ່າຍ. ຂອບເຂດທີ່ຊັດເຈນແມ່ນຂຶ້ນກັບເວີຊັນ SDK, ອຸປະກອນ ແລະການຕັ້ງຄ່າພາກພື້ນ, ສະຖານະການຍິນຍອມ ແລະການຕັ້ງຄ່າບໍລິການ Google.",
+          "ໃນທຸກອາຍຸ, ການກວດສອບການອັບເດດອາດຈະໃຊ້ Firebase Remote Config ແລະ Firebase ແຍກຕ່າງຫາກ. ຕົວລະບຸການຕິດຕັ້ງສະເພາະການອັບເດດ ແລະໂທເຄັນການພິສູດຢືນຢັນ, ເວີຊັນຂອງແອັບ, ພາສາ, ລະບົບປະຕິບັດການ ແລະທີ່ຢູ່ IP ທີ່ໃຊ້ໃນການເຊື່ອມຕໍ່ໄດ້ຖືກປະມວນຜົນເພື່ອສົ່ງການຕັ້ງຄ່າ ແລະປະຕິບັດຄຸນສົມບັດນີ້. ນີ້ແມ່ນແຍກຕ່າງຫາກຈາກການວິເຄາະທາງເລືອກແລະການລາຍງານອຸປະຕິເຫດ; ການກວດສອບການປັບປຸງບໍ່ໄດ້ເປີດໃຊ້ການວິເຄາະ, Crashlytics, ຫຼືການເກັບກໍາ ID ການໂຄສະນາ. ພວກເຮົາບໍ່ໄດ້ໃຊ້ການໂຄສະນາຫຼືການວິເຄາະຄຸນສົມບັດຂອງຜູ້ໃຊ້, ການທົດລອງ, ຫຼືການປັບແຕ່ງສ່ວນບຸກຄົນສໍາລັບການກວດສອບເຫຼົ່ານີ້."
+        ],
+        "headers": [
+          "ບໍລິການ",
+          "ຂໍ້ມູນທີ່ອາດຈະຖືກປະມວນຜົນ",
+          "ຈຸດປະສົງ"
+        ],
+        "rows": [
+          [
+            "Google AdMob / Google ໂຄສະນາມືຖື",
+            "ທີ່ຢູ່ IP ແລະສະຖານທີ່ໂດຍປະມານ inferred ຈາກມັນ; Android ID ການໂຄສະນາ, ID ຊຸດແອັບຯ ແລະຕົວລະບຸທີ່ກ່ຽວຂ້ອງກັບບັນຊີອື່ນໆ; ການໂຕ້ຕອບເຊັ່ນການເປີດຕົວແອັບຯ, ການສະແດງໂຄສະນາ, ການຄລິກແລະການເບິ່ງວິດີໂອ; app ແລະການໂຄສະນາການປະຕິບັດແລະການວິນິດໄສ SDK (ຄໍາຮ້ອງຂໍການໂຄສະນາທີ່ມີການປົກປ້ອງນໍາໃຊ້ການປິ່ນປົວເດັກແລະປ້ອງກັນການສົ່ງຕໍ່ ID ການໂຄສະນາ Android.)",
+            "ສົ່ງແລະວັດແທກການໂຄສະນາທີ່ບໍ່ແມ່ນສ່ວນບຸກຄົນ; ຄວາມປອດໄພ ແລະການປ້ອງກັນການສໍ້ໂກງ"
+          ],
+          [
+            "Google User Messaging Platform (UMP)",
+            "ຂໍ້ມູນພາກພື້ນ ແລະອຸປະກອນ, ສະຖານະການຍິນຍອມ ແລະການເລືອກຄວາມເປັນສ່ວນຕົວຂອງການໂຄສະນາ, ແລະຂໍ້ມູນຕົວລະບຸ/ການຕັ້ງຄ່າທີ່ຈໍາເປັນເພື່ອນຳໃຊ້ທາງເລືອກເຫຼົ່ານັ້ນ",
+            "ນຳສະເໜີຂໍ້ຄວາມການຍິນຍອມໂຄສະນາທີ່ຕ້ອງການ, ບັນທຶກການເລືອກ ແລະນຳໃຊ້ພວກມັນໃຫ້ກັບຄຳຮ້ອງຂໍໂຄສະນາ"
+          ],
+          [
+            "Google Analytics ສໍາລັບ Firebase",
+            "ສຳລັບຜູ້ໃຫຍ່ທີ່ເຂົ້າຮ່ວມ: ຕົວລະບຸແອັບ-ຕົວຢ່າງ/ການຕິດຕັ້ງ, ຮູບແບບອຸປະກອນ, ລະບົບປະຕິບັດການ, ເວີຊັນແອັບ ແລະພາສາ, ເຫດການຊ່ວງເວລາ/ໜ້າຈໍ ແລະຂໍ້ມູນ IP/ພາກພື້ນທົ່ວໄປທີ່ປະມວນຜົນ SDK. ການວິເຄາະການໂຄສະນາ-ID ການເກັບກໍາ, ການເກັບຮັກສາການໂຄສະນາ, ຂໍ້ມູນຜູ້ໃຊ້ໂຄສະນາແລະສັນຍານການໂຄສະນາສ່ວນບຸກຄົນຖືກປິດໃຊ້ງານ.",
+            "ເຂົ້າໃຈການນຳໃຊ້, ການຮັບຮອງເອົາຄຸນສົມບັດ ແລະແນວໂນ້ມຄວາມໝັ້ນຄົງ, ແລະປັບປຸງການບໍລິການ"
+          ],
+          [
+            "Firebase Crashlytics ແລະ Firebase ບໍລິການຕິດຕັ້ງ",
+            "ສຳລັບຜູ້ໃຫຍ່ທີ່ເລືອກເຂົ້າ: ຕົວລະບຸການຕິດຕັ້ງ/ເຊດຊັນ, ເວລາຂັດຂ້ອງ/ຄວາມຜິດພາດ ແລະການຕິດຕາມການຊ້ອນກັນ, ຂໍ້ຄວາມສະແດງຂໍ້ຜິດພາດ, ເວີຊັນແອັບ, ລະບົບປະຕິບັດການ, ຮູບແບບອຸປະກອນ, ໜ່ວຍຄວາມຈຳ ແລະການວິນິໄສທີ່ກ່ຽວຂ້ອງ, ແລະເຫດການທີ່ເຊື່ອມຕໍ່ກ່ອນການຂັດຂ້ອງຂອງແອັບ",
+            "ກວດພົບແລະສືບສວນຄວາມຜິດພາດ, ວັດແທກການຕິດຕັ້ງທີ່ໄດ້ຮັບຜົນກະທົບແລະປັບປຸງຄວາມຫນ້າເຊື່ອຖື"
+          ],
+          [
+            "Firebase Remote Config / Firebase ການຕິດຕັ້ງ",
+            "ອັບເດດຕົວລະບຸການຕິດຕັ້ງສະເພາະ ແລະໂທເຄັນການພິສູດຢືນຢັນ, ເວີຊັນແອັບ, ພາສາ, ລະບົບປະຕິບັດການ ແລະຂໍ້ມູນການເຊື່ອມຕໍ່",
+            "ການຈັດສົ່ງ ແລະແຄສທີ່ແນະນຳ ແລະການຕັ້ງຄ່າແອັບ-ເວີຊັນ ແລະສະໜອງການອັບເດດ"
+          ],
+          [
+            "Google Play ອັບເດດໃນແອັບ",
+            "ເມຕາເດຕາແອັບ ແລະອຸປະກອນ, ເວີຊັນແອັບທີ່ຕິດຕັ້ງ, ອັບເດດສະຖານະ ແລະຂໍ້ມູນຄວາມຜິດພາດ",
+            "ກຳລັງກວດສອບການມີອັບເດດຜ່ານ Google Play, ດາວໂຫຼດ, ຕິດຕັ້ງ ແລະເປີດແອັບ"
+          ]
+        ],
+        "after": [
+          "ພວກເຮົາບໍ່ໄດ້ຕັ້ງຊື່, ທີ່ຢູ່ອີເມວ ຫຼືເບີໂທລະສັບຂອງເຈົ້າເປັນ ID ຜູ້ໃຊ້ການວິເຄາະ, ຫຼືສົ່ງໄຟລ໌ບັນທຶກເກມເປັນເຫດການການວິເຄາະ. ຕົວລະບຸອຸປະກອນ ແລະແອັບຍັງສາມາດເປັນຂໍ້ມູນສ່ວນຕົວພາຍໃຕ້ກົດໝາຍທີ່ນຳໃຊ້ໄດ້ ເຖິງແມ່ນວ່າພວກມັນບໍ່ແມ່ນຊື່ແທ້ຂອງເຈົ້າກໍຕາມ.",
+          "0.31.28 ແລະຕໍ່ມາບໍ່ເລີ່ມ Firebase Core, Analytics ຫຼື Crashlytics ກ່ອນການຕັດສິນໃຈອາຍຸ ຫຼືສໍາລັບຜູ້ໃຊ້ທີ່ໄດ້ຮັບການປົກປ້ອງພາຍໃຕ້ 18 ຫຼືອາຍຸທີ່ບໍ່ຮູ້ຈັກ. ຜູ້ໃຫຍ່ສາມາດເລືອກເຂົ້າໃນການວິເຄາະການນຳໃຊ້ ແລະລາຍງານການຂັດຂ້ອງໄດ້ຢ່າງຊັດເຈນ ແລະປິດທັງສອງຢ່າງຮ່ວມກັນໃນການຕັ້ງຄ່າ. ເວີຊັນທີ່ບໍ່ມີການດີບັກກ່ອນຫນ້ານີ້ໄດ້ເປີດໃຊ້ການເກັບກໍາອັດຕະໂນມັດ; ກະລຸນາອັບເດດເພື່ອໃຊ້ການຄວບຄຸມໃໝ່."
+        ]
+      },
+      {
+        "id": "providers",
+        "title": "4. Google ແລະຜູ້ໃຫ້ບໍລິການອື່ນໆ",
+        "paragraphs": [
+          "ຂໍ້ມູນທີ່ອະທິບາຍຂ້າງເທິງນີ້ອາດຈະຖືກສົ່ງກັບແລະດໍາເນີນການໂດຍ Google LLC ແລະ Google ສາຂາທີ່ລະບຸໄວ້ໃນຂໍ້ກໍານົດການບໍລິການທີ່ກ່ຽວຂ້ອງສໍາລັບການໂຄສະນາ, ການວິເຄາະແລະການລາຍງານການຂັດຂ້ອງ. Google ອາດຈະເຮັດໜ້າທີ່ເປັນໂປເຊດເຊີຂອງພວກເຮົາ ຫຼືເປັນຕົວຄວບຄຸມເອກະລາດ, ຂຶ້ນກັບການບໍລິການ ແລະເງື່ອນໄຂຂອງມັນ.",
+          "ອີງຕາມພາກພື້ນ, ທາງເລືອກແລະການຕັ້ງຄ່າການໂຄສະນາຂອງທ່ານ, ຜູ້ໃຫ້ບໍລິການເທກໂນໂລຍີການໂຄສະນາ Google ອາດຈະປະມວນຜົນຂໍ້ມູນການຮ້ອງຂໍການໂຄສະນາແລະການວັດແທກ. ບ່ອນທີ່ມີການໃຫ້ຂໍ້ຄວາມການຍິນຍອມເຫັນດີ, ໃຫ້ປຶກສາມັນແລະຂໍ້ມູນທີ່ກ່ຽວຂ້ອງຂອງ Google ສໍາລັບຜູ້ໃຫ້ບໍລິການແລະທາງເລືອກທີ່ກ່ຽວຂ້ອງ.",
+          "ພວກເຮົາຮັບ ແລະເກັບຮັກສາອີເມວຊ່ວຍເຫຼືອຜ່ານ Gmail (Google). ຜູ້ໃຫ້ບໍລິການອີເມລ໌ອາດຈະປະມວນຜົນທີ່ຢູ່ຜູ້ສົ່ງ, ຂໍ້ຄວາມ ແລະໄຟລ໌ແນບທີ່ທ່ານເລືອກສົ່ງ ກະລຸນາສົ່ງພຽງແຕ່ຂໍ້ມູນທີ່ຈໍາເປັນເພື່ອແກ້ໄຂບັນຫາການສອບຖາມຂອງທ່ານ.",
+          "ພວກເຮົາບໍ່ໄດ້ດໍາເນີນທຸລະກິດແຍກຕ່າງຫາກຂາຍຂໍ້ມູນສ່ວນບຸກຄົນ. ການ​ເປີດ​ເຜີຍ​ການ​ໂຄ​ສະ​ນາ​ອາດ​ຈະ​ມີ​ຄຸນ​ສົມ​ບັດ​ເປັນ 'ການ​ແບ່ງ​ປັນ​' ຫຼື​ການ​ປຸງ​ແຕ່ງ​ການ​ໂຄ​ສະ​ນາ​ເປົ້າ​ຫມາຍ​ພາຍ​ໃຕ້​ກົດ​ຫມາຍ​ບາງ​ຢ່າງ​; ເບິ່ງທາງເລືອກຂ້າງລຸ່ມນີ້. ພວກເຮົາຍັງອາດຈະເປີດເຜີຍຂໍ້ມູນຈໍາກັດໃນເວລາທີ່ຈໍາເປັນເພື່ອປະຕິບັດຕາມພັນທະທາງດ້ານກົດຫມາຍຫຼືຄໍາຮ້ອງຂໍທີ່ຖືກຕ້ອງຕາມກົດຫມາຍ, ຫຼືເພື່ອປະຕິບັດຄໍາຮ້ອງຂໍທີ່ທ່ານເຮັດ."
+        ]
+      },
+      {
+        "id": "choices",
+        "title": "5. ທາງເລືອກການໂຄສະນາ, ການຍິນຍອມແລະພື້ນຖານສໍາລັບການປຸງແຕ່ງ",
+        "paragraphs": [
+          "ຮຸ່ນ 0.31.28 ແລະຕໍ່ມາລໍຖ້າການຕັດສິນໃຈກ່ຽວກັບອາຍຸໃນທ້ອງຖິ່ນຫຼືທາງເລືອກທີ່ຈະຂ້າມກ່ອນທີ່ຈະເຮັດການໂຄສະນາ - ຄວາມເປັນສ່ວນຕົວຫຼືຄໍາຮ້ອງຂໍການໂຄສະນາ. ການຍິນຍອມເຫັນດີຈາກການວິເຄາະ/ການລາຍງານການຂັດຂ້ອງຂອງຜູ້ໃຫຍ່ທີ່ເປັນທາງເລືອກແມ່ນບໍ່ຖືກເລືອກໂດຍຄ່າເລີ່ມຕົ້ນ, ແລະການປະຕິເສດບໍ່ໄດ້ຈຳກັດເກມໃດໆ. ການປິດການວິເຄາະການນຳໃຊ້ ແລະລາຍງານການຂັດຂ້ອງໃນການຕັ້ງຄ່າຈະຢຸດການເກັບກຳຂໍ້ມູນໃນອະນາຄົດ ແລະລຶບລາຍງານການຂັດຂ້ອງທີ່ບໍ່ໄດ້ສົ່ງຢູ່ໃນອຸປະກອນ. ມັນບໍ່ໄດ້ລຶບບັນທຶກທີ່ສົ່ງແລ້ວໂດຍອັດຕະໂນມັດ.",
+          "ການໂຄສະນາ SDK ຮ້ອງຂໍການໂຄສະນາຫຼັງຈາກ Google UMP ຊີ້ໃຫ້ເຫັນວ່າການຮ້ອງຂໍໂຄສະນາໄດ້ຖືກອະນຸຍາດ. ແຈ້ງການການໂຄສະນາ ຫຼືຂໍ້ຄວາມການຍິນຍອມເຫັນດີອາດຈະປາກົດຂຶ້ນກັບພາກພື້ນ ແລະຄວາມຕ້ອງການຂອງ Google ຂອງທ່ານ. ເມື່ອຕ້ອງການທາງເລືອກຄວາມເປັນສ່ວນຕົວ, ທ່ານສາມາດທົບທວນຄືນຫຼືປ່ຽນທາງເລືອກໂດຍຜ່ານທາງເລືອກການໂຄສະນາຄວາມເປັນສ່ວນຕົວໃນການຕັ້ງຄ່າແອັບຯ. ລາຍການນີ້ຖືກສະແດງເມື່ອ UMP ກໍານົດວ່າມັນຈໍາເປັນ.",
+          "ແອັບຯຮ້ອງຂໍການໂຄສະນາທີ່ມີການຈັດອັນດັບ G, ທີ່ບໍ່ແມ່ນສ່ວນບຸກຄົນ. ສໍາລັບຜູ້ໃຊ້ທີ່ໄດ້ຮັບການປົກປ້ອງພາຍໃຕ້ 18 ຫຼືອາຍຸທີ່ບໍ່ຮູ້ຈັກ, ມັນໃຊ້ການປິ່ນປົວເດັກນ້ອຍ Google ແລະການຕັ້ງຄ່າ UMP ອາຍຸຕໍ່າກວ່າອາຍຸຂອງການຍິນຍອມ. ໂຄສະນາທີ່ບໍ່ແມ່ນສ່ວນບຸກຄົນ ຫຼືແບບຈຳກັດອາດຈະຍັງປະມວນຜົນ IP/ສະຖານທີ່ທົ່ວໄປ, ຕົວລະບຸທີ່ໄດ້ຮັບອະນຸຍາດ, ການໂຕ້ຕອບ ແລະການວິເຄາະ. ການຫຼຸດລົງການຍິນຍອມເຫັນດີຂອງການໂຄສະນາຫຼືຄວາມລົ້ມເຫຼວຂອງການໂຫຼດໂຄສະນາບໍ່ໄດ້ປ້ອງກັນການຫຼິ້ນ.",
+          "ທ່ານສາມາດຈັດການທາງເລືອກການໂຄສະນາ-ID ທີ່ມີຢູ່, ເຊັ່ນການລຶບ ID, ໃນ Android ການຕັ້ງຄ່າຄວາມເປັນສ່ວນຕົວ/ການໂຄສະນາ. ຊື່ ແລະຕົວເລືອກແຕກຕ່າງກັນໄປຕາມອຸປະກອນ. ການຄວບຄຸມການໂຄສະນາບັນຊີ Google ນຳໃຊ້ແຍກຕ່າງຫາກພາຍໃນຂອບເຂດການບໍລິການຂອງ Google.",
+          "ອີງຕາມກົດໝາຍທີ່ນຳໃຊ້, ການປະມວນຜົນແມ່ນຂຶ້ນກັບການໃຫ້ບໍລິການ, ຜົນປະໂຫຍດທີ່ຖືກຕ້ອງຕາມກົດໝາຍໃນຄວາມໜ້າເຊື່ອຖືໃນການບໍລິການ, ຄວາມປອດໄພ ແລະ ການປັບປຸງ, ພັນທະທາງກົດໝາຍ, ຫຼື ການຍິນຍອມຕາມທີ່ຕ້ອງການ. ບ່ອນທີ່ການປຸງແຕ່ງແມ່ນອີງໃສ່ການຍິນຍອມເຫັນດີ, ທ່ານສາມາດຖອນມັນໄດ້ໂດຍບໍ່ມີການສົ່ງຜົນກະທົບຕໍ່ການປະຕິບັດຕາມກົດຫມາຍຂອງການປຸງແຕ່ງກ່ອນຫນ້ານີ້. ຄວາມຕ້ອງການການຍິນຍອມເຫັນດີທີ່ສາມາດນໍາໃຊ້ໄດ້ຕ້ອງໄດ້ຮັບການຕອບສະຫນອງໃນພາກພື້ນທີ່ຕ້ອງການໃຫ້ເຂົາເຈົ້າ. ການຍິນຍອມເຫັນດີໃນການໂຄສະນາແລະການປະມວນຜົນການວິເຄາະ / ການວິນິດໄສມີຂອບເຂດແຍກຕ່າງຫາກ."
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "6. ການເກັບຮັກສາແລະການລຶບ",
+        "headers": [
+          "ຂໍ້ມູນ",
+          "ການເກັບຮັກສາແລະການລຶບ"
+        ],
+        "rows": [
+          [
+            "ເກມທ້ອງຖິ່ນບັນທຶກ ແລະມັກ",
+            "ເກັບຮັກສາໄວ້ໃນຂະນະທີ່ພວກມັນຍັງຄົງຢູ່ໃນອຸປະກອນຂອງທ່ານ. ຣີເຊັດຄວາມຄືບໜ້າຂອງແອັບຈະລຶບລ້າງການສຳເລັດຂັ້ນຕອນ, ດາວ ແລະບັນທຶກຄວາມຄືບໜ້າອື່ນໆທີ່ຄອບຄຸມດ້ວຍຄຸນສົມບັດນັ້ນ; ຄວາມມັກ, ບາງບັນທຶກຄະແນນສູງ ແລະຂໍ້ມູນ SDK ອາດຈະຍັງຄົງຢູ່. ລຶບລ້າງພື້ນທີ່ຈັດເກັບຂໍ້ມູນຂອງແອັບຯໃນການຕັ້ງຄ່າ Android ເພື່ອລຶບຂໍ້ມູນທ້ອງຖິ່ນຂອງມັນອອກ. ການຖອນການຕິດຕັ້ງ, ການເກັບຮັກສາສໍາຮອງຂໍ້ມູນແລະການຟື້ນຟູແມ່ນຂຶ້ນກັບອຸປະກອນແລະການຕັ້ງຄ່າສໍາຮອງຂໍ້ມູນ."
+          ],
+          [
+            "ຂໍ້ມູນການວິເຄາະ",
+            "ຈັດການພາຍໃຕ້ການຕັ້ງຄ່າການເກັບຮັກສາຊັບສິນຂອງການວິເຄາະ ແລະຂັ້ນຕອນການລຶບ. ມາດຕະຖານ GA4 ໂດຍທົ່ວໄປແລ້ວສະເໜີໃຫ້ 2- ຫຼື 14-month user/event-level settings; ການຕໍ່ອາຍຸໂດຍອີງໃສ່ກິດຈະ ກຳ ແລະການຕັ້ງຄ່າອື່ນໆສາມາດສົ່ງຜົນກະທົບຕໍ່ການຮັກສາໄວ້. ຂອບເຂດຈໍາກັດເຫຼົ່ານີ້ບໍ່ໄດ້ນໍາໃຊ້ໃນລັກສະນະດຽວກັນກັບບົດລາຍງານການລວບລວມມາດຕະຖານທັງຫມົດ, ແລະສະຖິຕິລວມສາມາດຢູ່ໄດ້ດົນກວ່າ."
+          ],
+          [
+            "Crashlytics",
+            "Google ລະບຸວ່າຮ່ອງຮອຍ stack crash ແລະຕົວລະບຸທີ່ກ່ຽວຂ້ອງຖືກເກັບຮັກສາໄວ້ສໍາລັບ 90 ມື້ກ່ອນທີ່ຂະບວນການໂຍກຍ້າຍອອກຈາກລະບົບສົດແລະສໍາຮອງຂໍ້ມູນເລີ່ມຕົ້ນ. ນີ້ບໍ່ໄດ້ຫມາຍຄວາມວ່າການລຶບຈະສິ້ນສຸດໃນວັນທີ 90."
+          ],
+          [
+            "ຂໍ້ມູນການໂຄສະນາແລະການຍິນຍອມເຫັນດີ",
+            "ດໍາເນີນການພາຍໃຕ້ Google ແລະນະໂຍບາຍການເກັບຮັກສາ / ການລຶບຂອງຜູ້ໃຫ້ບໍລິການທີ່ກ່ຽວຂ້ອງສໍາລັບໄລຍະເວລາທີ່ຈໍາເປັນສໍາລັບການຈັດສົ່ງໂຄສະນາ, ການວັດແທກ, ການປ້ອງກັນການສໍ້ໂກງແລະການໃຫ້ກຽດທາງເລືອກ. ການຕັ້ງຄ່າການຍິນຍອມເຫັນດີໃນທ້ອງຖິ່ນ ແລະບັນທຶກຂອງຜູ້ໃຫ້ບໍລິການອາດມີໄລຍະເວລາເກັບຮັກສາໄວ້ແຕກຕ່າງກັນ."
+          ],
+          [
+            "ສະຫນັບສະຫນູນອີເມວ",
+            "ເກັບຮັກສາໄວ້ຈົນກ່ວາການສອບຖາມແລະການຕິດຕາມທີ່ຈໍາເປັນສໍາເລັດ, ຫຼັງຈາກນັ້ນລຶບອອກ. ຖ້າການເກັບຮັກສາແມ່ນຕ້ອງການຕາມກົດຫມາຍ, ຂໍ້ມູນທີ່ຈໍາເປັນເທົ່ານັ້ນຈະຖືກເກັບຮັກສາໄວ້ໃນໄລຍະເວລາຕາມກົດຫມາຍທີ່ກ່ຽວຂ້ອງ."
+          ],
+          [
+            "Google Play Games ຂໍ້ມູນສຳຮອງ ແລະການບໍລິການ",
+            "ຖືກເກັບໄວ້ໃນເກມທີ່ບັນທຶກໄວ້ພາຍໃຕ້ບັນຊີ Google ຂອງທ່ານແລະປະຕິບັດຕາມຂັ້ນຕອນການເກັບຮັກສາແລະການລຶບຂອງ Google. ຈັດການບັນຊີເຂົ້າສູ່ລະບົບໃນການຕັ້ງຄ່າ Google ຂອງ Android, ແລະລຶບຂໍ້ມູນຂອງເກມນີ້ຜ່ານໂປຣໄຟລ໌ Play Games ຂອງທ່ານ ຫຼື Google ການຄວບຄຸມຂໍ້ມູນເກມໃນບັນຊີ. ການຖອນການຕິດຕັ້ງຫຼືການຕັ້ງຄືນຄວາມຄືບຫນ້າໃນທ້ອງຖິ່ນບໍ່ໄດ້ລຶບການສໍາເນົາຟັງ; ບັນທຶກອາດຈະລວມກັບຄືນໃນຂະນະທີ່ເຊື່ອມຕໍ່."
+          ]
+        ],
+        "after": [
+          "ການລຶບລ້າງຂໍ້ມູນແອັບຯ ຫຼືການຖອນການຕິດຕັ້ງບໍ່ໄດ້ລຶບຂໍ້ມູນທີ່ສົ່ງໄປໃຫ້ Google ໃນທັນທີ. ຕິດຕໍ່ພວກເຮົາຫຼືນໍາໃຊ້ການຄວບຄຸມຄວາມເປັນສ່ວນຕົວຂອງ Google ທີ່ກ່ຽວຂ້ອງເພື່ອໃຊ້ສິດທິກ່ຽວກັບຂໍ້ມູນທີ່ສົ່ງແລ້ວ."
+        ]
+      },
+      {
+        "id": "international",
+        "title": "7. ການປະມວນຜົນລະຫວ່າງປະເທດແລະການໂອນ",
+        "paragraphs": [
+          "ການນໍາໃຊ້ການບໍລິການ Google ສາມາດກ່ຽວຂ້ອງກັບການເກັບຮັກສາແລະການປຸງແຕ່ງຢູ່ນອກປະເທດຂອງທ່ານ, ລວມທັງຢູ່ໃນສະຫະລັດແລະປະເທດອື່ນໆທີ່ Google ແລະຜູ້ໃຫ້ບໍລິການທີ່ກ່ຽວຂ້ອງປະຕິບັດສິ່ງອໍານວຍຄວາມສະດວກ. ຜູ້ຮັບປະກອບມີ Google LLC ແລະສາຂາ / ໂປເຊດເຊີທີ່ລະບຸໄວ້ໃນຂໍ້ກໍານົດແລະນະໂຍບາຍທີ່ກ່ຽວຂ້ອງ. ສະຖານທີ່ປະມວນຜົນແມ່ນຂຶ້ນກັບຂໍ້ກໍານົດການປະມວນຜົນຂໍ້ມູນຂອງ Google ແລະຂໍ້ມູນສະຖານທີ່.",
+          "ຂໍ້​ມູນ​ແລະ​ຈຸດ​ປະ​ສົງ​ແມ່ນ​ດັ່ງ​ທີ່​ອະ​ທິ​ບາຍ​ໃນ​ພາກ​ສ່ວນ​ການ​ເກັບ​ກໍາ​ອັດ​ຕະ​ໂນ​ມັດ​ແລະ​ຜູ້​ໃຫ້​ບໍ​ລິ​ການ​: ການ​ໂຄ​ສະ​ນາ​, ການ​ວິ​ເຄາະ​, ການ​ວິ​ເຄາະ​ອຸ​ປະ​ຕິ​ເຫດ​ແລະ​ການ​ສະ​ຫນັບ​ສະ​ຫນູນ​ອີ​ເມລ​໌​. ການໂອນຍ້າຍເກີດຂຶ້ນຜ່ານເຄືອຂ່າຍໃນຂະນະທີ່ SDK ຖືກນໍາໃຊ້. ການເກັບຮັກສາປະຕິບັດຕາມພາກສ່ວນການເກັບຮັກສາແລະນະໂຍບາຍຂອງຜູ້ໃຫ້ບໍລິການທີ່ກ່ຽວຂ້ອງ. ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວຂອງ Google ໃຫ້ເສັ້ນທາງການຕິດຕໍ່ຄວາມເປັນສ່ວນຕົວຂອງມັນ.",
+          "ຖ້າກົດໝາຍຕ້ອງການ, ພື້ນຖານການໂອນຍ້າຍທີ່ເໝາະສົມ, ເຊັ່ນ: ການຍິນຍອມ ຫຼື ການປົກປ້ອງສັນຍາ, ຕ້ອງນຳໃຊ້. ຕິດຕໍ່ອີເມວຄວາມເປັນສ່ວນຕົວຂອງພວກເຮົາກ່ຽວກັບການໂອນຫຼືການຄັດຄ້ານ. ຈັດການທາງເລືອກການໂຄສະນາໂດຍຜ່ານຂໍ້ຄວາມທີ່ກ່ຽວຂ້ອງແລະການຕັ້ງຄ່າແອັບຯ. ໃນເວີຊັນ 0.31.28 ແລະຕໍ່ມາ, ຜູ້ໃຫຍ່ຍັງສາມາດຢຸດການວິເຄາະທາງເລືອກ ແລະລາຍງານການຂັດຂ້ອງໄດ້ໃນການຕັ້ງຄ່າ; ຜູ້​ໃຊ້​ທີ່​ໄດ້​ຮັບ​ການ​ປົກ​ປ້ອງ​ບໍ່​ໄດ້​ນໍາ​ໃຊ້​ການ​ເກັບ​ກໍາ​ການ​ວິ​ເຄາະ / crash ນີ້​."
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "8. ສິດແລະຕົວແທນຂອງທ່ານ",
+        "paragraphs": [
+          "ອີງຕາມກົດໝາຍທີ່ໃຊ້ໄດ້, ເຈົ້າສາມາດຮ້ອງຂໍການເຂົ້າເຖິງ ຫຼືສຳເນົາ, ການແກ້ໄຂ, ການລຶບ, ການຈຳກັດ, ການຄັດຄ້ານ, ການຖອນການຍິນຍອມ, ການພົກພາ, ຫຼືທາງເລືອກທີ່ກ່ຽວຂ້ອງກັບການໂຄສະນາເປົ້າໝາຍ. ພໍ່ແມ່, ຜູ້ປົກຄອງ ຫຼືຜູ້ຕາງຫນ້າທີ່ໄດ້ຮັບອະນຸຍາດອື່ນໆອາດຈະປະຕິບັດໃນບ່ອນທີ່ກົດໝາຍອະນຸຍາດ.",
+          "ພວກເຮົາບໍ່ໄດ້ປະຕິບັດບັນຊີສະມາຊິກຂອງພວກເຮົາເອງ ຫຼືການສ້າງແຜນທີ່ຕົວລະບຸການຕິດຕັ້ງໃຫ້ກັບຊື່ແທ້ ຫຼືທີ່ຢູ່ອີເມວ. Google ສະໜອງການຄວບຄຸມສຳລັບການເຊື່ອມຕໍ່ ແລະລຶບບັນຊີ Play Games ທີ່ເປັນທາງເລືອກ. ທີ່ຢູ່ອີເມວດຽວອາດຈະບໍ່ລະບຸບັນທຶກ SDK ຂອງການຕິດຕັ້ງໂດຍສະເພາະ. ພວກ​ເຮົາ​ຈະ​ຊ່ວຍ​ຊອກ​ຫາ​ບັນ​ທຶກ​ທີ່​ກ່ຽວ​ຂ້ອງ​ບ່ອນ​ທີ່​ເປັນ​ໄປ​ໄດ້​ສົມ​ເຫດ​ສົມ​ຜົນ​ແລະ​ອະ​ທິ​ບາຍ​ການ​ຄວບ​ຄຸມ​ຜູ້​ໃຫ້​ບໍ​ລິ​ການ. ພວກເຮົາຂໍພຽງແຕ່ຂໍ້ມູນທີ່ຈໍາເປັນເພື່ອຈັດການຄໍາຮ້ອງຂໍ; ຢ່າສົ່ງຕົວລະບຸຂອງລັດຖະບານທີ່ບໍ່ຈໍາເປັນ ຫຼືຂໍ້ມູນທີ່ລະອຽດອ່ອນ.",
+          "ເຈົ້າອາດຈະຈົ່ມກັບໜ່ວຍງານຄຸ້ມຄອງຂໍ້ມູນຢູ່ໃນເຂດອຳນາດຂອງເຈົ້າ. ໃນເກົາຫຼີໃຕ້, ການຊ່ວຍເຫຼືອແມ່ນມີໃຫ້ຈາກສູນລາຍງານການລະເມີດຂໍ້ມູນສ່ວນຕົວ (privacy.kisa.or.kr, 118 ພາຍໃນເກົາຫຼີ) ຫຼື ຄະນະກໍາມະການໄກ່ເກ່ຍຂໍ້ຂັດແຍ່ງຂໍ້ມູນສ່ວນຕົວ (kopico.go.kr, 1833-6972 ພາຍໃນເກົາຫຼີ)."
+        ],
+        "contact": true
+      },
+      {
+        "id": "children",
+        "title": "9. ເດັກນ້ອຍ ແລະ ເດັກນ້ອຍ",
+        "paragraphs": [
+          "app ແມ່ນ​ສໍາ​ລັບ​ທຸກ​ອາ​ຍຸ​. ລຸ້ນ 0.31.28 ແລະຕໍ່ມາໃຊ້ການປົກປ້ອງແບບອະນຸລັກກັບຜູ້ໃຊ້ພາຍໃຕ້ 18 ແລະຜູ້ທີ່ບໍ່ໄດ້ໃສ່ວັນເດືອນປີເກີດ. ວັນເດືອນປີເກີດແມ່ນໃຊ້ສໍາລັບການຕັດສິນໃຈອາຍຸໃນທ້ອງຖິ່ນເທົ່ານັ້ນ, ບໍ່ໄດ້ບັນທຶກຫຼືຖ່າຍທອດ. ເກມທັງໝົດຍັງຄົງມີຢູ່ໃນທຸກຍຸກທຸກສະໄໝ. ອາຍຸຂອງຜູ້ໃຫຍ່ບໍ່ໄດ້ຖືກເລືອກໄວ້ລ່ວງໜ້າ ຫຼືຖືກສະເໜີໃຫ້ເປັນເງື່ອນໄຂສຳລັບຜົນປະໂຫຍດຂອງເກມ.",
+          "ຜູ້ໃຊ້ທີ່ຕ້ອງການການປົກປ້ອງຈະບໍ່ເລີ່ມ SDK ຂອງ Firebase ສຳລັບການວິເຄາະ ຫຼືລາຍງານແອັບຂັດຂ້ອງ. ໂຄສະນາໃຊ້ Google Mobile Ads ໃນຊ່ວງເວີຊັນທີ່ Families ຮັບຮອງຕົນເອງ ໂດຍມີລະດັບ G, ບໍ່ປັບຕາມບຸກຄົນ ແລະຕັ້ງຄ່າໂຄສະນາສຳລັບເດັກ. ບໍ່ສົ່ງ Android Advertising ID ຂອງຜູ້ໃຊ້ທີ່ຕ້ອງການການປົກປ້ອງ. ການຕັ້ງຄ່າເຫຼົ່ານີ້ບໍ່ຕັດການປະມວນຜົນເຄືອຂ່າຍທັງໝົດທີ່ຈຳເປັນສຳລັບໂຄສະນາຕາມເນື້ອຫາ ແລະຄວາມປອດໄພ; ເບິ່ງຂໍ້ມູນ SDK ຂ້າງເທິງ.",
+          "ກົດລະບຽບທີ່ໃຊ້ໄດ້ກັບຂໍ້ມູນເດັກນ້ອຍ, ການອະນຸຍາດຈາກພໍ່ແມ່ ແລະການປົກປ້ອງເພີ່ມເຕີມຍັງນຳໃຊ້ຢູ່. ພໍ່ແມ່ ຫຼື ຜູ້ປົກຄອງທີ່ກັງວົນກ່ຽວກັບຂໍ້ມູນຂອງເດັກ ຫຼື ການປະມວນຜົນໂດຍບໍ່ມີການອະນຸຍາດທີ່ຕ້ອງການສາມາດຕິດຕໍ່ກັບອີເມວຄວາມເປັນສ່ວນຕົວຂອງພວກເຮົາ. ພວກ​ເຮົາ​ຈະ​ສືບ​ສວນ​ໃນ​ບ່ອນ​ທີ່​ສົມ​ເຫດ​ສົມ​ຜົນ​ທີ່​ເປັນ​ໄປ​ໄດ້​ແລະ​ໃຊ້​ເວ​ລາ​ການ​ລົບ​, ຈໍາ​ກັດ​ຫຼື​ມາດ​ຕະ​ການ​ອື່ນໆ​ທີ່​ຈໍາ​ເປັນ​."
+        ]
+      },
+      {
+        "id": "security",
+        "title": "10. ຄວາມປອດໄພ",
+        "paragraphs": [
+          "ພວກເຮົາຈຳກັດການເຂົ້າເຖິງບັນຊີບໍລິຫານບໍລິການ ແລະຂໍ້ມູນສ່ວນຕົວໃນສິ່ງທີ່ຈຳເປັນ, ແລະໃຊ້ການປົກປ້ອງທີ່ເໝາະສົມ ເຊັ່ນ: ຄຸນສົມບັດຄວາມປອດໄພຂອງຜູ້ໃຫ້ບໍລິການ ແລະການເຂົ້າລະຫັດໃນການຂົນສົ່ງ. ຂໍ້ມູນທ້ອງຖິ່ນແມ່ນຂຶ້ນກັບການປົກປ້ອງການຈັດເກັບແອັບຯຂອງລະບົບປະຕິບັດງານ. ຂໍ້ມູນທີ່ບໍ່ຈໍາເປັນແມ່ນຖືກລຶບຖິ້ມຫຼືຖືກລະບຸພາຍໃຕ້ຂັ້ນຕອນການເກັບຮັກສາແລະການລຶບທີ່ກ່ຽວຂ້ອງ.",
+          "ບໍ່ລວມເອົາລະຫັດຜ່ານ, ຕົວລະບຸຂອງລັດຖະບານ, ລາຍລະອຽດການຈ່າຍເງິນ ຫຼືຂໍ້ມູນລະອຽດອ່ອນອື່ນໆທີ່ບໍ່ຈໍາເປັນເພື່ອແກ້ໄຂຄໍາຮ້ອງຂໍການຊ່ວຍເຫຼືອ."
+        ]
+      },
+      {
+        "id": "website",
+        "title": "11. ເວັບໄຊນະໂຍບາຍນີ້",
+        "paragraphs": [
+          "ໜ້ານີ້ບໍ່ມີການໂຄສະນາທີ່ຜູ້ພັດທະນາຕິດຕັ້ງ, SDKs ການວິເຄາະຜູ້ເຂົ້າຊົມ, ສະຄຣິບຕິດຕາມ ຫຼືຄຸກກີ້ຕິດຕາມ. ມັນຖືກຈັດຢູ່ໃນ GitHub Pages. GitHub ອາດຈະປະມວນຜົນທີ່ຢູ່ IP ຂອງຜູ້ເຂົ້າຊົມ ແລະຂໍ້ມູນການເຊື່ອມຕໍ່ອື່ນໆເພື່ອຄວາມປອດໄພ ແລະຈຸດປະສົງທີ່ກ່ຽວຂ້ອງພາຍໃຕ້ຄໍາຖະແຫຼງຄວາມເປັນສ່ວນຕົວຂອງຕົນເອງ. ການປະຕິບັດຕາມລິ້ງນະໂຍບາຍພາຍນອກພາທ່ານໄປຫາເວັບໄຊທ໌ ແລະນະໂຍບາຍຂອງຜູ້ໃຫ້ບໍລິການນັ້ນ.",
+          "ຈາກລຸ້ນ 1.0.3, ແອັບຈະກວດເບິ່ງ GitHub Pages ສຳລັບການອັບເດດເນື້ອໃນຂອງເວທີ ແລະ ການດາວໂຫຼດທີ່ມີການປ່ຽນແປງຂໍ້ມູນເກມ. ການຮ້ອງຂໍເຫຼົ່ານີ້ບໍ່ລວມເອົາຂໍ້ມູນບັນຊີ Play Games ຫຼືບັນທຶກການຫຼິ້ນເກມສ່ວນຕົວ. GitHub ອາດຈະປະມວນຜົນທີ່ຢູ່ IP ແລະຂໍ້ມູນການເຊື່ອມຕໍ່ປົກກະຕິອື່ນໆເພື່ອຈັດສົ່ງ ແລະຮັບປະກັນເນື້ອຫາ, ພາຍໃຕ້ຄໍາຖະແຫຼງຄວາມເປັນສ່ວນຕົວຂອງມັນເອງ."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "12. ການປ່ຽນແປງ ແລະນະໂຍບາຍທີ່ກ່ຽວຂ້ອງ",
+        "paragraphs": [
+          "ພວກເຮົາອາດຈະປັບປຸງນະໂຍບາຍນີ້ຍ້ອນວ່າຄຸນສົມບັດຂອງແອັບຯ, ຜູ້ໃຫ້ບໍລິການ ຫຼືກົດໝາຍປ່ຽນແປງ, ແລະອັບເດດວັນທີທີ່ມີຜົນບັງຄັບໃຊ້. ບ່ອນທີ່ການປ່ຽນແປງເອກະສານຕ້ອງການແຈ້ງການເພີ່ມເຕີມຫຼືການຍິນຍອມເຫັນດີ, ພວກເຮົາຈະປະຕິບັດຕາມຂໍ້ກໍານົດເຫຼົ່ານັ້ນ. ປຶກສາຫາລືກັບແຫຼ່ງທີ່ເປັນທາງການຂ້າງລຸ່ມນີ້ສໍາລັບການປະຕິບັດຂອງ Google ແລະ GitHub ແລະການຄວບຄຸມທີ່ມີຢູ່."
+        ],
+        "sources": true
+      }
+    ],
+    "skip": "ຂ້າມໄປນະໂຍບາຍ"
+  },
+  "tet": {
+    "title": "Polítika Privasidade",
+    "operator": "Dezenvolvedor ShallWePuzzle",
+    "dateLabel": "Efetivu no atualizadu ikus liu",
+    "intro": "Dezenvolvedor ShallWePuzzle esplika iha kraik oinsá informasaun maneja iha aplikasaun Android ShallWePuzzle no iha website polítika privasidade ida-ne’e.",
+    "summary": "Ita-boot bele joga lahó kria konta. Progresu no preferénsia jogu nian rai iha ita-boot nia dispozitivu. Aplikasaun ne’e uza servisu Google ba anúnsiu, análize utilizasaun no diagnóstiku fallansu; tanba ne’e, dadus pesoál balu sei prosesadu.",
+    "contactLabel": "Perguntas no pedidu direitu sira kona-ba privasidade",
+    "contents": "Konteúdu sira",
+    "sections": [
+      {
+        "id": "controller",
+        "title": "1. Sé maka responsavel no oinsá atu kontaktu ami",
+        "paragraphs": [
+          "Servisu maka ShallWePuzzle, Android pakote kr.shall.we.puzzle. Dezenvolvedor ShallWePuzzle maka responsavel ba manejamentu dadus pesoál no pergunta sira kona-ba privasidade app nian.",
+          "Haruka pergunta sira kona-ba privasidade, keixa sira, asesu, koresaun, eliminasaun, restrisaun ka pedidu sira atu hasai konsentimentu ba email iha kraik. Ami bele husu informasaun ne'ebé razoavelmente nesesáriu atu verifika no lokaliza pedidu, no hatán tuir prosedimentu no prazu sira hosi lei aplikavel."
+        ],
+        "contact": true
+      },
+      {
+        "id": "local",
+        "title": "2. Salva jogu no informasaun iha ita-boot nia dispozitivu",
+        "paragraphs": [
+          "Versaun 0.31.28 no depois verifika data moris iha memória dispozitivu nian iha utilizasaun dahuluk hodi determina tratamentu protejidu ka adultu. Data moris no idade numérika la rai ka haruka ba servidór ida. Só kategoria audiénsia luan no opsaun análize opsionál/relatóriu asidente nian maka rai iha armazenamentu dispozitivu nian ne'ebé esklui hosi backup Android. La tuir data ka konfigurasaun sira ne'ebé lakon/koruptu rezulta iha tratamentu protejidu.",
+          "Progresu palku nian, fitun sira, pontuasaun aas sira, jogu sira ne'ebé seidauk hotu, jogu sira ne'ebé foin lalais ne'e joga, son, vibrasaun no preferénsia lian nian, estatutu tutoriál nian, intervalu publisidade nian no opsaun konsentimentu sira rai iha armazenamentu dispozitivu lokál app nian ka SDK nian. Ami la oferese konta jogu nian ka servidór ketak ida ne'ebé maka hasai no sinkroniza ita-boot nia arkivu sira ne'ebé maka rai jogu.",
+          "Husi 1.0.2+107, Google Play Games backup maka opsionál no ketak hosi protesaun idade publisidade nian. SDK hahú de'it hafoin ita-boot lee avizu ligasaun nian no hili atu liga. Bainhira Google sign-in no asesu ba armazenamentu hetan permisaun, etapa sira, fitun sira no rejistu di'ak liu sira sei rai iha Google Jogu sira ne'ebé rai no tau hamutuk iha dispozitivu sira. Data moris, opsaun sira anúnsiu nian, konfigurasaun sira no kuadru sira ne'ebé seidauk hotu la inklui iha backup ida-ne'e. Google mós prosesa perfil Play Games no SDK nia utilizasaun rasik no dadus diagnóstiku hodi fornese no hadi'a servisu. Aplikasaun ida-ne'e la husu belun sira, email ka rekursu sosiál sira, ka uza dadus Play Games nian ba publisidade. Konta labarik sira ne'ebé hetan supervizaun depende ba Google nia aprovasaun inan-aman no apoiu servisu nian; armazenamentu la garante ba konta hotu-hotu. Jogu hotu-hotu bele joga nafatin ho salvasaun lokál sira se ita-boot la liga ka asesu hetan negasaun. Publisidade protejida no konfigurasaun Firebase sei vigora nafatin. Hili backup nian rai iha armazenamentu dispozitivu nian ne'ebé esklui hosi backup Android. Utilizadór sira ne'ebé eziste ona mós haree avizu dala ida, no ligasaun disponivel depois iha Konfigurasaun aplikasaun nian.",
+          "Aplikasaun ne'e la presiza rejistu ka tama. Ida-ne'e la husu ita-boot atu hatama ita-boot nia naran, númeru telefone, enderesu, kontaktu sira, foto sira, gravasaun mikrofone nian ka lokalizasaun GPS nian ne'ebé loos, ka inklui funsaun sira atu halibur informasaun ne'e. Se ita-boot haruka email mai ami, ami simu ita-boot nia enderesu email no mensajen husi ema ne'ebé haruka.",
+          "Se backup no restaurasaun Android ativadu, dadus aplikasaun balun bele hetan backup husi fornesedór sistema operasaun no restaura hafoin instalasaun filafali, depende ba ita-boot nia dispozitivu no konfigurasaun konta Google. Ida-ne'e ketak hosi konta jogu nian ne'ebé maka dezenvolvedor maka opera. Ita-boot bele jere ida-ne'e iha konfigurasaun backup Android."
+        ]
+      },
+      {
+        "id": "sdk",
+        "title": "3. Informasaun prosesa automatikamente no tanba saida",
+        "paragraphs": [
+          "Aplikasaun ne'ebé distribui inklui Google SDKs iha kraik. Sira bele prosesa informasaun automatikamente bainhira ita-boot uza aplikasaun ka liga ba rede. Ámbitu loloos depende ba versaun SDK, konfigurasaun dispozitivu no rejionál, estatutu konsentimentu no konfigurasaun servisu Google.",
+          "Iha idade hotu-hotu, verifikasaun atualizasaun nian bele uza servisu ketak Firebase Remote Config no Firebase Installations. Identifikadór instalasaun espesífiku ba atualizasaun no token autentikasaun, versaun aplikasaun, lian, sistema operasaun, no enderesu IP ne'ebé uza ba ligasaun prosesa atu entrega konfigurasaun no opera rekursu ida-ne'e. Ida-ne'e ketak hosi análize opsionál no relatóriu asidente nian; verifikasaun ba atualizasaun sira la ativa Analytics, Crashlytics, ka kolesaun ID publisidade nian. Ami la uza publisidade ka propriedade sira utilizadór nian, esperimentu sira, ka personalizasaun ba verifikasaun sira-ne'e."
+        ],
+        "headers": [
+          "Servisu",
+          "Informasaun ne'ebé bele prosesa",
+          "Objetivu"
+        ],
+        "rows": [
+          [
+            "Google AdMob / Google Mobile Ads",
+            "Enderesu IP no lokalizasaun aprosimadu ne'ebé maka infere hosi ida-ne'e; ID publisidade Android, ID konjuntu aplikasaun no identifikadór sira seluk ne'ebé relasiona ho dispozitivu/konta; interasaun sira hanesan lansamentu aplikasaun nian, impresaun sira anúnsiu nian, klik sira no haree vídeo sira; aplikasaun no publisidade Dezempeñu no diagnóstiku SDK (Pedidu sira ba anúnsiu protejidu aplika tratamentu ba labarik no prevene transmisaun hosi ID publisidade Android.)",
+            "Entrega no sukat publisidade ne'ebé la'ós personalizadu; seguransa no prevensaun fraude"
+          ],
+          [
+            "Google User Messaging Platform (UMP)",
+            "Informasaun rejionál no dispozitivu, estatutu konsentimentu no opsaun sira privasidade publisidade nian, no informasaun identifikadór/konfigurasaun sira ne'ebé presiza atu aplika opsaun sira-ne'e",
+            "Aprezenta mensajen konsentimentu publisidade ne'ebé presiza, rai opsaun sira no aplika sira ba pedidu publisidade nian"
+          ],
+          [
+            "Google Analytics ba Firebase",
+            "Ba adultu sira ne'ebé maka hili: identifikadór instánsia/instalasaun aplikasaun nian, modelu dispozitivu, sistema operasaun, versaun no linguajen aplikasaun nian, eventu sesaun/ekran nian no informasaun rejiaun IP/jerál ne'ebé prosesa hosi SDK. Kolesaun ID publisidade análize, armazenamentu anúnsiu, dadus-utilizadór-anúnsiu no sinál sira personalizasaun-anúnsiu nian dezativadu.",
+            "Komprende utilizasaun, adosaun karakterístika no tendénsia estabilidade nian, no hadi'a servisu"
+          ],
+          [
+            "Firebase Crashlytics no Firebase servisu instalasaun nian",
+            "Ba adultu sira ne'ebé maka opta atu tama: identifikadór instalasaun/sesaun, tempu monu/erru no trasu pilha, mensajen erru, versaun aplikasaun, sistema operasaun, modelu dispozitivu, memória no diagnóstiku sira ne'ebé relasionadu, no eventu aplikasaun antes monu ne'ebé ligadu",
+            "Detekta no investiga erru sira, sukat instalasaun sira ne'ebé afetadu no hadi'a konfiabilidade"
+          ],
+          [
+            "Firebase Remote Config / Firebase Installations",
+            "Identifikadór instalasaun espesífiku ba atualizasaun no token autentikasaun, versaun aplikasaun, lian, sistema operasaun no informasaun ligasaun",
+            "Entrega no tau iha cache ba konfigurasaun sira versaun aplikasaun nian ne'ebé rekomenda no presiza no fornese atualizasaun sira"
+          ],
+          [
+            "Google Play In-App Updates",
+            "Metadadus aplikasaun no dispozitivu, versaun aplikasaun ne'ebé instala ona, estatutu atualizasaun no informasaun erru",
+            "Verifika disponibilidade atualizasaun liuhosi Google Play, download, instala no hahú fali aplikasaun"
+          ]
+        ],
+        "after": [
+          "Ami la tau ita-boot nia naran, enderesu email ka númeru telefone hanesan ID utilizadór Analytics, ka transmite arkivu sira ne'ebé salva jogu hanesan eventu analytics. Identifikadór sira dispozitivu no aplikasaun nian bele nafatin sai dadus pesoál tuir lei aplikavel maski sira la'ós ita-boot nia naran loloos.",
+          "Versaun 0.31.28 no tuir mai la hahú Firebase Core, Analytics ka Crashlytics antes desizaun idade ka ba utilizadór sira ne'ebé protejidu tuir QXZ8KEEP00000000000000000000000005Z ho idade. Ema adultu sira bele opta ho esplísitu ba análize sira uza nian no relatóriu kona-ba asidente no hamate buat rua ne'e hamutuk iha Konfigurasaun sira. Versaun sira uluk ne'ebé la'ós debug ativa kolesaun automátika; halo favór atualiza hodi uza kontrolu foun sira."
+        ]
+      },
+      {
+        "id": "providers",
+        "title": "4. Google no fornesedór servisu sira seluk",
+        "paragraphs": [
+          "Informasaun ne'ebé deskreve iha leten bele transmite no prosesa hosi Google LLC no Google afiliadu sira ne'ebé identifika iha termu servisu relevante sira ba publisidade, análize no relatóriu asidente nian. Google bele sai hanesan ami nia prosesadór ka hanesan kontroladór independente, depende ba servisu no ninia termu sira.",
+          "Depende ba ita-boot nia rejiaun, opsaun sira no konfigurasaun publisidade nian, fornesedór sira teknolojia publisidade nian Google bele prosesa pedidu anúnsiu nian no informasaun sasukat nian. Bainhira mensajen konsentimentu ida fornese, konsulta ida-ne'e no Google nia informasaun relasionadu ba fornesedór no opsaun sira ne'ebé aplikavel.",
+          "Ami simu no rai email sira apoiu nian liuhosi Gmail (Google). Fornesedór email nian bele prosesa ita-boot nia enderesu haruka-na'in, mensajen no aneksu ruma ne'ebé ita-boot hili atu haruka. Favor haruka de'it informasaun ne'ebé presiza atu rezolve ita-boot nia pergunta.",
+          "Ami la hala'o negósiu ketak ida ne'ebé fa'an dadus pesoál. Divulgasaun sira publisidade nian bele kualifika hanesan 'fahe' ka prosesamentu publisidade alvu nian tuir lei balu; haree opsaun sira iha kraik. Ami mós bele fó sai informasaun limitadu bainhira presiza atu kumpre obrigasaun legál ka pedidu legál, ka atu hala'o pedidu ne'ebé ita-boot halo."
+        ]
+      },
+      {
+        "id": "choices",
+        "title": "5. Hili sira publisidade nian, konsentimentu no fundamentu sira ba prosesamentu",
+        "paragraphs": [
+          "Versaun 0.31.28 no depois hein ba desizaun idade lokál ka opsaun atu la liu molok halo pedidu publisidade-privasidade ka anúnsiu. Konsentimentu opsionál ba análize adultu/relatóriu kona-ba asidente la marka tuir padraun, no rekuza la restrinje jogu ruma. Desliga análize sira Uzu nian no relatóriu kona-ba asidente iha Konfigurasaun sira hapara kolesaun iha futuru no hamoos relatóriu sira kona-ba asidente ne'ebé la haruka iha dispozitivu. Ida-ne'e la hamoos automatikamente rejistu sira ne'ebé maka transmite ona.",
+          "SDK publisidade nian husu anúnsiu sira hafoin Google UMP indika katak pedidu anúnsiu sira hetan permisaun. Avizu sira publisidade nian ka mensajen konsentimentu nian bele mosu depende ba ita-boot nia rejiaun no Google nia ezijénsia sira. Bainhira opsaun privasidade sira presiza, ita-boot bele vizita fali ka muda opsaun sira liuhosi entrada opsaun privasidade publisidade nian iha konfigurasaun aplikasaun nian. Entrada ida-ne'e hatudu bainhira UMP determina katak ida-ne'e presiza.",
+          "Aplikasaun ne'e husu anúnsiu sira ho klasifikasaun G, la'ós personalizadu. Ba utilizadór sira ne'ebé hetan protesaun iha 18 nia okos ka ho idade deskoñesidu, ida-ne'e aplika tratamentu idade labarik Google no konfigurasaun UMP ho idade menus hosi konsentimentu. Anúnsiu sira ne'ebé la personalizadu ka limitadu bele prosesa nafatin IP/lokalizasaun jerál, identifikadór sira ne'ebé permitidu, interasaun sira no diagnóstiku sira. Rekuza konsentimentu publisidade nian ka fallansu iha karregamentu publisidade nian la prevene jogu.",
+          "Ita-boot bele jere opsaun sira ID-publisidade nian ne'ebé disponivel, hanesan hamoos ID, iha konfigurasaun privasidade/publisidade Android. Naran no opsaun sira varia tuir dispozitivu. Kontrolu publisidade konta Google aplika ketak iha ámbitu servisu Google nian.",
+          "Depende ba lei aplikavel, prosesamentu depende ba fornesimentu servisu, interese lejítimu sira iha konfiabilidade servisu nian, seguransa no hadi'a, obrigasaun legál sira, ka konsentimentu bainhira presiza. Bainhira prosesamentu depende ba konsentimentu, ita-boot bele retira ida-ne'e sein afeta legalidade prosesamentu anteriór nian. Rekizitu sira konsentimentu nian ne'ebé aplikavel tenke prienxe iha rejiaun sira ne'ebé ezije sira. Konsentimentu publisidade no prosesamentu análize/diagnóstiku iha ámbitu ketak."
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "6. Retensaun no eliminasaun",
+        "headers": [
+          "Informasaun",
+          "Retensaun no eliminasaun"
+        ],
+        "rows": [
+          [
+            "Salva no preferénsia sira jogu lokál nian",
+            "Mantein enkuantu sira sei iha ita-boot nia dispozitivu. Aplikasaun nia progresu reset hamoos etapa kompletasaun, fitun no rejistu progresu sira seluk ne'ebé kobre hosi funsaun ne'e; preferénsia sira, rejistu sira ho pontuasaun aas no dadus SDK bele hela. Hamoos armazenamentu aplikasaun nian iha konfigurasaun Android hodi hasai nia dadus lokál. Desinstalasaun, retensaun no restaurasaun ba backup depende ba konfigurasaun dispozitivu no backup nian."
+          ],
+          [
+            "Dadus analítiku",
+            "Maneja tuir propriedade Analytics nia konfigurasaun retensaun no prosedimentu sira eliminasaun nian. Padraun GA4 jeralmente oferese 2- ka 14-fulan utilizadór/eventu-nivel konfigurasaun sira; renovasaun bazeia ba atividade no konfigurasaun sira seluk bele afeta retensaun. Limite sira-ne'e la aplika ho maneira hanesan ba relatóriu agregadu padraun hotu-hotu, no estatístika agregadu sira bele hela kleur liu."
+          ],
+          [
+            "Crashlytics dadus",
+            "Google hateten katak vestíjiu sira hosi pilha avariasaun nian no identifikadór asosiadu sira rai durante loron sira 90 nian molok prosesu hasai hosi sistema moris no backup hahú. Ida-ne'e la signifika katak apagamentu remata iha loron 90."
+          ],
+          [
+            "Dadus publisidade no konsentimentu",
+            "Prosesa tuir Google no fornesedór relevante sira-nia polítika retensaun/eliminasaun ba períodu sira ne'ebé presiza ba entrega anúnsiu, sasukat, prevensaun fraude no onra opsaun sira. Preferénsia konsentimentu lokál no fornesedór sira-nia rejistu bele iha períodu retensaun ne'ebé diferente."
+          ],
+          [
+            "Email sira apoiu nian",
+            "Rai to'o inkéritu no akompañamentu nesesáriu kompletu, hafoin hamoos. Karik retensaun maka legalmente ezije, informasaun nesesáriu de'it maka rai ba períodu estatutáriu ne'ebé aplikavel."
+          ],
+          [
+            "Google Play Games dadus backup no servisu nian",
+            "Rejistu sira rai iha Jogu sira ne'ebé rai ona iha ita-boot nia konta Google no tuir prosedimentu sira retensaun no apagamentu Google nian. Jere konta sign-in iha Android nia konfigurasaun Google, no hamoos jogu ida-ne'e nia dadus liuhosi ita-boot nia perfil Play Games ka kontrolu dadus jogu Konta Google. Desinstala ka reset progresu lokál la hamoos kópia cloud nian; rejistu sira bele tau hamutuk fali enkuantu ligadu."
+          ]
+        ],
+        "after": [
+          "Hamoos dadus aplikasaun nian ka dezinstalasaun la hamoos kedas informasaun ne'ebé haruka ona ba Google. Kontaktu ami ka uza kontrolu privasidade Google relevante sira hodi ezerse direitu sira kona-ba informasaun ne'ebé maka transmite ona."
+        ]
+      },
+      {
+        "id": "international",
+        "title": "7. Prosesamentu no transferénsia internasionál sira",
+        "paragraphs": [
+          "Uza servisu Google bele envolve armazenamentu no prosesamentu iha liur ita-boot nia nasaun, inklui iha Estadus Unidus no nasaun sira seluk iha ne'ebé Google no nia fornesedór relevante sira opera instalasaun sira. Destinatáriu sira inklui Google LLC no afiliadu/prosesadór sira ne'ebé identifika iha termu no polítika servisu relevante sira. Fatin prosesamentu sira depende ba Google nia termu prosesamentu dadus no informasaun instalasaun nian.",
+          "Informasaun no objetivu sira maka sira ne'ebé deskreve iha seksaun sira kolesaun-automátika no fornesedór nian: publisidade, análize, diagnóstiku ba asidente no apoiu liuhosi email. Transferénsia sira akontese liuhosi rede enkuantu uza SDK sira. Retensaun tuir seksaun retensaun no polítika fornesedór relevante sira-nian. Google nia polítika privasidade fornese nia dalan kontaktu privasidade nian.",
+          "Bainhira lei ezije, tenke aplika baze transferénsia apropriadu, hanesan konsentimentu ka salvaguarda kontratuál sira. Kontaktu ami nia email privasidade nian kona-ba transferénsia ka objesaun sira. Jere opsaun sira publisidade nian liuhosi mensajen relevante no konfigurasaun aplikasaun nian. Iha versaun 0.31.28 no tuirmai, adultu sira mós bele hapara análize opsionál no relatóriu kona-ba asidente iha Konfigurasaun sira; utilizadór sira ne'ebé hetan protesaun la uza kolesaun análize/crash ida-ne'e."
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "8. Ita-boot nia direitu no reprezentante sira",
+        "paragraphs": [
+          "Depende ba lei aplikavel, ita-boot bele husu asesu ka kópia, koresaun, eliminasaun, restrisaun, objesaun, retirada konsentimentu, portabilidade, ka opsaun sira relasiona ho publisidade alvu. Inan-aman, tutela ka reprezentante autorizadu seluk bele atua bainhira lei permite.",
+          "Ami la opera ami nia konta membru rasik ka mapeamentu identifikadór instalasaun nian ba naran loloos ka enderesu email. Google fornese kontrolu sira ba ligasaun no eliminasaun konta Play Games opsionál. Enderesu email ida de'it bele la identifika rejistu SDK instalasaun partikulár ida nian. Ami sei ajuda lokaliza rejistu relevante sira iha ne'ebé maka razoavelmente posivel no esplika kontrolu sira fornesedór nian. Ami husu de'it informasaun ne'ebé nesesáriu atu trata pedidu ida; labele haruka identifikadór governu nian ne'ebé la nesesáriu ka informasaun sensivel sira.",
+          "Ita-boot bele halo keixa ba autoridade protesaun dadus nian iha Ita-boot nia jurisdisaun. Iha Koreia-Súl, asisténsia disponivel hosi Sentru Relatóriu Infrasaun Informasaun Pesoál (privacy.kisa.or.kr, 118 iha Koreia laran) ka hosi Komité Mediasaun Disputa Informasaun Pesoál (kopico.go.kr, 1833-QXZ8KEEP00003003 ho Koreia)."
+        ],
+        "contact": true
+      },
+      {
+        "id": "children",
+        "title": "9. Labarik no menór sira",
+        "paragraphs": [
+          "Aplikasaun ne’e ba idade hotu-hotu. Versaun 0.31.28 no tuir mai aplika protesaun ba utilizadór ho idade menus husi tinan 18 no ba utilizadór ne’ebé la hatama data moris. Data moris uza de’it atu determina kategoria idade iha dispozitivu; la rai ka haruka ba servidor. Jogu hotu-hotu disponivel ba idade hotu. Aplikasaun la hili adultu antes ka halo idade adultu sai kondisaun atu hetan benefísiu jogu.",
+          "Utilizadór sira ne’ebé hetan protesaun la hahú SDK Firebase ba análize ka relatóriu kona-ba aplikasaun taka. Anúnsiu uza Google Mobile Ads iha versaun ne’ebé Families sertifika rasik, ho klasifikasaun G, la-personalizadu, no konfigurasaun anúnsiu ba labarik. ID publisidade Android ba utilizadór sira ne’ebé hetan protesaun la transmite. Konfigurasaun hirak ne’e la halakon prosesamentu rede hotu ne’ebé presiza atu hatudu anúnsiu tuir konteúdu no atu mantein seguransa; haree informasaun SDK iha leten.",
+          "Regra sira ne'ebé aplikavel kona-ba labarik sira nia informasaun, lisensa inan-aman nian no protesaun adisionál sira aplika nafatin. Inan-aman ka tutela sira ne'ebé preokupa ho informasaun ka prosesamentu labarik ida nian lahó lisensa ne'ebé presiza bele kontaktu ami nia email privasidade nian. Ami sei investiga bainhira razoavelmente posivel no foti apagamentu nesesáriu, restrisaun ka medida sira seluk."
+        ]
+      },
+      {
+        "id": "security",
+        "title": "10. Seguransa",
+        "paragraphs": [
+          "Ami limita asesu ba konta administrasaun servisu no dadus pesoál ba saida maka nesesáriu, no uza salvaguarda apropriadu sira hanesan rekursu seguransa fornesedór nian no enkripsaun iha tránzitu. Informasaun lokál sujeita ba sistema operasaun nia protesaun sira armazenamentu aplikasaun nian. Informasaun ne'ebé la presiza ona maka elimina ka de-identifika tuir prosedimentu retensaun no eliminasaun ne'ebé relevante.",
+          "Labele inklui senha sira, identifikadór governu nian, detalle pagamentu nian ka informasaun sensivel sira seluk ne'ebé la nesesáriu atu rezolve pedidu apoiu nian."
+        ]
+      },
+      {
+        "id": "website",
+        "title": "11. Polítika ida-ne'e nia website",
+        "paragraphs": [
+          "Pájina ida-ne'e laiha publisidade ne'ebé instala hosi dezenvolvedor, SDK sira análize vizitante nian, skript sira akompañamentu nian ka cookies akompañamentu nian. Ida-ne'e host iha GitHub Pages. GitHub bele prosesa enderesu IP vizitante nian no informasaun ligasaun sira seluk ba seguransa no objetivu sira ne'ebé relasionadu tuir nia deklarasaun privasidade rasik. Tuir ligasaun polítika esterna ida lori ita-boot ba fornesedór ne'e nia website no polítika sira.",
+          "Husi versaun 1.0.3, aplikasaun verifika GitHub Pages ba atualizasaun konteúdu palku nian no download dadus jogu nian ne'ebé muda ona. Pedidu sira-ne'e la inklui informasaun konta Play Games nian ka rejistu jogu pesoál sira. GitHub bele prosesa enderesu IP sira no informasaun ligasaun rutina sira seluk hodi entrega no asegura konteúdu, tuir nia deklarasaun privasidade rasik."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "12. Mudansa sira no polítika sira ne'ebé relasionadu",
+        "paragraphs": [
+          "Ami bele halo revizaun ba polítika ida-ne'e bainhira karakterístika sira aplikasaun nian, fornesedór servisu sira ka lei sira muda, no atualiza data efetivu. Bainhira mudansa materiál sira presiza avizu ka konsentimentu adisionál, ami sei tuir rekizitu sira-ne'e. Konsulta rekursu ofisiál sira iha kraik ba Google no GitHub nia prátika sira no kontrolu sira ne'ebé disponivel."
+        ],
+        "sources": true
+      }
+    ],
+    "skip": "Hakat ba polítika"
+  },
+  "ta": {
+    "title": "தனியுரிமைக் கொள்கை",
+    "operator": "ShallWePuzzle செயலி உருவாக்குநர்",
+    "dateLabel": "பயனுள்ள மற்றும் கடைசியாக புதுப்பிக்கப்பட்டது",
+    "intro": "ShallWePuzzle செயலியை உருவாக்கியவர், ShallWePuzzle Android செயலியிலும் இந்தத் தனியுரிமைக் கொள்கை இணையதளத்திலும் தகவல்கள் எவ்வாறு கையாளப்படுகின்றன என்பதை விளக்குகிறார்.",
+    "summary": "கணக்கை உருவாக்காமல் விளையாடலாம். விளையாட்டு முன்னேற்றமும் அமைப்புகளும் உங்கள் சாதனத்தில் சேமிக்கப்படும். விளம்பரம், பயன்பாட்டு பகுப்பாய்வு மற்றும் செயலிழப்பு கண்டறிதலுக்காக Google சேவைகள் பயன்படுத்தப்படுகின்றன; எனவே சில தனிப்பட்ட தரவுகள் செயலாக்கப்படுகின்றன.",
+    "contactLabel": "தனியுரிமை கேள்விகள் மற்றும் உரிமை கோரிக்கைகள்",
+    "contents": "உள்ளடக்கங்கள்",
+    "sections": [
+      {
+        "id": "controller",
+        "title": "1. யார் பொறுப்பு மற்றும் எப்படி எங்களை",
+        "paragraphs": [
+          "சேவை ShallWePuzzle, Android தொகுப்பு kr.shall.we.puzzle. பயன்பாட்டின் தனிப்பட்ட தரவு கையாளுதல் மற்றும் தனியுரிமை விசாரணைகளுக்கு ShallWePuzzle டெவலப்பர் பொறுப்பு.",
+          "தனியுரிமைக் கேள்விகள், புகார்கள், அணுகல், திருத்தம், நீக்குதல், கட்டுப்பாடு அல்லது ஒப்புதல் திரும்பப் பெறுதல் கோரிக்கைகளை கீழே உள்ள மின்னஞ்சலுக்கு அனுப்பவும். கோரிக்கையைச் சரிபார்ப்பதற்கும் கண்டறிவதற்கும் நியாயமான தகவலை நாங்கள் கேட்கலாம், மேலும் பொருந்தக்கூடிய சட்டத்தின் நடைமுறைகள் மற்றும் நேர வரம்புகளின் கீழ் பதிலளிக்கலாம்."
+        ],
+        "contact": true
+      },
+      {
+        "id": "local",
+        "title": "2. உங்கள் சாதனம்",
+        "paragraphs": [
+          "பதிப்பு 0.31.28 மற்றும் பின்னர் பாதுகாக்கப்பட்ட அல்லது வயது வந்தோருக்கான சிகிச்சையைத் தீர்மானிக்க முதல் பயன்பாட்டில் பிறந்த தேதியை சாதன நினைவகத்தில் சரிபார்க்கிறது. பிறந்த தேதி மற்றும் எண் வயது ஆகியவை சேமிக்கப்படவில்லை அல்லது சேவையகத்திற்கு அனுப்பப்படவில்லை. Android காப்புப்பிரதியிலிருந்து விலக்கப்பட்ட சாதனச் சேமிப்பகத்தில் பரந்த பார்வையாளர்களின் வகை மற்றும் விருப்ப பகுப்பாய்வு/சிதைவு-அறிக்கையிடல் தேர்வு மட்டுமே வைக்கப்படும். தேதியைத் தவிர்த்தல் அல்லது விடுபட்ட/ஊழல் அமைப்புகள் பாதுகாக்கப்பட்ட சிகிச்சையில் விளைகின்றன.",
+          "நிலை முன்னேற்றம், நட்சத்திரங்கள், அதிக மதிப்பெண்கள், முடிக்கப்படாத கேம்கள், சமீபத்தில் விளையாடிய கேம்கள், ஒலி, அதிர்வு மற்றும் மொழி விருப்பத்தேர்வுகள், பயிற்சி நிலை, விளம்பர இடைவெளிகள் மற்றும் ஒப்புதல் தேர்வுகள் ஆகியவை ஆப்ஸ் அல்லது SDK இன் உள்ளூர் சாதன சேமிப்பகத்தில் சேமிக்கப்படும். உங்கள் கேம்-சேமிக் கோப்புகளைப் பதிவேற்றும் மற்றும் ஒத்திசைக்கும் கேம் கணக்கு அல்லது தனி சேவையகத்தை நாங்கள் வழங்கவில்லை.",
+          "இலிருந்து 1.0.2+107, Google Play Games காப்புப்பிரதி விருப்பமானது மற்றும் விளம்பர வயதுப் பாதுகாப்பிலிருந்து தனியானது. இணைப்பு அறிவிப்பைப் படித்து, இணைக்கத் தேர்வுசெய்த பிறகுதான் SDK தொடங்கும். Google உள்நுழைவு மற்றும் சேமிப்பக அணுகல் அனுமதிக்கப்படும் போது, ​​நிலைகள், நட்சத்திரங்கள் மற்றும் சிறந்த பதிவுகள் Google சேமித்த கேம்களில் சேமிக்கப்பட்டு சாதனங்கள் முழுவதும் ஒன்றிணைக்கப்படும். பிறந்த தேதிகள், விளம்பரத் தேர்வுகள், அமைப்புகள் மற்றும் முடிக்கப்படாத பலகைகள் இந்தக் காப்புப்பிரதியில் சேர்க்கப்படவில்லை. Google ஆனது Play கேம்ஸ் சுயவிவரத்தையும் சேவையை வழங்குவதற்கும் மேம்படுத்துவதற்கும் SDK இன் சொந்த பயன்பாடு மற்றும் கண்டறியும் தரவையும் செயலாக்குகிறது. இந்த ஆப்ஸ் நண்பர்கள், மின்னஞ்சல் அல்லது சமூக அம்சங்களைக் கோரவில்லை அல்லது விளம்பரத்திற்காக Play கேம்ஸ் தரவைப் பயன்படுத்துவதில்லை. கண்காணிக்கப்படும் குழந்தைக் கணக்குகள் Google இன் பெற்றோரின் ஒப்புதல் மற்றும் சேவை ஆதரவைப் பொறுத்தது; ஒவ்வொரு கணக்கிற்கும் சேமிப்பு உத்தரவாதம் இல்லை. நீங்கள் இணைக்கவில்லை என்றாலோ அல்லது அணுகல் மறுக்கப்பட்டாலோ எல்லா கேம்களும் உள்ளூர் சேமிப்புகளுடன் விளையாடக்கூடியதாக இருக்கும். பாதுகாக்கப்பட்ட விளம்பரம் மற்றும் Firebase அமைப்புகள் நடைமுறையில் இருக்கும். காப்புப் பிரதி தேர்வு Android காப்புப்பிரதியிலிருந்து விலக்கப்பட்ட சாதனச் சேமிப்பகத்தில் வைக்கப்பட்டுள்ளது. ஏற்கனவே உள்ள பயனர்களும் அறிவிப்பை ஒருமுறை பார்க்கிறார்கள், பின்னர் ஆப்ஸ் அமைப்புகளில் இணைப்பு கிடைக்கும்.",
+          "பயன்பாட்டிற்கு பதிவு அல்லது உள்நுழைவு தேவையில்லை. உங்கள் பெயர், தொலைபேசி எண், முகவரி, தொடர்புகள், புகைப்படங்கள், மைக்ரோஃபோன் பதிவுகள் அல்லது துல்லியமான ஜி.பி.எஸ் இருப்பிடத்தைச் சமர்ப்பிக்கவோ அல்லது அந்தத் தகவலைச் சேகரிப்பதற்கான அம்சங்களைச் சேர்க்கவோ இது உங்களைக் கேட்காது. நீங்கள் எங்களுக்கு மின்னஞ்சல் செய்தால், உங்கள் அனுப்புநரின் மின்னஞ்சல் முகவரி மற்றும் செய்தியைப் பெறுவோம்.",
+          "Android காப்புப் பிரதி மற்றும் மீட்டமைத்தல் இயக்கப்பட்டிருந்தால், உங்கள் சாதனம் மற்றும் Google கணக்கு அமைப்புகளைப் பொறுத்து, சில பயன்பாட்டுத் தரவு இயக்க முறைமை வழங்குநரால் காப்புப் பிரதி எடுக்கப்பட்டு, மீண்டும் நிறுவிய பின் மீட்டமைக்கப்படலாம். இது டெவலப்பர் இயக்கும் கேம் கணக்கிலிருந்து வேறுபட்டது. Android காப்புப் பிரதி அமைப்புகளில் நீங்கள் அதை நிர்வகிக்கலாம்."
+        ]
+      },
+      {
+        "id": "sdk",
+        "title": "3. தகவல் தானாகவே செயலாக்கப்பட்டது மற்றும் ஏன்",
+        "paragraphs": [
+          "விநியோகிக்கப்பட்ட பயன்பாட்டில் கீழே உள்ள Google SDKகள் உள்ளன. நீங்கள் பயன்பாட்டைப் பயன்படுத்தும்போது அல்லது நெட்வொர்க்குடன் இணைக்கும்போது அவை தானாகவே தகவலைச் செயலாக்க முடியும். துல்லியமான நோக்கம் SDK பதிப்புகள், சாதனம் மற்றும் பிராந்திய அமைப்புகள், ஒப்புதல் நிலை மற்றும் Google சேவை உள்ளமைவைப் பொறுத்தது.",
+          "எல்லா வயதினருக்கும், புதுப்பிப்பு சோதனைகள் தனித்தனி Firebase தொலைநிலை கட்டமைப்பு மற்றும் Firebase நிறுவல் சேவைகளைப் பயன்படுத்தலாம். புதுப்பிப்பு-குறிப்பிட்ட நிறுவல் அடையாளங்காட்டி மற்றும் அங்கீகார டோக்கன், பயன்பாட்டின் பதிப்பு, மொழி, இயக்க முறைமை மற்றும் இணைப்பிற்குப் பயன்படுத்தப்படும் IP முகவரி ஆகியவை உள்ளமைவை வழங்கவும் இந்த அம்சத்தை இயக்கவும் செயலாக்கப்படுகின்றன. இது விருப்ப பகுப்பாய்வு மற்றும் செயலிழப்பு அறிக்கையிலிருந்து வேறுபட்டது; புதுப்பிப்புகளைச் சரிபார்ப்பது Analytics, Crashlytics அல்லது விளம்பர ஐடி சேகரிப்பை இயக்காது. இந்தச் சரிபார்ப்புகளுக்கு நாங்கள் விளம்பரம் அல்லது பகுப்பாய்வு பயனர் பண்புகள், சோதனைகள் அல்லது தனிப்பயனாக்கம் ஆகியவற்றைப் பயன்படுத்துவதில்லை."
+        ],
+        "headers": [
+          "சேவை",
+          "செயலாக்கப்படக்கூடிய தகவல்",
+          "நோக்கம்"
+        ],
+        "rows": [
+          [
+            "Google AdMob / Google மொபைல் விளம்பரங்கள்",
+            "ஐபி முகவரி மற்றும் தோராயமான இருப்பிடம் Android விளம்பர ஐடி, ஆப் செட் ஐடி மற்றும் பிற சாதனம்/கணக்கு தொடர்பான அடையாளங்காட்டிகள்; பயன்பாட்டின் துவக்கங்கள், விளம்பர பதிவுகள், கிளிக்குகள் மற்றும் வீடியோ காட்சிகள் போன்ற தொடர்புகள்; பயன்பாடு மற்றும் விளம்பரப்படுத்தல் SDK செயல்திறன் மற்றும் கண்டறிதல் (பாதுகாக்கப்பட்ட விளம்பரக் கோரிக்கைகள் குழந்தை சிகிச்சைக்கு பொருந்தும் மற்றும் Android விளம்பர ஐடியின் பரிமாற்றத்தைத் தடுக்கும்.)",
+            "தனிப்பயனாக்கப்படாத விளம்பரங்களை வழங்குதல் மற்றும் அளவிடுதல்; பாதுகாப்பு மற்றும் மோசடி தடுப்பு"
+          ],
+          [
+            "Google பயனர் செய்தியிடல் தளம் (UMP)",
+            "பிராந்திய மற்றும் சாதனத் தகவல், ஒப்புதல் நிலை மற்றும் விளம்பரத் தனியுரிமைத் தேர்வுகள் மற்றும் அந்தத் தேர்வுகளைப் பயன்படுத்துவதற்குத் தேவையான அடையாளங்காட்டி/அமைப்புகள் தகவல்",
+            "தேவையான விளம்பர ஒப்புதல் செய்திகளை வழங்கவும், தேர்வுகளைச் சேமிக்கவும் மற்றும் விளம்பர கோரிக்கைகளுக்கு அவற்றைப் பயன்படுத்தவும்"
+          ],
+          [
+            "Firebase க்கான Google Analytics",
+            "தேர்ந்தெடுக்கும் பெரியவர்களுக்கு: ஆப்ஸ்-உதாரணம்/நிறுவல் அடையாளங்காட்டிகள், சாதன மாதிரி, இயக்க முறைமை, பயன்பாட்டின் பதிப்பு மற்றும் மொழி, அமர்வு/திரை நிகழ்வுகள் மற்றும் SDK-செயல்படுத்தப்பட்ட IP/பொது பிராந்தியத் தகவல். Analytics advertising-ID சேகரிப்பு, விளம்பர சேமிப்பு, விளம்பர பயனர் தரவு மற்றும் விளம்பர தனிப்பயனாக்கம் சமிக்ஞைகள் முடக்கப்பட்டுள்ளன.",
+            "பயன்பாடு, அம்சம் தத்தெடுப்பு மற்றும் நிலைப்புத்தன்மை போக்குகளைப் புரிந்துகொண்டு,"
+          ],
+          [
+            "Firebase Crashlytics மற்றும் Firebase நிறுவல் சேவைகள்",
+            "தேர்ந்தெடுக்கும் பெரியவர்களுக்கு: நிறுவல்/அமர்வு அடையாளங்காட்டிகள், செயலிழப்பு/பிழை நேரங்கள் மற்றும் அடுக்கு தடயங்கள், பிழைச் செய்திகள், பயன்பாட்டு பதிப்பு, இயக்க முறைமை, சாதன மாதிரி, நினைவகம் மற்றும் தொடர்புடைய கண்டறிதல்கள் மற்றும் இணைக்கப்பட்ட செயலிழப்பு பயன்பாட்டு நிகழ்வுகள்",
+            "பிழைகளைக் கண்டறிந்து ஆய்வு செய்தல், பாதிக்கப்பட்ட நிறுவல்களை அளவிடுதல் மற்றும் நம்பகத்தன்மையை மேம்படுத்துதல்"
+          ],
+          [
+            "Firebase ரிமோட் கான்ஃபிக் / Firebase நிறுவல்கள்",
+            "புதுப்பிப்பு-குறிப்பிட்ட நிறுவல் அடையாளங்காட்டி மற்றும் அங்கீகார டோக்கன், பயன்பாட்டின் பதிப்பு, மொழி, இயக்க முறைமை மற்றும் இணைப்புத் தகவல்",
+            "டெலிவரி மற்றும் கேச்சிங் பரிந்துரைக்கப்படுகிறது மற்றும் தேவையான ஆப்-பதிப்பு அமைப்புகள் மற்றும் புதுப்பிப்புகளை வழங்குதல்"
+          ],
+          [
+            "Google Play இன்-ஆப் புதுப்பிப்புகள்",
+            "ஆப்ஸ் மற்றும் சாதன மெட்டாடேட்டா, நிறுவப்பட்ட ஆப்ஸ் பதிப்பு, புதுப்பிப்பு நிலை மற்றும் பிழை தகவல்",
+            "Google Play மூலம் புதுப்பிப்பு கிடைப்பதைச் சரிபார்க்கிறது,"
+          ]
+        ],
+        "after": [
+          "உங்கள் பெயர், மின்னஞ்சல் முகவரி அல்லது தொலைபேசி எண்ணை நாங்கள் Analytics பயனர் ஐடியாக அமைக்கவில்லை அல்லது கேம்-சேவ் கோப்புகளை பகுப்பாய்வு நிகழ்வுகளாக அனுப்பவில்லை. சாதனம் மற்றும் பயன்பாட்டு அடையாளங்காட்டிகள் உங்கள் உண்மையான பெயராக இல்லாவிட்டாலும், பொருந்தக்கூடிய சட்டத்தின் கீழ் தனிப்பட்ட தரவுகளாக இருக்கலாம்.",
+          "பதிப்பு 0.31.28 மற்றும் அதற்குப் பிறகு Firebase கோர், அனலிட்டிக்ஸ் அல்லது Crashlytics தொடங்கவில்லை பெரியவர்கள் பயன்பாட்டு பகுப்பாய்வு மற்றும் செயலிழப்பு அறிக்கையை வெளிப்படையாகத் தேர்வுசெய்யலாம் மற்றும் அமைப்புகளில் இரண்டையும் ஒன்றாக முடக்கலாம். முந்தைய பிழைத்திருத்தம் அல்லாத பதிப்புகள் தானியங்கி சேகரிப்பை இயக்கின; புதிய கட்டுப்பாடுகளைப் பயன்படுத்த புதுப்பிக்கவும்."
+        ]
+      },
+      {
+        "id": "providers",
+        "title": "4. Google மற்றும் பிற சேவை வழங்குநர்கள்",
+        "paragraphs": [
+          "மேலே விவரிக்கப்பட்ட தகவல், விளம்பரம், பகுப்பாய்வு மற்றும் செயலிழப்பு அறிக்கையிடலுக்கான தொடர்புடைய சேவை விதிமுறைகளில் அடையாளம் காணப்பட்ட Google LLC மற்றும் Google துணை நிறுவனங்களுக்கு அனுப்பப்பட்டு செயலாக்கப்படலாம். Google சேவை மற்றும் அதன் விதிமுறைகளைப் பொறுத்து, எங்கள் செயலியாக அல்லது ஒரு சுயாதீன கட்டுப்படுத்தியாக செயல்படலாம்.",
+          "உங்கள் பகுதி, தேர்வுகள் மற்றும் விளம்பர உள்ளமைவைப் பொறுத்து, Google விளம்பர தொழில்நுட்ப வழங்குநர்கள் விளம்பர கோரிக்கை மற்றும் அளவீட்டுத் தகவலைச் செயல்படுத்தலாம். ஒப்புதல் செய்தி வழங்கப்பட்டால், பொருந்தக்கூடிய வழங்குநர்கள் மற்றும் தேர்வுகளுக்கான Google இன் தொடர்புடைய தகவலைப் பார்க்கவும்.",
+          "ஜிமெயில் (Google) மூலம் ஆதரவு மின்னஞ்சல்களைப் பெறுகிறோம் மற்றும் சேமிக்கிறோம். மின்னஞ்சல் வழங்குநர் உங்கள் அனுப்புநர் முகவரி, செய்தி மற்றும் நீங்கள் அனுப்ப விரும்பும் எந்த இணைப்புகளையும் செயல்படுத்தலாம். உங்கள் விசாரணையைத் தீர்க்க தேவையான தகவலை மட்டும் அனுப்பவும்.",
+          "தனிப்பட்ட தரவை விற்பனை செய்யும் தனி வணிகத்தை நாங்கள் இயக்குவதில்லை. சில சட்டங்களின் கீழ் விளம்பர வெளிப்பாடுகள் 'பகிர்வு' அல்லது இலக்கு-விளம்பரச் செயலாக்கம் எனத் தகுதி பெறலாம்; கீழே உள்ள தேர்வுகளைப் பார்க்கவும். சட்டப்பூர்வ கடமை அல்லது சட்டபூர்வமான கோரிக்கைக்கு இணங்க அல்லது நீங்கள் செய்யும் கோரிக்கையை நிறைவேற்றுவதற்கு தேவைப்படும் போது வரையறுக்கப்பட்ட தகவலை நாங்கள் வெளியிடலாம்."
+        ]
+      },
+      {
+        "id": "choices",
+        "title": "5.",
+        "paragraphs": [
+          "பதிப்பு 0.31.28 மற்றும் விளம்பரம்-தனியுரிமை அல்லது விளம்பரக் கோரிக்கைகளை முன்வைக்கும் முன் உள்ளூர் வயது முடிவு அல்லது தவிர்க்கும் விருப்பத்திற்காக காத்திருக்கிறது. விருப்பமான வயது வந்தோருக்கான பகுப்பாய்வு/விபத்து-அறிக்கையிடல் ஒப்புதல் இயல்புநிலையாகத் தேர்வுசெய்யப்படவில்லை, மேலும் சரிவு எந்த விளையாட்டையும் கட்டுப்படுத்தாது. அமைப்புகளில் பயன்பாட்டு பகுப்பாய்வு மற்றும் செயலிழப்பு அறிக்கையை முடக்குவது எதிர்கால சேகரிப்பை நிறுத்துகிறது மற்றும் சாதனத்தில் அனுப்பப்படாத சிதைவு அறிக்கைகளை நீக்குகிறது. ஏற்கனவே அனுப்பப்பட்ட பதிவுகளை இது தானாகவே அழிக்காது.",
+          ", Google UMPக்குப் பிறகு விளம்பரங்களைக் கோரும் SDK, விளம்பரக் கோரிக்கைகள் அனுமதிக்கப்படுவதைக் குறிக்கிறது. உங்கள் பிராந்தியம் மற்றும் Google இன் தேவைகளைப் பொறுத்து விளம்பர அறிவிப்புகள் அல்லது ஒப்புதல் செய்திகள் தோன்றலாம். தனியுரிமை விருப்பத்தேர்வுகள் தேவைப்படும்போது, ​​ஆப்ஸ் அமைப்புகளில் உள்ள விளம்பர தனியுரிமை விருப்பங்களின் நுழைவு மூலம் நீங்கள் தேர்வுகளை மறுபரிசீலனை செய்யலாம் அல்லது மாற்றலாம். இது தேவை என்பதை UMP தீர்மானிக்கும் போது இந்த உள்ளீடு காட்டப்படும்.",
+          "பயன்பாடு G- மதிப்பிடப்பட்ட, தனிப்பயனாக்கப்படாத விளம்பரங்களைக் கோருகிறது. 18 இன் கீழ் அல்லது அறியப்படாத வயதுடைய பாதுகாக்கப்பட்ட பயனர்களுக்கு, இது Google குழந்தை வயது சிகிச்சை மற்றும் UMP வயதுக்குட்பட்ட ஒப்புதல் அமைப்பு ஆகியவற்றைப் பயன்படுத்துகிறது. தனிப்பயனாக்கப்படாத அல்லது வரையறுக்கப்பட்ட விளம்பரங்கள் ஐபி/பொது இருப்பிடம், அனுமதிக்கப்பட்ட அடையாளங்காட்டிகள், இடைவினைகள் மற்றும் கண்டறிதல்களை இன்னும் செயல்படுத்தலாம். விளம்பர ஒப்புதல் குறைதல் அல்லது விளம்பர ஏற்றத் தோல்வி ஆகியவை விளையாடுவதைத் தடுக்காது.",
+          "Android தனியுரிமை/விளம்பர அமைப்புகளில் ஐடியை நீக்குவது போன்ற கிடைக்கும் விளம்பர-ஐடி தேர்வுகளை நீங்கள் நிர்வகிக்கலாம். பெயர்களும் விருப்பங்களும் சாதனத்தைப் பொறுத்து மாறுபடும். Google கணக்கு விளம்பரக் கட்டுப்பாடுகள் Google இன் சேவைகளின் எல்லைக்குள் தனித்தனியாகப் பொருந்தும்.",
+          "பொருந்தக்கூடிய சட்டத்தைப் பொறுத்து, செயலாக்கமானது சேவையை வழங்குதல், சேவையின் நம்பகத்தன்மை, பாதுகாப்பு மற்றும் மேம்பாடு, சட்டப்பூர்வ கடமைகள் அல்லது தேவைப்படும் இடங்களில் ஒப்புதல் ஆகியவற்றில் நியாயமான நலன்களை சார்ந்துள்ளது. செயலாக்கம் சம்மதத்தை சார்ந்திருக்கும் பட்சத்தில், முந்தைய செயலாக்கத்தின் சட்டப்பூர்வமான தன்மையை பாதிக்காமல் நீங்கள் அதை திரும்பப் பெறலாம். பொருந்தக்கூடிய ஒப்புதல் தேவைகள் தேவைப்படும் பிராந்தியங்களில் பூர்த்தி செய்யப்பட வேண்டும். விளம்பர ஒப்புதல் மற்றும் பகுப்பாய்வு/கண்டறிதல் செயலாக்கம் ஆகியவை தனி நோக்கங்களைக் கொண்டுள்ளன."
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "6. தக்கவைத்தல் மற்றும் நீக்குதல்",
+        "headers": [
+          "தகவல்",
+          "தக்கவைத்தல் மற்றும் நீக்குதல்"
+        ],
+        "rows": [
+          [
+            "உள்ளூர் கேம் சேமிக்கிறது மற்றும் விருப்பத்தேர்வுகள்",
+            "அவை உங்கள் சாதனத்தில் இருக்கும் வரை வைத்திருக்கும். பயன்பாட்டின் முன்னேற்ற மீட்டமைப்பு, அந்த அம்சத்தால் மூடப்பட்ட நிலை நிறைவு, நட்சத்திரம் மற்றும் பிற முன்னேற்றப் பதிவுகளை அழிக்கிறது; விருப்பத்தேர்வுகள், சில உயர் மதிப்பெண் பதிவுகள் மற்றும் SDK தரவு இருக்கலாம். பயன்பாட்டின் உள்ளூர் தரவை அகற்ற Android அமைப்புகளில் உள்ள பயன்பாட்டின் சேமிப்பிடத்தை அழிக்கவும். நிறுவல் நீக்கம், காப்புப் பிரதி வைத்திருத்தல் மற்றும் மறுசீரமைப்பு ஆகியவை சாதனம் மற்றும் காப்பு அமைப்புகளைப் பொறுத்தது."
+          ],
+          [
+            "பகுப்பாய்வு தரவு",
+            "Analytics சொத்தின் தக்கவைப்பு அமைப்புகள் மற்றும் நீக்குதல் நடைமுறைகளின் கீழ் கையாளப்படுகிறது. நிலையான GA4 பொதுவாக 2- அல்லது 14-மாத பயனர்/நிகழ்வு-நிலை அமைப்புகளை வழங்குகிறது; செயல்பாடு அடிப்படையிலான புதுப்பித்தல் மற்றும் பிற அமைப்புகள் தக்கவைப்பை பாதிக்கலாம். இந்த வரம்புகள் அனைத்து நிலையான மொத்த அறிக்கைகளுக்கும் ஒரே மாதிரியாகப் பொருந்தாது, மேலும் மொத்தப் புள்ளிவிவரங்கள் நீண்டதாக இருக்கும்."
+          ],
+          [
+            "Crashlytics தரவு",
+            "Google, க்ராஷ் ஸ்டேக் ட்ரேஸ்கள் மற்றும் தொடர்புடைய அடையாளங்காட்டிகள் 90 நாட்களுக்கு லைவ் மற்றும் பேக்அப் அமைப்புகளில் இருந்து அகற்றும் செயல்முறை தொடங்கும் முன் வைக்கப்படும் என்று கூறுகிறது. 90வது நாளில் நீக்குதல் முடிவடைகிறது என்று அர்த்தம் இல்லை."
+          ],
+          [
+            "விளம்பரம் மற்றும் ஒப்புதல் தரவு",
+            "Google இன் கீழ் செயலாக்கப்பட்டது மற்றும் விளம்பர டெலிவரி, அளவீடு, மோசடி தடுப்பு மற்றும் கெளரவமான தேர்வுகளுக்குத் தேவையான காலகட்டங்களுக்கான தொடர்புடைய வழங்குநர்களின் வைத்திருத்தல்/நீக்குதல் கொள்கைகள். உள்ளூர் ஒப்புதல் விருப்பத்தேர்வுகள் மற்றும் வழங்குநர்களின் பதிவுகள் வெவ்வேறு தக்கவைப்பு காலங்களைக் கொண்டிருக்கலாம்."
+          ],
+          [
+            "ஆதரவு மின்னஞ்சல்கள்",
+            "விசாரணை மற்றும் தேவையான பின்தொடர்தல் முடியும் வரை வைத்திருந்து, பின்னர் நீக்கப்படும். தக்கவைத்தல் சட்டப்பூர்வமாக தேவைப்பட்டால், பொருந்தக்கூடிய சட்டப்பூர்வ காலத்திற்கு தேவையான தகவல்கள் மட்டுமே சேமிக்கப்படும்."
+          ],
+          [
+            "Google Play Games காப்பு மற்றும் சேவை தரவு",
+            "பதிவுகள் உங்கள் Google கணக்கின் கீழ் சேமிக்கப்பட்ட கேம்களில் சேமிக்கப்பட்டு Google இன் தக்கவைப்பு மற்றும் நீக்குதல் நடைமுறைகளைப் பின்பற்றவும். Android இன் Google அமைப்புகளில் உள்நுழைவு கணக்கை நிர்வகிக்கவும், உங்கள் Play கேம்ஸ் சுயவிவரம் அல்லது Google கணக்கு கேம்-தரவு கட்டுப்பாடுகள் மூலம் இந்த கேமின் தரவை நீக்கவும். நிறுவல் நீக்குவது அல்லது உள்ளூர் முன்னேற்றத்தை மீட்டமைப்பது கிளவுட் நகலை நீக்காது; இணைக்கப்பட்டிருக்கும் போது பதிவுகள் மீண்டும் ஒன்றிணைக்கப்படலாம்."
+          ]
+        ],
+        "after": [
+          "பயன்பாட்டுத் தரவை அழிப்பது அல்லது நிறுவல் நீக்குவது ஏற்கனவே Google க்கு அனுப்பப்பட்ட தகவலை உடனடியாக நீக்காது. ஏற்கனவே அனுப்பப்பட்ட தகவல் தொடர்பான உரிமைகளைப் பயன்படுத்த எங்களைத் தொடர்புகொள்ளவும் அல்லது தொடர்புடைய Google தனியுரிமைக் கட்டுப்பாடுகளைப் பயன்படுத்தவும்."
+        ]
+      },
+      {
+        "id": "international",
+        "title": "7. சர்வதேச செயலாக்கம் மற்றும் பரிமாற்றங்கள்",
+        "paragraphs": [
+          "Google சேவைகளைப் பயன்படுத்துவது, அமெரிக்கா மற்றும் Google மற்றும் அதன் தொடர்புடைய வழங்குநர்கள் வசதிகளை இயக்கும் பிற நாடுகள் உட்பட, உங்கள் நாட்டிற்கு வெளியே சேமிப்பகம் மற்றும் செயலாக்கத்தை உள்ளடக்கியிருக்கும். பெறுநர்களில் Google LLC மற்றும் தொடர்புடைய சேவை விதிமுறைகள் மற்றும் கொள்கைகளில் அடையாளம் காணப்பட்ட துணை நிறுவனங்கள்/செயலிகளும் அடங்கும். செயலாக்க இடங்கள் Google இன் தரவு செயலாக்க விதிமுறைகள் மற்றும் வசதித் தகவலைப் பொறுத்தது.",
+          "தகவல் மற்றும் நோக்கங்கள் தானியங்கு சேகரிப்பு மற்றும் வழங்குநர் பிரிவுகளில் விவரிக்கப்பட்டுள்ளன: விளம்பரம், பகுப்பாய்வு, செயலிழப்பு கண்டறிதல் மற்றும் மின்னஞ்சல் ஆதரவு. SDKகள் பயன்படுத்தப்படும் போது நெட்வொர்க்கில் பரிமாற்றங்கள் நடைபெறுகின்றன. தக்கவைத்தல் பிரிவு மற்றும் தொடர்புடைய வழங்குநர்களின் கொள்கைகளைப் பின்பற்றுகிறது. Google இன் தனியுரிமைக் கொள்கை அதன் தனியுரிமை தொடர்பு வழிகளை வழங்குகிறது.",
+          "சட்டப்படி தேவைப்படும்போது, ஒப்புதல் அல்லது ஒப்பந்தப் பாதுகாப்புகள் போன்ற பொருத்தமான பரிமாற்ற அடிப்படையைப் பயன்படுத்த வேண்டும். இடமாற்றங்கள் அல்லது ஆட்சேபனைகள் பற்றி எங்கள் தனியுரிமை மின்னஞ்சலைத் தொடர்பு கொள்ளவும். தொடர்புடைய செய்தி மற்றும் பயன்பாட்டு அமைப்புகள் மூலம் விளம்பரத் தேர்வுகளை நிர்வகிக்கவும். 0.31.28 மற்றும் அதற்குப் பிந்தைய பதிப்பில், பெரியவர்கள் விருப்பப் பகுப்பாய்வுகளையும், அமைப்புகளில் செயலிழப்பு அறிக்கையையும் நிறுத்தலாம்; பாதுகாக்கப்பட்ட பயனர்கள் இந்த பகுப்பாய்வு / செயலிழப்பு சேகரிப்பைப் பயன்படுத்துவதில்லை."
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "8. உங்கள் உரிமைகள் மற்றும் பிரதிநிதிகள்",
+        "paragraphs": [
+          "பொருந்தக்கூடிய சட்டத்தைப் பொறுத்து, நீங்கள் அணுகல் அல்லது நகல், திருத்தம், நீக்குதல், கட்டுப்பாடு, ஆட்சேபனை, ஒப்புதல் திரும்பப் பெறுதல், பெயர்வுத்திறன் அல்லது இலக்கு விளம்பரம் தொடர்பான விருப்பங்களைக் கோரலாம். சட்டம் அனுமதிக்கும் இடத்தில் பெற்றோர், பாதுகாவலர் அல்லது பிற அங்கீகரிக்கப்பட்ட பிரதிநிதி செயல்படலாம்.",
+          "எங்கள் சொந்த உறுப்பினர் கணக்குகள் அல்லது உண்மையான பெயர்கள் அல்லது மின்னஞ்சல் முகவரிகளுக்கு நிறுவல் அடையாளங்காட்டிகளின் மேப்பிங்கை நாங்கள் இயக்குவதில்லை. Google ஆனது விருப்பமான Play கேம்ஸ் கணக்கு இணைப்பு மற்றும் நீக்குதலுக்கான கட்டுப்பாடுகளை வழங்குகிறது. ஒரு மின்னஞ்சல் முகவரி மட்டும் குறிப்பிட்ட நிறுவலின் SDK பதிவுகளை அடையாளம் காணாது. நியாயமான முறையில் சாத்தியமான இடங்களில் தொடர்புடைய பதிவுகளைக் கண்டறிந்து வழங்குநரின் கட்டுப்பாடுகளை விளக்க உதவுவோம். கோரிக்கையை கையாள தேவையான தகவலை மட்டுமே நாங்கள் கோருகிறோம்; தேவையற்ற அரசாங்க அடையாளங்காட்டிகள் அல்லது முக்கியமான தகவல்களை அனுப்ப வேண்டாம்.",
+          "உங்கள் அதிகார வரம்பில் உள்ள தரவு பாதுகாப்பு அதிகாரியிடம் நீங்கள் புகார் செய்யலாம். தென் கொரியாவில், தனிப்பட்ட தகவல் மீறல் அறிக்கை மையம் (privacy.kisa.or.kr, 118 கொரியாவிற்குள்) அல்லது தனிப்பட்ட தகவல் தகராறு மத்தியஸ்தக் குழு (kopico.go.kr, 1833-1833-6972) ஆகியவற்றிலிருந்து உதவி கிடைக்கும்."
+        ],
+        "contact": true
+      },
+      {
+        "id": "children",
+        "title": "9. குழந்தைகள் மற்றும் சிறார்கள்",
+        "paragraphs": [
+          "இந்த செயலி எல்லா வயதினருக்கும் ஏற்றது. 0.31.28 மற்றும் அதற்குப் பிந்தைய பதிப்புகள், 18 வயதுக்குக் குறைவானவர்களுக்கும் பிறந்த தேதியை உள்ளிடாதவர்களுக்கும் கூடுதல் பாதுகாப்பை அமல்படுத்துகின்றன. பிறந்த தேதி வயதைச் சாதனத்திலேயே தீர்மானிக்க மட்டுமே பயன்படும்; அது சேமிக்கப்படாது அல்லது அனுப்பப்படாது. அனைத்து விளையாட்டுகளும் எல்லா வயதினருக்கும் கிடைக்கும். பெரியவர் என்று முன்கூட்டியே தேர்ந்தெடுக்கப்படாது; விளையாட்டு அம்சங்களைப் பெறுவதற்கு பெரியவர் வயது தேவை என்று கூறப்படாது.",
+          "பாதுகாக்கப்பட்ட பயனர்களுக்காக Firebase பகுப்பாய்வு அல்லது செயலிழப்பு அறிக்கை SDKகள் தொடங்கப்படுவதில்லை. Families சுயச் சான்றளித்த பதிப்பு வரம்பிலுள்ள Google Mobile Ads பயன்படுத்தப்படுகிறது; G மதிப்பீடு, தனிப்பயனாக்கமின்மை மற்றும் குழந்தைகளுக்கான விளம்பர அமைப்புகள் செயல்படுத்தப்படுகின்றன. பாதுகாக்கப்பட்ட பயனர்களின் Android விளம்பர ID அனுப்பப்படாது. இந்த அமைப்புகள் சூழல் சார்ந்த விளம்பரங்கள் மற்றும் பாதுகாப்புக்குத் தேவையான அனைத்து நெட்வொர்க் செயலாக்கங்களையும் நீக்காது; மேலே உள்ள SDK தகவலைப் பார்க்கவும்.",
+          "குழந்தைகளின் தகவல், பெற்றோரின் அனுமதி மற்றும் கூடுதல் பாதுகாப்புகள் குறித்த பொருந்தும் விதிகள் இன்னும் பொருந்தும். தேவையான அனுமதியின்றி குழந்தையின் தகவல் அல்லது செயலாக்கம் குறித்து அக்கறை கொண்ட பெற்றோர் அல்லது பாதுகாவலர்கள் எங்கள் தனியுரிமை மின்னஞ்சலைத் தொடர்பு கொள்ளலாம். நியாயமான முறையில் சாத்தியமான இடங்களில் நாங்கள் விசாரணை செய்து தேவையான நீக்குதல், கட்டுப்பாடு அல்லது பிற நடவடிக்கைகளை எடுப்போம்."
+        ]
+      },
+      {
+        "id": "security",
+        "title": "10. பாதுகாப்பு",
+        "paragraphs": [
+          "சேவை நிர்வாகக் கணக்குகள் மற்றும் தனிப்பட்ட தரவுகளுக்கான அணுகலைத் தேவையானவற்றுக்கு வரம்பிடுகிறோம், மேலும் வழங்குநரின் பாதுகாப்பு அம்சங்கள் மற்றும் போக்குவரத்தில் குறியாக்கம் போன்ற பொருத்தமான பாதுகாப்புகளைப் பயன்படுத்துகிறோம். இயக்க முறைமையின் ஆப்-ஸ்டோரேஜ் பாதுகாப்புகளுக்கு உள்ளூர் தகவல் உட்பட்டது. தொடர்புடைய தக்கவைப்பு மற்றும் நீக்குதல் நடைமுறைகளின் கீழ் இனி தேவைப்படாத தகவல்கள் நீக்கப்படும் அல்லது அடையாளம் காணப்படவில்லை.",
+          "ஆதரவு கோரிக்கையைத் தீர்க்க தேவையற்ற கடவுச்சொற்கள், அரசாங்க அடையாளங்காட்டிகள், கட்டண விவரங்கள் அல்லது பிற முக்கியத் தகவல்களைச் சேர்க்க வேண்டாம்."
+        ]
+      },
+      {
+        "id": "website",
+        "title": "11. இந்தக் கொள்கை இணையதளம்",
+        "paragraphs": [
+          "இந்தப் பக்கத்தில் டெவலப்பர் நிறுவிய விளம்பரம், பார்வையாளர் பகுப்பாய்வு SDKகள், கண்காணிப்பு ஸ்கிரிப்டுகள் அல்லது கண்காணிப்பு குக்கீகள் எதுவும் இல்லை. இது GitHub Pages இல் ஹோஸ்ட் செய்யப்படுகிறது. GitHub அதன் சொந்த தனியுரிமை அறிக்கையின் கீழ் பாதுகாப்பு மற்றும் தொடர்புடைய நோக்கங்களுக்காக பார்வையாளர் ஐபி முகவரிகள் மற்றும் பிற இணைப்புத் தகவலைச் செயல்படுத்தலாம். வெளிப்புறக் கொள்கை இணைப்பைப் பின்தொடர்வது, அந்த வழங்குநரின் இணையதளம் மற்றும் கொள்கைகளுக்கு உங்களை அழைத்துச் செல்லும்.",
+          "1.0.3 இலிருந்து, நிலை உள்ளடக்கப் புதுப்பிப்புகள் மற்றும் மாற்றப்பட்ட கேம் தரவைப் பதிவிறக்குவதற்குப் பயன்பாடு GitHub Pages ஐச் சரிபார்க்கிறது. இந்தக் கோரிக்கைகளில் Play கேம்ஸ் கணக்குத் தகவல் அல்லது தனிப்பட்ட கேம்ப்ளே பதிவுகள் இல்லை. GitHub அதன் சொந்த தனியுரிமை அறிக்கையின் கீழ் உள்ளடக்கத்தை வழங்குவதற்கும் பாதுகாப்பதற்கும் ஐபி முகவரிகள் மற்றும் பிற வழக்கமான இணைப்புத் தகவலைச் செயல்படுத்தலாம்."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "12. மாற்றங்கள் மற்றும் தொடர்புடைய கொள்கைகள்",
+        "paragraphs": [
+          "ஆப்ஸ் அம்சங்கள், சேவை வழங்குநர்கள் அல்லது சட்டங்கள் மாறும்போது இந்தக் கொள்கையை நாங்கள் திருத்தலாம் மற்றும் நடைமுறைக்கு வரும் தேதியைப் புதுப்பிக்கலாம். பொருள் மாற்றங்களுக்கு கூடுதல் அறிவிப்பு அல்லது ஒப்புதல் தேவைப்படும்போது, ​​அந்தத் தேவைகளைப் பின்பற்றுவோம். Google மற்றும் GitHub இன் நடைமுறைகள் மற்றும் கிடைக்கக்கூடிய கட்டுப்பாடுகளுக்கு கீழே உள்ள அதிகாரப்பூர்வ ஆதாரங்களைப் பார்க்கவும்."
+        ],
+        "sources": true
+      }
+    ],
+    "skip": "கொள்கைக்கு செல்க"
+  },
+  "zh-Hans": {
+    "title": "隐私政策",
+    "operator": "ShallWePuzzle 开发者",
+    "dateLabel": "有效且最新更新",
+    "intro": "ShallWePuzzle 开发人员（“我们”）在下面解释了如何在 ShallWePuzzle Android 应用程序和本政策网站上处理信息。",
+    "summary": "无需创建账号即可游玩。游戏进度和设置保存在您的设备上。本应用使用 Google 服务处理广告、使用情况分析和崩溃诊断所需的部分个人数据。",
+    "contactLabel": "隐私问题和权利请求",
+    "contents": "目录",
+    "sections": [
+      {
+        "id": "controller",
+        "title": "1。谁负责以及如何联系我们",
+        "paragraphs": [
+          "该服务是 ShallWePuzzle、Android 包 kr.shall.we.puzzle。 ShallWePuzzle 开发者负责应用程序的个人数据处理和隐私查询。",
+          "将隐私问题、投诉、访问、更正、删除、限制或撤回同意请求发送至以下电子邮件地址。我们可能会要求提供合理必要的信息来验证和查找请求，并根据适用法律的程序和时限做出回应。"
+        ],
+        "contact": true
+      },
+      {
+        "id": "local",
+        "title": "2。您设备上的游戏保存和信息",
+        "paragraphs": [
+          "版本 0.31.28 及更高版本在首次使用时检查设备内存中的出生日期，以确定受保护或成人治疗。出生日期和数字年龄不会保存或发送到服务器。仅广泛的受众类别和可选的分析/崩溃报告选项保留在设备存储中，不包括在 Android 备份中。跳过日期或丢失/损坏的设置会导致受保护的处理。",
+          "阶段进度、星星、高分、未完成的游戏、最近玩过的游戏、声音、振动和语言偏好、教程状态、广告间隔和同意选择保存在应用程序或 SDK 的本地设备存储中。我们不提供游戏帐户或单独的服务器来上传和同步您的游戏保存文件。",
+          "从 1.0.2+107 开始，Google Play Games 备份是可选的，并且与广告年龄保护分开。阅读连接提示并选择连接后，SDK才会启动。当允许 Google 登录和存储访问时，阶段、明星和最佳记录将保存在 Google 已保存游戏中并跨设备合并。出生日期、广告选择、设置和未完成的图板不包含在此备份中。 Google 还处理 Play 游戏配置文件以及 SDK 自身的使用情况和诊断数据，以提供和改进服务。此应用不会请求好友、电子邮件或社交功能，也不会使用 Play 游戏数据进行广告。受监管的儿童账户依赖于Google家长的批准和服务支持；不保证每个帐户的存储空间。如果您未连接或访问被拒绝，所有游戏仍可通过本地保存进行游戏。受保护的广告和 Firebase 设置仍然有效。备份选择保留在 Android 备份之外的设备存储中。现有用户也会看到一次通知，稍后可以在应用程序设置中进行连接。",
+          "该应用程序不需要注册或登录。它不会要求您提交您的姓名、电话号码、地址、联系人、照片、麦克风录音或精确的 GPS 位置，或包含收集该信息的功能。如果您向我们发送电子邮件，我们会收到您的发件人电子邮件地址和消息。",
+          "如果启用 Android 备份和恢复，某些应用程序数据可能会由操作系统提供商备份并在重新安装后恢复，具体取决于您的设备和 Google 帐户设置。这与开发者运营的游戏帐户是分开的。您可以在 Android 备份设置中对其进行管理。"
+        ]
+      },
+      {
+        "id": "sdk",
+        "title": "3。自动处理信息及原因",
+        "paragraphs": [
+          "分布式应用程序包括以下 Google SDK。当您使用应用程序或连接到网络时，它们可以自动处理信息。精确范围取决于 SDK 版本、设备和区域设置、同意状态和 Google 服务配置。",
+          "在所有年龄段，更新检查都可以使用单独的 Firebase 远程配置和 Firebase 安装服务。处理特定于更新的安装标识符和身份验证令牌、应用程序版本、语言、操作系统以及用于连接的 IP 地址，以提供配置并操作此功能。这与可选的分析和崩溃报告是分开的；检查更新不会启用 Analytics、Crashlytics 或广告 ID 收集。我们不会使用广告或分析用户属性、实验或个性化来进行这些检查。"
+        ],
+        "headers": [
+          "服务",
+          "可能处理的信息",
+          "用途"
+        ],
+        "rows": [
+          [
+            "Google AdMob / Google 移动广告",
+            "IP 地址和从中推断出的大致位置； Android 广告ID、应用集ID和其他设备/账户相关标识符；互动，例如应用程序启动、广告展示、点击和视频观看；应用程序和广告 SDK 性能和诊断（受保护的广告请求应用儿童处理并防止传输 Android 广告 ID。）",
+            "交付和衡量非个性化广告；安全和防欺诈"
+          ],
+          [
+            "Google 用户消息平台 (UMP)",
+            "区域和设备信息、同意状态和广告隐私选择，以及应用这些选择所需的标识符/设置信息",
+            "显示所需的广告同意消息，保存选择并将其应用于广告请求"
+          ],
+          [
+            "Google Analytics 适用于 Firebase",
+            "对于选择加入的成年人：应用程序实例/安装标识符、设备型号、操作系统、应用程序版本和语言、会话/屏幕事件以及 SDK 处理的 IP/一般区域信息。分析广告 ID 收集、广告存储、广告用户数据和广告个性化信号被禁用。",
+            "了解使用情况、功能采用和稳定性趋势，并改进服务"
+          ],
+          [
+            "Firebase Crashlytics 和 Firebase 安装服务",
+            "对于选择加入的成人：安装/会话标识符、崩溃/错误时间和堆栈跟踪、错误消息、应用程序版本、操作系统、设备型号、内存和相关诊断以及链接的崩溃前应用程序事件",
+            "检测和调查错误、测量受影响的安装并提高可靠性"
+          ],
+          [
+            "Firebase 远程配置/Firebase 安装",
+            "更新特定的安装标识符和身份验证令牌、应用程序版本、语言、操作系统和连接信息",
+            "传送和缓存推荐和必需的应用程序版本设置并提供更新"
+          ],
+          [
+            "Google Play 应用内更新",
+            "应用程序和设备元数据、安装的应用程序版本、更新状态和错误信息",
+            "通过 Google Play 检查更新可用性，下载、安装并重新启动应用程序"
+          ]
+        ],
+        "after": [
+          "我们不会将您的姓名、电子邮件地址或电话号码设置为 Analytics 用户 ID，也不会将游戏保存文件作为分析事件传输。根据适用法律，设备和应用程序标识符仍然可以是个人数据，即使它们不是您的真实姓名。",
+          "版本 0.31.28 及更高版本在年龄决定之前或对于 18 下或年龄未知的受保护用户不会启动 Firebase Core、Analytics 或 Crashlytics。成年人可以明确选择使用使用情况分析和崩溃报告，并在“设置”中将两者一起关闭。早期的非调试版本启用了自动收集；请更新以使用新控件。"
+        ]
+      },
+      {
+        "id": "providers",
+        "title": "4。 Google和其他服务商",
+        "paragraphs": [
+          "上述信息可能会传输至相关服务条款中确定的 Google LLC 和 Google 关联公司并由其处理，以用于广告、分析和崩溃报告。 Google 可以充当我们的处理者或独立控制者，具体取决于服务及其条款。",
+          "根据您所在的地区、选择和广告配置，Google 广告技术提供商可能会处理广告请求和衡量信息。如果提供了同意消息，请查阅该消息以及 Google 的相关信息以了解适用的提供商和选择。",
+          "我们通过 Gmail (Google) 接收和存储支持电子邮件。电子邮件提供商可能会处理您的发件人地址、消息以及您选择发送的任何附件。请仅发送解决您的询问所需的信息。",
+          "我们不经营出售个人数据的单独业务。根据某些法律，广告披露可能被视为“共享”或有针对性的广告处理；请参阅下面的选择。当需要遵守法律义务或合法请求或执行您提出的请求时，我们也可能会披露有限的信息。"
+        ]
+      },
+      {
+        "id": "choices",
+        "title": "5。广告选择、同意和处理理由",
+        "paragraphs": [
+          "版本 0.31.28 及更高版本在发出广告隐私或广告请求之前等待本地年龄决定或选择跳过。默认情况下，未选中可选的成人分析/崩溃报告同意，并且拒绝不会限制任何游戏。在“设置”中关闭使用情况分析和崩溃报告会停止将来的收集并删除设备上未发送的崩溃报告。它不会自动删除已传输的记录。",
+          "Google UMP 指示允许广告请求后，广告 SDK 请求广告。根据您所在的地区和 Google 的要求，可能会出现广告通知或同意消息。当需要隐私选项时，您可以通过应用程序设置中的广告隐私选项条目重新访问或更改选择。当 UMP 确定需要此条目时，将显示此条目。",
+          "该应用程序请求 G 级非个性化广告。对于 18 下或年龄未知的受保护用户，适用 Google 儿童年龄处理和 UMP 低于同意年龄设置。非个性化或有限的广告仍可能处理 IP/一般位置、允许的标识符、交互和诊断。拒绝广告同意或广告加载失败不会阻止播放。",
+          "您可以在 Android 隐私/广告设置中管理可用的广告 ID 选项，例如删除 ID。名称和选项因设备而异。 Google账户广告控制在Google服务范围内单独适用。",
+          "根据适用法律，处理依赖于提供服务、服务可靠性、安全性和改进方面的合法利益、法律义务或同意（如果需要）。如果处理依赖于同意，您可以撤回同意，而不会影响之前处理的合法性。必须在有要求的地区满足适用的同意要求。广告同意和分析/诊断处理具有不同的范围。"
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "6。保留和删除",
+        "headers": [
+          "信息",
+          "保留和删除"
+        ],
+        "rows": [
+          [
+            "本地游戏保存和首选项",
+            "在它们保留在您的设备上时保留。应用程序的进度重置会清除该功能涵盖的阶段完成情况、星级和其他进度记录；偏好设置、一些高分记录和SDK数据可能会保留。在 Android 设置中清除应用程序的存储以删除其本地数据。卸载、备份保留和恢复取决于设备和备份设置。"
+          ],
+          [
+            "分析数据",
+            "根据 Analytics 媒体资源的保留设置和删除程序进行处理。标准 GA4 一般提供 2 或 14 月用户/事件级别设置；基于活动的续订和其他设置可能会影响保留。这些限制并不以同样的方式适用于所有标准聚合报告，并且聚合统计数据可以保留更长时间。"
+          ],
+          [
+            "Crashlytics 数据",
+            "Google 指出，在从实时和备份系统中删除的过程开始之前，崩溃堆栈跟踪和关联标识符将保留 90 天。这并不意味着删除会在第 90 天完成。"
+          ],
+          [
+            "广告和同意数据",
+            "根据 Google 和相关提供商的保留/删除政策在广告投放、衡量、欺诈预防和兑现选择所需的期间内进行处理。当地同意偏好和提供商的记录可能有不同的保留期限。"
+          ],
+          [
+            "支持电子邮件",
+            "保留直至查询和必要的后续工作完成，然后删除。如果法律要求保留，则仅在适用的法定期限内保留必要的信息。"
+          ],
+          [
+            "Google Play Games 备份和服务数据",
+            "记录存储在您的 Google 帐户下的“已保存游戏”中，并遵循 Google 的保留和删除程序。在 Android 的 Google 设置中管理登录帐户，并通过您的 Play 游戏个人资料或 Google 帐户游戏数据控件删除该游戏的数据。卸载或重置本地进度不会删除云副本；连接时记录可能会合并回来。"
+          ]
+        ],
+        "after": [
+          "清除应用程序数据或卸载不会立即删除已发送到 Google 的信息。联系我们或使用相关的 Google 隐私控制来行使有关已传输信息的权利。"
+        ]
+      },
+      {
+        "id": "international",
+        "title": "7。国际处理和转移",
+        "paragraphs": [
+          "使用 Google 服务可能涉及您所在国家/地区之外的存储和处理，包括在美国和 Google 及其相关提供商运营设施的其他国家/地区。接收者包括 Google LLC 以及相关服务条款和政策中确定的附属公司/处理者。处理位置取决于 Google 的数据处理条款和设施信息。",
+          "信息和用途如自动收集和提供程序部分中所述：广告、分析、崩溃诊断和电子邮件支持。使用 SDK 时通过网络进行传输。保留遵循保留部分和相关提供商的政策。 Google的隐私政策提供了其隐私联系方式。",
+          "如果法律要求，则必须适用适当的转让依据，例如同意或合同保障措施。有关转让或反对的信息，请联系我们的隐私电子邮件。通过相关消息和应用程序设置管理广告选择。在0.31.28及更高版本中，成人还可以在“设置”中停止可选的分析和崩溃报告；受保护的用户不使用此分析/崩溃收集。"
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "8。您的权利和代表",
+        "paragraphs": [
+          "根据适用法律，您可以请求访问或复制、更正、删除、限制、反对、撤回同意、可移植性或与定向广告相关的选择。父母、监护人或其他授权代表可以在法律允许的情况下行事。",
+          "我们不运营自己的会员帐户或安装标识符与真实姓名或电子邮件地址的映射。 Google 提供用于可选 Play 游戏帐户连接和删除的控件。仅凭电子邮件地址可能无法识别特定安装的 SDK 记录。我们将在合理的情况下帮助查找相关记录并解释提供商的控制措施。我们仅要求提供处理请求所需的信息；不要发送不必要的政府标识符或敏感信息。",
+          "您可以向您所在辖区的数据保护机构投诉。在韩国，可以从个人信息侵权举报中心（privacy.kisa.or.kr，韩国境内 118）或个人信息纠纷调解委员会（kopico.go.kr，韩国境内 1833-6972）获得帮助。"
+        ],
+        "contact": true
+      },
+      {
+        "id": "children",
+        "title": "9。儿童及未成年人",
+        "paragraphs": [
+          "本应用面向所有年龄段用户。0.31.28及后续版本会对未满18岁的用户和未填写出生日期的用户启用谨慎保护。出生日期仅用于在本地判断年龄类别，不会保存或发送。所有游戏对各年龄段用户开放。不会默认把用户设为成年人，也不会把成年年龄作为游戏权益的条件。",
+          "受保护的用户不会启动 Firebase 分析或崩溃报告 SDK。广告使用 Families 自我认证版本范围内的 Google Mobile Ads，并启用 G 级、非个性化和面向儿童的广告设置。受保护用户的 Android 广告 ID 不会传输。这些设置不会消除情境广告投放和安全所需的所有网络处理；请参阅上面的 SDK 信息。",
+          "有关儿童信息、家长许可和附加保护的适用规则仍然适用。如果父母或监护人对未经必要许可的儿童信息或处理感到担忧，可以联系我们的隐私电子邮件。我们将在合理可能的情况下进行调查，并采取必要的删除、限制或其他措施。"
+        ]
+      },
+      {
+        "id": "security",
+        "title": "10。安全",
+        "paragraphs": [
+          "我们将对服务管理帐户和个人数据的访问限制在必要范围内，并使用适当的保护措施，例如提供商安全功能和传输加密。本地信息受操作系统的应用程序存储保护。不再需要的信息将根据相关保留和删除程序进行删除或去识别化处理。",
+          "请勿包含密码、政府标识符、付款详细信息或解决支持请求所不需要的其他敏感信息。"
+        ]
+      },
+      {
+        "id": "website",
+        "title": "11。本政策网站",
+        "paragraphs": [
+          "此页面不包含开发人员安装的广告、访客分析 SDK、跟踪脚本或跟踪 cookie。它托管在 GitHub Pages 上。 GitHub 可能会根据其自己的隐私声明处理访问者 IP 地址和其他连接信息，以确保安全和相关目的。通过外部政策链接，您可以访问该提供商的网站和政策。",
+          "从版本 1.0.3 开始，应用程序检查 GitHub Pages 的舞台内容更新并下载更改的游戏数据。这些请求不包括 Play 游戏帐户信息或个人游戏记录。 GitHub 可能会根据其自己的隐私声明处理 IP 地址和其他常规连接信息，以交付和保护内容。"
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "12。变更及相关政策",
+        "paragraphs": [
+          "我们可能会随着应用程序功能、服务提供商或法律的变化而修改本政策，并更新生效日期。如果重大变更需要额外通知或同意，我们将遵循这些要求。请参阅以下官方资源，了解 Google 和 GitHub 的实践和可用控件。"
+        ],
+        "sources": true
+      }
+    ],
+    "skip": "跳至政策"
   }
 }

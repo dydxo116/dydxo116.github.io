@@ -19,7 +19,10 @@ class PolicyPages(unittest.TestCase):
     def test_all_languages_have_full_policy_and_resolvable_links(self):
         data = json.loads((ROOT / 'policy.json').read_text())
         codes = {item['code'] for item in data['languages']}
-        self.assertEqual(codes, {'ko','en','ja','de','fr','es','pt-BR','zh-Hant','id','th','vi'})
+        self.assertEqual(codes, {
+            'ko', 'en', 'ja', 'de', 'fr', 'es', 'pt-BR', 'zh-Hant', 'zh-Hans',
+            'id', 'th', 'vi', 'ms', 'fil', 'my', 'km', 'lo', 'tet', 'ta',
+        })
         for code in codes:
             with self.subTest(language=code):
                 path = ROOT / ('' if code == 'ko' else code) / 'index.html'
