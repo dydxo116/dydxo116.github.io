@@ -2,7 +2,7 @@
   "app": "ShallWePuzzle",
   "package": "kr.shall.we.puzzle",
   "contact": "dydxo116@gmail.com",
-  "effective": "2026-10-23",
+  "effective": "2026-10-24",
   "ko": {
     "title": "개인정보처리방침",
     "operator": "ShallWePuzzle 개발자",
@@ -168,7 +168,8 @@
         "id": "website",
         "title": "11. 이 안내 웹페이지",
         "paragraphs": [
-          "이 페이지에는 개발자가 설치한 광고, 방문 분석 SDK, 추적 스크립트 또는 추적 쿠키가 없습니다. GitHub Pages를 통해 제공되며 GitHub는 보안 등을 위해 방문자의 IP 주소 등 접속 정보를 자체 정책에 따라 처리할 수 있습니다. 외부 정책 링크를 누르면 해당 제공자의 사이트와 정책이 적용됩니다."
+          "이 페이지에는 개발자가 설치한 광고, 방문 분석 SDK, 추적 스크립트 또는 추적 쿠키가 없습니다. GitHub Pages를 통해 제공되며 GitHub는 보안 등을 위해 방문자의 IP 주소 등 접속 정보를 자체 정책에 따라 처리할 수 있습니다. 외부 정책 링크를 누르면 해당 제공자의 사이트와 정책이 적용됩니다.",
+          "1.0.3 이상에서는 앱이 GitHub Pages에서 스테이지 콘텐츠의 최신 버전을 확인하고 변경된 게임 데이터를 다운로드합니다. 이 요청에 Play 게임즈 계정 정보나 개인 플레이 기록을 첨부하지 않습니다. GitHub는 콘텐츠 제공 및 보안을 위해 IP 주소 등 통상적인 접속 정보를 자체 개인정보처리방침에 따라 처리할 수 있습니다."
         ]
       },
       {
@@ -347,7 +348,8 @@
         "id": "website",
         "title": "11. This policy website",
         "paragraphs": [
-          "This page contains no developer-installed advertising, visitor analytics SDKs, tracking scripts or tracking cookies. It is hosted on GitHub Pages. GitHub may process visitor IP addresses and other connection information for security and related purposes under its own privacy statement. Following an external policy link takes you to that provider’s website and policies."
+          "This page contains no developer-installed advertising, visitor analytics SDKs, tracking scripts or tracking cookies. It is hosted on GitHub Pages. GitHub may process visitor IP addresses and other connection information for security and related purposes under its own privacy statement. Following an external policy link takes you to that provider’s website and policies.",
+          "From version 1.0.3, the app checks GitHub Pages for stage content updates and downloads changed game data. These requests do not include Play Games account information or personal gameplay records. GitHub may process IP addresses and other routine connection information to deliver and secure the content, under its own privacy statement."
         ]
       },
       {
@@ -682,7 +684,8 @@
         "id": "website",
         "title": "11. 本ポリシーのウェブサイト",
         "paragraphs": [
-          "このページには、開発者が設置した広告、訪問者分析 SDK、追跡スクリプト、追跡 Cookie はありません。GitHub Pages でホストしています。GitHub は自社のプライバシー方針に従い、セキュリティなどの目的で訪問者の IP アドレスや接続情報を処理することがあります。外部ポリシーのリンク先では、その提供者のサイトと方針が適用されます。"
+          "このページには、開発者が設置した広告、訪問者分析 SDK、追跡スクリプト、追跡 Cookie はありません。GitHub Pages でホストしています。GitHub は自社のプライバシー方針に従い、セキュリティなどの目的で訪問者の IP アドレスや接続情報を処理することがあります。外部ポリシーのリンク先では、その提供者のサイトと方針が適用されます。",
+          "バージョン1.0.3以降では、アプリがGitHub Pagesでステージデータの更新を確認し、変更されたゲームデータをダウンロードします。このリクエストにPlay ゲームのアカウント情報や個人のプレイ記録は含めません。GitHubはコンテンツの配信とセキュリティのため、IPアドレスなどの通常の接続情報を同社のプライバシーステートメントに従って処理する場合があります。"
         ]
       },
       {
@@ -907,7 +910,8 @@
         "id": "website",
         "title": "11. Diese Datenschutz-Website",
         "paragraphs": [
-          "Diese Seite enthält keine vom Entwickler eingebundenen Anzeigen, Besucheranalyse-SDKs, Tracking-Skripte oder Tracking-Cookies. Sie wird über GitHub Pages bereitgestellt. GitHub kann nach seiner eigenen Datenschutzerklärung Besucher-IP-Adressen und weitere Verbindungsinformationen für Sicherheitszwecke und ähnliche Zwecke verarbeiten. Externe Richtlinienlinks führen auf die Website des jeweiligen Anbieters, auf der dessen Richtlinien gelten."
+          "Diese Seite enthält keine vom Entwickler eingebundenen Anzeigen, Besucheranalyse-SDKs, Tracking-Skripte oder Tracking-Cookies. Sie wird über GitHub Pages bereitgestellt. GitHub kann nach seiner eigenen Datenschutzerklärung Besucher-IP-Adressen und weitere Verbindungsinformationen für Sicherheitszwecke und ähnliche Zwecke verarbeiten. Externe Richtlinienlinks führen auf die Website des jeweiligen Anbieters, auf der dessen Richtlinien gelten.",
+          "Ab Version 1.0.3 prüft die App auf GitHub Pages, ob neue Leveldaten verfügbar sind, und lädt geänderte Spieldaten herunter. Diese Anfragen enthalten keine Play-Games-Kontoinformationen oder persönlichen Spielfortschritte. GitHub kann IP-Adressen und übliche Verbindungsdaten zur Bereitstellung und Absicherung der Inhalte gemäß seiner eigenen Datenschutzerklärung verarbeiten."
         ]
       },
       {
@@ -1086,7 +1090,8 @@
         "id": "website",
         "title": "11. Site de la présente politique",
         "paragraphs": [
-          "Cette page ne contient aucune publicité, SDK d’analyse des visiteurs, script ou cookie de suivi installé par le développeur. Elle est hébergée sur GitHub Pages. GitHub peut traiter les adresses IP des visiteurs et d’autres informations de connexion à des fins de sécurité ou connexes selon sa propre politique. Un lien externe vous conduit sur le site et sous les règles du prestataire concerné."
+          "Cette page ne contient aucune publicité, SDK d’analyse des visiteurs, script ou cookie de suivi installé par le développeur. Elle est hébergée sur GitHub Pages. GitHub peut traiter les adresses IP des visiteurs et d’autres informations de connexion à des fins de sécurité ou connexes selon sa propre politique. Un lien externe vous conduit sur le site et sous les règles du prestataire concerné.",
+          "À partir de la version 1.0.3, l’application recherche les mises à jour des niveaux sur GitHub Pages et télécharge les données de jeu modifiées. Ces requêtes ne contiennent ni informations de compte Play Jeux ni historique de jeu personnel. GitHub peut traiter l’adresse IP et les informations habituelles de connexion pour fournir et sécuriser les contenus, conformément à sa propre déclaration de confidentialité."
         ]
       },
       {
@@ -1265,7 +1270,8 @@
         "id": "website",
         "title": "11. Este sitio web",
         "paragraphs": [
-          "Esta página no contiene publicidad, SDK de análisis de visitantes, scripts ni cookies de seguimiento instalados por el desarrollador. Se aloja en GitHub Pages. GitHub puede tratar las direcciones IP y otros datos de conexión por seguridad y fines relacionados conforme a su propia política. Los enlaces externos conducen al sitio y las políticas del proveedor correspondiente."
+          "Esta página no contiene publicidad, SDK de análisis de visitantes, scripts ni cookies de seguimiento instalados por el desarrollador. Se aloja en GitHub Pages. GitHub puede tratar las direcciones IP y otros datos de conexión por seguridad y fines relacionados conforme a su propia política. Los enlaces externos conducen al sitio y las políticas del proveedor correspondiente.",
+          "A partir de la versión 1.0.3, la aplicación busca actualizaciones de los niveles en GitHub Pages y descarga los datos de juego que hayan cambiado. Estas solicitudes no incluyen información de la cuenta de Play Juegos ni registros personales de juego. GitHub puede tratar direcciones IP y otros datos habituales de conexión para ofrecer y proteger el contenido, conforme a su propia declaración de privacidad."
         ]
       },
       {
@@ -1444,7 +1450,8 @@
         "id": "website",
         "title": "11. Este site",
         "paragraphs": [
-          "A página não contém publicidade, SDKs de análise de visitantes, scripts ou cookies de rastreamento instalados pelo desenvolvedor. Ela é hospedada no GitHub Pages. O GitHub pode tratar IPs de visitantes e outras informações de conexão para segurança e fins relacionados conforme sua própria declaração de privacidade. Links externos levam ao site e às políticas do respectivo prestador."
+          "A página não contém publicidade, SDKs de análise de visitantes, scripts ou cookies de rastreamento instalados pelo desenvolvedor. Ela é hospedada no GitHub Pages. O GitHub pode tratar IPs de visitantes e outras informações de conexão para segurança e fins relacionados conforme sua própria declaração de privacidade. Links externos levam ao site e às políticas do respectivo prestador.",
+          "A partir da versão 1.0.3, o aplicativo verifica atualizações das fases no GitHub Pages e baixa os dados de jogo que foram alterados. Essas solicitações não incluem informações da conta do Play Games nem registros pessoais de partidas. O GitHub pode tratar endereços IP e outras informações comuns de conexão para fornecer e proteger o conteúdo, conforme sua própria declaração de privacidade."
         ]
       },
       {
@@ -1623,7 +1630,8 @@
         "id": "website",
         "title": "11. 本政策網站",
         "paragraphs": [
-          "本頁沒有開發者設置的廣告、訪客分析 SDK、追蹤程式或追蹤 Cookie，並由 GitHub Pages 託管。GitHub 可能依其隱私聲明，為安全等目的處理訪客 IP 位址與其他連線資訊。點選外部政策連結後，適用該供應者網站的政策。"
+          "本頁沒有開發者設置的廣告、訪客分析 SDK、追蹤程式或追蹤 Cookie，並由 GitHub Pages 託管。GitHub 可能依其隱私聲明，為安全等目的處理訪客 IP 位址與其他連線資訊。點選外部政策連結後，適用該供應者網站的政策。",
+          "自1.0.3版起，應用程式會向 GitHub Pages 檢查關卡內容更新，並下載已變更的遊戲資料。這些請求不會附帶 Play 遊戲帳戶資訊或個人遊玩紀錄。GitHub 可能依其隱私權聲明，為提供內容及維護安全而處理 IP 位址等一般連線資訊。"
         ]
       },
       {
@@ -1802,7 +1810,8 @@
         "id": "website",
         "title": "11. Situs kebijakan ini",
         "paragraphs": [
-          "Halaman ini tidak memiliki iklan, SDK analisis pengunjung, skrip pelacakan, atau cookie pelacakan yang dipasang pengembang. Situs dihosting di GitHub Pages. GitHub dapat memproses IP pengunjung dan informasi koneksi lain untuk keamanan dan tujuan terkait sesuai pernyataan privasinya. Tautan kebijakan eksternal membawa Anda ke situs dan kebijakan penyedia tersebut."
+          "Halaman ini tidak memiliki iklan, SDK analisis pengunjung, skrip pelacakan, atau cookie pelacakan yang dipasang pengembang. Situs dihosting di GitHub Pages. GitHub dapat memproses IP pengunjung dan informasi koneksi lain untuk keamanan dan tujuan terkait sesuai pernyataan privasinya. Tautan kebijakan eksternal membawa Anda ke situs dan kebijakan penyedia tersebut.",
+          "Mulai versi 1.0.3, aplikasi memeriksa pembaruan level di GitHub Pages dan mengunduh data permainan yang berubah. Permintaan ini tidak menyertakan informasi akun Play Games atau catatan permainan pribadi. GitHub dapat memproses alamat IP dan informasi koneksi umum lainnya untuk menyediakan dan mengamankan konten sesuai dengan pernyataan privasinya sendiri."
         ]
       },
       {
@@ -1981,7 +1990,8 @@
         "id": "website",
         "title": "11. เว็บไซต์นโยบายนี้",
         "paragraphs": [
-          "หน้านี้ไม่มีโฆษณา SDK วิเคราะห์ผู้เข้าชม สคริปต์ติดตาม หรือคุกกี้ติดตามที่ผู้พัฒนาติดตั้ง เว็บไซต์โฮสต์บน GitHub Pages โดย GitHub อาจประมวลผล IP ของผู้เข้าชมและข้อมูลการเชื่อมต่อเพื่อความปลอดภัยและวัตถุประสงค์ที่เกี่ยวข้องตามนโยบายของตน ลิงก์นโยบายภายนอกจะนำไปยังเว็บไซต์และนโยบายของผู้ให้บริการนั้น"
+          "หน้านี้ไม่มีโฆษณา SDK วิเคราะห์ผู้เข้าชม สคริปต์ติดตาม หรือคุกกี้ติดตามที่ผู้พัฒนาติดตั้ง เว็บไซต์โฮสต์บน GitHub Pages โดย GitHub อาจประมวลผล IP ของผู้เข้าชมและข้อมูลการเชื่อมต่อเพื่อความปลอดภัยและวัตถุประสงค์ที่เกี่ยวข้องตามนโยบายของตน ลิงก์นโยบายภายนอกจะนำไปยังเว็บไซต์และนโยบายของผู้ให้บริการนั้น",
+          "ตั้งแต่เวอร์ชัน 1.0.3 แอปจะตรวจสอบการอัปเดตข้อมูลด่านจาก GitHub Pages และดาวน์โหลดข้อมูลเกมที่เปลี่ยนแปลง คำขอเหล่านี้ไม่แนบข้อมูลบัญชี Play Games หรือประวัติการเล่นส่วนบุคคล GitHub อาจประมวลผลที่อยู่ IP และข้อมูลการเชื่อมต่อทั่วไปเพื่อให้บริการและรักษาความปลอดภัยของเนื้อหาตามคำชี้แจงความเป็นส่วนตัวของ GitHub"
         ]
       },
       {
@@ -2160,7 +2170,8 @@
         "id": "website",
         "title": "11. Trang chính sách này",
         "paragraphs": [
-          "Trang không có quảng cáo, SDK phân tích khách truy cập, tập lệnh hay cookie theo dõi do nhà phát triển cài đặt. Trang được lưu trữ trên GitHub Pages. GitHub có thể xử lý IP và thông tin kết nối của khách để bảo mật và mục đích liên quan theo chính sách riêng. Liên kết ngoài dẫn đến trang và chính sách của nhà cung cấp đó."
+          "Trang không có quảng cáo, SDK phân tích khách truy cập, tập lệnh hay cookie theo dõi do nhà phát triển cài đặt. Trang được lưu trữ trên GitHub Pages. GitHub có thể xử lý IP và thông tin kết nối của khách để bảo mật và mục đích liên quan theo chính sách riêng. Liên kết ngoài dẫn đến trang và chính sách của nhà cung cấp đó.",
+          "Từ phiên bản 1.0.3, ứng dụng kiểm tra bản cập nhật màn chơi trên GitHub Pages và tải xuống dữ liệu trò chơi đã thay đổi. Những yêu cầu này không kèm thông tin tài khoản Play Games hay lịch sử chơi cá nhân. GitHub có thể xử lý địa chỉ IP và thông tin kết nối thông thường để cung cấp và bảo vệ nội dung theo tuyên bố quyền riêng tư của GitHub."
         ]
       },
       {
