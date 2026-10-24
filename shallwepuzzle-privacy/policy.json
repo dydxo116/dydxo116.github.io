@@ -36,7 +36,8 @@
         "id": "sdk",
         "title": "3. 자동으로 처리되는 정보와 이용 목적",
         "paragraphs": [
-          "정식 배포 앱에는 아래 Google SDK가 포함됩니다. SDK는 앱 사용 또는 네트워크 연결 과정에서 정보를 자동 처리할 수 있습니다. 실제 처리 범위는 SDK 버전, 기기·지역 설정, 동의 상태 및 Google 서비스 설정에 따라 달라질 수 있습니다."
+          "정식 배포 앱에는 아래 Google SDK가 포함됩니다. SDK는 앱 사용 또는 네트워크 연결 과정에서 정보를 자동 처리할 수 있습니다. 실제 처리 범위는 SDK 버전, 기기·지역 설정, 동의 상태 및 Google 서비스 설정에 따라 달라질 수 있습니다.",
+          "앱 업데이트 확인에는 모든 연령에서 별도의 Firebase Remote Config와 Firebase 설치 서비스가 사용될 수 있습니다. 업데이트 전용 설치 식별자·인증 토큰, 앱 버전·언어·운영체제 및 연결 과정의 IP 주소가 설정 전달과 안정적인 동작을 위해 처리됩니다. 선택적 이용 분석·오류 진단과 분리되며, 이 확인만으로 Analytics·Crashlytics·광고 ID 수집을 시작하지 않습니다. 광고·분석 목적의 사용자 속성, 실험 또는 맞춤설정은 사용하지 않습니다."
         ],
         "headers": [
           "서비스",
@@ -63,6 +64,16 @@
             "Firebase Crashlytics 및 Firebase 설치 서비스",
             "성인이 선택적으로 동의한 경우의 설치·세션 식별자, 오류·충돌 시각과 스택 추적, 오류 메시지, 앱 버전, 운영체제·기기 모델·메모리 등 진단 정보 및 연동되는 오류 전 이용 이벤트",
             "충돌·오류 탐지와 원인 분석, 문제를 겪은 설치 수 파악 및 안정성 개선"
+          ],
+          [
+            "Firebase Remote Config / Firebase Installations",
+            "업데이트 전용 설치 식별자·인증 토큰, 앱 버전·언어·운영체제 및 연결 정보",
+            "권장·필수 앱 버전 설정 전달과 캐시, 업데이트 기능 제공"
+          ],
+          [
+            "Google Play In-App Updates",
+            "앱·기기 메타데이터, 설치된 앱 버전과 업데이트 상태 및 오류 정보",
+            "Google Play의 업데이트 제공 가능 여부 확인, 다운로드·설치 및 앱 재시작"
           ]
         ],
         "after": [
@@ -216,7 +227,8 @@
         "id": "sdk",
         "title": "3. Information automatically processed and why",
         "paragraphs": [
-          "The distributed app includes the Google SDKs below. They can process information automatically when you use the app or connect to the network. The precise scope depends on SDK versions, device and regional settings, consent status and Google service configuration."
+          "The distributed app includes the Google SDKs below. They can process information automatically when you use the app or connect to the network. The precise scope depends on SDK versions, device and regional settings, consent status and Google service configuration.",
+          "At all ages, update checks may use separate Firebase Remote Config and Firebase Installations services. An update-specific installation identifier and authentication token, app version, language, operating system, and the IP address used for the connection are processed to deliver configuration and operate this feature. This is separate from optional analytics and crash reporting; checking for updates does not enable Analytics, Crashlytics, or advertising ID collection. We do not use advertising or analytics user properties, experiments, or personalization for these checks."
         ],
         "headers": [
           "Service",
@@ -243,6 +255,16 @@
             "Firebase Crashlytics and Firebase installation services",
             "For adults who opt in: installation/session identifiers, crash/error times and stack traces, error messages, app version, operating system, device model, memory and related diagnostics, and linked pre-crash app events",
             "Detect and investigate errors, measure affected installations and improve reliability"
+          ],
+          [
+            "Firebase Remote Config / Firebase Installations",
+            "Update-specific installation identifier and authentication token, app version, language, operating system and connection information",
+            "Delivering and caching recommended and required app-version settings and providing updates"
+          ],
+          [
+            "Google Play In-App Updates",
+            "App and device metadata, installed app version, update status and error information",
+            "Checking update availability through Google Play, downloading, installing and restarting the app"
           ]
         ],
         "after": [
@@ -552,7 +574,8 @@
         "id": "sdk",
         "title": "3. 自動的に処理される情報と目的",
         "paragraphs": [
-          "配信されるアプリには、以下の Google SDK が含まれます。アプリの利用時やネットワーク接続時に情報を自動的に処理することがあります。具体的な範囲は SDK のバージョン、端末・地域の設定、同意の状態、Google サービスの設定により異なります。"
+          "配信されるアプリには、以下の Google SDK が含まれます。アプリの利用時やネットワーク接続時に情報を自動的に処理することがあります。具体的な範囲は SDK のバージョン、端末・地域の設定、同意の状態、Google サービスの設定により異なります。",
+          "すべての年齢で、アップデートの確認には独立したFirebase Remote ConfigとFirebase Installationsを使用する場合があります。設定の配信と機能の提供のため、更新専用のインストール識別子・認証トークン、アプリのバージョン、言語、OS、接続時のIPアドレスが処理されます。任意の利用分析・障害報告とは別であり、更新確認によってAnalytics・Crashlytics・広告IDの収集を開始することはありません。広告・分析用のユーザープロパティ、実験、パーソナライズは使用しません。"
         ],
         "headers": [
           "サービス",
@@ -579,6 +602,16 @@
             "Firebase Crashlytics および Firebase のインストール関連サービス",
             "同意した成人のみ：インストール・セッションの識別子、クラッシュ・エラーの発生時刻とスタックトレース、エラーメッセージ、アプリのバージョン、OS、端末の機種、メモリなどの診断情報、および関連付けられたクラッシュ前のアプリイベント",
             "不具合の検出と調査、影響を受けたインストールの把握、信頼性の向上"
+          ],
+          [
+            "Firebase Remote Config / Firebase Installations",
+            "更新専用のインストール識別子・認証トークン、アプリのバージョン、言語、OS、接続情報",
+            "推奨・必須バージョンの設定の配信と保存、更新機能の提供"
+          ],
+          [
+            "Google Play In-App Updates",
+            "アプリ・端末のメタデータ、インストール済みバージョン、更新状況、エラー情報",
+            "Google Playによる更新の提供状況の確認、ダウンロード、インストール、再起動"
           ]
         ],
         "after": [
@@ -778,7 +811,8 @@
         "id": "sdk",
         "title": "3. Automatisch verarbeitete Informationen und Zwecke",
         "paragraphs": [
-          "Die bereitgestellte App enthält die folgenden Google-SDKs. Diese können bei der App-Nutzung oder einer Netzwerkverbindung Informationen automatisch verarbeiten. Der genaue Umfang hängt von SDK-Versionen, Geräte- und Regionseinstellungen, Einwilligungsstatus und der Konfiguration der Google-Dienste ab."
+          "Die bereitgestellte App enthält die folgenden Google-SDKs. Diese können bei der App-Nutzung oder einer Netzwerkverbindung Informationen automatisch verarbeiten. Der genaue Umfang hängt von SDK-Versionen, Geräte- und Regionseinstellungen, Einwilligungsstatus und der Konfiguration der Google-Dienste ab.",
+          "Für alle Altersgruppen können Updateprüfungen getrennte Dienste von Firebase Remote Config und Firebase Installations nutzen. Eine eigene Installationskennung mit Authentifizierungstoken, App-Version, Sprache, Betriebssystem und die bei der Verbindung verwendete IP-Adresse werden zur Bereitstellung der Konfiguration und dieser Funktion verarbeitet. Dies ist von freiwilliger Analyse und Absturzberichten getrennt. Die Prüfung aktiviert weder Analytics noch Crashlytics oder die Erfassung der Werbe-ID. Wir nutzen dabei keine Nutzerattribute für Werbung oder Analyse, Experimente oder Personalisierung."
         ],
         "headers": [
           "Dienst",
@@ -805,6 +839,16 @@
             "Firebase Crashlytics und Firebase-Installationsdienste",
             "Nur bei einwilligenden Erwachsenen: Installations-/Sitzungskennungen, Absturz-/Fehlerzeitpunkte und Stacktraces, Fehlermeldungen, App-Version, Betriebssystem, Gerätemodell, Speicher und verwandte Diagnosedaten sowie zugeordnete App-Ereignisse vor dem Absturz",
             "Erkennung und Untersuchung von Fehlern, Ermittlung betroffener Installationen und Verbesserung der Zuverlässigkeit"
+          ],
+          [
+            "Firebase Remote Config / Firebase Installations",
+            "Eigene Installationskennung und Authentifizierungstoken für Updates, App-Version, Sprache, Betriebssystem und Verbindungsdaten",
+            "Bereitstellung und Zwischenspeicherung empfohlener und erforderlicher App-Versionen sowie der Updatefunktion"
+          ],
+          [
+            "Google Play In-App Updates",
+            "App- und Gerätemetadaten, installierte Version, Updatestatus und Fehlerinformationen",
+            "Prüfung verfügbarer Updates über Google Play, Download, Installation und App-Neustart"
           ]
         ],
         "after": [
@@ -958,7 +1002,8 @@
         "id": "sdk",
         "title": "3. Informations traitées automatiquement et finalités",
         "paragraphs": [
-          "L’application distribuée contient les SDK Google ci-dessous. Ils peuvent traiter automatiquement des informations lorsque vous utilisez l’application ou vous connectez au réseau. L’étendue exacte dépend des versions des SDK, des réglages de l’appareil et de la région, du consentement et de la configuration des services Google."
+          "L’application distribuée contient les SDK Google ci-dessous. Ils peuvent traiter automatiquement des informations lorsque vous utilisez l’application ou vous connectez au réseau. L’étendue exacte dépend des versions des SDK, des réglages de l’appareil et de la région, du consentement et de la configuration des services Google.",
+          "Pour tous les âges, la vérification des mises à jour peut utiliser des services distincts Firebase Remote Config et Firebase Installations. Un identifiant d’installation propre aux mises à jour, un jeton d’authentification, la version de l’application, la langue, le système et l’adresse IP de connexion sont traités pour fournir la configuration et cette fonction. Ce traitement est distinct des statistiques et rapports de plantage facultatifs. La vérification n’active ni Analytics, ni Crashlytics, ni la collecte de l’identifiant publicitaire. Aucun attribut utilisateur publicitaire ou analytique, test expérimental ou personnalisation n’est utilisé."
         ],
         "headers": [
           "Service",
@@ -985,6 +1030,16 @@
             "Firebase Crashlytics et services d’installation Firebase",
             "Pour les adultes ayant accepté : identifiants d’installation ou de session, dates et traces de pile des plantages ou erreurs, messages d’erreur, version de l’application, système d’exploitation, modèle, mémoire et diagnostics associés, ainsi que les événements de l’application liés précédant le plantage",
             "Détection et analyse des erreurs, mesure des installations concernées et amélioration de la fiabilité"
+          ],
+          [
+            "Firebase Remote Config / Firebase Installations",
+            "Identifiant d’installation et jeton propres aux mises à jour, version, langue, système et informations de connexion",
+            "Fourniture et mise en cache des versions recommandées et obligatoires et gestion des mises à jour"
+          ],
+          [
+            "Google Play In-App Updates",
+            "Métadonnées de l’application et de l’appareil, version installée, état de mise à jour et erreurs",
+            "Vérification des mises à jour sur Google Play, téléchargement, installation et redémarrage"
           ]
         ],
         "after": [
@@ -1138,7 +1193,8 @@
         "id": "sdk",
         "title": "3. Información tratada automáticamente y fines",
         "paragraphs": [
-          "La aplicación distribuida contiene los siguientes SDK de Google. Pueden tratar información automáticamente al usar la aplicación o conectarse a la red. El alcance exacto depende de las versiones de los SDK, los ajustes del dispositivo y la región, el consentimiento y la configuración de los servicios Google."
+          "La aplicación distribuida contiene los siguientes SDK de Google. Pueden tratar información automáticamente al usar la aplicación o conectarse a la red. El alcance exacto depende de las versiones de los SDK, los ajustes del dispositivo y la región, el consentimiento y la configuración de los servicios Google.",
+          "Para todas las edades, la comprobación de actualizaciones puede utilizar servicios independientes de Firebase Remote Config y Firebase Installations. Se procesan un identificador de instalación y un token específicos para actualizaciones, la versión de la aplicación, el idioma, el sistema operativo y la dirección IP de conexión para entregar la configuración y ofrecer esta función. Este proceso es independiente de las estadísticas y los informes de fallos opcionales. La comprobación no activa Analytics, Crashlytics ni la recopilación del ID de publicidad. No utilizamos propiedades de usuario para publicidad o análisis, experimentos ni personalización."
         ],
         "headers": [
           "Servicio",
@@ -1165,6 +1221,16 @@
             "Firebase Crashlytics y servicios de instalación Firebase",
             "Solo para adultos que aceptan: identificadores de instalación o sesión, fechas y trazas de pila de fallos o errores, mensajes de error, versión, sistema operativo, modelo, memoria y diagnósticos relacionados, y eventos vinculados anteriores al fallo",
             "Detectar e investigar errores, medir las instalaciones afectadas y mejorar la fiabilidad"
+          ],
+          [
+            "Firebase Remote Config / Firebase Installations",
+            "Identificador de instalación y token específicos para actualizaciones, versión, idioma, sistema operativo e información de conexión",
+            "Entrega y almacenamiento temporal de las versiones recomendadas y obligatorias y gestión de actualizaciones"
+          ],
+          [
+            "Google Play In-App Updates",
+            "Metadatos de la aplicación y del dispositivo, versión instalada, estado de actualización e información de errores",
+            "Comprobación de actualizaciones mediante Google Play, descarga, instalación y reinicio"
           ]
         ],
         "after": [
@@ -1318,7 +1384,8 @@
         "id": "sdk",
         "title": "3. Informações tratadas automaticamente e finalidades",
         "paragraphs": [
-          "O aplicativo distribuído inclui os SDKs Google abaixo. Eles podem tratar informações automaticamente durante o uso ou a conexão à rede. O escopo exato depende das versões dos SDKs, dos ajustes do dispositivo e da região, do consentimento e da configuração dos serviços Google."
+          "O aplicativo distribuído inclui os SDKs Google abaixo. Eles podem tratar informações automaticamente durante o uso ou a conexão à rede. O escopo exato depende das versões dos SDKs, dos ajustes do dispositivo e da região, do consentimento e da configuração dos serviços Google.",
+          "Para todas as idades, a verificação de atualizações pode usar serviços separados do Firebase Remote Config e Firebase Installations. Um identificador de instalação e token próprios para atualizações, a versão do aplicativo, o idioma, o sistema e o endereço IP da conexão são processados para entregar configurações e oferecer esse recurso. Isso é separado das estatísticas e dos relatórios de falhas opcionais. A verificação não ativa Analytics, Crashlytics nem a coleta do ID de publicidade. Não usamos propriedades de usuário para publicidade ou análise, experimentos ou personalização."
         ],
         "headers": [
           "Serviço",
@@ -1345,6 +1412,16 @@
             "Firebase Crashlytics e serviços de instalação Firebase",
             "Somente para adultos que aceitam: identificadores de instalação ou sessão, horários e rastreamentos de pilha de falhas ou erros, mensagens de erro, versão, sistema operacional, modelo, memória e diagnósticos relacionados, além de eventos associados anteriores à falha",
             "Detectar e investigar erros, medir as instalações afetadas e melhorar a confiabilidade"
+          ],
+          [
+            "Firebase Remote Config / Firebase Installations",
+            "Identificador de instalação e token próprios para atualizações, versão, idioma, sistema e informações de conexão",
+            "Entrega e armazenamento temporário das versões recomendadas e obrigatórias e fornecimento de atualizações"
+          ],
+          [
+            "Google Play In-App Updates",
+            "Metadados do aplicativo e do dispositivo, versão instalada, estado da atualização e informações de erros",
+            "Verificação de atualizações pelo Google Play, download, instalação e reinício"
           ]
         ],
         "after": [
@@ -1498,7 +1575,8 @@
         "id": "sdk",
         "title": "3. 自動處理的資訊與目的",
         "paragraphs": [
-          "所發佈的應用程式包含下列 Google SDK，可能在使用應用程式或連上網路時自動處理資訊。實際範圍取決於 SDK 版本、裝置與地區設定、同意狀態及 Google 服務組態。"
+          "所發佈的應用程式包含下列 Google SDK，可能在使用應用程式或連上網路時自動處理資訊。實際範圍取決於 SDK 版本、裝置與地區設定、同意狀態及 Google 服務組態。",
+          "所有年齡的更新檢查都可能使用獨立的 Firebase Remote Config 與 Firebase Installations 服務。為了傳送設定並提供此功能，會處理更新專用的安裝識別碼、驗證權杖、應用程式版本、語言、作業系統，以及連線所使用的 IP 位址。此處理與選用的使用分析及當機回報分開；更新檢查不會啟用 Analytics、Crashlytics 或廣告 ID 蒐集。我們不使用廣告或分析用的使用者屬性、實驗或個人化設定。"
         ],
         "headers": [
           "服務",
@@ -1525,6 +1603,16 @@
             "Firebase Crashlytics 與 Firebase 安裝服務",
             "僅限主動同意的成人：安裝或工作階段識別碼、當機或錯誤時間與堆疊追蹤、錯誤訊息、應用程式版本、作業系統、裝置型號、記憶體等診斷資料，以及關聯的當機前應用程式事件",
             "偵測與調查錯誤、衡量受影響的安裝數並提升可靠性"
+          ],
+          [
+            "Firebase Remote Config / Firebase Installations",
+            "更新專用的安裝識別碼與驗證權杖、應用程式版本、語言、作業系統及連線資訊",
+            "傳送及快取建議與必要版本設定，提供更新功能"
+          ],
+          [
+            "Google Play In-App Updates",
+            "應用程式與裝置中繼資料、已安裝版本、更新狀態及錯誤資訊",
+            "透過 Google Play 檢查可用更新、下載、安裝及重新啟動"
           ]
         ],
         "after": [
@@ -1678,7 +1766,8 @@
         "id": "sdk",
         "title": "3. Informasi yang diproses otomatis dan tujuannya",
         "paragraphs": [
-          "Aplikasi yang didistribusikan menyertakan SDK Google berikut. SDK dapat memproses informasi secara otomatis ketika aplikasi digunakan atau terhubung ke jaringan. Cakupan tepatnya bergantung pada versi SDK, setelan perangkat dan wilayah, status persetujuan, serta konfigurasi layanan Google."
+          "Aplikasi yang didistribusikan menyertakan SDK Google berikut. SDK dapat memproses informasi secara otomatis ketika aplikasi digunakan atau terhubung ke jaringan. Cakupan tepatnya bergantung pada versi SDK, setelan perangkat dan wilayah, status persetujuan, serta konfigurasi layanan Google.",
+          "Untuk semua usia, pemeriksaan pembaruan dapat menggunakan layanan Firebase Remote Config dan Firebase Installations yang terpisah. ID instalasi dan token autentikasi khusus pembaruan, versi aplikasi, bahasa, sistem operasi, serta alamat IP koneksi diproses untuk mengirim konfigurasi dan menyediakan fitur ini. Proses ini terpisah dari analitik dan laporan kerusakan opsional. Pemeriksaan tidak mengaktifkan Analytics, Crashlytics, atau pengumpulan ID iklan. Kami tidak menggunakan properti pengguna untuk iklan atau analitik, eksperimen, maupun personalisasi."
         ],
         "headers": [
           "Layanan",
@@ -1705,6 +1794,16 @@
             "Firebase Crashlytics dan layanan instalasi Firebase",
             "Hanya untuk orang dewasa yang menyetujui: pengenal instalasi/sesi, waktu error dan pelacakan tumpukan, pesan error, versi aplikasi, sistem operasi, model perangkat, memori dan diagnosis terkait, serta peristiwa aplikasi terkait sebelum error",
             "Mendeteksi dan menyelidiki error, mengukur instalasi terdampak, dan meningkatkan keandalan"
+          ],
+          [
+            "Firebase Remote Config / Firebase Installations",
+            "ID instalasi dan token khusus pembaruan, versi aplikasi, bahasa, sistem operasi, dan informasi koneksi",
+            "Mengirim dan menyimpan sementara pengaturan versi yang disarankan dan diwajibkan serta menyediakan pembaruan"
+          ],
+          [
+            "Google Play In-App Updates",
+            "Metadata aplikasi dan perangkat, versi terpasang, status pembaruan, dan informasi kesalahan",
+            "Memeriksa pembaruan melalui Google Play, mengunduh, memasang, dan memulai ulang aplikasi"
           ]
         ],
         "after": [
@@ -1858,7 +1957,8 @@
         "id": "sdk",
         "title": "3. ข้อมูลที่ประมวลผลอัตโนมัติและวัตถุประสงค์",
         "paragraphs": [
-          "แอปที่เผยแพร่มี Google SDK ต่อไปนี้ ซึ่งอาจประมวลผลข้อมูลอัตโนมัติเมื่อใช้แอปหรือเชื่อมต่อเครือข่าย ขอบเขตจริงขึ้นอยู่กับเวอร์ชัน SDK การตั้งค่าอุปกรณ์และภูมิภาค สถานะความยินยอม และการกำหนดค่าบริการ Google"
+          "แอปที่เผยแพร่มี Google SDK ต่อไปนี้ ซึ่งอาจประมวลผลข้อมูลอัตโนมัติเมื่อใช้แอปหรือเชื่อมต่อเครือข่าย ขอบเขตจริงขึ้นอยู่กับเวอร์ชัน SDK การตั้งค่าอุปกรณ์และภูมิภาค สถานะความยินยอม และการกำหนดค่าบริการ Google",
+          "การตรวจสอบอัปเดตสำหรับทุกวัยอาจใช้ Firebase Remote Config และ Firebase Installations ที่แยกต่างหาก โดยประมวลผลรหัสการติดตั้งและโทเค็นยืนยันตัวตนเฉพาะสำหรับอัปเดต เวอร์ชันแอป ภาษา ระบบปฏิบัติการ และที่อยู่ IP ของการเชื่อมต่อ เพื่อส่งการตั้งค่าและให้บริการฟังก์ชันนี้ การทำงานนี้แยกจากการวิเคราะห์และรายงานข้อขัดข้องที่เลือกยินยอมได้ การตรวจสอบไม่เปิดใช้ Analytics, Crashlytics หรือการเก็บรหัสโฆษณา และไม่ใช้คุณสมบัติผู้ใช้เพื่อโฆษณาหรือการวิเคราะห์ การทดลอง หรือการปรับให้เหมาะกับบุคคล"
         ],
         "headers": [
           "บริการ",
@@ -1885,6 +1985,16 @@
             "Firebase Crashlytics และบริการติดตั้ง Firebase",
             "เฉพาะผู้ใหญ่ที่ยินยอม: รหัสการติดตั้ง/เซสชัน เวลาและสแต็กเทรซของการขัดข้องหรือข้อผิดพลาด ข้อความผิดพลาด เวอร์ชันแอป ระบบปฏิบัติการ รุ่นอุปกรณ์ หน่วยความจำและข้อมูลวินิจฉัยที่เกี่ยวข้อง รวมถึงเหตุการณ์แอปก่อนขัดข้องที่เชื่อมโยงกัน",
             "ตรวจหาและวิเคราะห์ข้อผิดพลาด วัดจำนวนการติดตั้งที่ได้รับผลกระทบ และเพิ่มความน่าเชื่อถือ"
+          ],
+          [
+            "Firebase Remote Config / Firebase Installations",
+            "รหัสการติดตั้งและโทเค็นเฉพาะสำหรับอัปเดต เวอร์ชันแอป ภาษา ระบบปฏิบัติการ และข้อมูลการเชื่อมต่อ",
+            "ส่งและเก็บการตั้งค่าเวอร์ชันที่แนะนำและที่จำเป็นไว้ชั่วคราว และให้บริการอัปเดต"
+          ],
+          [
+            "Google Play In-App Updates",
+            "ข้อมูลกำกับของแอปและอุปกรณ์ เวอร์ชันที่ติดตั้ง สถานะอัปเดต และข้อมูลข้อผิดพลาด",
+            "ตรวจสอบอัปเดตผ่าน Google Play ดาวน์โหลด ติดตั้ง และเริ่มแอปใหม่"
           ]
         ],
         "after": [
@@ -2038,7 +2148,8 @@
         "id": "sdk",
         "title": "3. Thông tin được xử lý tự động và mục đích",
         "paragraphs": [
-          "Ứng dụng được phân phối chứa các SDK Google sau. Chúng có thể tự động xử lý thông tin khi dùng ứng dụng hoặc kết nối mạng. Phạm vi cụ thể phụ thuộc phiên bản SDK, cài đặt thiết bị và khu vực, trạng thái đồng ý và cấu hình dịch vụ Google."
+          "Ứng dụng được phân phối chứa các SDK Google sau. Chúng có thể tự động xử lý thông tin khi dùng ứng dụng hoặc kết nối mạng. Phạm vi cụ thể phụ thuộc phiên bản SDK, cài đặt thiết bị và khu vực, trạng thái đồng ý và cấu hình dịch vụ Google.",
+          "Đối với mọi lứa tuổi, việc kiểm tra cập nhật có thể sử dụng các dịch vụ Firebase Remote Config và Firebase Installations riêng biệt. Mã cài đặt và mã xác thực dành riêng cho cập nhật, phiên bản ứng dụng, ngôn ngữ, hệ điều hành và địa chỉ IP kết nối được xử lý để gửi cấu hình và cung cấp tính năng này. Việc này tách biệt với phân tích và báo cáo sự cố tùy chọn. Kiểm tra cập nhật không bật Analytics, Crashlytics hay thu thập mã quảng cáo. Chúng tôi không sử dụng thuộc tính người dùng cho quảng cáo hoặc phân tích, thử nghiệm hay cá nhân hóa."
         ],
         "headers": [
           "Dịch vụ",
@@ -2065,6 +2176,16 @@
             "Firebase Crashlytics và dịch vụ cài đặt Firebase",
             "Chỉ với người lớn chủ động đồng ý: mã cài đặt/phiên, thời điểm và dấu vết ngăn xếp của sự cố/lỗi, thông báo lỗi, phiên bản ứng dụng, hệ điều hành, mẫu thiết bị, bộ nhớ và chẩn đoán liên quan, cùng sự kiện ứng dụng được liên kết trước sự cố",
             "Phát hiện, điều tra lỗi, đo số lượt cài đặt bị ảnh hưởng và nâng cao độ tin cậy"
+          ],
+          [
+            "Firebase Remote Config / Firebase Installations",
+            "Mã cài đặt và mã xác thực riêng cho cập nhật, phiên bản ứng dụng, ngôn ngữ, hệ điều hành và thông tin kết nối",
+            "Gửi và lưu tạm cấu hình phiên bản được đề xuất, phiên bản bắt buộc và cung cấp bản cập nhật"
+          ],
+          [
+            "Google Play In-App Updates",
+            "Siêu dữ liệu ứng dụng và thiết bị, phiên bản đã cài, trạng thái cập nhật và thông tin lỗi",
+            "Kiểm tra cập nhật qua Google Play, tải xuống, cài đặt và khởi động lại ứng dụng"
           ]
         ],
         "after": [
