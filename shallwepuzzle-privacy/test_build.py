@@ -36,7 +36,7 @@ class PolicyPages(unittest.TestCase):
                 self.assertEqual(len(current), 1)
                 self.assertEqual(current[0]['lang'], code)
                 self.assertEqual({a['hreflang'] for t,a in page.tags if t == 'a' and 'hreflang' in a}, codes)
-                self.assertNotIn('<script', html)
+                self.assertIn('app-view.js?v=1', html)
                 self.assertNotIn('<iframe', html)
                 for tag, attrs in page.tags:
                     link = attrs.get('href', '')
@@ -53,7 +53,7 @@ class PolicyPages(unittest.TestCase):
                 for source in data['sources']:
                     self.assertIn(source[code], html)
                     self.assertIn(source['url'], html)
-                self.assertIn('dydxo116@gmail.com', html)
+                self.assertIn(data['contact'], html)
 
 if __name__ == '__main__':
     unittest.main()

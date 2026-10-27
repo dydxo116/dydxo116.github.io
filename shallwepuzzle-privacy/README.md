@@ -1,7 +1,7 @@
 # ShallWePuzzle Privacy Policy
 
 앱의 19개 지원 언어로 제공하는 전체 개인정보처리방침. 앱: **ShallWePuzzle**, Android 패키지:
-`kr.shall.we.puzzle`. 문의: **dydxo116@gmail.com**.
+`kr.shall.we.puzzle`. 문의: **mozzink.support@gmail.com**.
 
 - 유일한 방침 편집 원본: `policy.json`
 - 앱 전용 표시: 동일한 페이지에 `?view=app`을 붙여 상단 언어 선택을 숨김

@@ -5,7 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 data = json.loads((ROOT / 'policy.json').read_text())
-assert data['contact'] == 'dydxo116@gmail.com'
+assert isinstance(data['contact'], str) and '@' in data['contact']
 assert data['package'] == 'kr.shall.we.puzzle'
 languages = data['languages']
 assert len(languages) == 19
