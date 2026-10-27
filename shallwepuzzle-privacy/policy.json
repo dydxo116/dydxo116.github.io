@@ -2,7 +2,7 @@
   "app": "ShallWePuzzle",
   "package": "kr.shall.we.puzzle",
   "contact": "dydxo116@gmail.com",
-  "effective": "2026-10-24",
+  "effective": "2026-10-27",
   "ko": {
     "title": "개인정보처리방침",
     "operator": "ShallWePuzzle 개발자",
@@ -57,7 +57,7 @@
           ],
           [
             "Google Analytics for Firebase",
-            "성인이 선택적으로 동의한 경우의 앱 인스턴스·설치 관련 식별자, 기기 모델·운영체제·앱 버전·언어, 세션·화면 이용 이벤트 및 SDK가 처리하는 IP·대략적인 지역 정보. Analytics의 광고 ID 수집 및 광고 데이터·맞춤설정 신호는 사용하지 않습니다.",
+            "성인이 선택적으로 동의한 경우의 앱 인스턴스·설치 관련 식별자, 기기 모델·운영체제·앱 버전·언어, 세션·화면 이용 이벤트 및 SDK가 처리하는 IP·대략적인 지역 정보. Analytics의 광고 ID 수집 및 광고 데이터·맞춤설정 신호는 사용하지 않습니다. 게임 종류와 스테이지, 플레이 결과와 재시도, 광고 표시 및 설정 변경도 분석합니다.",
             "이용 현황·기능 사용·안정성 추이 분석과 서비스 개선"
           ],
           [
@@ -248,7 +248,7 @@
           ],
           [
             "Google Analytics for Firebase",
-            "For adults who opt in: app-instance/installation identifiers, device model, operating system, app version and language, session/screen events and SDK-processed IP/general region information. Analytics advertising-ID collection, ad storage, ad-user-data and ad-personalization signals are disabled.",
+            "For adults who opt in: app-instance/installation identifiers, device model, operating system, app version and language, session/screen events and SDK-processed IP/general region information. Analytics advertising-ID collection, ad storage, ad-user-data and ad-personalization signals are disabled. Analytics also includes game and stage activity, play results and retries, ad displays, and settings changes.",
             "Understand usage, feature adoption and stability trends, and improve the service"
           ],
           [
@@ -683,7 +683,7 @@
           ],
           [
             "Google Analytics for Firebase",
-            "同意した成人のみ：アプリインスタンス・インストールの識別子、端末の機種、OS、アプリのバージョンと言語、セッション・画面イベント、SDK が処理する IP・大まかな地域の情報。Analytics の広告 ID 収集、広告ストレージ、広告ユーザーデータ、広告パーソナライズのシグナルは無効です。",
+            "同意した成人のみ：アプリインスタンス・インストールの識別子、端末の機種、OS、アプリのバージョンと言語、セッション・画面イベント、SDK が処理する IP・大まかな地域の情報。Analytics の広告 ID 収集、広告ストレージ、広告ユーザーデータ、広告パーソナライズのシグナルは無効です。 ゲームやステージの利用状況、クリア・失敗と再挑戦、広告の表示、設定の変更も分析します。",
             "利用状況、機能の利用、安定性の傾向の把握とサービス改善"
           ],
           [
@@ -952,7 +952,7 @@
           ],
           [
             "Google Analytics for Firebase",
-            "Nur bei einwilligenden Erwachsenen: App-Instanz-/Installationskennungen, Gerätemodell, Betriebssystem, App-Version und Sprache, Sitzungs-/Bildschirmereignisse sowie vom SDK verarbeitete IP-/allgemeine Regionsinformationen. Die Erhebung der Werbe-ID durch Analytics, Werbespeicherung, werbebezogene Nutzerdaten und Signale zur Anzeigenpersonalisierung sind deaktiviert.",
+            "Nur bei einwilligenden Erwachsenen: App-Instanz-/Installationskennungen, Gerätemodell, Betriebssystem, App-Version und Sprache, Sitzungs-/Bildschirmereignisse sowie vom SDK verarbeitete IP-/allgemeine Regionsinformationen. Die Erhebung der Werbe-ID durch Analytics, Werbespeicherung, werbebezogene Nutzerdaten und Signale zur Anzeigenpersonalisierung sind deaktiviert. Analysiert werden auch Spiel- und Levelaktivitäten, Spielergebnisse und Wiederholungen, Werbeanzeigen und Einstellungsänderungen.",
             "Verständnis von Nutzung, Funktionsverwendung und Stabilitätstrends sowie Verbesserung des Dienstes"
           ],
           [
@@ -1143,7 +1143,7 @@
           ],
           [
             "Google Analytics for Firebase",
-            "Pour les adultes ayant accepté : identifiants d’instance d’application ou d’installation, modèle d’appareil, système d’exploitation, version et langue de l’application, événements de session ou d’écran et informations IP ou de région générale traitées par le SDK. La collecte de l’identifiant publicitaire par Analytics, le stockage publicitaire, les données utilisateur publicitaires et les signaux de personnalisation des annonces sont désactivés.",
+            "Pour les adultes ayant accepté : identifiants d’instance d’application ou d’installation, modèle d’appareil, système d’exploitation, version et langue de l’application, événements de session ou d’écran et informations IP ou de région générale traitées par le SDK. La collecte de l’identifiant publicitaire par Analytics, le stockage publicitaire, les données utilisateur publicitaires et les signaux de personnalisation des annonces sont désactivés. Les activités de jeu et de niveau, les résultats et les nouvelles tentatives, les affichages publicitaires et les changements de réglages sont aussi analysés.",
             "Compréhension de l’utilisation, de l’adoption des fonctions et des tendances de stabilité ; amélioration du service"
           ],
           [
@@ -1334,7 +1334,7 @@
           ],
           [
             "Google Analytics for Firebase",
-            "Solo para adultos que aceptan: identificadores de instancia o instalación, modelo, sistema operativo, versión e idioma, eventos de sesión o pantalla e información IP o de región general tratada por el SDK. Se desactivan la recopilación del ID publicitario por Analytics, el almacenamiento publicitario, los datos de usuario para publicidad y las señales de personalización de anuncios.",
+            "Solo para adultos que aceptan: identificadores de instancia o instalación, modelo, sistema operativo, versión e idioma, eventos de sesión o pantalla e información IP o de región general tratada por el SDK. Se desactivan la recopilación del ID publicitario por Analytics, el almacenamiento publicitario, los datos de usuario para publicidad y las señales de personalización de anuncios. También se analizan la actividad de juegos y niveles, los resultados y reintentos, las visualizaciones de anuncios y los cambios de ajustes.",
             "Entender el uso, la adopción de funciones y las tendencias de estabilidad, y mejorar el servicio"
           ],
           [
@@ -1525,7 +1525,7 @@
           ],
           [
             "Google Analytics for Firebase",
-            "Somente para adultos que aceitam: identificadores de instância ou instalação, modelo, sistema operacional, versão e idioma, eventos de sessão ou tela e informações de IP ou região geral tratadas pelo SDK. A coleta do ID publicitário pelo Analytics, o armazenamento publicitário, os dados do usuário para publicidade e os sinais de personalização de anúncios ficam desativados.",
+            "Somente para adultos que aceitam: identificadores de instância ou instalação, modelo, sistema operacional, versão e idioma, eventos de sessão ou tela e informações de IP ou região geral tratadas pelo SDK. A coleta do ID publicitário pelo Analytics, o armazenamento publicitário, os dados do usuário para publicidade e os sinais de personalização de anúncios ficam desativados. Também são analisados a atividade de jogos e fases, os resultados e as tentativas, as exibições de anúncios e as alterações de configuração.",
             "Entender o uso, a adoção de funções e as tendências de estabilidade e melhorar o serviço"
           ],
           [
@@ -1716,7 +1716,7 @@
           ],
           [
             "Google Analytics for Firebase",
-            "僅限主動同意的成人：應用程式執行個體或安裝識別碼、裝置型號、作業系統、應用程式版本與語言、工作階段或畫面事件，以及 SDK 處理的 IP 或概略地區資訊。Analytics 的廣告 ID 蒐集、廣告儲存、廣告使用者資料及廣告個人化訊號均停用。",
+            "僅限主動同意的成人：應用程式執行個體或安裝識別碼、裝置型號、作業系統、應用程式版本與語言、工作階段或畫面事件，以及 SDK 處理的 IP 或概略地區資訊。Analytics 的廣告 ID 蒐集、廣告儲存、廣告使用者資料及廣告個人化訊號均停用。 分析資料也包括遊戲與關卡活動、遊玩結果與重試、廣告顯示及設定變更。",
             "了解使用情況、功能使用與穩定性趨勢，以改善服務"
           ],
           [
@@ -1907,7 +1907,7 @@
           ],
           [
             "Google Analytics for Firebase",
-            "Hanya untuk orang dewasa yang menyetujui: pengenal instance aplikasi/instalasi, model perangkat, sistem operasi, versi dan bahasa aplikasi, peristiwa sesi/layar, serta informasi IP/wilayah umum yang diproses SDK. Pengumpulan ID iklan oleh Analytics, penyimpanan iklan, data pengguna untuk iklan, dan sinyal personalisasi iklan dinonaktifkan.",
+            "Hanya untuk orang dewasa yang menyetujui: pengenal instance aplikasi/instalasi, model perangkat, sistem operasi, versi dan bahasa aplikasi, peristiwa sesi/layar, serta informasi IP/wilayah umum yang diproses SDK. Pengumpulan ID iklan oleh Analytics, penyimpanan iklan, data pengguna untuk iklan, dan sinyal personalisasi iklan dinonaktifkan. Analisis juga mencakup aktivitas permainan dan level, hasil dan percobaan ulang, penayangan iklan, serta perubahan pengaturan.",
             "Memahami penggunaan, pemanfaatan fitur, dan tren kestabilan, serta meningkatkan layanan"
           ],
           [
@@ -2098,7 +2098,7 @@
           ],
           [
             "Google Analytics for Firebase",
-            "เฉพาะผู้ใหญ่ที่ยินยอม: รหัสอินสแตนซ์แอป/การติดตั้ง รุ่นอุปกรณ์ ระบบปฏิบัติการ เวอร์ชันและภาษาแอป เหตุการณ์เซสชัน/หน้าจอ และข้อมูล IP/ภูมิภาคโดยกว้างที่ SDK ประมวลผล โดยปิดการเก็บรหัสโฆษณาของ Analytics การจัดเก็บเพื่อโฆษณา ข้อมูลผู้ใช้เพื่อโฆษณา และสัญญาณปรับโฆษณาตามบุคคล",
+            "เฉพาะผู้ใหญ่ที่ยินยอม: รหัสอินสแตนซ์แอป/การติดตั้ง รุ่นอุปกรณ์ ระบบปฏิบัติการ เวอร์ชันและภาษาแอป เหตุการณ์เซสชัน/หน้าจอ และข้อมูล IP/ภูมิภาคโดยกว้างที่ SDK ประมวลผล โดยปิดการเก็บรหัสโฆษณาของ Analytics การจัดเก็บเพื่อโฆษณา ข้อมูลผู้ใช้เพื่อโฆษณา และสัญญาณปรับโฆษณาตามบุคคล การวิเคราะห์ยังรวมถึงการเล่นเกมและด่าน ผลการเล่นและการลองใหม่ การแสดงโฆษณา และการเปลี่ยนแปลงการตั้งค่า",
             "ทำความเข้าใจการใช้งาน การใช้ฟีเจอร์ และแนวโน้มความเสถียร เพื่อปรับปรุงบริการ"
           ],
           [
@@ -2289,7 +2289,7 @@
           ],
           [
             "Google Analytics for Firebase",
-            "Chỉ với người lớn chủ động đồng ý: mã phiên bản ứng dụng/cài đặt, mẫu thiết bị, hệ điều hành, phiên bản và ngôn ngữ ứng dụng, sự kiện phiên/màn hình, thông tin IP/khu vực khái quát do SDK xử lý. Việc Analytics thu thập mã quảng cáo, lưu trữ quảng cáo, dữ liệu người dùng cho quảng cáo và tín hiệu cá nhân hóa quảng cáo đều bị tắt.",
+            "Chỉ với người lớn chủ động đồng ý: mã phiên bản ứng dụng/cài đặt, mẫu thiết bị, hệ điều hành, phiên bản và ngôn ngữ ứng dụng, sự kiện phiên/màn hình, thông tin IP/khu vực khái quát do SDK xử lý. Việc Analytics thu thập mã quảng cáo, lưu trữ quảng cáo, dữ liệu người dùng cho quảng cáo và tín hiệu cá nhân hóa quảng cáo đều bị tắt. Dữ liệu phân tích cũng bao gồm hoạt động trò chơi và màn chơi, kết quả và lần thử lại, lượt hiển thị quảng cáo và thay đổi cài đặt.",
             "Hiểu cách sử dụng, mức độ sử dụng tính năng và xu hướng ổn định để cải thiện dịch vụ"
           ],
           [
@@ -2480,7 +2480,7 @@
           ],
           [
             "Google Analytics untuk Firebase",
-            "Untuk orang dewasa yang ikut serta: pengecam contoh apl/pemasangan, model peranti, sistem pengendalian, versi dan bahasa apl, acara sesi/skrin dan maklumat IP/rantau am yang diproses SDK. Pengumpulan ID pengiklanan analitis, storan iklan, data pengguna iklan dan isyarat pemperibadian iklan dilumpuhkan.",
+            "Untuk orang dewasa yang ikut serta: pengecam contoh apl/pemasangan, model peranti, sistem pengendalian, versi dan bahasa apl, acara sesi/skrin dan maklumat IP/rantau am yang diproses SDK. Pengumpulan ID pengiklanan analitis, storan iklan, data pengguna iklan dan isyarat pemperibadian iklan dilumpuhkan. Analisis juga merangkumi aktiviti permainan dan peringkat, keputusan dan cubaan semula, paparan iklan serta perubahan tetapan.",
             "Fahami penggunaan, penggunaan ciri dan trend kestabilan, dan tingkatkan perkhidmatan"
           ],
           [
@@ -2671,7 +2671,7 @@
           ],
           [
             "Google Analytics para sa Firebase",
-            "Para sa mga nasa hustong gulang na nag-opt in: app-instance/installation identifiers, device model, operating system, bersyon ng app at wika, session/screen na mga kaganapan at SDK-processed IP/general region information. Naka-disable ang mga signal ng pagkolekta ng advertising-ID ng Analytics, storage ng ad, ad-user-data at ad-personalization.",
+            "Para sa mga nasa hustong gulang na nag-opt in: app-instance/installation identifiers, device model, operating system, bersyon ng app at wika, session/screen na mga kaganapan at SDK-processed IP/general region information. Naka-disable ang mga signal ng pagkolekta ng advertising-ID ng Analytics, storage ng ad, ad-user-data at ad-personalization. Kasama rin sa analytics ang aktibidad sa laro at yugto, resulta at muling pagsubok, pagpapakita ng ad, at pagbabago ng mga setting.",
             "Unawain ang paggamit, tampok ang pag-aampon at stability trend, at pagbutihin ang serbisyo"
           ],
           [
@@ -2862,7 +2862,7 @@
           ],
           [
             "Google Analytics အတွက် Firebase",
-            "ပါဝင်သည့် အရွယ်ရောက်ပြီးသူများအတွက်- အက်ပ်-အင်စတီကျရှင်း/ထည့်သွင်းမှု ခွဲခြားသတ်မှတ်မှုများ၊ စက်ပစ္စည်းမော်ဒယ်၊ လည်ပတ်မှုစနစ်၊ အက်ပ်ဗားရှင်းနှင့် ဘာသာစကား၊ စက်ရှင်/မျက်နှာပြင် ဖြစ်ရပ်များနှင့် SDK-စီမံဆောင်ရွက်ထားသော IP/အထွေထွေ ဒေသဆိုင်ရာ အချက်အလက်။ Analytics ကြော်ငြာ-ID စုဆောင်းမှု၊ ကြော်ငြာသိုလှောင်မှု၊ ကြော်ငြာ-အသုံးပြုသူ-ဒေတာနှင့် ကြော်ငြာ-ကိုယ်ရေးကိုယ်တာအချက်ပြမှုများကို ပိတ်ထားသည်။",
+            "ပါဝင်သည့် အရွယ်ရောက်ပြီးသူများအတွက်- အက်ပ်-အင်စတီကျရှင်း/ထည့်သွင်းမှု ခွဲခြားသတ်မှတ်မှုများ၊ စက်ပစ္စည်းမော်ဒယ်၊ လည်ပတ်မှုစနစ်၊ အက်ပ်ဗားရှင်းနှင့် ဘာသာစကား၊ စက်ရှင်/မျက်နှာပြင် ဖြစ်ရပ်များနှင့် SDK-စီမံဆောင်ရွက်ထားသော IP/အထွေထွေ ဒေသဆိုင်ရာ အချက်အလက်။ Analytics ကြော်ငြာ-ID စုဆောင်းမှု၊ ကြော်ငြာသိုလှောင်မှု၊ ကြော်ငြာ-အသုံးပြုသူ-ဒေတာနှင့် ကြော်ငြာ-ကိုယ်ရေးကိုယ်တာအချက်ပြမှုများကို ပိတ်ထားသည်။ ဂိမ်းနှင့် အဆင့် လုပ်ဆောင်ချက်၊ ကစားရလဒ်နှင့် ပြန်လည်ကြိုးစားမှု၊ ကြော်ငြာပြသမှုနှင့် ဆက်တင်ပြောင်းလဲမှုတို့ကိုလည်း ခွဲခြမ်းစိတ်ဖြာပါသည်။",
             "အသုံးပြုမှု၊ အင်္ဂါရပ်အသုံးပြုမှုနှင့် တည်ငြိမ်မှုလမ်းကြောင်းများကို နားလည်ပြီး"
           ],
           [
@@ -3053,7 +3053,7 @@
           ],
           [
             "Google Analytics សម្រាប់ Firebase",
-            "សម្រាប់មនុស្សពេញវ័យដែលជ្រើសរើសចូល៖ កម្មវិធីកំណត់អត្តសញ្ញាណកម្មវិធី/ការដំឡើង ម៉ូដែលឧបករណ៍ ប្រព័ន្ធប្រតិបត្តិការ កំណែកម្មវិធី និងភាសា ព្រឹត្តិការណ៍សម័យ/អេក្រង់ និងព័ត៌មាន IP/តំបន់ទូទៅដែលដំណើរការ SDK ។ ការប្រមូលលេខសម្គាល់ការផ្សាយពាណិជ្ជកម្ម ការវិភាគ ការផ្ទុកការផ្សាយពាណិជ្ជកម្ម ទិន្នន័យអ្នកប្រើប្រាស់ និងសញ្ញាផ្សាយពាណិជ្ជកម្មផ្ទាល់ខ្លួនត្រូវបានបិទ។",
+            "សម្រាប់មនុស្សពេញវ័យដែលជ្រើសរើសចូល៖ កម្មវិធីកំណត់អត្តសញ្ញាណកម្មវិធី/ការដំឡើង ម៉ូដែលឧបករណ៍ ប្រព័ន្ធប្រតិបត្តិការ កំណែកម្មវិធី និងភាសា ព្រឹត្តិការណ៍សម័យ/អេក្រង់ និងព័ត៌មាន IP/តំបន់ទូទៅដែលដំណើរការ SDK ។ ការប្រមូលលេខសម្គាល់ការផ្សាយពាណិជ្ជកម្ម ការវិភាគ ការផ្ទុកការផ្សាយពាណិជ្ជកម្ម ទិន្នន័យអ្នកប្រើប្រាស់ និងសញ្ញាផ្សាយពាណិជ្ជកម្មផ្ទាល់ខ្លួនត្រូវបានបិទ។ ការវិភាគក៏រួមបញ្ចូលសកម្មភាពហ្គេម និងដំណាក់កាល លទ្ធផល និងការព្យាយាមម្តងទៀត ការបង្ហាញពាណិជ្ជកម្ម និងការផ្លាស់ប្តូរការកំណត់ផងដែរ។",
             "ស្វែងយល់ពីការប្រើប្រាស់ ការទទួលយកលក្ខណៈពិសេស និងនិន្នាការស្ថិរភាព និងកែលម្អសេវាកម្ម"
           ],
           [
@@ -3244,7 +3244,7 @@
           ],
           [
             "Google Analytics ສໍາລັບ Firebase",
-            "ສຳລັບຜູ້ໃຫຍ່ທີ່ເຂົ້າຮ່ວມ: ຕົວລະບຸແອັບ-ຕົວຢ່າງ/ການຕິດຕັ້ງ, ຮູບແບບອຸປະກອນ, ລະບົບປະຕິບັດການ, ເວີຊັນແອັບ ແລະພາສາ, ເຫດການຊ່ວງເວລາ/ໜ້າຈໍ ແລະຂໍ້ມູນ IP/ພາກພື້ນທົ່ວໄປທີ່ປະມວນຜົນ SDK. ການວິເຄາະການໂຄສະນາ-ID ການເກັບກໍາ, ການເກັບຮັກສາການໂຄສະນາ, ຂໍ້ມູນຜູ້ໃຊ້ໂຄສະນາແລະສັນຍານການໂຄສະນາສ່ວນບຸກຄົນຖືກປິດໃຊ້ງານ.",
+            "ສຳລັບຜູ້ໃຫຍ່ທີ່ເຂົ້າຮ່ວມ: ຕົວລະບຸແອັບ-ຕົວຢ່າງ/ການຕິດຕັ້ງ, ຮູບແບບອຸປະກອນ, ລະບົບປະຕິບັດການ, ເວີຊັນແອັບ ແລະພາສາ, ເຫດການຊ່ວງເວລາ/ໜ້າຈໍ ແລະຂໍ້ມູນ IP/ພາກພື້ນທົ່ວໄປທີ່ປະມວນຜົນ SDK. ການວິເຄາະການໂຄສະນາ-ID ການເກັບກໍາ, ການເກັບຮັກສາການໂຄສະນາ, ຂໍ້ມູນຜູ້ໃຊ້ໂຄສະນາແລະສັນຍານການໂຄສະນາສ່ວນບຸກຄົນຖືກປິດໃຊ້ງານ. ການວິເຄາະຍັງລວມເຖິງກິດຈະກຳເກມ ແລະດ່ານ ຜົນການຫຼິ້ນ ແລະການລອງອີກ ການສະແດງໂຄສະນາ ແລະການປ່ຽນການຕັ້ງຄ່າ.",
             "ເຂົ້າໃຈການນຳໃຊ້, ການຮັບຮອງເອົາຄຸນສົມບັດ ແລະແນວໂນ້ມຄວາມໝັ້ນຄົງ, ແລະປັບປຸງການບໍລິການ"
           ],
           [
@@ -3435,7 +3435,7 @@
           ],
           [
             "Google Analytics ba Firebase",
-            "Ba adultu sira ne'ebé maka hili: identifikadór instánsia/instalasaun aplikasaun nian, modelu dispozitivu, sistema operasaun, versaun no linguajen aplikasaun nian, eventu sesaun/ekran nian no informasaun rejiaun IP/jerál ne'ebé prosesa hosi SDK. Kolesaun ID publisidade análize, armazenamentu anúnsiu, dadus-utilizadór-anúnsiu no sinál sira personalizasaun-anúnsiu nian dezativadu.",
+            "Ba adultu sira ne'ebé maka hili: identifikadór instánsia/instalasaun aplikasaun nian, modelu dispozitivu, sistema operasaun, versaun no linguajen aplikasaun nian, eventu sesaun/ekran nian no informasaun rejiaun IP/jerál ne'ebé prosesa hosi SDK. Kolesaun ID publisidade análize, armazenamentu anúnsiu, dadus-utilizadór-anúnsiu no sinál sira personalizasaun-anúnsiu nian dezativadu. Analítika mos inklui atividade jogu no nivel, rezultadu no koko fali, publisidade ne’ebé hatudu no mudansa konfigurasaun.",
             "Komprende utilizasaun, adosaun karakterístika no tendénsia estabilidade nian, no hadi'a servisu"
           ],
           [
@@ -3626,7 +3626,7 @@
           ],
           [
             "Firebase க்கான Google Analytics",
-            "தேர்ந்தெடுக்கும் பெரியவர்களுக்கு: ஆப்ஸ்-உதாரணம்/நிறுவல் அடையாளங்காட்டிகள், சாதன மாதிரி, இயக்க முறைமை, பயன்பாட்டின் பதிப்பு மற்றும் மொழி, அமர்வு/திரை நிகழ்வுகள் மற்றும் SDK-செயல்படுத்தப்பட்ட IP/பொது பிராந்தியத் தகவல். Analytics advertising-ID சேகரிப்பு, விளம்பர சேமிப்பு, விளம்பர பயனர் தரவு மற்றும் விளம்பர தனிப்பயனாக்கம் சமிக்ஞைகள் முடக்கப்பட்டுள்ளன.",
+            "தேர்ந்தெடுக்கும் பெரியவர்களுக்கு: ஆப்ஸ்-உதாரணம்/நிறுவல் அடையாளங்காட்டிகள், சாதன மாதிரி, இயக்க முறைமை, பயன்பாட்டின் பதிப்பு மற்றும் மொழி, அமர்வு/திரை நிகழ்வுகள் மற்றும் SDK-செயல்படுத்தப்பட்ட IP/பொது பிராந்தியத் தகவல். Analytics advertising-ID சேகரிப்பு, விளம்பர சேமிப்பு, விளம்பர பயனர் தரவு மற்றும் விளம்பர தனிப்பயனாக்கம் சமிக்ஞைகள் முடக்கப்பட்டுள்ளன. விளையாட்டு மற்றும் நிலை செயல்பாடு, முடிவுகள் மற்றும் மீண்டும் முயற்சிகள், விளம்பரக் காட்சிகள் மற்றும் அமைப்பு மாற்றங்களும் பகுப்பாய்வில் அடங்கும்.",
             "பயன்பாடு, அம்சம் தத்தெடுப்பு மற்றும் நிலைப்புத்தன்மை போக்குகளைப் புரிந்துகொண்டு,"
           ],
           [
@@ -3817,7 +3817,7 @@
           ],
           [
             "Google Analytics for Firebase",
-            "仅限主动同意的成人：应用程序运行个体或安装识别码、设备型号、操作系统、应用程序版本与语言、工作阶段或画面事件，以及 SDK 处理的 IP 或大致地区信息。Analytics 的广告 ID 搜集、广告保存、广告用户数据及广告个人化信号均停用。",
+            "仅限主动同意的成人：应用程序运行个体或安装识别码、设备型号、操作系统、应用程序版本与语言、工作阶段或画面事件，以及 SDK 处理的 IP 或大致地区信息。Analytics 的广告 ID 搜集、广告保存、广告用户数据及广告个人化信号均停用。 分析数据还包括游戏与关卡活动、游戏成绩与重试、广告展示及设置变更。",
             "了解使用情况、功能使用与稳定性趋势，以改进服务"
           ],
           [
