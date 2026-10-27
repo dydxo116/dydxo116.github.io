@@ -3,12 +3,13 @@
 앱의 19개 지원 언어로 제공하는 전체 개인정보처리방침. 앱: **ShallWePuzzle**, Android 패키지:
 `kr.shall.we.puzzle`. 문의: **dydxo116@gmail.com**.
 
-- 편집 원본: `policy.json`
+- 유일한 방침 편집 원본: `policy.json`
+- 앱 전용 표시: 동일한 페이지에 `?view=app`을 붙여 상단 언어 선택을 숨김
 - 빌드: `python3 build.py` (추가 패키지 불필요)
-- 공개 파일: `index.html`, 각 언어 디렉터리의 `index.html`, `privacy.css`,
+- 공개 파일: `index.html`, 각 언어 디렉터리의 `index.html`, `privacy.css`, `app-view.js`,
   `.nojekyll`
-- 페이지는 로그인, 광고, 방문 분석 코드, 외부 폰트 또는 JavaScript 없이
-  열립니다. GitHub 자체의 보안 접속 기록은 정책에 별도로 설명합니다.
+- 페이지는 로그인, 광고, 방문 분석 코드 또는 외부 폰트 없이
+  열립니다. 앱 표시용 스크립트는 헤더 표시만 바꾸며 추적하지 않습니다. GitHub 자체의 보안 접속 기록은 정책에 별도로 설명합니다.
 
 ## 무료 GitHub Pages 게시
 
@@ -57,8 +58,8 @@ URL을 사용합니다. 데이터 보안 설문은 앱과 포함 SDK의 실제 �
 `/tet/`, `/ta/`.
 각 페이지의 언어 링크로 전환할 수 있습니다. 기존 한국어·영어 주소는 유지합니다.
 
-앱 오프라인 원본 `assets/privacy/policy.json`에는 이 저장소의 `policy.json`을 그대로
-복사합니다. 버전 0.31.29는 번역·즉시 언어 변경 개선이며, 데이터 처리 방식의 적용
+앱은 현재 언어에 맞는 공개 웹 페이지를 `?view=app`으로 표시합니다.
+`policy.json` 하나만 수정하고 `python3 build.py`를 실행하면 앱과 웹에서 같은 내용을 사용합니다. 버전 0.31.29는 번역·즉시 언어 변경 개선이며, 데이터 처리 방식의 적용
 시점은 기존과 같이 0.31.28부터입니다. 번역은 법적 승인이나 인증을 의미하지 않습니다.
 
 검증: `python3 -m unittest test_build.py`. 19개 페이지의 전체 조항, 언어 전환,

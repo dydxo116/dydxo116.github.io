@@ -78,10 +78,11 @@ for item in languages:
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="referrer" content="no-referrer">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; script-src 'self'; base-uri 'none'; form-action 'none'">
 <meta name="description" content="{escape(data['app'] + ' — ' + content['title'])}">
 <title>{escape(data['app'])} | {escape(content['title'])}</title>
-<link rel="stylesheet" href="{prefix}privacy.css">
+<script src="{prefix}app-view.js?v=1"></script>
+<link rel="stylesheet" href="{prefix}privacy.css?v=1">
 {alternates}
 <link rel="alternate" hreflang="x-default" href="{prefix}en/">
 </head>
